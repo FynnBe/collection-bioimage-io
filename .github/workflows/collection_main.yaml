@@ -34,6 +34,12 @@ jobs:
     - run: rm -r dist
     - name: update partner resources
       run: python scripts/update_partner_resources.py
+    - name: Deploy updated partner resources to gh-pages 🚀
+      uses: JamesIves/github-pages-deploy-action@v4.2.3
+      with:
+        clean: false
+        branch: gh-pages
+        folder: dist
 
   get-pending-validations:
     runs-on: ubuntu-latest
@@ -49,6 +55,7 @@ jobs:
         path: gh-pages
     - name: install script deps
       run: pip install typer bioimageio.spec lxml
+    - run: mkdir dist  # make sure dist folder exists for deployment step
     - name: get pending validations
       id: get_pending
       run: python scripts/get_pending_validations.py
@@ -58,7 +65,8 @@ jobs:
     - name: (debug) has_pending ${{ steps.update_pending.outputs.has_pending_matrix }}
       run: echo ${{ steps.update_pending.outputs.pending_matrix }}
     - name: Deploy updated rdfs to gh-pages 🚀
-      uses: JamesIves/github-pages-deploy-action@4.1.4
+      if: steps.update_pending.outputs.has_pending_matrix == 'yes'
+      uses: JamesIves/github-pages-deploy-action@v4.2.3
       with:
         clean: false
         branch: gh-pages
@@ -76,6 +84,7 @@ jobs:
 
   build-collection:  # deploy collection rdf to gh-pages
     needs: [update-resources, get-pending-validations, validate]
+    if: always()
     runs-on: ubuntu-latest
 
     steps:
@@ -89,7 +98,7 @@ jobs:
     - name: generate collection rdf
       run: python scripts/generate_collection_rdf.py
     - name: Deploy collection rdf to gh-pages 🚀
-      uses: JamesIves/github-pages-deploy-action@4.1.4
+      uses: JamesIves/github-pages-deploy-action@v4.2.3
       with:
         clean: false
         branch: gh-pages

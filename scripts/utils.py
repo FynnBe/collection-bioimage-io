@@ -9,7 +9,7 @@ from marshmallow import missing
 
 from bioimageio.spec import load_raw_resource_description, serialize_raw_resource_description_to_dict
 from bioimageio.spec.shared import yaml
-from imjoy_plugin_parser import get_plugin_as_rdf
+from bioimageio.spec.shared.utils import resolve_source
 
 SOURCE_BASE_URL = "https://bioimage-io.github.io/collection-bioimage-io"
 
@@ -130,6 +130,8 @@ def resolve_partners(
 
 def update_resource_rdfs(dist: Path, resource: dict) -> Dict[str, Any]:
     """write an updated rdf per version to dist for the given resource"""
+    from imjoy_plugin_parser import get_plugin_as_rdf
+
     resource_id = resource["id"]
     updated_version_rdfs = {}
     for version_info in resource["versions"]:
@@ -139,6 +141,7 @@ def update_resource_rdfs(dist: Path, resource: dict) -> Dict[str, Any]:
         # Ignore the name in the version info
         del version_info["name"]
 
+        invalid_source = False
         if isinstance(version_info["rdf_source"], dict):
             if version_info["rdf_source"].get("source", "").split("?")[0].endswith(".imjoy.html"):
                 rdf_info = dict(get_plugin_as_rdf(resource["id"].split("/")[1], version_info["rdf_source"]["source"]))
@@ -156,8 +159,16 @@ def update_resource_rdfs(dist: Path, resource: dict) -> Dict[str, Any]:
             try:
                 rdf_node = load_raw_resource_description(version_info["rdf_source"])
             except Exception as e:
-                print(f"Failed to interpret {version_info['rdf_source']} as rdf: {e}")
-                continue
+                warnings.warn(f"Failed to interpret {version_info['rdf_source']} as rdf: {e}")
+                try:
+                    this_version = resolve_source(version_info["rdf_source"])
+                    if not isinstance(this_version, dict):
+                        raise TypeError(type(this_version))
+                except Exception as e:
+                    this_version = {
+                        "invalid_original_rdf_source": version_info["rdf_source"],
+                        "invalid_original_rdf_source_error": str(e),
+                    }
             else:
                 this_version = serialize_raw_resource_description_to_dict(rdf_node)
 
