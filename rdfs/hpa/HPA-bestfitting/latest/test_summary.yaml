@@ -1,0 +1,20 @@
+bioimageio_spec_version: 0.4.5post4
+rdf_sha256: 35a04b54618ed31754c8d65bc546eaa26ea99e2d551deb2a065bc25f5aa46501
+status: failed
+tests:
+  bioimageio:
+  - bioimageio_spec_version: 0.4.5post4
+    error: Invalid RDF format version 0.2.2 for RDF type model. Submodule bioimageio.spec.model.v0_2
+      does not exist.
+    name: 'bioimageio.spec static validation of  RDF '
+    nested_errors: {}
+    status: failed
+    traceback: ["  File \"/home/runner/.local/lib/python3.8/site-packages/bioimageio/spec/commands.py\",
+        line 72, in validate\n    raw_rd = load_raw_resource_description(rdf_source,
+        update_to_format=\"latest\" if update_format else None)\n", "  File \"/home/runner/.local/lib/python3.8/site-packages/bioimageio/spec/io_.py\",
+        line 194, in load_raw_resource_description\n    sub_spec = _get_spec_submodule(type_,
+        data_version)\n", "  File \"/home/runner/.local/lib/python3.8/site-packages/bioimageio/spec/io_.py\",
+        line 73, in _get_spec_submodule\n    sub_spec = get_format_version_module(type_,
+        data_version)\n", "  File \"/home/runner/.local/lib/python3.8/site-packages/bioimageio/spec/shared/common.py\",
+        line 129, in get_format_version_module\n    raise ValueError(\n"]
+    warnings: {}

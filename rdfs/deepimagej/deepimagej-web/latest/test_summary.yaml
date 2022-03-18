@@ -1,0 +1,13 @@
+bioimageio_spec_version: 0.4.5post4
+rdf_sha256: cf6d43baea04b4127cd39d2776078adf1c9a9a7ace911a4cc24c2a0360756e6e
+status: failed
+tests:
+  bioimageio:
+  - bioimageio_spec_version: 0.4.5post4
+    error:
+      cite: [Not a valid list.]
+    name: 'bioimageio.spec static validation of  RDF '
+    nested_errors: {}
+    status: failed
+    traceback: null
+    warnings: {type: Unrecognized type 'application'. Validating as rdf.}

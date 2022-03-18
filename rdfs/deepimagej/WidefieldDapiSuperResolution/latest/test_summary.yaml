@@ -1,0 +1,13 @@
+bioimageio_spec_version: 0.4.5post4
+rdf_sha256: 3ba74e88fbe35dfb2c828a5b62075f4c1488a0d40d934663690a31ab1a34f919
+status: failed
+tests:
+  bioimageio:
+  - bioimageio_spec_version: 0.4.5post4
+    error:
+      collection: [Missing data for required field.]
+    name: 'bioimageio.spec static validation of  RDF '
+    nested_errors: {}
+    status: failed
+    traceback: null
+    warnings: {}

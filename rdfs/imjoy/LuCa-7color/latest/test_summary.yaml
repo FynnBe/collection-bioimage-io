@@ -1,0 +1,24 @@
+bioimageio_spec_version: 0.4.5post4
+rdf_sha256: dbb913cf6f2139c7d2cf752dcb078b4a4f6c9321c51f3504149339cec8b4c755
+status: passed
+tests:
+  bioimageio:
+  - bioimageio_spec_version: 0.4.5post4
+    error: null
+    name: bioimageio.spec static validation of dataset RDF 0.2.2 with update to latest
+      format version
+    nested_errors: {}
+    status: passed
+    traceback: null
+    warnings: {license: 'CC-BY 4.0 is not a recognized SPDX license identifier. See
+        https://spdx.org/licenses/', type: Unrecognized type 'dataset'. Validating
+        as rdf.}
+  - bioimageio_spec_version: 0.4.5post4
+    error: null
+    name: bioimageio.spec static validation of dataset RDF 0.2.2
+    nested_errors: {}
+    status: passed
+    traceback: null
+    warnings: {license: 'CC-BY 4.0 is not a recognized SPDX license identifier. See
+        https://spdx.org/licenses/', type: Unrecognized type 'dataset'. Validating
+        as rdf.}

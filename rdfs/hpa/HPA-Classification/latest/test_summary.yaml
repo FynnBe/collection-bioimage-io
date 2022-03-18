@@ -1,0 +1,30 @@
+bioimageio_spec_version: 0.4.5post4
+rdf_sha256: 93603481c612fef75e427b8ba8923afea303cd54c79cc19c240467ca2e381103
+status: failed
+tests:
+  bioimageio:
+  - bioimageio_spec_version: 0.4.5post4
+    error:
+      documentation:
+      - 'Errors in all options for this field. Fix any of the following errors:'
+      - [Empty URI scheme component]
+      - ["Invalid suffix (\n\nThis plugin allows to predict the subcellular protein
+          localization pattern for a provided image. \n\n## Main features\n* Prediction
+          is performed with the winner of the special price of the 2018 Kaggle challenge
+          (https:/github.com/CellProfiling/HPA-Special-Prize). \n* Annotated localization
+          classes are from the **HPA cell atlas**. \n* The plugin uses a trained **ShuffleNet
+          (v2)** to perform the prediction directly in the browser. \n* Class Activation
+          Map: https:/arxiv.org/pdf/1512.04150.pdf  \n\n): Replacement index 0 out
+          of range for positional args tuple", "Invalid as_posix (\n\nThis plugin
+          allows to predict the subcellular protein localization pattern for a provided
+          image. \n\n## Main features\n* Prediction is performed with the winner of
+          the special price of the 2018 Kaggle challenge (https:/github.com/CellProfiling/HPA-Special-Prize).
+          \n* Annotated localization classes are from the **HPA cell atlas**. \n*
+          The plugin uses a trained **ShuffleNet (v2)** to perform the prediction
+          directly in the browser. \n* Class Activation Map: https:/arxiv.org/pdf/1512.04150.pdf
+          \ \n\n): expected local, relative file path."]
+    name: 'bioimageio.spec static validation of  RDF '
+    nested_errors: {}
+    status: failed
+    traceback: null
+    warnings: {type: Unrecognized type 'application'. Validating as rdf.}

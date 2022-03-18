@@ -1,0 +1,24 @@
+bioimageio_spec_version: 0.4.5post4
+rdf_sha256: 52ffff326f289bfe2e740fbf917362f334b0c64f7167b38f9fa49f78a693f0f2
+status: passed
+tests:
+  bioimageio:
+  - bioimageio_spec_version: 0.4.5post4
+    error: null
+    name: bioimageio.spec static validation of dataset RDF 0.2.2 with update to latest
+      format version
+    nested_errors: {}
+    status: passed
+    traceback: null
+    warnings: {license: CC-BY-NC-4.0 (Creative Commons Attribution Non Commercial
+        4.0 International) is not FSF Free/libre., type: Unrecognized type 'dataset'.
+        Validating as rdf.}
+  - bioimageio_spec_version: 0.4.5post4
+    error: null
+    name: bioimageio.spec static validation of dataset RDF 0.2.2
+    nested_errors: {}
+    status: passed
+    traceback: null
+    warnings: {license: CC-BY-NC-4.0 (Creative Commons Attribution Non Commercial
+        4.0 International) is not FSF Free/libre., type: Unrecognized type 'dataset'.
+        Validating as rdf.}
