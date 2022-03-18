@@ -1,0 +1,38 @@
+bioimageio_spec_version: 0.4.5post4
+rdf_sha256: 7328e765b2f83c6c7e71bc48dd96f7c2556f72ff8ac3259401fdbbd2583a2c7a
+status: passed
+tests:
+  bioimageio:
+  - bioimageio_spec_version: 0.4.5post4
+    error: null
+    name: bioimageio.spec static validation of model RDF 0.4.5 with update to latest
+      format version
+    nested_errors: {}
+    status: passed
+    traceback: null
+    warnings: {tags: 'Missing tags for categories: [{''modality'': [''electron-microscopy'',
+        ''cryo-electron-microscopy'', ''fluorescence-light-microscopy'', ''transmission-light-microscopy'',
+        ''super-resolution-microscopy'', ''x-ray-microscopy'', ''force-microscopy'',
+        ''high-content-imaging'', ''whole-slide-imaging'', ''other'']}, {''dims'':
+        [''2d'', ''3d'', ''2d-t'', ''3d-t'']}, {''content'': [''cells'', ''nuclei'',
+        ''extracellular-vesicles'', ''tissue'', ''plant'', ''mitochondria'', ''vasculature'',
+        ''cell-membrane'', ''brain'', ''whole-organism'']}, {''framework'': [''tensorflow'',
+        ''pytorch'', ''tensorflow.js'']}, {''task'': [''semantic-segmentation'', ''instance-segmentation'',
+        ''object-detection'', ''image-classification'', ''denoising'', ''image-restoration'',
+        ''image-reconstruction'', ''in-silico-labeling'']}]'}
+  - bioimageio_spec_version: 0.4.5post4
+    error: null
+    name: bioimageio.spec static validation of model RDF 0.4.5
+    nested_errors: {}
+    status: passed
+    traceback: null
+    warnings: {tags: 'Missing tags for categories: [{''modality'': [''electron-microscopy'',
+        ''cryo-electron-microscopy'', ''fluorescence-light-microscopy'', ''transmission-light-microscopy'',
+        ''super-resolution-microscopy'', ''x-ray-microscopy'', ''force-microscopy'',
+        ''high-content-imaging'', ''whole-slide-imaging'', ''other'']}, {''dims'':
+        [''2d'', ''3d'', ''2d-t'', ''3d-t'']}, {''content'': [''cells'', ''nuclei'',
+        ''extracellular-vesicles'', ''tissue'', ''plant'', ''mitochondria'', ''vasculature'',
+        ''cell-membrane'', ''brain'', ''whole-organism'']}, {''framework'': [''tensorflow'',
+        ''pytorch'', ''tensorflow.js'']}, {''task'': [''semantic-segmentation'', ''instance-segmentation'',
+        ''object-detection'', ''image-classification'', ''denoising'', ''image-restoration'',
+        ''image-reconstruction'', ''in-silico-labeling'']}]'}

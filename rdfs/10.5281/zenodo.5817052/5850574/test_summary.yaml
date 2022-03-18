@@ -1,0 +1,35 @@
+bioimageio_core_version: 0.5.2
+bioimageio_spec_version: 0.4.5post4
+rdf_sha256: f7280a46201be9f117a990cb2e1818d019aa34d728d612edc0f7702ae531110f
+status: passed
+tests:
+  bioimageio:
+  - bioimageio_spec_version: 0.4.5post4
+    error: null
+    name: bioimageio.spec static validation of model RDF 0.4.5 with update to latest
+      format version
+    nested_errors: {}
+    status: passed
+    traceback: null
+    warnings: {tags: 'Missing tags for categories: [{''modality'': [''electron-microscopy'',
+        ''cryo-electron-microscopy'', ''fluorescence-light-microscopy'', ''transmission-light-microscopy'',
+        ''super-resolution-microscopy'', ''x-ray-microscopy'', ''force-microscopy'',
+        ''high-content-imaging'', ''whole-slide-imaging'', ''other'']}, {''framework'':
+        [''tensorflow'', ''pytorch'', ''tensorflow.js'']}, {''task'': [''semantic-segmentation'',
+        ''instance-segmentation'', ''object-detection'', ''image-classification'',
+        ''denoising'', ''image-restoration'', ''image-reconstruction'', ''in-silico-labeling'']}]'}
+  - bioimageio_spec_version: 0.4.5post4
+    error: null
+    name: bioimageio.spec static validation of model RDF 0.4.5
+    nested_errors: {}
+    status: passed
+    traceback: null
+    warnings: {tags: 'Missing tags for categories: [{''modality'': [''electron-microscopy'',
+        ''cryo-electron-microscopy'', ''fluorescence-light-microscopy'', ''transmission-light-microscopy'',
+        ''super-resolution-microscopy'', ''x-ray-microscopy'', ''force-microscopy'',
+        ''high-content-imaging'', ''whole-slide-imaging'', ''other'']}, {''framework'':
+        [''tensorflow'', ''pytorch'', ''tensorflow.js'']}, {''task'': [''semantic-segmentation'',
+        ''instance-segmentation'', ''object-detection'', ''image-classification'',
+        ''denoising'', ''image-restoration'', ''image-reconstruction'', ''in-silico-labeling'']}]'}
+  - {bioimageio_core_version: 0.5.2, bioimageio_spec_version: 0.4.5post4, error: null,
+    name: reproduced test outputs from test inputs, status: passed, traceback: null}

@@ -1,0 +1,28 @@
+bioimageio_spec_version: 0.4.5post4
+rdf_sha256: e10b3d4f4ba0fb56360b6d8f1f456e6d4d456ea140c5864b527043b46c21a0d8
+status: passed
+tests:
+  bioimageio:
+  - bioimageio_spec_version: 0.4.5post4
+    error: null
+    name: bioimageio.spec static validation of model RDF 0.4.5 with update to latest
+      format version
+    nested_errors: {}
+    status: passed
+    traceback: null
+    warnings:
+      tags: 'Missing tags for categories: [{''framework'': [''tensorflow'', ''pytorch'',
+        ''tensorflow.js'']}, {''software'': [''ilastik'', ''imagej'', ''fiji'', ''imjoy'',
+        ''deepimagej'', ''n2v'']}]'
+      weights: {torchscript: missing 'pytorch_version'}
+  - bioimageio_spec_version: 0.4.5post4
+    error: null
+    name: bioimageio.spec static validation of model RDF 0.4.5
+    nested_errors: {}
+    status: passed
+    traceback: null
+    warnings:
+      tags: 'Missing tags for categories: [{''framework'': [''tensorflow'', ''pytorch'',
+        ''tensorflow.js'']}, {''software'': [''ilastik'', ''imagej'', ''fiji'', ''imjoy'',
+        ''deepimagej'', ''n2v'']}]'
+      weights: {torchscript: missing 'pytorch_version'}

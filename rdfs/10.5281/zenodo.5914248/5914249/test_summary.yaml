@@ -1,0 +1,23 @@
+bioimageio_spec_version: 0.4.5post4
+rdf_sha256: 7ee9e277b1d85af58421b9688cce4314fd311ac43c37dd86f1477eeb4357dabb
+status: failed
+tests:
+  bioimageio:
+  - bioimageio_spec_version: 0.4.5post4
+    error:
+      _schema: ['Minimal shape [1. 8. 8. 1.] of output output is too small for halo
+          [0, 47, 47, 0].']
+    name: 'bioimageio.spec static validation of  RDF '
+    nested_errors: {}
+    status: failed
+    traceback: null
+    warnings: {license: BSD-2-Clause (BSD 2-Clause "Simplified" License) is not FSF
+        Free/libre., tags: 'Missing tags for categories: [{''modality'': [''electron-microscopy'',
+        ''cryo-electron-microscopy'', ''fluorescence-light-microscopy'', ''transmission-light-microscopy'',
+        ''super-resolution-microscopy'', ''x-ray-microscopy'', ''force-microscopy'',
+        ''high-content-imaging'', ''whole-slide-imaging'', ''other'']}, {''content'':
+        [''cells'', ''nuclei'', ''extracellular-vesicles'', ''tissue'', ''plant'',
+        ''mitochondria'', ''vasculature'', ''cell-membrane'', ''brain'', ''whole-organism'']},
+        {''task'': [''semantic-segmentation'', ''instance-segmentation'', ''object-detection'',
+        ''image-classification'', ''denoising'', ''image-restoration'', ''image-reconstruction'',
+        ''in-silico-labeling'']}]'}
