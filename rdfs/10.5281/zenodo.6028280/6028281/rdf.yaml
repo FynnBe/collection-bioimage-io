@@ -16,7 +16,7 @@ config:
   bioimageio:
     created: '2022-02-09 21:42:30.280535'
     doi: 10.5281/zenodo.6028281
-    nickname: willing hedgehog
+    nickname: willing_hedgehog
     nickname_icon: 🦔
     owners:
     - 77626

@@ -17,7 +17,7 @@ config:
   bioimageio:
     created: '2022-03-08 18:36:28.378522'
     doi: 10.5281/zenodo.6338615
-    nickname: chatty frog
+    nickname: chatty_frog
     nickname_icon: 🐸
     owners:
     - 313404

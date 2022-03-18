@@ -1,6 +1,6 @@
 bioimageio_core_version: 0.5.2
 bioimageio_spec_version: 0.4.5post4
-rdf_sha256: 4ac288cbc558bcba2c7868a2b662b5ff5e02b5ff87ac42ea717cb67b02a73f71
+rdf_sha256: d2cb333f4f10094ba7ada6dbfc72b08ee2ca0dc21a8b26c360885914984f7765
 status: passed
 tests:
   bioimageio:
@@ -29,5 +29,3 @@ tests:
         ''deepimagej'', ''n2v'']}]'
       weights: {pytorch_state_dict: missing 'pytorch_version', torchscript: missing
           'pytorch_version'}
-  - {bioimageio_core_version: 0.5.2, bioimageio_spec_version: 0.4.5post4, error: null,
-    name: reproduced test outputs from test inputs, status: passed, traceback: null}

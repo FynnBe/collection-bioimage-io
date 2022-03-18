@@ -16,7 +16,7 @@ config:
   bioimageio:
     created: '2022-01-18 23:04:49.485980'
     doi: 10.5281/zenodo.5874842
-    nickname: kind seashell
+    nickname: kind_seashell
     nickname_icon: 🐚
     owners:
     - 77626

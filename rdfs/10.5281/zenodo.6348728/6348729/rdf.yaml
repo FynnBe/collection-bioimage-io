@@ -16,7 +16,7 @@ config:
   bioimageio:
     created: '2022-03-12 09:56:33.055323'
     doi: 10.5281/zenodo.6348729
-    nickname: non-judgemental eagle
+    nickname: non-judgemental_eagle
     nickname_icon: 🦅
     owners:
     - 77626

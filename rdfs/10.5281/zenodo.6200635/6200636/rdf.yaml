@@ -9,7 +9,7 @@ config:
   bioimageio:
     created: '2022-02-21 10:32:57.406609'
     doi: 10.5281/zenodo.6200636
-    nickname: loyal parrot
+    nickname: loyal_parrot
     nickname_icon: 🦜
     owners:
     - 47882

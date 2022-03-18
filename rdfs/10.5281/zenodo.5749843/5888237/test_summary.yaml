@@ -1,6 +1,6 @@
-bioimageio_core_version: 0.5.2
+bioimageio_core_version: 0.5.3
 bioimageio_spec_version: 0.4.5post4
-rdf_sha256: 663ac23be77147f643a0a039e8cc82aef86c5d34ddc2ee5c649f45fc467aa8b7
+rdf_sha256: a9bf5ef935b063d168b9e6d24384916670b7e5f6a382283bdc0496e6373436d9
 status: passed
 tests:
   bioimageio:
@@ -23,5 +23,5 @@ tests:
     warnings: {tags: 'Missing tags for categories: [{''task'': [''semantic-segmentation'',
         ''instance-segmentation'', ''object-detection'', ''image-classification'',
         ''denoising'', ''image-restoration'', ''image-reconstruction'', ''in-silico-labeling'']}]'}
-  - {bioimageio_core_version: 0.5.2, bioimageio_spec_version: 0.4.5post4, error: null,
+  - {bioimageio_core_version: 0.5.3, bioimageio_spec_version: 0.4.5post4, error: null,
     name: reproduced test outputs from test inputs, status: passed, traceback: null}

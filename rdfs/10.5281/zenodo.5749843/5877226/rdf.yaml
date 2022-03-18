@@ -21,7 +21,7 @@ config:
   bioimageio:
     created: '2022-01-19 10:16:02.455027'
     doi: 10.5281/zenodo.5877226
-    nickname: humorous owl
+    nickname: humorous_owl
     nickname_icon: 🦉
     owners:
     - 252845

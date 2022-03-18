@@ -1,6 +1,6 @@
-bioimageio_core_version: 0.5.2
+bioimageio_core_version: 0.5.3
 bioimageio_spec_version: 0.4.5post4
-rdf_sha256: 26d4168d243599696a6846ec28c53e98d9e2b46960c9a9e48ee5247a325f2f84
+rdf_sha256: a9ff9beb6797058641b34a71de2ed6f3d9225521f9a0247f06dce78cacdc7414
 status: passed
 tests:
   bioimageio:
@@ -25,5 +25,5 @@ tests:
         ''pytorch'', ''tensorflow.js'']}, {''task'': [''semantic-segmentation'', ''instance-segmentation'',
         ''object-detection'', ''image-classification'', ''denoising'', ''image-restoration'',
         ''image-reconstruction'', ''in-silico-labeling'']}]'}
-  - {bioimageio_core_version: 0.5.2, bioimageio_spec_version: 0.4.5post4, error: null,
+  - {bioimageio_core_version: 0.5.3, bioimageio_spec_version: 0.4.5post4, error: null,
     name: reproduced test outputs from test inputs, status: passed, traceback: null}

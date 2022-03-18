@@ -9,7 +9,7 @@ config:
   bioimageio:
     created: '2022-03-07 14:04:51.169223'
     doi: 10.5281/zenodo.6334778
-    nickname: thoughtful turtle
+    nickname: thoughtful_turtle
     nickname_icon: 🐢
     owners:
     - 66700

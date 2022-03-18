@@ -11,7 +11,7 @@ config:
   bioimageio:
     created: '2022-02-01 22:38:38.088910'
     doi: 10.5281/zenodo.5942853
-    nickname: rude pig
+    nickname: polite_pig
     nickname_icon: 🐖
     owners:
     - 47882
