@@ -1,0 +1,22 @@
+bioimageio_spec_version: 0.4.5.post6
+rdf_sha256: 99efc8a74ab8d01f7c9bd371a3eb99c3bdcf3a81d918ad5b87937e6f61954472
+status: passed
+tests:
+  bioimageio:
+  - bioimageio_spec_version: 0.4.5post6
+    error: null
+    name: bioimageio.spec static validation of model RDF 0.4.5 with update to latest
+      format version
+    nested_errors: {}
+    status: passed
+    traceback: null
+    warnings: {tags: 'Missing tags for categories: [{''software'': [''ilastik'', ''imagej'',
+        ''fiji'', ''imjoy'', ''deepimagej'', ''n2v'']}]'}
+  - bioimageio_spec_version: 0.4.5post6
+    error: null
+    name: bioimageio.spec static validation of model RDF 0.4.5
+    nested_errors: {}
+    status: passed
+    traceback: null
+    warnings: {tags: 'Missing tags for categories: [{''software'': [''ilastik'', ''imagej'',
+        ''fiji'', ''imjoy'', ''deepimagej'', ''n2v'']}]'}

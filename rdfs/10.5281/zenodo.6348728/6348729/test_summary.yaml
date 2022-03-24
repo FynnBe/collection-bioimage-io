@@ -1,9 +1,9 @@
-bioimageio_spec_version: 0.4.5post4
-rdf_sha256: a815f1e3a8b458766020dd68720fecb4cb43b0ed5659d4f132d1278cab5bea98
+bioimageio_spec_version: 0.4.5.post6
+rdf_sha256: 66a38f99b612d5c270856eac62ad704382d4cf55d8c00c5709c0083f6a46faae
 status: passed
 tests:
   bioimageio:
-  - bioimageio_spec_version: 0.4.5post4
+  - bioimageio_spec_version: 0.4.5post6
     error: null
     name: bioimageio.spec static validation of model RDF 0.4.5 with update to latest
       format version
@@ -20,7 +20,7 @@ tests:
         ''pytorch'', ''tensorflow.js'']}, {''task'': [''semantic-segmentation'', ''instance-segmentation'',
         ''object-detection'', ''image-classification'', ''denoising'', ''image-restoration'',
         ''image-reconstruction'', ''in-silico-labeling'']}]'}
-  - bioimageio_spec_version: 0.4.5post4
+  - bioimageio_spec_version: 0.4.5post6
     error: null
     name: bioimageio.spec static validation of model RDF 0.4.5
     nested_errors: {}

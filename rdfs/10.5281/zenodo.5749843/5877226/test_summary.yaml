@@ -1,10 +1,10 @@
-bioimageio_core_version: 0.5.3
-bioimageio_spec_version: 0.4.5post4
-rdf_sha256: 296cdadcede7531c4c6a28d319a98d0f18e00bca2988faec5e95c7fbbdde1e12
+bioimageio_core_version: 0.5.3.post2
+bioimageio_spec_version: 0.4.5.post6
+rdf_sha256: 4765a521f4e03401c805b666a112fe69f08efc6a8c593ed9db8e8e38adcae6d6
 status: passed
 tests:
   bioimageio:
-  - bioimageio_spec_version: 0.4.5post4
+  - bioimageio_spec_version: 0.4.5post6
     error: null
     name: bioimageio.spec static validation of model RDF 0.4.5 with update to latest
       format version
@@ -14,7 +14,7 @@ tests:
     warnings: {tags: 'Missing tags for categories: [{''task'': [''semantic-segmentation'',
         ''instance-segmentation'', ''object-detection'', ''image-classification'',
         ''denoising'', ''image-restoration'', ''image-reconstruction'', ''in-silico-labeling'']}]'}
-  - bioimageio_spec_version: 0.4.5post4
+  - bioimageio_spec_version: 0.4.5post6
     error: null
     name: bioimageio.spec static validation of model RDF 0.4.5
     nested_errors: {}
@@ -23,5 +23,5 @@ tests:
     warnings: {tags: 'Missing tags for categories: [{''task'': [''semantic-segmentation'',
         ''instance-segmentation'', ''object-detection'', ''image-classification'',
         ''denoising'', ''image-restoration'', ''image-reconstruction'', ''in-silico-labeling'']}]'}
-  - {bioimageio_core_version: 0.5.3, bioimageio_spec_version: 0.4.5post4, error: null,
+  - {bioimageio_core_version: 0.5.3post2, bioimageio_spec_version: 0.4.5post6, error: null,
     name: reproduced test outputs from test inputs, status: passed, traceback: null}

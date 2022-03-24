@@ -1,10 +1,10 @@
 bioimageio_core_version: 0.5.2
-bioimageio_spec_version: 0.4.5post4
-rdf_sha256: d2cb333f4f10094ba7ada6dbfc72b08ee2ca0dc21a8b26c360885914984f7765
+bioimageio_spec_version: 0.4.5.post6
+rdf_sha256: b83a798dd7a90a8ff27070a1c207ac26c89cb720cbda4967b44f618957af8560
 status: passed
 tests:
   bioimageio:
-  - bioimageio_spec_version: 0.4.5post4
+  - bioimageio_spec_version: 0.4.5post6
     error: null
     name: bioimageio.spec static validation of model RDF 0.4.5 with update to latest
       format version
@@ -17,7 +17,7 @@ tests:
         ''deepimagej'', ''n2v'']}]'
       weights: {pytorch_state_dict: missing 'pytorch_version', torchscript: missing
           'pytorch_version'}
-  - bioimageio_spec_version: 0.4.5post4
+  - bioimageio_spec_version: 0.4.5post6
     error: null
     name: bioimageio.spec static validation of model RDF 0.4.5
     nested_errors: {}

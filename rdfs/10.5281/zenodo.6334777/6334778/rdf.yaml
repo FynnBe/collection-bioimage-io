@@ -9,7 +9,7 @@ config:
   bioimageio:
     created: '2022-03-07 14:04:51.169223'
     doi: 10.5281/zenodo.6334778
-    nickname: thoughtful_turtle
+    nickname: thoughtful-turtle
     nickname_icon: 🐢
     owners:
     - 66700
@@ -40,6 +40,8 @@ inputs:
 license: MIT
 links:
 - imjoy/BioImageIO-Packager
+maintainers:
+- github_user: wolny
 name: 3D UNet Lateral Root Primordia Cells
 outputs:
 - axes: bczyx
@@ -80,6 +82,7 @@ tags:
 - tissue
 - light-sheet-fluorescence-microscopy
 - pytorch
+- plantseg
 test_inputs:
 - https://zenodo.org/api/files/0b97165c-21d6-46c2-ae7a-474da1619b7b/test_input.npy
 test_outputs:

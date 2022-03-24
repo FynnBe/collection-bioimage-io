@@ -19,7 +19,7 @@ config:
   bioimageio:
     created: '2022-03-02 12:07:39.352008'
     doi: 10.5281/zenodo.6322939
-    nickname: affable_shark
+    nickname: affable-shark
     nickname_icon: 🦈
     owners:
     - 77626

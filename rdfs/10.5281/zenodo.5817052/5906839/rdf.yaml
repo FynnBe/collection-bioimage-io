@@ -21,7 +21,7 @@ config:
   bioimageio:
     created: '2022-01-27 14:00:17.489637'
     doi: 10.5281/zenodo.5906839
-    nickname: creative_panda
+    nickname: creative-panda
     nickname_icon: 🐼
     owners:
     - 271523

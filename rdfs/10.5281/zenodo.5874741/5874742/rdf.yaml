@@ -16,7 +16,7 @@ config:
   bioimageio:
     created: '2022-01-18 22:01:09.315638'
     doi: 10.5281/zenodo.5874742
-    nickname: impartial_shrimp
+    nickname: impartial-shrimp
     nickname_icon: 🦐
     owners:
     - 77626

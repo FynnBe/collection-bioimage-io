@@ -19,7 +19,7 @@ config:
   bioimageio:
     created: '2022-03-02 11:57:10.309729'
     doi: 10.5281/zenodo.6322908
-    nickname: powerful_chipmunk
+    nickname: powerful-chipmunk
     nickname_icon: 🐿
     owners:
     - 77626

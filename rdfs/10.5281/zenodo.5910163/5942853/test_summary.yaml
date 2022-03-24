@@ -1,10 +1,10 @@
-bioimageio_core_version: 0.5.2
-bioimageio_spec_version: 0.4.5post4
-rdf_sha256: afbd4550d6888f603a517cad1715f5cac8e54e3d817de63c381ad4f0efb71d83
+bioimageio_core_version: 0.5.3.post2
+bioimageio_spec_version: 0.4.5.post6
+rdf_sha256: ee2ea1ae6e5836b35faf606598da2694c178c423deca484f182cda409ce77a65
 status: passed
 tests:
   bioimageio:
-  - bioimageio_spec_version: 0.4.5post4
+  - bioimageio_spec_version: 0.4.5post6
     error: null
     name: bioimageio.spec static validation of model RDF 0.4.5 with update to latest
       format version
@@ -23,7 +23,7 @@ tests:
         ''object-detection'', ''image-classification'', ''denoising'', ''image-restoration'',
         ''image-reconstruction'', ''in-silico-labeling'']}]'
       weights: {onnx: missing 'opset_version'}
-  - bioimageio_spec_version: 0.4.5post4
+  - bioimageio_spec_version: 0.4.5post6
     error: null
     name: bioimageio.spec static validation of model RDF 0.4.5
     nested_errors: {}
@@ -41,5 +41,5 @@ tests:
         ''object-detection'', ''image-classification'', ''denoising'', ''image-restoration'',
         ''image-reconstruction'', ''in-silico-labeling'']}]'
       weights: {onnx: missing 'opset_version'}
-  - {bioimageio_core_version: 0.5.2, bioimageio_spec_version: 0.4.5post4, error: null,
+  - {bioimageio_core_version: 0.5.3post2, bioimageio_spec_version: 0.4.5post6, error: null,
     name: reproduced test outputs from test inputs, status: passed, traceback: null}

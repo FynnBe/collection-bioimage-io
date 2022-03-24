@@ -1,9 +1,9 @@
-bioimageio_spec_version: 0.4.5post4
-rdf_sha256: 7990578637d9cc91998f369987c503bbc2e690de4fd002c01ae0a6d734b14f49
+bioimageio_spec_version: 0.4.5.post6
+rdf_sha256: b42d39c465598ffc6d98dd8e456a7e9084adf0d33fddb72470981f22ad7dad37
 status: passed
 tests:
   bioimageio:
-  - bioimageio_spec_version: 0.4.5post4
+  - bioimageio_spec_version: 0.4.5post6
     error: null
     name: bioimageio.spec static validation of model RDF 0.4.5 with update to latest
       format version
@@ -15,7 +15,7 @@ tests:
         ''super-resolution-microscopy'', ''x-ray-microscopy'', ''force-microscopy'',
         ''high-content-imaging'', ''whole-slide-imaging'', ''other'']}, {''software'':
         [''ilastik'', ''imagej'', ''fiji'', ''imjoy'', ''deepimagej'', ''n2v'']}]'}
-  - bioimageio_spec_version: 0.4.5post4
+  - bioimageio_spec_version: 0.4.5post6
     error: null
     name: bioimageio.spec static validation of model RDF 0.4.5
     nested_errors: {}

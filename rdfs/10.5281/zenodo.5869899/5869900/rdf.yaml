@@ -17,7 +17,7 @@ config:
   bioimageio:
     created: '2022-01-18 10:03:26.939252'
     doi: 10.5281/zenodo.5869900
-    nickname: hiding_tiger
+    nickname: hiding-tiger
     nickname_icon: 🐅
     owners:
     - 77626

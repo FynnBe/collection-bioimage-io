@@ -17,7 +17,7 @@ config:
   bioimageio:
     created: '2022-03-11 22:32:05.554959'
     doi: 10.5281/zenodo.6348085
-    nickname: fearless_crab
+    nickname: fearless-crab
     nickname_icon: 🦀
     owners:
     - 313404

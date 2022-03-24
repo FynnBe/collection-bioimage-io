@@ -16,7 +16,7 @@ config:
   bioimageio:
     created: '2022-02-09 21:14:46.430029'
     doi: 10.5281/zenodo.6028098
-    nickname: organized_badger
+    nickname: organized-badger
     nickname_icon: 🦡
     owners:
     - 77626
