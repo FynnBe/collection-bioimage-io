@@ -1,3 +1,4 @@
+bioimageio_core_version: 0.5.3.post2
 bioimageio_spec_version: 0.4.5.post6
 rdf_sha256: b42d39c465598ffc6d98dd8e456a7e9084adf0d33fddb72470981f22ad7dad37
 status: passed
@@ -26,3 +27,9 @@ tests:
         ''super-resolution-microscopy'', ''x-ray-microscopy'', ''force-microscopy'',
         ''high-content-imaging'', ''whole-slide-imaging'', ''other'']}, {''software'':
         [''ilastik'', ''imagej'', ''fiji'', ''imjoy'', ''deepimagej'', ''n2v'']}]'}
+  - {bioimageio_core_version: 0.5.3post2, bioimageio_spec_version: 0.4.5post6, error: null,
+    name: reproduced test outputs from test inputs, status: passed, traceback: null}
+  ilastik:
+  - {bioimageio_core_version: 0.5.3post2, bioimageio_spec_version: 0.4.5post6, error: null,
+    name: reproduce test outputs with ilastik <todo version> (draft) using pytorch_state_dict
+      weights, reason: null, status: passed, traceback: null}

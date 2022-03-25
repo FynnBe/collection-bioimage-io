@@ -1,2 +1,3 @@
 rdf_sha256: c9a9d91231b94f284fba3da7e4472eafb3a5527fee0c00d3764c311436e3b071
-tests: {}
+tests:
+  ilastik: []

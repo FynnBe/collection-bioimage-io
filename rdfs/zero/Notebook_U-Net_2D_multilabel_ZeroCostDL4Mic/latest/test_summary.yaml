@@ -18,3 +18,7 @@ tests:
     status: passed
     traceback: null
     warnings: {type: Unrecognized type 'application'. Validating as rdf.}
+  ilastik:
+  - {error: Missing/invalid weight formats for zero/Notebook_U-Net_2D_multilabel_ZeroCostDL4Mic/latest,
+    name: reproduce test outputs with ilastik <todo version> (draft), reason: error,
+    status: failed}

@@ -22,3 +22,6 @@ tests:
     warnings: {license: CC-BY-NC-4.0 (Creative Commons Attribution Non Commercial
         4.0 International) is not FSF Free/libre., type: Unrecognized type 'dataset'.
         Validating as rdf.}
+  ilastik:
+  - {error: Missing/invalid weight formats for ilastik/livecell_dataset/latest, name: reproduce
+      test outputs with ilastik <todo version> (draft), reason: error, status: failed}

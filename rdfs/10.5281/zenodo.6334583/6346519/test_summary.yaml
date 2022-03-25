@@ -1,3 +1,4 @@
+bioimageio_core_version: 0.5.3.post2
 bioimageio_spec_version: 0.4.5.post6
 rdf_sha256: 7f2c43b6950f8fc88b2d615b71d35fc5a7f0dd4faa8f2b0915a5990fa251f252
 status: passed
@@ -20,3 +21,9 @@ tests:
     traceback: null
     warnings: {tags: 'Missing tags for categories: [{''software'': [''ilastik'', ''imagej'',
         ''fiji'', ''imjoy'', ''deepimagej'', ''n2v'']}]'}
+  - {bioimageio_core_version: 0.5.3post2, bioimageio_spec_version: 0.4.5post6, error: null,
+    name: reproduced test outputs from test inputs, status: passed, traceback: null}
+  ilastik:
+  - {bioimageio_core_version: 0.5.3post2, bioimageio_spec_version: 0.4.5post6, error: null,
+    name: reproduce test outputs with ilastik <todo version> (draft) using pytorch_state_dict
+      weights, reason: null, status: passed, traceback: null}

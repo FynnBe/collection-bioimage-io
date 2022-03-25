@@ -11,3 +11,7 @@ tests:
     status: failed
     traceback: null
     warnings: {}
+  ilastik:
+  - {error: Missing/invalid weight formats for deepimagej/UNet2DPancreaticSegmentation/latest,
+    name: reproduce test outputs with ilastik <todo version> (draft), reason: error,
+    status: failed}

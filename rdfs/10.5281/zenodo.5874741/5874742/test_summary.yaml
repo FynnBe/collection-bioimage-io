@@ -1,7 +1,7 @@
 bioimageio_core_version: 0.5.3.post2
 bioimageio_spec_version: 0.4.5.post6
 rdf_sha256: b18e61025d583ae850b13c6fe2794c12089a5c0666b54b79a54c1c68aa82794d
-status: passed
+status: failed
 tests:
   bioimageio:
   - bioimageio_spec_version: 0.4.5post6
@@ -33,7 +33,25 @@ tests:
         ''deepimagej'', ''n2v'']}]'
       weights: {pytorch_state_dict: missing 'pytorch_version', torchscript: missing
           'pytorch_version'}
+  - bioimageio_core_version: 0.5.3post2
+    bioimageio_spec_version: 0.4.5post6
+    error: cannot reshape array of size 40669 into shape (1,1,32,360,360)
+    name: reproduced test outputs from test inputs
+    status: failed
+    traceback: ["  File \"/usr/share/miniconda/envs/5874742/lib/python3.9/site-packages/bioimageio/core/resource_tests.py\",
+        line 127, in test_resource\n    expected = [np.load(str(out_path)) for out_path
+        in model.test_outputs]\n", "  File \"/usr/share/miniconda/envs/5874742/lib/python3.9/site-packages/bioimageio/core/resource_tests.py\",
+        line 127, in <listcomp>\n    expected = [np.load(str(out_path)) for out_path
+        in model.test_outputs]\n", "  File \"/usr/share/miniconda/envs/5874742/lib/python3.9/site-packages/numpy/lib/npyio.py\",
+        line 430, in load\n    return format.read_array(fid, allow_pickle=allow_pickle,\n",
+      "  File \"/usr/share/miniconda/envs/5874742/lib/python3.9/site-packages/numpy/lib/format.py\",
+        line 786, in read_array\n    array.shape = shape\n"]
   - {bioimageio_core_version: 0.5.3post2, bioimageio_spec_version: 0.4.5post6, error: null,
     name: reproduced test outputs from test inputs, status: passed, traceback: null}
+  ilastik:
   - {bioimageio_core_version: 0.5.3post2, bioimageio_spec_version: 0.4.5post6, error: null,
-    name: reproduced test outputs from test inputs, status: passed, traceback: null}
+    name: reproduce test outputs with ilastik <todo version> (draft) using torchscript
+      weights, reason: null, status: passed, traceback: null}
+  - {bioimageio_core_version: 0.5.3post2, bioimageio_spec_version: 0.4.5post6, error: null,
+    name: reproduce test outputs with ilastik <todo version> (draft) using pytorch_state_dict
+      weights, reason: null, status: passed, traceback: null}

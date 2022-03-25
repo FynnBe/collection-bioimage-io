@@ -18,3 +18,6 @@ tests:
         data_version)\n", "  File \"/home/runner/.local/lib/python3.8/site-packages/bioimageio/spec/shared/common.py\",
         line 129, in get_format_version_module\n    raise ValueError(\n"]
     warnings: {}
+  ilastik:
+  - {error: Missing/invalid weight formats for hpa/HPA-bestfitting/latest, name: reproduce
+      test outputs with ilastik <todo version> (draft), reason: error, status: failed}

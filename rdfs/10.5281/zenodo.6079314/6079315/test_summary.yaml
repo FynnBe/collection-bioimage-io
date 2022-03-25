@@ -1,7 +1,7 @@
 bioimageio_core_version: 0.5.3.post2
 bioimageio_spec_version: 0.4.5.post6
-rdf_sha256: 9c62e6ce52438ea1246052619fe49f3280cab9a7a63ec0ae064dda0007e88727
-status: passed
+rdf_sha256: 82a87fd3ef89bffbe6063b618daeab947a27777d8333eb63f8b1b47a97e21ee5
+status: failed
 tests:
   bioimageio:
   - bioimageio_spec_version: 0.4.5post6
@@ -24,7 +24,7 @@ tests:
         ''resnet'', ''inception'', ''shufflenet'']}, {''task'': [''semantic-segmentation'',
         ''instance-segmentation'', ''object-detection'', ''image-classification'',
         ''denoising'', ''image-restoration'', ''image-reconstruction'', ''in-silico-labeling'']}]'
-      weights: {torchscript: missing 'pytorch_version'}
+      weights: {pytorch_state_dict: missing 'pytorch_version'}
   - bioimageio_spec_version: 0.4.5post6
     error: null
     name: bioimageio.spec static validation of model RDF 0.4.5
@@ -44,10 +44,23 @@ tests:
         ''resnet'', ''inception'', ''shufflenet'']}, {''task'': [''semantic-segmentation'',
         ''instance-segmentation'', ''object-detection'', ''image-classification'',
         ''denoising'', ''image-restoration'', ''image-reconstruction'', ''in-silico-labeling'']}]'
-      weights: {torchscript: missing 'pytorch_version'}
-  - {bioimageio_core_version: 0.5.3post2, bioimageio_spec_version: 0.4.5post6, error: null,
-    name: reproduced test outputs from test inputs, status: passed, traceback: null}
-  ilastik:
-  - {bioimageio_core_version: 0.5.3post2, bioimageio_spec_version: 0.4.5post6, error: null,
-    name: reproduce test outputs with ilastik <todo version> (draft) using torchscript
-      weights, reason: null, status: passed, traceback: null}
+      weights: {pytorch_state_dict: missing 'pytorch_version'}
+  - bioimageio_core_version: 0.5.3post2
+    bioimageio_spec_version: 0.4.5post6
+    error: 'PytorchStreamReader failed reading zip archive: failed finding central
+      directory'
+    name: reproduced test outputs from test inputs
+    status: failed
+    traceback: ["  File \"/usr/share/miniconda/envs/6079315/lib/python3.9/site-packages/bioimageio/core/resource_tests.py\",
+        line 147, in test_resource\n    with create_prediction_pipeline(\n", "  File
+        \"/usr/share/miniconda/envs/6079315/lib/python3.9/site-packages/bioimageio/core/prediction_pipeline/_prediction_pipeline.py\",
+        line 114, in __enter__\n    self.load()\n", "  File \"/usr/share/miniconda/envs/6079315/lib/python3.9/site-packages/bioimageio/core/prediction_pipeline/_prediction_pipeline.py\",
+        line 172, in load\n    self._model.load()\n", "  File \"/usr/share/miniconda/envs/6079315/lib/python3.9/site-packages/bioimageio/core/prediction_pipeline/_model_adapters/_model_adapter.py\",
+        line 41, in load\n    self._load(devices=devices or self.default_devices)\n",
+      "  File \"/usr/share/miniconda/envs/6079315/lib/python3.9/site-packages/bioimageio/core/prediction_pipeline/_model_adapters/_pytorch_model_adapter.py\",
+        line 30, in _load\n    state = torch.load(weights.source, map_location=self._devices[0])\n",
+      "  File \"/usr/share/miniconda/envs/6079315/lib/python3.9/site-packages/torch/serialization.py\",
+        line 600, in load\n    with _open_zipfile_reader(opened_file) as opened_zipfile:\n",
+      "  File \"/usr/share/miniconda/envs/6079315/lib/python3.9/site-packages/torch/serialization.py\",
+        line 242, in __init__\n    super(_open_zipfile_reader, self).__init__(torch._C.PyTorchFileReader(name_or_buffer))\n"]
+  ilastik: []
