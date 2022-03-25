@@ -537,7 +537,8 @@ collection:
   tags: [software, bioengine]
   type: application
   versions: [latest]
-- authors: [Perkin Elmer]
+- authors:
+  - {name: Perkin Elmer}
   covers: ['https://raw.githubusercontent.com/imjoy-team/bioimage-io-models/master/asset/LuCa-7color_Scan1.png']
   description: Sample PerkinElmer Vectra QPTIFF files (c) PerkinElmer (http://www.perkinelmer.com)
   download_url: https://downloads.openmicroscopy.org/images/Vectra-QPTIFF/perkinelmer/PKI_scans/LuCa-7color_Scan1.qptiff
@@ -563,7 +564,8 @@ collection:
   tags: [bioengine]
   type: application
   versions: [latest]
-- authors: [Guillaume Jacquemet]
+- authors:
+  - {name: Guillaume Jacquemet}
   covers: ['https://github.com/HenriquesLab/ZeroCostDL4Mic/raw/master/Wiki_files/CARE_wiki.png']
   description: Fluorescence microscopy (Lifeact-RFP)
   download_url: https://doi.org/10.5281/zenodo.3713330
@@ -573,7 +575,9 @@ collection:
   tags: [CARE, denoising, ZeroCostDL4Mic, 2D]
   type: dataset
   versions: [latest]
-- authors: [Christoph Spahn, Mike Heilemann]
+- authors:
+  - {name: Christoph Spahn}
+  - {name: Mike Heilemann}
   covers: ['https://zenodo.org/api/iiif/v2/0417c6d1-0fe3-4d48-bc5a-dfaee6398433:532d7c49-5961-4d61-8ba2-a040f2f19cfd:A_E.coli_H-NS_mScarlet_examples.png/full/750,/0/default.png']
   description: Paired training and test images of H-NS-mScarlet-I expressing E. coli
     cells for image denoising.
@@ -584,7 +588,8 @@ collection:
   tags: [Noise2Void, CARE, denoising, DeepBacs, 2D]
   type: dataset
   versions: [latest]
-- authors: [Guillaume Jacquemet]
+- authors:
+  - {name: Guillaume Jacquemet}
   covers: ['https://github.com/HenriquesLab/ZeroCostDL4Mic/raw/master/Wiki_files/CARE_wiki.png']
   description: Fluorescence microscopy (Lifeact-RFP)
   download_url: https://doi.org/10.5281/zenodo.3713337
@@ -594,7 +599,8 @@ collection:
   tags: [CARE, denoising, ZeroCostDL4Mic, 3D]
   type: dataset
   versions: [latest]
-- authors: [Guillaume Jacquemet]
+- authors:
+  - {name: Guillaume Jacquemet}
   covers: ['https://github.com/HenriquesLab/ZeroCostDL4Mic/raw/master/BioimageModelZoo/Images/CycleGAN_dataset.png']
   description: Unpaired microscopy images (fluorescence) of microtubules (Spinning-disk
     and SRRF reconstructed images)
@@ -605,7 +611,9 @@ collection:
   tags: [CycleGAN, ZeroCostDL4Mic]
   type: dataset
   versions: [latest]
-- authors: [Christophe Leterrier, Romain F. Laine]
+- authors:
+  - {name: Christophe Leterrier}
+  - {name: Romain F. Laine}
   covers: ['https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/BioimageModelZoo/Images/DeepSTORM_dataset.png']
   description: Time-series of simulated, randomly distributed single-molecule localization
     (SMLM) data (Training dataset). Experimental time-series dSTORM acquisition of
@@ -617,7 +625,10 @@ collection:
   tags: [SMLM, Deep-STORM, ZeroCostDL4Mic, 2D]
   type: dataset
   versions: [latest]
-- authors: [Aki Stubb, Guillaume Jacquemet, Johanna Ivaska]
+- authors:
+  - {name: Aki Stubb}
+  - {name: Guillaume Jacquemet}
+  - {name: Johanna Ivaska}
   covers: ['https://github.com/HenriquesLab/ZeroCostDL4Mic/raw/master/Wiki_files/N2V_wiki.png']
   description: Fluorescence microscopy (paxillin-GFP)
   download_url: https://doi.org/10.5281/zenodo.3713315
@@ -627,7 +638,9 @@ collection:
   tags: [Noise2Void, denoising, ZeroCostDL4Mic, 2D]
   type: dataset
   versions: [latest]
-- authors: [Mia Conduit, Séamus Holden]
+- authors:
+  - {name: Mia Conduit}
+  - {name: Séamus Holden}
   covers: ['https://zenodo.org/api/iiif/v2/effa726a-dcdb-47a5-bd2e-63a4a6648ca7:aad7cd51-d389-4cf3-a84e-2d93d1891f20:B.subtilis_VerCINI_examples.png/full/750,/0/default.png']
   description: Live-cell time series of vertically aligned B. subtilis cells expressing
     FtsZ-GFP protein fusion.
@@ -638,7 +651,8 @@ collection:
   tags: [Noise2Void, denoising, DeepBacs, 2D]
   type: dataset
   versions: [latest]
-- authors: [Guillaume Jacquemet]
+- authors:
+  - {name: Guillaume Jacquemet}
   covers: ['https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/BioimageModelZoo/Images/N2V_3D_dataset.png']
   description: Fluorescence microscopy (Lifeact-RFP)
   download_url: https://doi.org/10.5281/zenodo.3713326
@@ -648,7 +662,8 @@ collection:
   tags: [Noise2Void, denoising, ZeroCostDL4Mic, 3D]
   type: dataset
   versions: [latest]
-- authors: [Guillaume Jacquemet]
+- authors:
+  - {name: Guillaume Jacquemet}
   covers: ['https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/BioimageModelZoo/Images/NoisyNuclei_dataset.png']
   description: This dataset contains a denoising training and test dataset for deep
     learning applications. The training dataset comprises 20 paired matching noisy
@@ -662,7 +677,9 @@ collection:
   tags: [denoising, CARE, Noise2Void, DecoNoising, ZeroCostDL4Mic]
   type: dataset
   versions: [latest]
-- authors: [Christoph Spahn, Mike Heilemann]
+- authors:
+  - {name: Christoph Spahn}
+  - {name: Mike Heilemann}
   covers: ['https://zenodo.org/api/iiif/v2/c6dca42a-62cd-423d-8216-b2ae20dab6a3:790a798b-26b2-425b-b1b6-9545d89daa7d:A_Segmentation_E.coli_large_FoV.png/full/750,/0/default.png']
   description: Training and test images of live E. coli cells imaged under bright
     field for the task of segmentation.
@@ -673,8 +690,13 @@ collection:
   tags: [StarDist, segmentation, DeepBacs, 2D]
   type: dataset
   versions: [latest]
-- authors: [Christoph Spahn, Mike Heilemann, Mia Conduit, Séamus Holden, Pedro Matos
-      Pereira, Mariana Pinho]
+- authors:
+  - {name: Christoph Spahn}
+  - {name: Mike Heilemann}
+  - {name: Mia Conduit}
+  - {name: Séamus Holden}
+  - {name: Pedro Matos Pereira}
+  - {name: Mariana Pinho}
   covers: ['https://zenodo.org/api/iiif/v2/c6dca42a-62cd-423d-8216-b2ae20dab6a3:790a798b-26b2-425b-b1b6-9545d89daa7d:A_Segmentation_E.coli_large_FoV.png/full/750,/0/default.png']
   description: Mixed training and test images of S. aureus, E. coli and B. subtilis
     for cell segmentation using StarDist.
@@ -685,7 +707,9 @@ collection:
   tags: [StarDist, segmentation, DeepBacs, 2D]
   type: dataset
   versions: [latest]
-- authors: [Johanna Jukkala, Guillaume Jacquemet]
+- authors:
+  - {name: Johanna Jukkala}
+  - {name: Guillaume Jacquemet}
   covers: ['https://github.com/HenriquesLab/ZeroCostDL4Mic/raw/master/Wiki_files/Stardist_nuclei_masks.png']
   description: Fluorescence microscopy (SiR-DNA) and masks obtained via manual segmentation
   download_url: https://doi.org/10.5281/zenodo.3715492
@@ -695,7 +719,8 @@ collection:
   tags: [StarDist, segmentation, ZeroCostDL4Mic, 2D]
   type: dataset
   versions: [latest]
-- authors: [Guillaume Jacquemet]
+- authors:
+  - {name: Guillaume Jacquemet}
   covers: ['https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Wiki_files/StarDist_trainingfluo_trackmate.png']
   description: Fluorescence microscopy of Nuclei (SiR-DNA) and masks obtained via
     manual segmentation
@@ -706,7 +731,9 @@ collection:
   tags: [StarDist, ZeroCostDL4Mic]
   type: dataset
   versions: [latest]
-- authors: [Gautier Follain, Guillaume Jacquemet]
+- authors:
+  - {name: Gautier Follain}
+  - {name: Guillaume Jacquemet}
   covers: ['https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Wiki_files/StarDist_trainingflo_trackmate.png']
   description: Paired brightfield images of cancer cells and corresponding masks
   download_url: https://zenodo.org/record/4034939
@@ -716,7 +743,9 @@ collection:
   tags: [StarDist, ZeroCostDL4Mic]
   type: dataset
   versions: [latest]
-- authors: [Nathan H. Roy, Guillaume Jacquemet]
+- authors:
+  - {name: Nathan H. Roy}
+  - {name: Guillaume Jacquemet}
   covers: ['https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Wiki_files/StarDist_trainingTcells_trackmate.png']
   description: Paired brightfield images of migrating T cells and corresponding masks
   download_url: https://zenodo.org/record/4034929
@@ -726,7 +755,10 @@ collection:
   tags: [StarDist, ZeroCostDL4Mic]
   type: dataset
   versions: [latest]
-- authors: [Hussein Al-Akhrass, Johanna Ivaska, Guillaume Jacquemet]
+- authors:
+  - {name: Hussein Al-Akhrass}
+  - {name: Johanna Ivaska}
+  - {name: Guillaume Jacquemet}
   covers: ['https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/BioimageModelZoo/Images/Moreno_dataset_stardist.png']
   description: Fluorescence microscopy of Nuclei (SiR-DNA) and masks obtained via
     manual segmentation
@@ -737,7 +769,9 @@ collection:
   tags: [StarDist, ZeroCostDL4Mic]
   type: dataset
   versions: [latest]
-- authors: [Spahn Christoph, Heilemann Mike]
+- authors:
+  - {name: Spahn Christoph}
+  - {name: Heilemann Mike}
   covers: ['https://zenodo.org/api/iiif/v2/c6dca42a-62cd-423d-8216-b2ae20dab6a3:790a798b-26b2-425b-b1b6-9545d89daa7d:A_Segmentation_E.coli_large_FoV.png/full/750,/0/default.png']
   description: Paired bright field and segmented mask images of live E. coli cells
     imaged under bright field.
@@ -748,7 +782,9 @@ collection:
   tags: [U-Net, segmentation, DeepBacs, 2D]
   type: dataset
   versions: [latest]
-- authors: [Mia Conduit, Séamus Holden]
+- authors:
+  - {name: Mia Conduit}
+  - {name: Séamus Holden}
   covers: ['https://zenodo.org/api/iiif/v2/8ba101cf-97ac-4e68-9fff-4cc130b5ea81:93b67447-8b0a-4053-a522-9c141623ca6f:A_Multilabel_U-Net_example_B.subtilis.png/full/750,/0/default.png']
   description: Paired bright field images and segmented binary masks of live E. coli
     cells.
@@ -759,7 +795,9 @@ collection:
   tags: [U-Net, multilabel, segmentation, DeepBacs, 2D]
   type: dataset
   versions: [latest]
-- authors: [Guillaume Jacquemet, Lucas von Chamier]
+- authors:
+  - {name: Guillaume Jacquemet}
+  - {name: Lucas von Chamier}
   covers: ['https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/BioimageModelZoo/Images/yolo_dataset.png']
   description: 2D grayscale .png images with corresponding bounding box annotations
     in .xml  PASCAL Voc format.
@@ -770,7 +808,9 @@ collection:
   tags: [YOLOv2, ZeroCostDL4Mic]
   type: dataset
   versions: [latest]
-- authors: [Christoph Spahn, Mike Heilemann]
+- authors:
+  - {name: Christoph Spahn}
+  - {name: Mike Heilemann}
   covers: ['https://zenodo.org/api/iiif/v2/5b4a4304-ea44-47ce-9c75-4a069bfc9536:e3c27642-4605-42c3-ad3c-1e120917b97e:Antibiotic_profiling_examples.png/full/750,/0/default.png']
   description: Training and test images of E. coli cells treated with different antibiotics
     for antibiotic phenotyping.
@@ -781,7 +821,9 @@ collection:
   tags: [YOLOv2, object detection, DeepBacs, 2D]
   type: dataset
   versions: [latest]
-- authors: [Christoph Spahn, Mike Heilemann]
+- authors:
+  - {name: Christoph Spahn}
+  - {name: Mike Heilemann}
   covers: ['https://zenodo.org/api/iiif/v2/e30f5766-cc61-4a7c-9d36-30681f2dcbc2:677b2046-5d0b-49df-b231-b5470b6fcbc8:A_Object_detection_cell_cycle.png/full/750,/0/default.png']
   description: Training and test images of E. coli cells for object detection and
     classification.
@@ -792,7 +834,8 @@ collection:
   tags: [YOLOv2, object detection, DeepBacs, 2D]
   type: dataset
   versions: [latest]
-- authors: [Christoph Spahn]
+- authors:
+  - {name: Christoph Spahn}
   covers: ['https://github.com/HenriquesLab/ZeroCostDL4Mic/raw/master/Wiki_files/Fnet_exemplary_data_mitochondria.png']
   description: Confocal microscopy data (TOM20 labeled with Alexa Fluor 594)
   download_url: https://doi.org/10.5281/zenodo.3748967
@@ -802,7 +845,9 @@ collection:
   tags: [fnet, labelling, ZeroCostDL4Mic, 3D]
   type: dataset
   versions: [latest]
-- authors: [Christoph Spahn, Mike Heilemann]
+- authors:
+  - {name: Christoph Spahn}
+  - {name: Mike Heilemann}
   covers: ['https://zenodo.org/api/iiif/v2/850bd89d-e7ca-4009-80ad-865819df1b6d:c18f2e19-3761-4852-8034-4cefcf7ca318:Artificial_labeling.png/full/750,/0/default.png']
   description: Training and test images of E. coli cells for artificial labeling of
     membranes in brightfield images using fnet or CARE, as well as trained models
@@ -814,7 +859,8 @@ collection:
   tags: [fnet, CARE, artificial labelling, DeepBacs, 2D]
   type: dataset
   versions: [latest]
-- authors: [Guillaume Jacquemet]
+- authors:
+  - {name: Guillaume Jacquemet}
   covers: ['https://github.com/HenriquesLab/ZeroCostDL4Mic/raw/master/BioimageModelZoo/Images/pix2pix_dataset.png']
   description: Paired microscopy images (fluorescence) of lifeact-RFP and sir-DNA
   download_url: https://doi.org/10.5281/zenodo.3941889
@@ -836,7 +882,8 @@ collection:
   tags: [imjoy, notebook, jupyter, bioengine]
   type: application
   versions: [latest]
-- authors: [Guillaume Jacquemet and the ZeroCostDL4Mic Team]
+- authors:
+  - {name: Guillaume Jacquemet and the ZeroCostDL4Mic Team}
   badges:
   - {icon: 'https://colab.research.google.com/assets/colab-badge.svg', label: Open
       in Colab, url: 'https://colab.research.google.com/github/HenriquesLab/ZeroCostDL4Mic/blob/master/Tools/Augmentor_ZeroCostDL4Mic.ipynb'}
@@ -857,7 +904,8 @@ collection:
   tags: [colab, notebook, Augmentor, Data Augmentation, ZeroCostDL4Mic]
   type: application
   versions: [latest]
-- authors: [Lucas von Chamier and the ZeroCostDL4Mic Team]
+- authors:
+  - {name: Lucas von Chamier and the ZeroCostDL4Mic Team}
   badges:
   - {icon: 'https://colab.research.google.com/assets/colab-badge.svg', label: Open
       in Colab, url: 'https://colab.research.google.com/github/HenriquesLab/ZeroCostDL4Mic/blob/master/Colab_notebooks/CARE_2D_ZeroCostDL4Mic.ipynb'}
@@ -882,7 +930,8 @@ collection:
   tags: [colab, notebook, CARE, denoising, ZeroCostDL4Mic, 2D]
   type: application
   versions: [latest]
-- authors: [Lucas von Chamier and the ZeroCostDL4Mic Team]
+- authors:
+  - {name: Lucas von Chamier and the ZeroCostDL4Mic Team}
   badges:
   - {icon: 'https://colab.research.google.com/assets/colab-badge.svg', label: Open
       in Colab, url: 'https://colab.research.google.com/github/HenriquesLab/ZeroCostDL4Mic/blob/master/Colab_notebooks/CARE_3D_ZeroCostDL4Mic.ipynb'}
@@ -904,7 +953,8 @@ collection:
   tags: [colab, notebook, CARE, denoising, ZeroCostDL4Mic, 3D]
   type: application
   versions: [latest]
-- authors: [Guillaume Jacquemet and the ZeroCostDL4Mic Team]
+- authors:
+  - {name: Guillaume Jacquemet and the ZeroCostDL4Mic Team}
   badges:
   - {icon: 'https://colab.research.google.com/assets/colab-badge.svg', label: Open
       in Colab, url: 'https://colab.research.google.com/github/HenriquesLab/ZeroCostDL4Mic/blob/master/Colab_notebooks/Beta%20notebooks/Cellpose_2D_ZeroCostDL4Mic.ipynb'}
@@ -925,7 +975,8 @@ collection:
   tags: [colab, notebook, Cellpose, Segmentation, ZeroCostDL4Mic]
   type: application
   versions: [latest]
-- authors: [Guillaume Jacquemet and the ZeroCostDL4Mic Team]
+- authors:
+  - {name: Guillaume Jacquemet and the ZeroCostDL4Mic Team}
   badges:
   - {icon: 'https://colab.research.google.com/assets/colab-badge.svg', label: Open
       in Colab, url: 'https://colab.research.google.com/github/HenriquesLab/ZeroCostDL4Mic/blob/master/Colab_notebooks/CycleGAN_ZeroCostDL4Mic.ipynb'}
@@ -947,7 +998,8 @@ collection:
   tags: [colab, notebook, CycleGAN, ZeroCostDL4Mic, 2D]
   type: application
   versions: [latest]
-- authors: ['Ainhoa Serrano, Ignacio Arganda-Carreras and the ZeroCostDL4Mic Team']
+- authors:
+  - {name: 'Ainhoa Serrano, Ignacio Arganda-Carreras and the ZeroCostDL4Mic Team'}
   badges:
   - {icon: 'https://colab.research.google.com/assets/colab-badge.svg', label: Open
       in Colab, url: 'https://colab.research.google.com/github/HenriquesLab/ZeroCostDL4Mic/blob/master/Colab_notebooks/Beta%20notebooks/DFCAN_ZeroCostDL4Mic.ipynb'}
@@ -966,7 +1018,8 @@ collection:
   tags: [colab, notebook, DFCAN, Super Resolution, ZeroCostDL4Mic]
   type: application
   versions: [latest]
-- authors: [Guillaume Jacquemet and the ZeroCostDL4Mic Team]
+- authors:
+  - {name: Guillaume Jacquemet and the ZeroCostDL4Mic Team}
   badges:
   - {icon: 'https://colab.research.google.com/assets/colab-badge.svg', label: Open
       in Colab, url: 'https://colab.research.google.com/github/HenriquesLab/ZeroCostDL4Mic/blob/master/Colab_notebooks/Beta%20notebooks/DRMIME_2D_ZeroCostDL4Mic.ipynb'}
@@ -981,7 +1034,8 @@ collection:
   tags: [colab, notebook, DRMIME, image registration, ZeroCostDL4Mic]
   type: application
   versions: [latest]
-- authors: [Guillaume Jacquemet and the ZeroCostDL4Mic Team]
+- authors:
+  - {name: Guillaume Jacquemet and the ZeroCostDL4Mic Team}
   badges:
   - {icon: 'https://colab.research.google.com/assets/colab-badge.svg', label: Open
       in Colab, url: 'https://colab.research.google.com/github/HenriquesLab/ZeroCostDL4Mic/blob/master/Colab_notebooks/Beta%20notebooks/DecoNoising_2D_ZeroCostDL4Mic.ipynb'}
@@ -1000,7 +1054,8 @@ collection:
   tags: [colab, notebook, DecoNoising, denoising, ZeroCostDL4Mic, 2D]
   type: application
   versions: [latest]
-- authors: [Romain Laine and the ZeroCostDL4Mic Team]
+- authors:
+  - {name: Romain Laine and the ZeroCostDL4Mic Team}
   badges:
   - {icon: 'https://colab.research.google.com/assets/colab-badge.svg', label: Open
       in Colab, url: 'https://colab.research.google.com/github/HenriquesLab/ZeroCostDL4Mic/blob/master/Colab_notebooks/Deep-STORM_2D_ZeroCostDL4Mic.ipynb'}
@@ -1026,8 +1081,8 @@ collection:
   tags: [colab, notebook, Deep-STORM, labelling, ZeroCostDL4Mic, 2D]
   type: application
   versions: [latest]
-- authors: [Estibaliz Gómez de Mariscal and the deepImageJ and the ZeroCostDL4Mic
-      teams]
+- authors:
+  - {name: Estibaliz Gómez de Mariscal and the deepImageJ and the ZeroCostDL4Mic teams}
   badges:
   - {icon: 'https://colab.research.google.com/assets/colab-badge.svg', label: Open
       in Colab, url: 'https://colab.research.google.com/github/HenriquesLab/ZeroCostDL4Mic/blob/master/Colab_notebooks/BioImage.io%20notebooks/Deep-STORM_2D_ZeroCostDL4Mic_BioImageModelZoo_export.ipynb'}
@@ -1054,7 +1109,8 @@ collection:
   tags: [colab, notebook, Deep-STORM, DeepImageJ, ZeroCostDL4Mic, 2D, deepImageJ]
   type: application
   versions: [latest]
-- authors: [Guillaume Jacquemet and the ZeroCostDL4Mic Team]
+- authors:
+  - {name: Guillaume Jacquemet and the ZeroCostDL4Mic Team}
   badges:
   - {icon: 'https://colab.research.google.com/assets/colab-badge.svg', label: Open
       in Colab, url: 'https://colab.research.google.com/github/HenriquesLab/ZeroCostDL4Mic/blob/master/Colab_notebooks/Beta%20notebooks/DenoiSeg_ZeroCostDL4Mic.ipynb'}
@@ -1075,7 +1131,8 @@ collection:
   tags: [colab, notebook, CycleGAN, ZeroCostDL4Mic, 2D]
   type: application
   versions: [latest]
-- authors: [Guillaume Jacquemet and the ZeroCostDL4Mic Team]
+- authors:
+  - {name: Guillaume Jacquemet and the ZeroCostDL4Mic Team}
   badges:
   - {icon: 'https://colab.research.google.com/assets/colab-badge.svg', label: Open
       in Colab, url: 'https://colab.research.google.com/github/HenriquesLab/ZeroCostDL4Mic/blob/master/Colab_notebooks/Beta%20notebooks/Detectron2_2D_ZeroCostDL4Mic.ipynb'}
@@ -1093,7 +1150,8 @@ collection:
   tags: [colab, notebook, Detectron2, object detection, ZeroCostDL4Mic]
   type: application
   versions: [latest]
-- authors: ['Amin Rezaei, Guillaume Jacquemet and the ZeroCostDL4Mic Team']
+- authors:
+  - {name: 'Amin Rezaei, Guillaume Jacquemet and the ZeroCostDL4Mic Team'}
   badges:
   - {icon: 'https://colab.research.google.com/assets/colab-badge.svg', label: Open
       in Colab, url: 'https://colab.research.google.com/github/HenriquesLab/ZeroCostDL4Mic/blob/master/Colab_notebooks/Beta%20notebooks/EmbedSeg_2D_ZeroCostDL4Mic.ipynb'}
@@ -1111,7 +1169,8 @@ collection:
   tags: [colab, notebook, EmbedSeg, Segmentation, ZeroCostDL4Mic]
   type: application
   versions: [latest]
-- authors: ['Romain Laine, Wei Ouyang and the ZeroCostDL4Mic Team']
+- authors:
+  - {name: 'Romain Laine, Wei Ouyang and the ZeroCostDL4Mic Team'}
   badges:
   - {icon: 'https://colab.research.google.com/assets/colab-badge.svg', label: Open
       in Colab, url: 'https://colab.research.google.com/github/HenriquesLab/ZeroCostDL4Mic/blob/master/Colab_notebooks/Beta%20notebooks/ZeroCostDL4Mic_Interactive_annotations_Cellpose.ipynb'}
@@ -1129,7 +1188,8 @@ collection:
   tags: [colab, notebook, Cellpose, Segmentation, ZeroCostDL4Mic]
   type: application
   versions: [latest]
-- authors: [Lucas von Chamier and the ZeroCostDL4Mic Team]
+- authors:
+  - {name: Lucas von Chamier and the ZeroCostDL4Mic Team}
   badges:
   - {icon: 'https://colab.research.google.com/assets/colab-badge.svg', label: Open
       in Colab, url: 'https://colab.research.google.com/github/HenriquesLab/ZeroCostDL4Mic/blob/master/Colab_notebooks/Beta%20notebooks/MaskRCNN_ZeroCostDL4Mic.ipynb'}
@@ -1145,7 +1205,8 @@ collection:
   tags: [colab, notebook, MaskRCNN, object detection, ZeroCostDL4Mic]
   type: application
   versions: [latest]
-- authors: [Romain Laine and the ZeroCostDL4Mic Team]
+- authors:
+  - {name: Romain Laine and the ZeroCostDL4Mic Team}
   badges:
   - {icon: 'https://colab.research.google.com/assets/colab-badge.svg', label: Open
       in Colab, url: 'https://colab.research.google.com/github/HenriquesLab/ZeroCostDL4Mic/blob/master/Colab_notebooks/Noise2Void_2D_ZeroCostDL4Mic.ipynb'}
@@ -1165,7 +1226,8 @@ collection:
   tags: [colab, notebook, Noise2Void, denoising, ZeroCostDL4Mic, 2D]
   type: application
   versions: [latest]
-- authors: [Romain Laine and the ZeroCostDL4Mic Team]
+- authors:
+  - {name: Romain Laine and the ZeroCostDL4Mic Team}
   badges:
   - {icon: 'https://colab.research.google.com/assets/colab-badge.svg', label: Open
       in Colab, url: 'https://colab.research.google.com/github/HenriquesLab/ZeroCostDL4Mic/blob/master/Colab_notebooks/Noise2Void_3D_ZeroCostDL4Mic.ipynb'}
@@ -1184,7 +1246,8 @@ collection:
   tags: [colab, notebook, Noise2Void, denoising, ZeroCostDL4Mic, 3D]
   type: application
   versions: [latest]
-- authors: [Guillaume Jacquemet and the ZeroCostDL4Mic Team]
+- authors:
+  - {name: Guillaume Jacquemet and the ZeroCostDL4Mic Team}
   badges:
   - {icon: 'https://colab.research.google.com/assets/colab-badge.svg', label: Open
       in Colab, url: 'https://colab.research.google.com/github/HenriquesLab/ZeroCostDL4Mic/blob/master/Tools/Quality_Control_ZeroCostDL4Mic.ipynb'}
@@ -1198,7 +1261,8 @@ collection:
   tags: [colab, notebook, Quality Control, ZeroCostDL4Mic]
   type: application
   versions: [latest]
-- authors: [Guillaume Jacquemet and the ZeroCostDL4Mic Team]
+- authors:
+  - {name: Guillaume Jacquemet and the ZeroCostDL4Mic Team}
   badges:
   - {icon: 'https://colab.research.google.com/assets/colab-badge.svg', label: Open
       in Colab, url: 'https://colab.research.google.com/github/HenriquesLab/ZeroCostDL4Mic/blob/master/Colab_notebooks/Beta%20notebooks/3D-RCAN_ZeroCostDL4Mic.ipynb'}
@@ -1219,7 +1283,8 @@ collection:
   tags: [colab, notebook, 3D-RCAN, denoising, ZeroCostDL4Mic, 3D]
   type: application
   versions: [latest]
-- authors: ['Erlantz Calvo, Ignacio Arganda-Carreras and the ZeroCostDL4Mic Team']
+- authors:
+  - {name: 'Erlantz Calvo, Ignacio Arganda-Carreras and the ZeroCostDL4Mic Team'}
   badges:
   - {icon: 'https://colab.research.google.com/assets/colab-badge.svg', label: Open
       in Colab, url: 'https://colab.research.google.com/github/HenriquesLab/ZeroCostDL4Mic/blob/master/Colab_notebooks/Beta%20notebooks/RetinaNet_ZeroCostDL4Mic.ipynb'}
@@ -1236,7 +1301,8 @@ collection:
   tags: [colab, notebook, RetinaNet, object detection, ZeroCostDL4Mic]
   type: application
   versions: [latest]
-- authors: [Romain F. Laine and the ZeroCostDL4Mic Team]
+- authors:
+  - {name: Romain F. Laine and the ZeroCostDL4Mic Team}
   badges:
   - {icon: 'https://colab.research.google.com/assets/colab-badge.svg', label: Open
       in Colab, url: 'https://colab.research.google.com/github/HenriquesLab/ZeroCostDL4Mic/blob/master/Colab_notebooks/Beta%20notebooks/SplineDist_2D_ZeroCostDL4Mic.ipynb'}
@@ -1258,7 +1324,8 @@ collection:
   tags: [colab, notebook, SplineDist, segmentation, ZeroCostDL4Mic]
   type: application
   versions: [latest]
-- authors: [Guillaume Jacquemet and the ZeroCostDL4Mic Team]
+- authors:
+  - {name: Guillaume Jacquemet and the ZeroCostDL4Mic Team}
   badges:
   - {icon: 'https://colab.research.google.com/assets/colab-badge.svg', label: Open
       in Colab, url: 'https://colab.research.google.com/github/HenriquesLab/ZeroCostDL4Mic/blob/master/Colab_notebooks/StarDist_2D_ZeroCostDL4Mic.ipynb'}
@@ -1280,8 +1347,8 @@ collection:
   tags: [colab, notebook, StarDist, segmentation, ZeroCostDL4Mic, 2D]
   type: application
   versions: [latest]
-- authors: [Estibaliz Gómez de Mariscal and the deepImageJ and the ZeroCostDL4Mic
-      teams]
+- authors:
+  - {name: Estibaliz Gómez de Mariscal and the deepImageJ and the ZeroCostDL4Mic teams}
   badges:
   - {icon: 'https://colab.research.google.com/assets/colab-badge.svg', label: Open
       in Colab, url: 'https://colab.research.google.com/github/HenriquesLab/ZeroCostDL4Mic/blob/master/Colab_notebooks/BioImage.io%20notebooks/StarDist_2D_ZeroCostDL4Mic_BioImageModelZoo_export.ipynb'}
@@ -1304,7 +1371,8 @@ collection:
   tags: [colab, notebook, StarDist, segmentation, ZeroCostDL4Mic, 2D, deepimagej]
   type: application
   versions: [latest]
-- authors: [Guillaume Jacquemet and the ZeroCostDL4Mic Team]
+- authors:
+  - {name: Guillaume Jacquemet and the ZeroCostDL4Mic Team}
   badges:
   - {icon: 'https://colab.research.google.com/assets/colab-badge.svg', label: Open
       in Colab, url: 'https://colab.research.google.com/github/HenriquesLab/ZeroCostDL4Mic/blob/master/Colab_notebooks/StarDist_3D_ZeroCostDL4Mic.ipynb'}
@@ -1321,7 +1389,8 @@ collection:
   tags: [colab, notebook, StarDist, segmentation, ZeroCostDL4Mic, 3D]
   type: application
   versions: [latest]
-- authors: [Romain Laine and the ZeroCostDL4Mic Team]
+- authors:
+  - {name: Romain Laine and the ZeroCostDL4Mic Team}
   badges:
   - {icon: 'https://colab.research.google.com/assets/colab-badge.svg', label: Open
       in Colab, url: 'https://colab.research.google.com/github/HenriquesLab/ZeroCostDL4Mic/blob/master/Colab_notebooks/U-Net_2D_ZeroCostDL4Mic.ipynb'}
@@ -1341,8 +1410,8 @@ collection:
   tags: [colab, notebook, U-Net, segmentation, ZeroCostDL4Mic, 2D]
   type: application
   versions: [latest]
-- authors: [Estibaliz Gómez de Mariscal and the deepImageJ and the ZeroCostDL4Mic
-      teams]
+- authors:
+  - {name: Estibaliz Gómez de Mariscal and the deepImageJ and the ZeroCostDL4Mic teams}
   badges:
   - {icon: 'https://colab.research.google.com/assets/colab-badge.svg', label: Open
       in Colab, url: 'https://colab.research.google.com/github/HenriquesLab/ZeroCostDL4Mic/blob/master/Colab_notebooks/BioImage.io%20notebooks/U-Net_2D_ZeroCostDL4Mic_BioImageModelZoo_export.ipynb'}
@@ -1362,7 +1431,8 @@ collection:
   tags: [colab, notebook, U-Net, segmentation, ZeroCostDL4Mic, 2D, deepimagej]
   type: application
   versions: [latest]
-- authors: [Estibaliz Gómez de Mariscal and the ZeroCostDL4Mic teams]
+- authors:
+  - {name: Estibaliz Gómez de Mariscal and the ZeroCostDL4Mic teams}
   badges:
   - {icon: 'https://colab.research.google.com/assets/colab-badge.svg', label: Open
       in Colab, url: 'https://colab.research.google.com/github/HenriquesLab/ZeroCostDL4Mic/blob/master/Colab_notebooks/Beta%20notebooks/U-Net_2D_Multilabel_ZeroCostDL4Mic.ipynb'}
@@ -1384,7 +1454,8 @@ collection:
     ZeroCostDL4Mic, 2D]
   type: application
   versions: [latest]
-- authors: [Daniel Krentzel and the ZeroCostDL4Mic Team]
+- authors:
+  - {name: Daniel Krentzel and the ZeroCostDL4Mic Team}
   badges:
   - {icon: 'https://colab.research.google.com/assets/colab-badge.svg', label: Open
       in Colab, url: 'https://colab.research.google.com/github/HenriquesLab/ZeroCostDL4Mic/blob/master/Colab_notebooks/U-Net_3D_ZeroCostDL4Mic.ipynb'}
@@ -1402,8 +1473,8 @@ collection:
   tags: [colab, notebook, U-Net, segmentation, ZeroCostDL4Mic, 3D]
   type: application
   versions: [latest]
-- authors: [Estibaliz Gómez de Mariscal and the deepImageJ and the ZeroCostDL4Mic
-      teams]
+- authors:
+  - {name: Estibaliz Gómez de Mariscal and the deepImageJ and the ZeroCostDL4Mic teams}
   badges:
   - {icon: 'https://colab.research.google.com/assets/colab-badge.svg', label: Open
       in Colab, url: 'https://colab.research.google.com/github/HenriquesLab/ZeroCostDL4Mic/blob/master/Colab_notebooks/BioImage.io%20notebooks/U-Net_3D_ZeroCostDL4Mic_BioImageModelZoo_export.ipynb'}
@@ -1422,7 +1493,8 @@ collection:
   tags: [colab, notebook, U-Net, segmentation, ZeroCostDL4Mic, 3D, deepimagej]
   type: application
   versions: [latest]
-- authors: [Lucas von Chamier and the ZeroCostDL4Mic Team]
+- authors:
+  - {name: Lucas von Chamier and the ZeroCostDL4Mic Team}
   badges:
   - {icon: 'https://colab.research.google.com/assets/colab-badge.svg', label: Open
       in Colab, url: 'https://colab.research.google.com/github/HenriquesLab/ZeroCostDL4Mic/blob/master/Colab_notebooks/YOLOv2_ZeroCostDL4Mic.ipynb'}
@@ -1440,7 +1512,8 @@ collection:
   tags: [colab, notebook, YOLOv2, object detection, ZeroCostDL4Mic]
   type: application
   versions: [latest]
-- authors: [Lucas von Chamier and the ZeroCostDL4Mic Team]
+- authors:
+  - {name: Lucas von Chamier and the ZeroCostDL4Mic Team}
   badges:
   - {icon: 'https://colab.research.google.com/assets/colab-badge.svg', label: Open
       in Colab, url: 'https://colab.research.google.com/github/HenriquesLab/ZeroCostDL4Mic/blob/master/Colab_notebooks/fnet_2D_ZeroCostDL4Mic.ipynb'}
@@ -1462,7 +1535,8 @@ collection:
   tags: [colab, notebook, fnet, labelling, ZeroCostDL4Mic, 2D]
   type: application
   versions: [latest]
-- authors: [Lucas von Chamier and the ZeroCostDL4Mic Team]
+- authors:
+  - {name: Lucas von Chamier and the ZeroCostDL4Mic Team}
   badges:
   - {icon: 'https://colab.research.google.com/assets/colab-badge.svg', label: Open
       in Colab, url: 'https://colab.research.google.com/github/HenriquesLab/ZeroCostDL4Mic/blob/master/Colab_notebooks/fnet_3D_ZeroCostDL4Mic.ipynb'}
@@ -1484,7 +1558,8 @@ collection:
   tags: [colab, notebook, fnet, labelling, ZeroCostDL4Mic, 3D]
   type: application
   versions: [latest]
-- authors: [Guillaume Jacquemet and the ZeroCostDL4Mic Team]
+- authors:
+  - {name: Guillaume Jacquemet and the ZeroCostDL4Mic Team}
   badges:
   - {icon: 'https://colab.research.google.com/assets/colab-badge.svg', label: Open
       in Colab, url: 'https://colab.research.google.com/github/HenriquesLab/ZeroCostDL4Mic/blob/master/Colab_notebooks/pix2pix_ZeroCostDL4Mic.ipynb'}
@@ -1515,7 +1590,7 @@ collection:
   license: MIT
   links: [imjoy/BioImageIO-Packager]
   name: Cell Segmentation from Membrane Staining for Plant Tissues
-  nickname: humorous owl
+  nickname: humorous-owl
   nickname_icon: "\U0001F989"
   owners: [252845]
   rdf_source: https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.5749843/5888237/rdf.yaml
@@ -1532,7 +1607,7 @@ collection:
   links: [ilastik/stardist_dsb_training_data, ilastik/ilastik, deepimagej/deepimagej,
     imjoy/BioImageIO-Packager]
   name: NucleiSegmentationBoundaryModel
-  nickname: affable shark
+  nickname: affable-shark
   nickname_icon: "\U0001F988"
   owners: [77626]
   rdf_source: https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.5764892/6322939/rdf.yaml
@@ -1551,7 +1626,7 @@ collection:
   links: [imjoy/BioImageIO-Packager, zero/notebook_u-net_2d_zerocostdl4mic_deepimagej,
     deepimagej/deepimagej]
   name: Neuron Segmentation in 2D EM (Membrane)
-  nickname: creative panda
+  nickname: creative-panda
   nickname_icon: "\U0001F43C"
   owners: [271523]
   rdf_source: https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.5817052/5906839/rdf.yaml
@@ -1568,7 +1643,7 @@ collection:
   links: [ilastik/covid_if_training_data, ilastik/ilastik, deepimagej/deepimagej,
     imjoy/BioImageIO-Packager]
   name: CovidIFCellSegmentationBoundaryModel
-  nickname: powerful chipmunk
+  nickname: powerful-chipmunk
   nickname_icon: "\U0001F43F"
   owners: [77626]
   rdf_source: https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.5847355/6322908/rdf.yaml
@@ -1584,7 +1659,7 @@ collection:
   license: CC-BY-4.0
   links: [ilastik/livecell_dataset, ilastik/ilastik, deepimagej/deepimagej, imjoy/BioImageIO-Packager]
   name: LiveCellSegmentationBoundaryModel
-  nickname: hiding tiger
+  nickname: hiding-tiger
   nickname_icon: "\U0001F405"
   owners: [77626]
   rdf_source: https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.5869899/6321179/rdf.yaml
@@ -1600,7 +1675,7 @@ collection:
   license: CC-BY-4.0
   links: [deepimagej/deepimagej, ilastik/cremi_training_data, ilastik/ilastik, imjoy/BioImageIO-Packager]
   name: Neuron Segmentation in EM (Membrane Prediction)
-  nickname: impartial shrimp
+  nickname: impartial-shrimp
   nickname_icon: "\U0001F990"
   owners: [77626]
   rdf_source: https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.5874741/5874742/rdf.yaml
@@ -1617,7 +1692,7 @@ collection:
   links: [deepimagej/deepimagej, ilastik/ilastik, ilastik/mitoem_segmentation_challenge,
     imjoy/BioImageIO-Packager]
   name: Mitochondria Segmentation for EM
-  nickname: kind seashell
+  nickname: kind-seashell
   nickname_icon: "\U0001F41A"
   owners: [77626]
   rdf_source: https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.5874841/5874842/rdf.yaml
@@ -1632,7 +1707,7 @@ collection:
   license: MIT
   links: [imjoy/BioImageIO-Packager]
   name: HPA Bestfitting Densenet
-  nickname: rude pig
+  nickname: polite-pig
   nickname_icon: "\U0001F416"
   owners: [47882]
   rdf_source: https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.5910163/5942853/rdf.yaml
@@ -1655,14 +1730,15 @@ collection:
 - authors:
   - {affiliation: Ikerbasque - EHU/UPV, name: Ignacio Arganda-Carreras}
   - {affiliation: 'EPFL, UC3M', name: DeepImageJ}
-  covers: [./input.png, ./output.png]
+  covers: ['https://zenodo.org/api/files/436a4ace-0b71-4bee-bf08-b0c197350a4c/input.png',
+    'https://zenodo.org/api/files/436a4ace-0b71-4bee-bf08-b0c197350a4c/output.png']
   description: DeepImageJ compatible U-Net trained to segment phase contrast microscopy
     images of pancreatic stem cells on a 2D polystyrene substrate.
   id: 10.5281/zenodo.5914248
   license: BSD-2-Clause
   links: [imjoy/BioImageIO-Packager]
   name: Pancreatic Phase Contrast Cell Segmentation (U-Net)
-  nickname: discreet rooster
+  nickname: discreet-rooster
   nickname_icon: "\U0001F413"
   owners: [147356]
   rdf_source: https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.5914248/5914249/rdf.yaml
@@ -1679,7 +1755,7 @@ collection:
   links: [ilastik/platynereis_em_training_data, deepimagej/deepimagej, ilastik/ilastik,
     imjoy/BioImageIO-Packager]
   name: PlatynereisEMnucleiSegmentationBoundaryModel
-  nickname: organized badger
+  nickname: organized-badger
   nickname_icon: "\U0001F9A1"
   owners: [77626]
   rdf_source: https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6028097/6028098/rdf.yaml
@@ -1695,13 +1771,28 @@ collection:
   links: [deepimagej/deepimagej, ilastik/platynereis_em_training_data, ilastik/ilastik,
     imjoy/BioImageIO-Packager]
   name: PlatynereisEMcellsSegmentationBoundaryModel
-  nickname: willing hedgehog
+  nickname: willing-hedgehog
   nickname_icon: "\U0001F994"
   owners: [77626]
   rdf_source: https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6028280/6028281/rdf.yaml
   tags: [unet, cells, instance-segmentation, electron-microscopy, platynereis]
   type: model
   versions: ['6028281']
+- authors:
+  - {name: Constantin Pape; @constantinpape}
+  covers: ['https://zenodo.org/api/files/47bb6d2a-fe02-4303-9ada-12043eee17fe/cover.png']
+  description: affinity-model
+  id: 10.5281/zenodo.6079314
+  license: CC-BY-4.0
+  links: [ilastik/ilastik, imjoy/BioImageIO-Packager]
+  name: EpitheliaAffinityModel
+  nickname: wild-whale
+  nickname_icon: "\U0001F433"
+  owners: [77626]
+  rdf_source: https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6079314/6079315/rdf.yaml
+  tags: [u-net, segmentation]
+  type: model
+  versions: ['6079315']
 - authors:
   - {name: Hao Xu}
   - {name: Wei Ouyang}
@@ -1712,7 +1803,7 @@ collection:
   license: CC-BY-4.0
   links: [imjoy/BioImageIO-Packager]
   name: HPA Cell Segmentation (DPNUnet)
-  nickname: loyal parrot
+  nickname: loyal-parrot
   nickname_icon: "\U0001F99C"
   owners: [47882]
   rdf_source: https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6200635/6200636/rdf.yaml
@@ -1729,7 +1820,7 @@ collection:
   license: CC-BY-4.0
   links: [deepimagej/deepimagej]
   name: HPA Nucleus Segmentation (DPNUnet)
-  nickname: conscientious seashell
+  nickname: conscientious-seashell
   nickname_icon: "\U0001F41A"
   owners: [47882]
   rdf_source: https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6200999/6224243/rdf.yaml
@@ -1737,24 +1828,83 @@ collection:
   type: model
   versions: ['6224243']
 - authors:
+  - {name: Lorenzo Cerrone}
+  - {name: Adrian Wolny}
+  covers: ['https://zenodo.org/api/files/990c06ad-189d-4cfa-8168-46bb2858a634/raw.png',
+    'https://zenodo.org/api/files/990c06ad-189d-4cfa-8168-46bb2858a634/pred.png']
+  description: A 2D U-Net trained to predict the cell boundaries in confocal stacks
+    of Arabidopsis ovules. Trained on z-slices of 3D confocal images.
+  id: 10.5281/zenodo.6334383
+  license: MIT
+  links: [imjoy/BioImageIO-Packager]
+  name: 2D UNet Arabidopsis Ovules
+  nickname: pioneering-rhino
+  nickname_icon: "\U0001F98F"
+  owners: [66700]
+  rdf_source: https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6334383/6346500/rdf.yaml
+  tags: [plantseg, unet, 2d, semantic-segmentation, arabidopsis, ovules, cell-membrane,
+    plant, tissue, fluorescence-light-microscopy, pytorch]
+  type: model
+  versions: ['6346500', '6334384']
+- authors:
   - {name: Adrian Wolny}
   - {name: Lorenzo Cerrone}
-  covers: ['https://zenodo.org/api/files/0b97165c-21d6-46c2-ae7a-474da1619b7b/raw.png',
-    'https://zenodo.org/api/files/0b97165c-21d6-46c2-ae7a-474da1619b7b/pred.png']
+  covers: ['https://zenodo.org/api/files/9a608180-9f71-43d9-9242-b4e0a4aec21d/ilastik_raw.png',
+    'https://zenodo.org/api/files/9a608180-9f71-43d9-9242-b4e0a4aec21d/ilastik_sneak.png',
+    'https://zenodo.org/api/files/9a608180-9f71-43d9-9242-b4e0a4aec21d/ilastik_pred.png']
+  description: 'A 3d U-Net trained to predict the cell boundaries in confocal stacks
+    of Arabidopsis ovules. Voxel size: (0.235, 0.150, 0.150) microns ZYX'
+  id: 10.5281/zenodo.6334583
+  license: MIT
+  links: [imjoy/BioImageIO-Packager]
+  name: 3D UNet Arabidopsis Ovules
+  nickname: passionate-t-rex
+  nickname_icon: "\U0001F996"
+  owners: [66700]
+  rdf_source: https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6334583/6346519/rdf.yaml
+  tags: [plantseg, unet, 3d, semantic-segmentation, arabidopsis, ovules, cell-membrane,
+    plant, tissue, fluorescence-light-microscopy, pytorch]
+  type: model
+  versions: ['6346519', '6334584']
+- authors:
+  - {name: Adrian Wolny}
+  - {name: Lorenzo Cerrone}
+  covers: ['https://zenodo.org/api/files/6955b0c0-b211-42a1-8251-0e3d82f612d5/raw.png',
+    'https://zenodo.org/api/files/6955b0c0-b211-42a1-8251-0e3d82f612d5/pred.png']
   description: A 3D U-Net trained to predict the cell boundaries in lightsheet stacks
     of Arabidopsis Lateral Root Primordia. (0.25x0.1625x0.1625) microns ZYX
   id: 10.5281/zenodo.6334777
   license: MIT
   links: [imjoy/BioImageIO-Packager]
   name: 3D UNet Lateral Root Primordia Cells
-  nickname: thoughtful turtle
+  nickname: thoughtful-turtle
   nickname_icon: "\U0001F422"
   owners: [66700]
-  rdf_source: https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6334777/6334778/rdf.yaml
-  tags: [unet, 3d, semantic-segmentation, arabidopsis, lateral-root, cell-membrane,
-    plant, tissue, light-sheet-fluorescence-microscopy, pytorch]
+  rdf_source: https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6334777/6346524/rdf.yaml
+  tags: [plantseg, unet, 3d, semantic-segmentation, arabidopsis, lateral-root, cell-membrane,
+    plant, tissue, light-sheet-fluorescence-microscopy, pytorch, plantseg]
   type: model
-  versions: ['6334778']
+  versions: ['6346524', '6334778']
+- authors:
+  - {name: Lorenzo Cerrone}
+  - {name: Adrian Wolny}
+  covers: ['https://zenodo.org/api/files/4a69ddca-3874-4469-b11d-b9ed626d197f/raw.png',
+    'https://zenodo.org/api/files/4a69ddca-3874-4469-b11d-b9ed626d197f/pred.png']
+  description: '2D Unet trained on z-slices of confocal images of Arabidopsis thaliana
+    apical stem cells. Trained on z-slices of 3D confocal images. Voxel size: [0.25,
+    0.25, 0.25]'
+  id: 10.5281/zenodo.6334881
+  license: MIT
+  links: [imjoy/BioImageIO-Packager]
+  name: 2D UNet Arabidopsis Apical Stem Cells
+  nickname: laid-back-lobster
+  nickname_icon: "\U0001F99E"
+  owners: [66700]
+  rdf_source: https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6334881/6346477/rdf.yaml
+  tags: [plantseg, unet, 2d, semantic-segmentation, arabidopsis, stem-cells, cell-membrane,
+    plant, tissue, fluorescence-light-microscopy, pytorch]
+  type: model
+  versions: ['6346477', '6334882']
 - authors:
   - {github_user: uschmidt83, name: Uwe Schmidt}
   - {github_user: maweigert, name: Martin Weigert}
@@ -1765,7 +1915,7 @@ collection:
   license: BSD-3-Clause
   links: [deepimagej/deepimagej, imjoy/BioImageIO-Packager]
   name: StarDist H&E Nuclei Segmentation
-  nickname: chatty frog
+  nickname: chatty-frog
   nickname_icon: "\U0001F438"
   owners: [313404]
   rdf_source: https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6338614/6338615/rdf.yaml
@@ -1773,6 +1923,26 @@ collection:
     tensorflow, fiji, unet, instance-segmentation, object-detection, stardist]
   type: model
   versions: ['6338615']
+- authors:
+  - {name: Lorenzo Cerrone}
+  - {name: Adrian Wolny}
+  covers: ['https://zenodo.org/api/files/9c2e422f-08fd-4692-bcf9-41e1a74e193d/raw.png',
+    'https://zenodo.org/api/files/9c2e422f-08fd-4692-bcf9-41e1a74e193d/pred.png']
+  description: '3D Unet trained on confocal images of Arabidopsis thaliana apical
+    stem cell: https://www.repository.cam.ac.uk/handle/1810/262530. Voxel size: [0.25,
+    0.25, 0.25]'
+  id: 10.5281/zenodo.6346511
+  license: MIT
+  links: [imjoy/BioImageIO-Packager]
+  name: 3D UNet Arabidopsis Apical Stem Cells
+  nickname: emotional-cricket
+  nickname_icon: "\U0001F997"
+  owners: [66700]
+  rdf_source: https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6346511/6346512/rdf.yaml
+  tags: [plantseg, unet, 3d, semantic-segmentation, arabidopsis, stem-cells, cell-membrane,
+    plant, tissue, fluorescence-light-microscopy, pytorch]
+  type: model
+  versions: ['6346512']
 - authors:
   - {github_user: uschmidt83, name: Uwe Schmidt}
   - {github_user: maweigert, name: Martin Weigert}
@@ -1783,7 +1953,7 @@ collection:
   license: BSD-3-Clause
   links: [deepimagej/deepimagej, imjoy/BioImageIO-Packager]
   name: StarDist Fluorescence Nuclei Segmentation
-  nickname: fearless crab
+  nickname: fearless-crab
   nickname_icon: "\U0001F980"
   owners: [313404]
   rdf_source: https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6348084/6348085/rdf.yaml
@@ -1799,7 +1969,7 @@ collection:
   license: MIT
   links: [deepimagej/deepimagej, imjoy/BioImageIO-Packager]
   name: Arabidopsis Leaf Segmentation
-  nickname: non-judgemental eagle
+  nickname: non-judgemental-eagle
   nickname_icon: "\U0001F985"
   owners: [77626]
   rdf_source: https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6348728/6348729/rdf.yaml
@@ -1810,8 +1980,8 @@ config:
   background_image: static/img/zoo-background.svg
   default_type: model
   explore_button_text: Start Exploring
-  n_resource_versions: {application: 92, collection: 36, dataset: 70, model: 45}
-  n_resources: {application: 46, collection: 18, dataset: 35, model: 21}
+  n_resource_versions: {application: 92, collection: 36, dataset: 70, model: 59}
+  n_resources: {application: 46, collection: 18, dataset: 35, model: 26}
   partners:
   - background_image: static/img/zoo-background.svg
     default_type: application
@@ -1841,8 +2011,8 @@ config:
     splash_subtitle: A user-friendly plugin to run deep learning models in ImageJ
     splash_title: deepImageJ
     tags: [deepimagej]
-    test_summaries: {deploy_branch: gh-pages, repository: deepimagej/models, workflow: test_bioimageio_resources.yaml,
-      workflow_ref: refs/heads/master}
+    test_summaries: {deploy_branch: gh-pages, deploy_folder: test_summaries, repository: deepimagej/models,
+      workflow: test_bioimageio_resources.yaml, workflow_ref: refs/heads/master}
     url_root: https://raw.githubusercontent.com/deepimagej/models/master
   - background_image: static/img/zoo-background.svg
     explore_button_text: Start Exploring
@@ -1886,7 +2056,7 @@ config:
     splash_subtitle: the interactive learning and segmentation toolkit
     splash_title: ilastik
     tags: [ilastik]
-    test_summaries: {deploy_branch: gh-pages, repository: ilastik/bioimage-io-resources,
+    test_summaries: {deploy_branch: gh-pages, deploy_folder: test_summaries, repository: ilastik/bioimage-io-resources,
       workflow: test_bioimageio_resources.yaml, workflow_ref: refs/heads/main}
     url_root: https://raw.githubusercontent.com/ilastik/bioimage-io-models/main
   - about_url: https://www.proteinatlas.org/
