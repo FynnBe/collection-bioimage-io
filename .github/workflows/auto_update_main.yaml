@@ -79,7 +79,7 @@ jobs:
 
   validate:
     needs: update-resources
-    uses: bioimage-io/collection-bioimage-io/.github/workflows/validate_resources.yaml@main
+    uses: ./.github/workflows/validate_resources.yaml
     with:
       check_validation: ${{ github.event_name == 'pull_request' && 'yes' || 'no' }}
       deploy_to: ${{ github.event_name == 'pull_request' && 'preview' || 'gh-pages' }}
@@ -87,7 +87,7 @@ jobs:
   trigger-partner-validation:
     needs: validate
     if: github.event_name != 'pull_request' && needs.validate.outputs.has_pending_matrices == 'yes'
-    uses: bioimage-io/collection-bioimage-io/.github/workflows/trigger_partner_wf.yaml@main
+    uses: ./.github/workflows/trigger_partner_wf.yaml
     with:
       pending_matrices: ${{ needs.validate.outputs.pending_matrices }}
     secrets:
