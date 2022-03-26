@@ -1,3 +1,6 @@
 rdf_sha256: c9a9d91231b94f284fba3da7e4472eafb3a5527fee0c00d3764c311436e3b071
 tests:
-  ilastik: []
+  ilastik:
+  - {error: Missing/invalid weight formats for zero/Notebook_pix2pix_2D_ZeroCostDL4Mic/latest,
+    name: reproduce test outputs with ilastik <todo version> (draft), reason: error,
+    status: failed}
