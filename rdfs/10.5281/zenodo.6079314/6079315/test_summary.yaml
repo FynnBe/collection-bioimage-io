@@ -64,6 +64,9 @@ tests:
       "  File \"/usr/share/miniconda/envs/6079315/lib/python3.9/site-packages/torch/serialization.py\",
         line 242, in __init__\n    super(_open_zipfile_reader, self).__init__(torch._C.PyTorchFileReader(name_or_buffer))\n"]
   ilastik:
+  - {bioimageio_core_version: 0.5.3post2, bioimageio_spec_version: 0.4.5post6, error: null,
+    name: reproduce test outputs with ilastik <todo version> (draft) using pytorch_state_dict
+      weights, reason: null, status: passed, traceback: null}
   - {bioimageio_core_version: 0.5.1, bioimageio_spec_version: 0.4.5post3, error: null,
     name: reproduce test outputs with ilastik <todo version> (draft) using pytorch_state_dict
       weights, reason: null, status: passed, traceback: null}
