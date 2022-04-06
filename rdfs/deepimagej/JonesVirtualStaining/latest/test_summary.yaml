@@ -1,5 +1,5 @@
 bioimageio_spec_version: 0.4.5post4
-rdf_sha256: 6f5869e708a7113e56cac4702e24a8972c954d41d1f6c642f019dad656058e0d
+rdf_sha256: 466fb8903df9f868e83d608360c780bd3133b847fe4ee95540a8a80ccb72276a
 status: failed
 tests:
   bioimageio:
@@ -11,6 +11,9 @@ tests:
     status: failed
     traceback: null
     warnings: {}
+  deepimagej:
+  - {error: Missing/invalid weight formats for deepimagej/JonesVirtualStaining/latest,
+    name: reproduce test outputs with deepimagej 2.1.13, reason: error, status: failed}
   ilastik:
   - {error: Missing/invalid weight formats for deepimagej/JonesVirtualStaining/latest,
     name: reproduce test outputs with ilastik <todo version> (draft), reason: error,

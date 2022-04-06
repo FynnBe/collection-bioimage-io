@@ -22,6 +22,9 @@ tests:
     warnings: {license: 'CC-BY 4.0 is not a recognized SPDX license identifier. See
         https://spdx.org/licenses/', type: Unrecognized type 'dataset'. Validating
         as rdf.}
+  deepimagej:
+  - {error: Missing/invalid weight formats for imjoy/LuCa-7color/latest, name: reproduce
+      test outputs with deepimagej 2.1.13, reason: error, status: failed}
   ilastik:
   - {error: Missing/invalid weight formats for imjoy/LuCa-7color/latest, name: reproduce
       test outputs with ilastik <todo version> (draft), reason: error, status: failed}

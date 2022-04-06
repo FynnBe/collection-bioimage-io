@@ -1,5 +1,5 @@
 bioimageio_spec_version: 0.4.5post4
-rdf_sha256: 174438778deb23cdf646abe0e6040e879176b1f7ebcd9d7683e3aad0ccac3b25
+rdf_sha256: a123d69affa585603d609eae21a40536b84b7e873230942c9dc79e94ee18fa1a
 status: failed
 tests:
   bioimageio:
@@ -11,6 +11,9 @@ tests:
     status: failed
     traceback: null
     warnings: {}
+  deepimagej:
+  - {error: Missing/invalid weight formats for deepimagej/Stardist2DZeroCostDL4Mic/latest,
+    name: reproduce test outputs with deepimagej 2.1.13, reason: error, status: failed}
   ilastik:
   - {error: Missing/invalid weight formats for deepimagej/Stardist2DZeroCostDL4Mic/latest,
     name: reproduce test outputs with ilastik <todo version> (draft), reason: error,

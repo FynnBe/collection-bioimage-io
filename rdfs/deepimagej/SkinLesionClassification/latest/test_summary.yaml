@@ -1,5 +1,5 @@
 bioimageio_spec_version: 0.4.5post4
-rdf_sha256: cf2cdf28b76de1e5065001af14115dada82fbe8da87c16a06ad7affca8d1d5bb
+rdf_sha256: bd068decd768cc078051061dc5eef714c47feee82683e10155bbd48043912fc6
 status: failed
 tests:
   bioimageio:
@@ -11,6 +11,9 @@ tests:
     status: failed
     traceback: null
     warnings: {}
+  deepimagej:
+  - {error: Missing/invalid weight formats for deepimagej/SkinLesionClassification/latest,
+    name: reproduce test outputs with deepimagej 2.1.13, reason: error, status: failed}
   ilastik:
   - {error: Missing/invalid weight formats for deepimagej/SkinLesionClassification/latest,
     name: reproduce test outputs with ilastik <todo version> (draft), reason: error,

@@ -1,5 +1,5 @@
 bioimageio_spec_version: 0.4.5post4
-rdf_sha256: 429ccc313ffcfb1e6b9f06344f5145e752475093e0b0276a4ba26b3afd393039
+rdf_sha256: 0763ad07e389c8f7de45a62ff37abc59b141443c8ea9fbdd4fe50662bfdcf227
 status: failed
 tests:
   bioimageio:
@@ -11,6 +11,9 @@ tests:
     status: failed
     traceback: null
     warnings: {}
+  deepimagej:
+  - {error: Missing/invalid weight formats for deepimagej/UNet2DGlioblastomaSegmentation/latest,
+    name: reproduce test outputs with deepimagej 2.1.13, reason: error, status: failed}
   ilastik:
   - {error: Missing/invalid weight formats for deepimagej/UNet2DGlioblastomaSegmentation/latest,
     name: reproduce test outputs with ilastik <todo version> (draft), reason: error,

@@ -1,5 +1,5 @@
 bioimageio_spec_version: 0.4.5post4
-rdf_sha256: 055120d5cf2c20a82e0b32a984b016e609f06553a4d2d1b4c75961f221fa35fc
+rdf_sha256: 6a4fc2b928864c6b6d6dedf0733d680cb54e98bc15ca954f3e5a7dd06e02cb6e
 status: failed
 tests:
   bioimageio:
@@ -11,6 +11,9 @@ tests:
     status: failed
     traceback: null
     warnings: {}
+  deepimagej:
+  - {error: Missing/invalid weight formats for deepimagej/UNet2DPancreaticSegmentation/latest,
+    name: reproduce test outputs with deepimagej 2.1.13, reason: error, status: failed}
   ilastik:
   - {error: Missing/invalid weight formats for deepimagej/UNet2DPancreaticSegmentation/latest,
     name: reproduce test outputs with ilastik <todo version> (draft), reason: error,

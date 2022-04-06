@@ -1,5 +1,5 @@
 bioimageio_spec_version: 0.4.5post4
-rdf_sha256: 5866b05f213c7b8931c534f827b86a22443df4c3711cbde861ae0da3cb3580cf
+rdf_sha256: 531939c3eae7eb2fb260b312f1fc90253e95732929ced94bcaaa46b7718e7918
 status: failed
 tests:
   bioimageio:
@@ -11,6 +11,9 @@ tests:
     status: failed
     traceback: null
     warnings: {}
+  deepimagej:
+  - {error: Missing/invalid weight formats for deepimagej/SMLMDensityMapEstimationDEFCoN/latest,
+    name: reproduce test outputs with deepimagej 2.1.13, reason: error, status: failed}
   ilastik:
   - {error: Missing/invalid weight formats for deepimagej/SMLMDensityMapEstimationDEFCoN/latest,
     name: reproduce test outputs with ilastik <todo version> (draft), reason: error,

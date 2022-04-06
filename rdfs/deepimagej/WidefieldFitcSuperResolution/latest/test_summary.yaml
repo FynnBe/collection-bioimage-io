@@ -1,5 +1,5 @@
 bioimageio_spec_version: 0.4.5post4
-rdf_sha256: cec338061ed5869a9d92c892590568514da00cfd79299058d888a22e35ffd8ce
+rdf_sha256: f6fcfb366754eac56a24bea66934550bfea53fc5f1a3d7f088ba715618c76085
 status: failed
 tests:
   bioimageio:
@@ -11,6 +11,9 @@ tests:
     status: failed
     traceback: null
     warnings: {}
+  deepimagej:
+  - {error: Missing/invalid weight formats for deepimagej/WidefieldFitcSuperResolution/latest,
+    name: reproduce test outputs with deepimagej 2.1.13, reason: error, status: failed}
   ilastik:
   - {error: Missing/invalid weight formats for deepimagej/WidefieldFitcSuperResolution/latest,
     name: reproduce test outputs with ilastik <todo version> (draft), reason: error,
