@@ -16,7 +16,7 @@ tests:
     bioimageio_spec_version: 0.4.5post7
     error: 'Failed to download https://raw.githubusercontent.com/deepimagej/models/master/exampleImage.tiff
       (404 Client Error: Not Found for url: https://raw.githubusercontent.com/deepimagej/models/master/exampleImage.tiff)'
-    name: reproduce test outputs with deepimagej 2.1.13 using keras_hdf5 weights
+    name: reproduce test outputs with deepimagej 2.1.13 using tensorflow_js weights
     reason: error
     status: failed
     traceback: ["  File \"/home/runner/work/models/models/scripts/check_rdf_and_test_model.py\",
@@ -103,7 +103,7 @@ tests:
     bioimageio_spec_version: 0.4.5post7
     error: 'Failed to download https://raw.githubusercontent.com/deepimagej/models/master/exampleImage.tiff
       (404 Client Error: Not Found for url: https://raw.githubusercontent.com/deepimagej/models/master/exampleImage.tiff)'
-    name: reproduce test outputs with deepimagej 2.1.13 using tensorflow_js weights
+    name: reproduce test outputs with deepimagej 2.1.13 using keras_hdf5 weights
     reason: error
     status: failed
     traceback: ["  File \"/home/runner/work/models/models/scripts/check_rdf_and_test_model.py\",
@@ -145,6 +145,20 @@ tests:
   - {error: Missing/invalid weight formats for deepimagej/FRUNet2DsEVSegmentation/latest,
     name: reproduce test outputs with deepimagej 2.1.13, reason: error, status: failed}
   ilastik:
+  - bioimageio_core_version: 0.5.1
+    bioimageio_spec_version: 0.4.5post3
+    error: Cannot load file containing pickled data when allow_pickle=False
+    name: reproduce test outputs with ilastik <todo version> (draft) using tensorflow_saved_model_bundle
+      weights
+    reason: error
+    status: failed
+    traceback: ["  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/core/resource_tests.py\",
+        line 126, in test_resource\n    inputs = [np.load(str(in_path)) for in_path
+        in model.test_inputs]\n", "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/core/resource_tests.py\",
+        line 126, in <listcomp>\n    inputs = [np.load(str(in_path)) for in_path in
+        model.test_inputs]\n", "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/numpy/lib/npyio.py\",
+        line 445, in load\n    raise ValueError(\"Cannot load file containing pickled
+        data \"\n"]
   - bioimageio_core_version: 0.5.3post2
     bioimageio_spec_version: 0.4.5post6
     error: 'Failed to download https://raw.githubusercontent.com/deepimagej/models/master/exampleImage.tiff
@@ -193,7 +207,7 @@ tests:
     bioimageio_spec_version: 0.4.5post6
     error: 'Failed to download https://raw.githubusercontent.com/deepimagej/models/master/exampleImage.tiff
       (404 Client Error: Not Found for url: https://raw.githubusercontent.com/deepimagej/models/master/exampleImage.tiff)'
-    name: reproduce test outputs with ilastik <todo version> (draft) using tensorflow_saved_model_bundle
+    name: reproduce test outputs with ilastik <todo version> (draft) using tensorflow_js
       weights
     reason: error
     status: failed
@@ -233,14 +247,42 @@ tests:
         output)\n", "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/spec/shared/_resolve_source.py\",
         line 396, in _download_url\n    raise RuntimeError(f\"Failed to download {uri}
         ({e})\")\n"]
+  - bioimageio_core_version: 0.5.1
+    bioimageio_spec_version: 0.4.5post3
+    error: Cannot load file containing pickled data when allow_pickle=False
+    name: reproduce test outputs with ilastik <todo version> (draft) using keras_hdf5
+      weights
+    reason: error
+    status: failed
+    traceback: ["  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/core/resource_tests.py\",
+        line 126, in test_resource\n    inputs = [np.load(str(in_path)) for in_path
+        in model.test_inputs]\n", "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/core/resource_tests.py\",
+        line 126, in <listcomp>\n    inputs = [np.load(str(in_path)) for in_path in
+        model.test_inputs]\n", "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/numpy/lib/npyio.py\",
+        line 445, in load\n    raise ValueError(\"Cannot load file containing pickled
+        data \"\n"]
   - {error: Missing/invalid weight formats for deepimagej/FRUNet2DsEVSegmentation/latest,
     name: reproduce test outputs with ilastik <todo version> (draft), reason: error,
     status: failed}
+  - bioimageio_core_version: 0.5.1
+    bioimageio_spec_version: 0.4.5post3
+    error: Cannot load file containing pickled data when allow_pickle=False
+    name: reproduce test outputs with ilastik <todo version> (draft) using tensorflow_js
+      weights
+    reason: error
+    status: failed
+    traceback: ["  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/core/resource_tests.py\",
+        line 126, in test_resource\n    inputs = [np.load(str(in_path)) for in_path
+        in model.test_inputs]\n", "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/core/resource_tests.py\",
+        line 126, in <listcomp>\n    inputs = [np.load(str(in_path)) for in_path in
+        model.test_inputs]\n", "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/numpy/lib/npyio.py\",
+        line 445, in load\n    raise ValueError(\"Cannot load file containing pickled
+        data \"\n"]
   - bioimageio_core_version: 0.5.3post2
     bioimageio_spec_version: 0.4.5post6
     error: 'Failed to download https://raw.githubusercontent.com/deepimagej/models/master/exampleImage.tiff
       (404 Client Error: Not Found for url: https://raw.githubusercontent.com/deepimagej/models/master/exampleImage.tiff)'
-    name: reproduce test outputs with ilastik <todo version> (draft) using tensorflow_js
+    name: reproduce test outputs with ilastik <todo version> (draft) using tensorflow_saved_model_bundle
       weights
     reason: error
     status: failed
@@ -280,48 +322,6 @@ tests:
         output)\n", "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/spec/shared/_resolve_source.py\",
         line 396, in _download_url\n    raise RuntimeError(f\"Failed to download {uri}
         ({e})\")\n"]
-  - bioimageio_core_version: 0.5.1
-    bioimageio_spec_version: 0.4.5post3
-    error: Cannot load file containing pickled data when allow_pickle=False
-    name: reproduce test outputs with ilastik <todo version> (draft) using keras_hdf5
-      weights
-    reason: error
-    status: failed
-    traceback: ["  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/core/resource_tests.py\",
-        line 126, in test_resource\n    inputs = [np.load(str(in_path)) for in_path
-        in model.test_inputs]\n", "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/core/resource_tests.py\",
-        line 126, in <listcomp>\n    inputs = [np.load(str(in_path)) for in_path in
-        model.test_inputs]\n", "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/numpy/lib/npyio.py\",
-        line 445, in load\n    raise ValueError(\"Cannot load file containing pickled
-        data \"\n"]
-  - bioimageio_core_version: 0.5.1
-    bioimageio_spec_version: 0.4.5post3
-    error: Cannot load file containing pickled data when allow_pickle=False
-    name: reproduce test outputs with ilastik <todo version> (draft) using tensorflow_saved_model_bundle
-      weights
-    reason: error
-    status: failed
-    traceback: ["  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/core/resource_tests.py\",
-        line 126, in test_resource\n    inputs = [np.load(str(in_path)) for in_path
-        in model.test_inputs]\n", "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/core/resource_tests.py\",
-        line 126, in <listcomp>\n    inputs = [np.load(str(in_path)) for in_path in
-        model.test_inputs]\n", "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/numpy/lib/npyio.py\",
-        line 445, in load\n    raise ValueError(\"Cannot load file containing pickled
-        data \"\n"]
-  - bioimageio_core_version: 0.5.1
-    bioimageio_spec_version: 0.4.5post3
-    error: Cannot load file containing pickled data when allow_pickle=False
-    name: reproduce test outputs with ilastik <todo version> (draft) using tensorflow_js
-      weights
-    reason: error
-    status: failed
-    traceback: ["  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/core/resource_tests.py\",
-        line 126, in test_resource\n    inputs = [np.load(str(in_path)) for in_path
-        in model.test_inputs]\n", "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/core/resource_tests.py\",
-        line 126, in <listcomp>\n    inputs = [np.load(str(in_path)) for in_path in
-        model.test_inputs]\n", "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/numpy/lib/npyio.py\",
-        line 445, in load\n    raise ValueError(\"Cannot load file containing pickled
-        data \"\n"]
   - {error: Missing/invalid weight formats for deepimagej/FRUNet2DsEVSegmentation/latest,
     name: reproduce test outputs with ilastik <todo version> (draft), reason: error,
     status: failed}
