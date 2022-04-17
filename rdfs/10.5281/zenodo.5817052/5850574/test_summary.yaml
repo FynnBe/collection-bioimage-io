@@ -61,8 +61,8 @@ tests:
       weights, reason: null, status: passed, traceback: null}
   - bioimageio_core_version: 0.5.3post2
     bioimageio_spec_version: 0.4.5post6
-    error: 'Failed to download https://zenodo.org/api/files/5ff5e52c-a708-4c93-98c2-160c29204800/per_sample_scale_range.ijm
-      (504 Server Error: Gateway Time-out for url: https://zenodo.org/api/files/5ff5e52c-a708-4c93-98c2-160c29204800/per_sample_scale_range.ijm)'
+    error: 'Failed to download https://zenodo.org/api/files/5ff5e52c-a708-4c93-98c2-160c29204800/binarize.ijm
+      (502 Server Error: Bad Gateway for url: https://zenodo.org/api/files/5ff5e52c-a708-4c93-98c2-160c29204800/binarize.ijm)'
     name: reproduce test outputs with ilastik <todo version> (draft) using keras_hdf5
       weights
     reason: error
