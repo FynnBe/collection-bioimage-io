@@ -64,8 +64,8 @@ tests:
         data \"\n"]
   - bioimageio_core_version: 0.5.3post2
     bioimageio_spec_version: 0.4.5post6
-    error: 'Failed to download https://zenodo.org/api/files/eb8f4259-001c-4989-b8ea-d2997918599d/exampleImage.tif
-      (504 Server Error: Gateway Time-out for url: https://zenodo.org/api/files/eb8f4259-001c-4989-b8ea-d2997918599d/exampleImage.tif)'
+    error: 'Failed to download https://zenodo.org/api/files/eb8f4259-001c-4989-b8ea-d2997918599d/per_sample_scale_range.ijm
+      (502 Server Error: Bad Gateway for url: https://zenodo.org/api/files/eb8f4259-001c-4989-b8ea-d2997918599d/per_sample_scale_range.ijm)'
     name: reproduce test outputs with ilastik <todo version> (draft) using keras_hdf5
       weights
     reason: error
@@ -122,8 +122,8 @@ tests:
         data \"\n"]
   - bioimageio_core_version: 0.5.3post2
     bioimageio_spec_version: 0.4.5post6
-    error: 'Failed to download https://zenodo.org/api/files/eb8f4259-001c-4989-b8ea-d2997918599d/exampleImage.tif
-      (504 Server Error: Gateway Time-out for url: https://zenodo.org/api/files/eb8f4259-001c-4989-b8ea-d2997918599d/exampleImage.tif)'
+    error: 'Failed to download https://zenodo.org/api/files/eb8f4259-001c-4989-b8ea-d2997918599d/per_sample_scale_range.ijm
+      (504 Server Error: Gateway Time-out for url: https://zenodo.org/api/files/eb8f4259-001c-4989-b8ea-d2997918599d/per_sample_scale_range.ijm)'
     name: reproduce test outputs with ilastik <todo version> (draft) using tensorflow_saved_model_bundle
       weights
     reason: error

@@ -122,8 +122,8 @@ tests:
       weights, reason: null, status: passed, traceback: null}
   - bioimageio_core_version: 0.5.3post2
     bioimageio_spec_version: 0.4.5post6
-    error: 'Failed to download https://zenodo.org/api/files/be41e515-ce79-48f5-a482-35e1f11701c2/sample_input_0.tif
-      (504 Server Error: Gateway Time-out for url: https://zenodo.org/api/files/be41e515-ce79-48f5-a482-35e1f11701c2/sample_input_0.tif)'
+    error: 'Failed to download https://zenodo.org/api/files/be41e515-ce79-48f5-a482-35e1f11701c2/zero_mean_unit_variance.ijm
+      (504 Server Error: Gateway Time-out for url: https://zenodo.org/api/files/be41e515-ce79-48f5-a482-35e1f11701c2/zero_mean_unit_variance.ijm)'
     name: reproduce test outputs with ilastik <todo version> (draft) using pytorch_state_dict
       weights
     reason: error
@@ -136,6 +136,12 @@ tests:
         line 112, in resolve_raw_resource_description\n    rd = UriNodeTransformer(root_path=raw_rd.root_path,
         uri_only_if_in_package=uri_only_if_in_package).transform(raw_rd)\n", "  File
         \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/spec/shared/node_transformer.py\",
+        line 54, in transform\n    return transformer(node, **kwargs)  # noqa\n",
+      "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/spec/shared/node_transformer.py\",
+        line 86, in generic_transformer\n    node, **{n: self.transform(value, name=n,
+        parent=node) for n, value in iter_fields(node)}\n", "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/spec/shared/node_transformer.py\",
+        line 86, in <dictcomp>\n    node, **{n: self.transform(value, name=n, parent=node)
+        for n, value in iter_fields(node)}\n", "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/spec/shared/node_transformer.py\",
         line 54, in transform\n    return transformer(node, **kwargs)  # noqa\n",
       "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/spec/shared/node_transformer.py\",
         line 86, in generic_transformer\n    node, **{n: self.transform(value, name=n,
@@ -160,8 +166,8 @@ tests:
         ({e})\")\n"]
   - bioimageio_core_version: 0.5.3post2
     bioimageio_spec_version: 0.4.5post6
-    error: 'Failed to download https://zenodo.org/api/files/be41e515-ce79-48f5-a482-35e1f11701c2/sample_input_0.tif
-      (504 Server Error: Gateway Time-out for url: https://zenodo.org/api/files/be41e515-ce79-48f5-a482-35e1f11701c2/sample_input_0.tif)'
+    error: 'Failed to download https://zenodo.org/api/files/be41e515-ce79-48f5-a482-35e1f11701c2/zero_mean_unit_variance.ijm
+      (503 Server Error: Service Unavailable for url: https://zenodo.org/api/files/be41e515-ce79-48f5-a482-35e1f11701c2/zero_mean_unit_variance.ijm)'
     name: reproduce test outputs with ilastik <todo version> (draft) using torchscript
       weights
     reason: error
@@ -174,6 +180,12 @@ tests:
         line 112, in resolve_raw_resource_description\n    rd = UriNodeTransformer(root_path=raw_rd.root_path,
         uri_only_if_in_package=uri_only_if_in_package).transform(raw_rd)\n", "  File
         \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/spec/shared/node_transformer.py\",
+        line 54, in transform\n    return transformer(node, **kwargs)  # noqa\n",
+      "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/spec/shared/node_transformer.py\",
+        line 86, in generic_transformer\n    node, **{n: self.transform(value, name=n,
+        parent=node) for n, value in iter_fields(node)}\n", "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/spec/shared/node_transformer.py\",
+        line 86, in <dictcomp>\n    node, **{n: self.transform(value, name=n, parent=node)
+        for n, value in iter_fields(node)}\n", "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/spec/shared/node_transformer.py\",
         line 54, in transform\n    return transformer(node, **kwargs)  # noqa\n",
       "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/spec/shared/node_transformer.py\",
         line 86, in generic_transformer\n    node, **{n: self.transform(value, name=n,
