@@ -1,27 +1,29 @@
 bioimageio_core_version: 0.5.3.post2
-bioimageio_spec_version: 0.4.5.post6
-rdf_sha256: a659b79870838c00b9f06f2127f0b334fdbe5aea1f6b856912de6552f1d4f8f3
+bioimageio_spec_version: 0.4.5.post7
+rdf_sha256: 131fd061bf22238fdc122c9ea1cfa7f65d035c8040a27026a75ebc2765258352
 status: failed
 tests:
   bioimageio:
-  - bioimageio_spec_version: 0.4.5post6
+  - bioimageio_spec_version: 0.4.5post7
     error: null
     name: bioimageio.spec static validation of model RDF 0.4.5 with update to latest
       format version
     nested_errors: {}
     status: passed
     traceback: null
-    warnings: {}
-  - bioimageio_spec_version: 0.4.5post6
+    warnings: {tags: 'Missing tags for categories: [{''software'': [''ilastik'', ''imagej'',
+        ''fiji'', ''imjoy'', ''deepimagej'', ''n2v'']}]'}
+  - bioimageio_spec_version: 0.4.5post7
     error: null
     name: bioimageio.spec static validation of model RDF 0.4.5
     nested_errors: {}
     status: passed
     traceback: null
-    warnings: {}
+    warnings: {tags: 'Missing tags for categories: [{''software'': [''ilastik'', ''imagej'',
+        ''fiji'', ''imjoy'', ''deepimagej'', ''n2v'']}]'}
   - bioimageio_core_version: 0.5.3post2
-    bioimageio_spec_version: 0.4.5post6
-    error: cannot reshape array of size 401117 into shape (1,304,512,33)
+    bioimageio_spec_version: 0.4.5post7
+    error: cannot reshape array of size 2924253 into shape (1,304,512,33)
     name: reproduced test outputs from test inputs
     status: failed
     traceback: ["  File \"/usr/share/miniconda/envs/6338615/lib/python3.7/site-packages/bioimageio/core/resource_tests.py\",
