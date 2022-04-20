@@ -3944,7 +3944,7 @@
         }
       ],
       "covers": [
-        "https://zenodo.org/api/files/47bb6d2a-fe02-4303-9ada-12043eee17fe/cover.png"
+        "https://zenodo.org/api/files/573e9a49-d156-46ea-838e-55ec9ebe9e00/cover.png"
       ],
       "description": "affinity-model",
       "id": "10.5281/zenodo.6079314",
@@ -3959,13 +3959,14 @@
       "owners": [
         77626
       ],
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6079314/6079315/rdf.yaml",
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6079314/6385590/rdf.yaml",
       "tags": [
         "u-net",
         "segmentation"
       ],
       "type": "model",
       "versions": [
+        "6385590",
         "6079315"
       ]
     },
@@ -4247,14 +4248,10 @@
       ],
       "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6338614/6338615/rdf.yaml",
       "tags": [
-        "fluorescence-light-microscopy",
         "whole-slide-imaging",
-        "other",
         "2d",
-        "cells",
         "nuclei",
         "tensorflow",
-        "fiji",
         "unet",
         "instance-segmentation",
         "object-detection",
@@ -4391,6 +4388,124 @@
       "versions": [
         "6348729"
       ]
+    },
+    {
+      "authors": [
+        {
+          "name": "A. Wolny"
+        },
+        {
+          "name": "V. Bondarenko"
+        }
+      ],
+      "covers": [
+        "https://zenodo.org/api/files/87d721be-2c22-4b0c-b6e0-0aed3b4bdc33/raw.png",
+        "https://zenodo.org/api/files/87d721be-2c22-4b0c-b6e0-0aed3b4bdc33/pred.png"
+      ],
+      "description": "A 3D U-Net trained to predict the cell boundaries in live light sheet images of developing mouse embryo. Voxel size: 0.2\u00d70.2\u00d71.0 \u00b5m^3",
+      "id": "10.5281/zenodo.6384845",
+      "license": "MIT",
+      "links": [
+        "imjoy/BioImageIO-Packager"
+      ],
+      "name": "3D UNet Mouse Embryo Live",
+      "nickname": "powerful-fish",
+      "nickname_icon": "\ud83d\udc1f",
+      "owners": [
+        66700
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6384845/6384846/rdf.yaml",
+      "tags": [
+        "plantseg",
+        "unet",
+        "3d",
+        "semantic-segmentation",
+        "mouse-embryo",
+        "cell-membrane",
+        "animal",
+        "tissue",
+        "light-sheet-microscopy",
+        "pytorch",
+        "live"
+      ],
+      "type": "model",
+      "versions": [
+        "6384846"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "affiliation": "EMBL Heidelberg",
+          "name": "Constantin Pape"
+        }
+      ],
+      "covers": [
+        "https://zenodo.org/api/files/73fe6e10-5600-44ac-b8ab-f8c38568a529/cover.png"
+      ],
+      "description": "Prediction Enhancer for segmenting mitochondria in EM images.",
+      "id": "10.5281/zenodo.6406756",
+      "license": "CC-BY-4.0",
+      "links": [
+        "ilastik/ilastik",
+        "deepimagej/deepimagej",
+        "imjoy/BioImageIO-Packager"
+      ],
+      "name": "EnhancerMitochondriaEM2D",
+      "nickname": "hiding-blowfish",
+      "nickname_icon": "\ud83d\udc21",
+      "owners": [
+        77626
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6406756/6406757/rdf.yaml",
+      "tags": [
+        "unet",
+        "mitochondria",
+        "electron-microscopy",
+        "instance-segmentation",
+        "2d"
+      ],
+      "type": "model",
+      "versions": [
+        "6406757"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "affiliation": "EMBL Heidelberg",
+          "name": "Constantin Pape"
+        }
+      ],
+      "covers": [
+        "https://zenodo.org/api/files/a7eb8d94-9217-4276-8b0d-ff88e1ac78c7/cover.png"
+      ],
+      "description": "Segmentation of mitochondria in EM images.",
+      "id": "10.5281/zenodo.6406803",
+      "license": "CC-BY-4.0",
+      "links": [
+        "deepimagej/deepimagej",
+        "ilastik/ilastik",
+        "imjoy/BioImageIO-Packager"
+      ],
+      "name": "MitchondriaEMSegmentation2D",
+      "nickname": "shivering-raccoon",
+      "nickname_icon": "\ud83e\udd9d",
+      "owners": [
+        77626
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6406803/6406804/rdf.yaml",
+      "tags": [
+        "unet",
+        "mitochondria",
+        "electron-microscopy",
+        "instance-segmentation",
+        "2d"
+      ],
+      "type": "model",
+      "versions": [
+        "6406804"
+      ]
     }
   ],
   "config": {
@@ -4400,13 +4515,13 @@
     "n_resource_versions": {
       "application": 94,
       "dataset": 72,
-      "model": 93,
+      "model": 100,
       "notebook": 4
     },
     "n_resources": {
       "application": 47,
       "dataset": 36,
-      "model": 43,
+      "model": 46,
       "notebook": 2
     },
     "partners": [
