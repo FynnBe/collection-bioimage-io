@@ -14,7 +14,708 @@
     {
       "authors": [
         {
-          "name": "ZeroCostDL4Mic"
+          "name": "Constantin Pape"
+        }
+      ],
+      "covers": [
+        "https://zenodo.org/api/files/a6d65a8b-4fed-453f-89f6-515a2a73a99e/cover.png"
+      ],
+      "description": "Neuron segmentation in EM, trained on the CREMI challenge data.",
+      "download_count": 18433,
+      "id": "10.5281/zenodo.5874741",
+      "license": "CC-BY-4.0",
+      "links": [
+        "deepimagej/deepimagej",
+        "ilastik/ilastik",
+        "imjoy/BioImageIO-Packager",
+        "ilastik/torch-em-3d-unet-notebook"
+      ],
+      "name": "Neuron Segmentation in EM (Membrane Prediction)",
+      "nickname": "impartial-shrimp",
+      "nickname_icon": "\ud83e\udd90",
+      "owners": [
+        77626
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.5874741/5874742/rdf.yaml",
+      "tags": [
+        "unet",
+        "neurons",
+        "instance-segmentation",
+        "electron-microscopy",
+        "cremi",
+        "connectomics",
+        "3d",
+        "affinity-prediction"
+      ],
+      "training_data": {
+        "id": "ilastik/cremi_training_data"
+      },
+      "type": "model",
+      "versions": [
+        "5874742"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "name": "Constantin Pape; @constantinpape"
+        }
+      ],
+      "covers": [
+        "https://zenodo.org/api/files/334f9dd9-ae1e-46e2-9a6a-5445758c4e9c/cover.png"
+      ],
+      "description": "{organelle} segmentation in EM of platynereis.",
+      "download_count": 15877,
+      "id": "10.5281/zenodo.6028097",
+      "license": "CC-BY-4.0",
+      "links": [
+        "deepimagej/deepimagej",
+        "ilastik/ilastik",
+        "imjoy/BioImageIO-Packager",
+        "ilastik/torch-em-3d-unet-notebook"
+      ],
+      "name": "PlatynereisEMnucleiSegmentationBoundaryModel",
+      "nickname": "organized-badger",
+      "nickname_icon": "\ud83e\udda1",
+      "owners": [
+        77626
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6028097/6028098/rdf.yaml",
+      "tags": [
+        "unet",
+        "nuclei",
+        "instance-segmentation",
+        "electron-microscopy",
+        "platynereis",
+        "affinity-prediction"
+      ],
+      "training_data": {
+        "id": "ilastik/platynereis_em_training_data"
+      },
+      "type": "model",
+      "versions": [
+        "6028098"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "github_user": "uschmidt83",
+          "name": "Uwe Schmidt"
+        },
+        {
+          "github_user": "maweigert",
+          "name": "Martin Weigert"
+        }
+      ],
+      "covers": [
+        "https://zenodo.org/api/files/9ae447ab-07e8-4f44-bc0a-b750d72fe478/stardist_logo.jpg",
+        "https://zenodo.org/api/files/9ae447ab-07e8-4f44-bc0a-b750d72fe478/example_histo.jpg"
+      ],
+      "description": "StarDist - Object Detection with Star-convex Shapes",
+      "download_count": 13487,
+      "id": "10.5281/zenodo.6338614",
+      "license": "BSD-3-Clause",
+      "links": [
+        "deepimagej/deepimagej",
+        "imjoy/BioImageIO-Packager",
+        "ilastik/tnbc",
+        "bioimageio/stardist",
+        "bioimageio/qupath"
+      ],
+      "name": "StarDist H&E Nuclei Segmentation",
+      "nickname": "chatty-frog",
+      "nickname_icon": "\ud83d\udc38",
+      "owners": [
+        313404
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6338614/6338615/rdf.yaml",
+      "tags": [
+        "whole-slide-imaging",
+        "2d",
+        "nuclei",
+        "tensorflow",
+        "unet",
+        "instance-segmentation",
+        "object-detection",
+        "stardist"
+      ],
+      "training_data": {
+        "id": "deepimagej/monuseg_digital_pathology_miccai2018"
+      },
+      "type": "model",
+      "versions": [
+        "6338615"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "affiliation": "EMBL Heidelberg",
+          "name": "Constantin Pape"
+        }
+      ],
+      "covers": [
+        "https://zenodo.org/api/files/647f8e3d-3f05-4e3d-a43e-e72717a076a0/cover.png"
+      ],
+      "description": "Perform leaf segmentation in light microscopy images of Arabidopsis",
+      "download_count": 12572,
+      "id": "10.5281/zenodo.6348728",
+      "license": "MIT",
+      "links": [
+        "deepimagej/deepimagej",
+        "imjoy/BioImageIO-Packager",
+        "ilastik/ilastik",
+        "zero/notebook_u-net_3d_zerocostdl4mic"
+      ],
+      "name": "Arabidopsis Leaf Segmentation",
+      "nickname": "non-judgemental-eagle",
+      "nickname_icon": "\ud83e\udd85",
+      "owners": [
+        77626
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6348728/6348729/rdf.yaml",
+      "tags": [
+        "zerocostdl4mic",
+        "deepimagej",
+        "segmentation",
+        "unet"
+      ],
+      "training_data": {
+        "id": "ilastik/arabidopsis_tissue_atlas"
+      },
+      "type": "model",
+      "versions": [
+        "6348729"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "github_user": "uschmidt83",
+          "name": "Uwe Schmidt"
+        },
+        {
+          "github_user": "maweigert",
+          "name": "Martin Weigert"
+        }
+      ],
+      "covers": [
+        "https://zenodo.org/api/files/7ad06458-46e3-444b-b018-55a3c7a9fe27/stardist_logo.jpg",
+        "https://zenodo.org/api/files/7ad06458-46e3-444b-b018-55a3c7a9fe27/example_fluo.jpg"
+      ],
+      "description": "StarDist - Object Detection with Star-convex Shapes",
+      "download_count": 12233,
+      "id": "10.5281/zenodo.6348084",
+      "license": "BSD-3-Clause",
+      "links": [
+        "deepimagej/deepimagej",
+        "imjoy/BioImageIO-Packager",
+        "bioimageio/stardist",
+        "bioimageio/qupath"
+      ],
+      "name": "StarDist Fluorescence Nuclei Segmentation",
+      "nickname": "fearless-crab",
+      "nickname_icon": "\ud83e\udd80",
+      "owners": [
+        313404
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6348084/6348085/rdf.yaml",
+      "tags": [
+        "fluorescence-light-microscopy",
+        "whole-slide-imaging",
+        "other",
+        "2d",
+        "cells",
+        "nuclei",
+        "tensorflow",
+        "fiji",
+        "unet",
+        "instance-segmentation",
+        "object-detection",
+        "stardist"
+      ],
+      "training_data": {
+        "id": "ilastik/stradist_dsb_training_data"
+      },
+      "type": "model",
+      "versions": [
+        "6348085"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "name": "Lorenzo Cerrone"
+        },
+        {
+          "name": "Adrian Wolny"
+        }
+      ],
+      "covers": [
+        "https://zenodo.org/api/files/9c2e422f-08fd-4692-bcf9-41e1a74e193d/raw.png",
+        "https://zenodo.org/api/files/9c2e422f-08fd-4692-bcf9-41e1a74e193d/pred.png"
+      ],
+      "description": "3D Unet trained on confocal images of Arabidopsis thaliana apical stem cell: https://www.repository.cam.ac.uk/handle/1810/262530. Voxel size: [0.25, 0.25, 0.25]",
+      "download_count": 10895,
+      "id": "10.5281/zenodo.6346511",
+      "license": "MIT",
+      "links": [
+        "imjoy/BioImageIO-Packager"
+      ],
+      "name": "3D UNet Arabidopsis Apical Stem Cells",
+      "nickname": "emotional-cricket",
+      "nickname_icon": "\ud83e\udd97",
+      "owners": [
+        66700
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6346511/6346512/rdf.yaml",
+      "tags": [
+        "plantseg",
+        "unet",
+        "3d",
+        "semantic-segmentation",
+        "arabidopsis",
+        "stem-cells",
+        "cell-membrane",
+        "plant",
+        "tissue",
+        "fluorescence-light-microscopy",
+        "pytorch"
+      ],
+      "type": "model",
+      "versions": [
+        "6346512"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "affiliation": "EMBL Heidelberg",
+          "name": "Constantin Pape"
+        }
+      ],
+      "covers": [
+        "https://zenodo.org/api/files/a7eb8d94-9217-4276-8b0d-ff88e1ac78c7/cover.png"
+      ],
+      "description": "Segmentation of mitochondria in EM images.",
+      "download_count": 9829,
+      "id": "10.5281/zenodo.6406803",
+      "license": "CC-BY-4.0",
+      "links": [
+        "deepimagej/deepimagej",
+        "ilastik/ilastik",
+        "imjoy/BioImageIO-Packager",
+        "ilastik/torch-em-2d-unet-notebook"
+      ],
+      "name": "MitchondriaEMSegmentation2D",
+      "nickname": "shivering-raccoon",
+      "nickname_icon": "\ud83e\udd9d",
+      "owners": [
+        77626
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6406803/6406804/rdf.yaml",
+      "tags": [
+        "unet",
+        "mitochondria",
+        "electron-microscopy",
+        "instance-segmentation",
+        "2d"
+      ],
+      "training_data": {
+        "id": "ilastik/vnc"
+      },
+      "type": "model",
+      "versions": [
+        "6406804"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "name": "Constantin Pape; @constantinpape"
+        }
+      ],
+      "covers": [
+        "https://zenodo.org/api/files/d2f261ff-8734-4ad0-a84a-6c80c05e5bd3/cover.png"
+      ],
+      "description": "Cell segmentation in EM of platynereis.",
+      "download_count": 8242,
+      "id": "10.5281/zenodo.6028280",
+      "license": "CC-BY-4.0",
+      "links": [
+        "deepimagej/deepimagej",
+        "ilastik/platynereis_em_training_data",
+        "ilastik/ilastik",
+        "imjoy/BioImageIO-Packager"
+      ],
+      "name": "PlatynereisEMcellsSegmentationBoundaryModel",
+      "nickname": "willing-hedgehog",
+      "nickname_icon": "\ud83e\udd94",
+      "owners": [
+        77626
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6028280/6647695/rdf.yaml",
+      "tags": [
+        "unet",
+        "cells",
+        "instance-segmentation",
+        "electron-microscopy",
+        "platynereis"
+      ],
+      "type": "model",
+      "versions": [
+        "6647695",
+        "6028281"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "name": "A. Wolny"
+        },
+        {
+          "name": "V. Bondarenko"
+        }
+      ],
+      "covers": [
+        "https://zenodo.org/api/files/87d721be-2c22-4b0c-b6e0-0aed3b4bdc33/raw.png",
+        "https://zenodo.org/api/files/87d721be-2c22-4b0c-b6e0-0aed3b4bdc33/pred.png"
+      ],
+      "description": "A 3D U-Net trained to predict the cell boundaries in live light sheet images of developing mouse embryo. Voxel size: 0.2\u00d70.2\u00d71.0 \u00b5m^3",
+      "download_count": 8149,
+      "id": "10.5281/zenodo.6384845",
+      "license": "MIT",
+      "links": [
+        "imjoy/BioImageIO-Packager"
+      ],
+      "name": "3D UNet Mouse Embryo Live",
+      "nickname": "powerful-fish",
+      "nickname_icon": "\ud83d\udc1f",
+      "owners": [
+        66700
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6384845/6384846/rdf.yaml",
+      "tags": [
+        "plantseg",
+        "unet",
+        "3d",
+        "semantic-segmentation",
+        "mouse-embryo",
+        "cell-membrane",
+        "animal",
+        "tissue",
+        "light-sheet-microscopy",
+        "pytorch",
+        "live"
+      ],
+      "type": "model",
+      "versions": [
+        "6384846"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "name": "Constantin Pape"
+        }
+      ],
+      "covers": [
+        "https://zenodo.org/api/files/ac8ecde9-bafd-4c2c-9ede-0f4a47077d31/cover.png"
+      ],
+      "description": "Mitochondria segmentation for electron microscopy.",
+      "download_count": 8047,
+      "id": "10.5281/zenodo.5874841",
+      "license": "CC-BY-4.0",
+      "links": [
+        "deepimagej/deepimagej",
+        "ilastik/ilastik",
+        "ilastik/mitoem_segmentation_challenge",
+        "imjoy/BioImageIO-Packager"
+      ],
+      "name": "MitochondriaEMSegmentationBoundaryModel",
+      "nickname": "kind-seashell",
+      "nickname_icon": "\ud83d\udc1a",
+      "owners": [
+        77626
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.5874841/6630266/rdf.yaml",
+      "tags": [
+        "3d",
+        "electron-microscopy",
+        "mitochondria",
+        "instance-segmentation",
+        "unet"
+      ],
+      "type": "model",
+      "versions": [
+        "6630266",
+        "5874842"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "name": "V. Bondarenko"
+        },
+        {
+          "name": "A. Wolny"
+        }
+      ],
+      "covers": [
+        "https://zenodo.org/api/files/4a1f1eaf-685f-4564-810a-25e1e268b3e5/raw.png",
+        "https://zenodo.org/api/files/4a1f1eaf-685f-4564-810a-25e1e268b3e5/pred-boundary.png",
+        "https://zenodo.org/api/files/4a1f1eaf-685f-4564-810a-25e1e268b3e5/pred-nuclei.png"
+      ],
+      "description": "A 3D U-Net trained to predict the nuclei and their boundaries in fixed confocal images of developing mouse embryo.Voxel size: (0.2\u00d70.2\u00d71 \u00b5m^3) (XYZ).",
+      "download_count": 6945,
+      "id": "10.5281/zenodo.6383429",
+      "license": "MIT",
+      "links": [
+        "imjoy/BioImageIO-Packager"
+      ],
+      "name": "3D UNet Mouse Embryo Fixed",
+      "nickname": "loyal-squid",
+      "nickname_icon": "\ud83e\udd91",
+      "owners": [
+        66700
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6383429/6383430/rdf.yaml",
+      "tags": [
+        "plantseg",
+        "unet",
+        "3d",
+        "semantic-segmentation",
+        "mouse-embryo",
+        "nuclei",
+        "animal",
+        "tissue",
+        "confocal-microscopy",
+        "pytorch",
+        "fixed"
+      ],
+      "type": "model",
+      "versions": [
+        "6383430"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "affiliation": "EMBL Heidelberg",
+          "name": "Constantin Pape"
+        }
+      ],
+      "covers": [
+        "https://zenodo.org/api/files/8e1dc6e7-bdc9-412c-b06c-e79ee375989f/cover.png"
+      ],
+      "description": "Cell segmentation for phase-contrast microscopy.",
+      "download_count": 4702,
+      "id": "10.5281/zenodo.5869899",
+      "license": "CC-BY-4.0",
+      "links": [
+        "ilastik/livecell_dataset",
+        "ilastik/ilastik",
+        "deepimagej/deepimagej",
+        "imjoy/BioImageIO-Packager"
+      ],
+      "name": "LiveCellSegmentationBoundaryModel",
+      "nickname": "hiding-tiger",
+      "nickname_icon": "\ud83d\udc05",
+      "owners": [
+        77626
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.5869899/6647688/rdf.yaml",
+      "tags": [
+        "2d",
+        "transmission-light-microscopy",
+        "label-free",
+        "cells",
+        "instance-segmentation",
+        "unet"
+      ],
+      "training_data": {
+        "id": "ilastik/livecell_dataset"
+      },
+      "type": "model",
+      "versions": [
+        "6647688",
+        "6321179",
+        "5869900"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "name": "Hao Xu"
+        },
+        {
+          "name": "Wei Ouyang"
+        }
+      ],
+      "covers": [
+        "https://zenodo.org/api/files/858dbb84-174e-48cb-b2ef-9f1db2d0b275/hpaseg-cover.png"
+      ],
+      "description": "Cell segmentation model for segmenting images from the Human Protein Atlas",
+      "download_count": 4598,
+      "id": "10.5281/zenodo.6200635",
+      "license": "CC-BY-4.0",
+      "links": [
+        "imjoy/BioImageIO-Packager",
+        "hpa/hpa-cell-image-segmentation-dataset"
+      ],
+      "name": "HPA Cell Segmentation (DPNUnet)",
+      "nickname": "loyal-parrot",
+      "nickname_icon": "\ud83e\udd9c",
+      "owners": [
+        47882
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6200635/6538890/rdf.yaml",
+      "tags": [
+        "nucleus-segmentation"
+      ],
+      "type": "model",
+      "versions": [
+        "6538890",
+        "6200636"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "affiliation": "EMBL Heidelberg",
+          "name": "Constantin Pape"
+        }
+      ],
+      "covers": [
+        "https://zenodo.org/api/files/61da5c68-e09b-49a6-899b-94c22cdfc4d9/cover.png"
+      ],
+      "description": "Nucleus segmentation for fluorescence microscopy",
+      "download_count": 4332,
+      "id": "10.5281/zenodo.5764892",
+      "license": "CC-BY-4.0",
+      "links": [
+        "ilastik/stardist_dsb_training_data",
+        "ilastik/ilastik",
+        "deepimagej/deepimagej",
+        "imjoy/BioImageIO-Packager"
+      ],
+      "name": "NucleiSegmentationBoundaryModel",
+      "nickname": "affable-shark",
+      "nickname_icon": "\ud83e\udd88",
+      "owners": [
+        77626
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.5764892/6647674/rdf.yaml",
+      "tags": [
+        "fluorescence-light-microscopy",
+        "nuclei",
+        "instance-segmentation",
+        "unet",
+        "2d"
+      ],
+      "training_data": {
+        "id": "ilastik/stradist_dsb_training_data"
+      },
+      "type": "model",
+      "versions": [
+        "6647674",
+        "6322939"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "affiliation": "EMBL Heidelberg",
+          "name": "Constantin Pape"
+        }
+      ],
+      "covers": [
+        "https://zenodo.org/api/files/0e7404c7-daad-4a1f-9fa8-f12aaa7842cb/cover.png"
+      ],
+      "description": "Prediction enhancer for segmenting mitochondria in EM images.",
+      "download_count": 3755,
+      "id": "10.5281/zenodo.6811491",
+      "license": "CC-BY-4.0",
+      "links": [
+        "deepimagej/deepimagej",
+        "ilastik/torch-em-3d-unet-notebook",
+        "ilastik/ilastik",
+        "imjoy/BioImageIO-Packager"
+      ],
+      "name": "EnhancerMitochondriaEM3D",
+      "nickname": "independent-shrimp",
+      "nickname_icon": "\ud83e\udd90",
+      "owners": [
+        77626
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6811491/6811492/rdf.yaml",
+      "tags": [
+        "unet",
+        "mitochondria",
+        "electron-microscopy",
+        "instance-segmentation",
+        "shallow2deep",
+        "3d"
+      ],
+      "training_data": {
+        "id": "ilastik/mitoem_segmentation_challenge"
+      },
+      "type": "model",
+      "versions": [
+        "6811492"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "affiliation": "EMBL Heidelberg",
+          "name": "Constantin Pape"
+        }
+      ],
+      "covers": [
+        "https://zenodo.org/api/files/c0cfb6e4-94b3-499b-aadf-34bea560e8df/cover.png"
+      ],
+      "description": "Prediction enhancer for segmenting mitochondria in EM images.",
+      "download_count": 3731,
+      "id": "10.5281/zenodo.6406756",
+      "license": "CC-BY-4.0",
+      "links": [
+        "ilastik/torch-em-2d-unet-notebook",
+        "ilastik/ilastik",
+        "deepimagej/deepimagej",
+        "imjoy/BioImageIO-Packager"
+      ],
+      "name": "EnhancerMitochondriaEM2D",
+      "nickname": "hiding-blowfish",
+      "nickname_icon": "\ud83d\udc21",
+      "owners": [
+        77626
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6406756/6811922/rdf.yaml",
+      "tags": [
+        "unet",
+        "mitochondria",
+        "electron-microscopy",
+        "instance-segmentation",
+        "shallow2deep",
+        "2d"
+      ],
+      "training_data": {
+        "id": "ilastik/mitoem_segmentation_challenge"
+      },
+      "type": "model",
+      "versions": [
+        "6811922",
+        "6811498",
+        "6406757"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "affiliation": "Ikerbasque EHU UPV",
+          "name": "Ignacio Arganda Carreras"
         },
         {
           "affiliation": "EPFL, UC3M",
@@ -22,26 +723,896 @@
         }
       ],
       "covers": [
-        "https://raw.githubusercontent.com/deepimagej/models/master/cover.png"
+        "https://zenodo.org/api/files/2d92e820-1b25-40f5-a2af-3219df97d7f7/exampleImage.png",
+        "https://zenodo.org/api/files/2d92e820-1b25-40f5-a2af-3219df97d7f7/resultImage.png"
       ],
-      "description": "2D U-Net trained for binary segmentation using the EM images of neuronal membranes and segmentation masks from the ISBI segmentation challenge 2012.",
-      "download_url": "https://sandbox.zenodo.org/record/904905/files/DeepImageJ_2D_UNet_ZeroCostDL4Mic.zip",
-      "id": "deepimagej/2DUNetZeroCostDL4Mic",
+      "description": "DeepImageJ compatible U-Net trained to segment phase contrast microscopy images of pancreatic stem cells on a 2D polystyrene substrate.",
+      "download_count": 3222,
+      "id": "10.5281/zenodo.5914248",
+      "license": "BSD-2-Clause",
+      "links": [
+        "imjoy/BioImageIO-Packager",
+        "deepimagej/deepimagej",
+        "ilastik/ilastik",
+        "deepimagej/unet-pancreaticcellsegmentation"
+      ],
+      "name": "Pancreatic Phase Contrast Cell Segmentation (U-Net)",
+      "nickname": "discreet-rooster",
+      "nickname_icon": "\ud83d\udc13",
+      "owners": [
+        147356
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.5914248/6514622/rdf.yaml",
+      "tags": [
+        "deepimagej",
+        "pancreatic-stem-cells",
+        "segmentation",
+        "phase-contrast",
+        "unet",
+        "neubias",
+        "cell-tracking-challenge",
+        "transmission-light-microscopy",
+        "2d",
+        "cells",
+        "semantic-segmentation",
+        "tensorflow"
+      ],
+      "type": "model",
+      "versions": [
+        "6514622",
+        "6514446",
+        "5914249"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "name": "Lorenzo Cerrone"
+        },
+        {
+          "name": "Adrian Wolny"
+        }
+      ],
+      "covers": [
+        "https://zenodo.org/api/files/990c06ad-189d-4cfa-8168-46bb2858a634/raw.png",
+        "https://zenodo.org/api/files/990c06ad-189d-4cfa-8168-46bb2858a634/pred.png"
+      ],
+      "description": "A 2D U-Net trained to predict the cell boundaries in confocal stacks of Arabidopsis ovules. Trained on z-slices of 3D confocal images.",
+      "download_count": 2993,
+      "id": "10.5281/zenodo.6334383",
       "license": "MIT",
       "links": [
-        "zero/Notebook_U-Net_2D_ZeroCostDL4Mic_DeepImageJ",
-        "deepimagej/deepimagej",
         "imjoy/BioImageIO-Packager"
       ],
-      "name": "2D UNet - ZeroCostDL4Mic",
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/deepimagej/2DUNetZeroCostDL4Mic/latest/rdf.yaml",
+      "name": "2D UNet Arabidopsis Ovules",
+      "nickname": "pioneering-rhino",
+      "nickname_icon": "\ud83e\udd8f",
+      "owners": [
+        66700
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6334383/6346500/rdf.yaml",
+      "tags": [
+        "plantseg",
+        "unet",
+        "2d",
+        "semantic-segmentation",
+        "arabidopsis",
+        "ovules",
+        "cell-membrane",
+        "plant",
+        "tissue",
+        "fluorescence-light-microscopy",
+        "pytorch"
+      ],
+      "type": "model",
+      "versions": [
+        "6346500",
+        "6334384"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "affiliation": "UC3M, EPFL",
+          "name": "DeepImageJ"
+        },
+        {
+          "affiliation": "UCL, University of Turku and \u00c5bo Akademi University",
+          "name": "ZeroCostDL4Mic"
+        }
+      ],
+      "covers": [
+        "https://zenodo.org/api/files/eb8f4259-001c-4989-b8ea-d2997918599d/input.png",
+        "https://zenodo.org/api/files/eb8f4259-001c-4989-b8ea-d2997918599d/output.png"
+      ],
+      "description": "A 3D U-net to predict cell membranes in plant tissues, trained on volumes of Arabidopsis thaliana ovules acquired on a confocal microscope.",
+      "download_count": 2693,
+      "id": "10.5281/zenodo.5749843",
+      "license": "MIT",
+      "links": [
+        "imjoy/BioImageIO-Packager",
+        "ilastik/ilastik",
+        "deepimagej/deepimagej",
+        "zero/notebook_u-net_3d_zerocostdl4mic"
+      ],
+      "name": "Cell Segmentation from Membrane Staining for Plant Tissues",
+      "nickname": "humorous-owl",
+      "nickname_icon": "\ud83e\udd89",
+      "owners": [
+        252845
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.5749843/5888237/rdf.yaml",
       "tags": [
         "zerocostdl4mic",
         "deepimagej",
         "segmentation",
-        "unet"
+        "3d",
+        "unet",
+        "fluorescence-light-microscopy",
+        "cell-membrane",
+        "plant",
+        "arabidopsis",
+        "tensorflow"
+      ],
+      "training_data": {
+        "id": "ilastik/plantseg_ovules"
+      },
+      "type": "model",
+      "versions": [
+        "5888237",
+        "5877226"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "affiliation": "EMBL Heidelberg",
+          "name": "Constantin Pape"
+        }
+      ],
+      "covers": [
+        "https://zenodo.org/api/files/67864f33-063b-43e9-a40f-0f36bf6397d4/cover.png"
+      ],
+      "description": "Cell segmentation for immunofluorescence microscopy.",
+      "download_count": 2505,
+      "id": "10.5281/zenodo.5847355",
+      "license": "CC-BY-4.0",
+      "links": [
+        "ilastik/covid_if_training_data",
+        "ilastik/ilastik",
+        "deepimagej/deepimagej",
+        "imjoy/BioImageIO-Packager"
+      ],
+      "name": "CovidIFCellSegmentationBoundaryModel",
+      "nickname": "powerful-chipmunk",
+      "nickname_icon": "\ud83d\udc3f",
+      "owners": [
+        77626
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.5847355/6647683/rdf.yaml",
+      "tags": [
+        "unet",
+        "cells",
+        "transmission-light-microscopy",
+        "covid19",
+        "immunofluorescence",
+        "instance-segmentation"
+      ],
+      "training_data": {
+        "id": "ilastik/covid_if_training_data"
+      },
+      "type": "model",
+      "versions": [
+        "6647683",
+        "6322908"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "name": "Constantin Pape; @constantinpape"
+        }
+      ],
+      "covers": [
+        "https://zenodo.org/api/files/573e9a49-d156-46ea-838e-55ec9ebe9e00/cover.png"
+      ],
+      "description": "affinity-model",
+      "download_count": 2452,
+      "id": "10.5281/zenodo.6079314",
+      "license": "CC-BY-4.0",
+      "links": [
+        "deepimagej/deepimagej",
+        "ilastik/ilastik",
+        "imjoy/BioImageIO-Packager",
+        "ilastik/torch-em-2d-unet-notebook",
+        "ilastik/mws-segmentation"
+      ],
+      "name": "EpitheliaAffinityModel",
+      "nickname": "wild-whale",
+      "nickname_icon": "\ud83d\udc33",
+      "owners": [
+        77626
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6079314/6385590/rdf.yaml",
+      "tags": [
+        "u-net",
+        "segmentation"
       ],
       "type": "model",
+      "versions": [
+        "6385590",
+        "6079315"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "name": "Adrian Wolny"
+        },
+        {
+          "name": "Lorenzo Cerrone"
+        }
+      ],
+      "covers": [
+        "https://zenodo.org/api/files/6955b0c0-b211-42a1-8251-0e3d82f612d5/raw.png",
+        "https://zenodo.org/api/files/6955b0c0-b211-42a1-8251-0e3d82f612d5/pred.png"
+      ],
+      "description": "A 3D U-Net trained to predict the cell boundaries in lightsheet stacks of Arabidopsis Lateral Root Primordia. (0.25x0.1625x0.1625) microns ZYX",
+      "download_count": 2226,
+      "id": "10.5281/zenodo.6334777",
+      "license": "MIT",
+      "links": [
+        "imjoy/BioImageIO-Packager"
+      ],
+      "name": "3D UNet Lateral Root Primordia Cells",
+      "nickname": "thoughtful-turtle",
+      "nickname_icon": "\ud83d\udc22",
+      "owners": [
+        66700
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6334777/6346524/rdf.yaml",
+      "tags": [
+        "plantseg",
+        "unet",
+        "3d",
+        "semantic-segmentation",
+        "arabidopsis",
+        "lateral-root",
+        "cell-membrane",
+        "plant",
+        "tissue",
+        "light-sheet-fluorescence-microscopy",
+        "pytorch",
+        "plantseg"
+      ],
+      "type": "model",
+      "versions": [
+        "6346524",
+        "6334778"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "name": "Hao Xu"
+        },
+        {
+          "name": "Wei Ouyang"
+        }
+      ],
+      "covers": [
+        "https://zenodo.org/api/files/0c6f4346-c936-420b-89be-322f6df574ae/hpaseg-cover.png"
+      ],
+      "description": "Nuclei segmentation model for segmenting images from the Human Protein Atlas",
+      "download_count": 2144,
+      "id": "10.5281/zenodo.6200999",
+      "license": "CC-BY-4.0",
+      "links": [
+        "deepimagej/deepimagej"
+      ],
+      "name": "HPA Nucleus Segmentation (DPNUnet)",
+      "nickname": "conscientious-seashell",
+      "nickname_icon": "\ud83d\udc1a",
+      "owners": [
+        47882
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6200999/6538911/rdf.yaml",
+      "tags": [
+        "nucleus-segmentation"
+      ],
+      "type": "model",
+      "versions": [
+        "6538911",
+        "6224243"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "affiliation": "Universidad Carlos III de Madrid",
+          "name": "Estibaliz G\u00f3mez-de-Mariscal"
+        },
+        {
+          "affiliation": "Masaryk University",
+          "name": "Martin Ma\u0161ka"
+        },
+        {
+          "affiliation": "Masaryk University",
+          "name": "Anna Kotrbov\u00e1"
+        },
+        {
+          "affiliation": "Masaryk University",
+          "name": "Vendula Posp\u00edchalov\u00e1"
+        },
+        {
+          "affiliation": "Masaryk University",
+          "name": "Pavel Matula"
+        },
+        {
+          "affiliation": "Universidad Carlos III de Madrid",
+          "name": "Arrate Mu\u00f1oz-Barrutia"
+        }
+      ],
+      "covers": [
+        "https://zenodo.org/api/files/e1fbb083-1395-4786-bb14-96785b5c990a/frunet_sev.jpg"
+      ],
+      "description": "DeepImageJ compatible fully residual U-Net trained to segment small extracellular vesicles in 2D TEM images",
+      "download_count": 2143,
+      "download_url": "https://zenodo.org/api/files/e1fbb083-1395-4786-bb14-96785b5c990a/deepimagej_fru-net_sev_segmentation.zip",
+      "id": "10.5281/zenodo.6559474",
+      "license": "BSD-3-Clause",
+      "links": [
+        "deepimagej/deepimagej",
+        "deepimagej/EVsTEMsegmentationFRUNet",
+        "imjoy/BioImageIO-Packager",
+        "ilastik/ilastik"
+      ],
+      "name": "Small Extracellular Vesicle TEM Segmentation (Fully Residual U-Net)",
+      "nickname": "naked-microbe",
+      "nickname_icon": "\ud83e\udda0",
+      "owners": [
+        271523
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6559474/6559475/rdf.yaml",
+      "tags": [
+        "deepimagej",
+        "extracellular-vesicles",
+        "segmentation",
+        "tem",
+        "frunet",
+        "exosomes",
+        "electron-microscopy",
+        "2d-segmentation",
+        "2d",
+        "tensorflow",
+        "segmentation",
+        "instance-segmentation"
+      ],
+      "type": "model",
+      "versions": [
+        "6559475"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "affiliation": "",
+          "name": "ZeroCostDL4Mic team"
+        },
+        {
+          "name": "Constantin Pape"
+        },
+        {
+          "name": "DeepImageJ team"
+        }
+      ],
+      "covers": [
+        "https://zenodo.org/api/files/5a9cfb56-3a5d-4796-986d-8f46b7987b92/cover.png"
+      ],
+      "description": "2D UNet trained using ZeroCostDL4Mic notebooks on data from ISBI Challenge for neuron segmentation in Transmission Electron Microscopy images.",
+      "download_count": 2124,
+      "id": "10.5281/zenodo.5817052",
+      "license": "MIT",
+      "links": [
+        "imjoy/BioImageIO-Packager",
+        "zero/notebook_u-net_2d_zerocostdl4mic_deepimagej",
+        "deepimagej/deepimagej"
+      ],
+      "name": "Neuron Segmentation in 2D EM (Membrane)",
+      "nickname": "creative-panda",
+      "nickname_icon": "\ud83d\udc3c",
+      "owners": [
+        271523
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.5817052/5906839/rdf.yaml",
+      "tags": [
+        "zerocostdl4mic",
+        "deepimagej",
+        "segmentation",
+        "electron-microscopy",
+        "unet",
+        "isbi2012-challenge",
+        "neurons",
+        "brain",
+        "boundary-segmentation",
+        "2d"
+      ],
+      "type": "model",
+      "versions": [
+        "5906839",
+        "5850574"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "name": "Adrian Wolny"
+        },
+        {
+          "name": "Lorenzo Cerrone"
+        }
+      ],
+      "covers": [
+        "https://zenodo.org/api/files/9a608180-9f71-43d9-9242-b4e0a4aec21d/ilastik_raw.png",
+        "https://zenodo.org/api/files/9a608180-9f71-43d9-9242-b4e0a4aec21d/ilastik_sneak.png",
+        "https://zenodo.org/api/files/9a608180-9f71-43d9-9242-b4e0a4aec21d/ilastik_pred.png"
+      ],
+      "description": "A 3d U-Net trained to predict the cell boundaries in confocal stacks of Arabidopsis ovules. Voxel size: (0.235, 0.150, 0.150) microns ZYX",
+      "download_count": 2043,
+      "id": "10.5281/zenodo.6334583",
+      "license": "MIT",
+      "links": [
+        "imjoy/BioImageIO-Packager"
+      ],
+      "name": "3D UNet Arabidopsis Ovules",
+      "nickname": "passionate-t-rex",
+      "nickname_icon": "\ud83e\udd96",
+      "owners": [
+        66700
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6334583/6346519/rdf.yaml",
+      "tags": [
+        "plantseg",
+        "unet",
+        "3d",
+        "semantic-segmentation",
+        "arabidopsis",
+        "ovules",
+        "cell-membrane",
+        "plant",
+        "tissue",
+        "fluorescence-light-microscopy",
+        "pytorch"
+      ],
+      "type": "model",
+      "versions": [
+        "6346519",
+        "6334584"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "name": "Shubin Dai"
+        }
+      ],
+      "covers": [
+        "https://zenodo.org/api/files/9d3f4b43-f5b6-4596-adc4-12cfb0ab83c6/diagram-of-InceptionV3.png"
+      ],
+      "description": "The winning model of HPA image classification 2021 by Bestfitting",
+      "download_count": 2030,
+      "id": "10.5281/zenodo.5910854",
+      "license": "MIT",
+      "links": [
+        "imjoy/BioImageIO-Packager",
+        "hpa/hpa-kaggle-2021-dataset"
+      ],
+      "name": "HPA Bestfitting InceptionV3",
+      "nickname": "straightforward-crocodile",
+      "nickname_icon": "\ud83d\udc0a",
+      "owners": [
+        47882
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.5910854/6539073/rdf.yaml",
+      "tags": [
+        "classification",
+        "inception-v3",
+        "hpa",
+        "onnx",
+        "cells",
+        "protein-localization"
+      ],
+      "type": "model",
+      "versions": [
+        "6539073",
+        "5911832"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "name": "Lorenzo Cerrone"
+        },
+        {
+          "name": "Adrian Wolny"
+        }
+      ],
+      "covers": [
+        "https://zenodo.org/api/files/4a69ddca-3874-4469-b11d-b9ed626d197f/raw.png",
+        "https://zenodo.org/api/files/4a69ddca-3874-4469-b11d-b9ed626d197f/pred.png"
+      ],
+      "description": "2D Unet trained on z-slices of confocal images of Arabidopsis thaliana apical stem cells. Trained on z-slices of 3D confocal images. Voxel size: [0.25, 0.25, 0.25]",
+      "download_count": 2030,
+      "id": "10.5281/zenodo.6334881",
+      "license": "MIT",
+      "links": [
+        "imjoy/BioImageIO-Packager"
+      ],
+      "name": "2D UNet Arabidopsis Apical Stem Cells",
+      "nickname": "laid-back-lobster",
+      "nickname_icon": "\ud83e\udd9e",
+      "owners": [
+        66700
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6334881/6346477/rdf.yaml",
+      "tags": [
+        "plantseg",
+        "unet",
+        "2d",
+        "semantic-segmentation",
+        "arabidopsis",
+        "stem-cells",
+        "cell-membrane",
+        "plant",
+        "tissue",
+        "fluorescence-light-microscopy",
+        "pytorch"
+      ],
+      "type": "model",
+      "versions": [
+        "6346477",
+        "6334882"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "name": "Shubin Dai"
+        }
+      ],
+      "covers": [
+        "https://zenodo.org/api/files/91895c21-4e8e-4cd0-98c3-1fae496b6068/bestfitting-densenet-diagram.png"
+      ],
+      "description": "The winning model of HPA image classification 2019 by Bestfitting",
+      "download_count": 2020,
+      "id": "10.5281/zenodo.5910163",
+      "license": "MIT",
+      "links": [
+        "imjoy/BioImageIO-Packager"
+      ],
+      "name": "HPA Bestfitting Densenet",
+      "nickname": "polite-pig",
+      "nickname_icon": "\ud83d\udc16",
+      "owners": [
+        47882
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.5910163/5942853/rdf.yaml",
+      "tags": [
+        "classification",
+        "densenet-121",
+        "hpa",
+        "onnx",
+        "cells",
+        "protein-localization"
+      ],
+      "type": "model",
+      "versions": [
+        "5942853"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "affiliation": "Universidad Carlos III de Madrid",
+          "name": "Estibaliz G\u00f3mez-de-Mariscal"
+        },
+        {
+          "affiliation": "Masaryk University",
+          "name": "Martin Ma\u0161ka"
+        },
+        {
+          "affiliation": "Masaryk University",
+          "name": "Anna Kotrbov\u00e1"
+        },
+        {
+          "affiliation": "Masaryk University",
+          "name": "Vendula Posp\u00edchalov\u00e1"
+        },
+        {
+          "affiliation": "Masaryk University",
+          "name": "Pavel Matula"
+        },
+        {
+          "affiliation": "Universidad Carlos III de Madrid",
+          "name": "Arrate Mu\u00f1oz-Barrutia"
+        }
+      ],
+      "covers": [
+        "https://zenodo.org/api/files/32af4225-91c2-4d08-aea5-7882ef8d0120/sevs-segmentation.png"
+      ],
+      "description": "DeepImageJ compatible fully residual U-Net trained to segment small extracellular vesicles in 2D TEM images",
+      "download_count": 1817,
+      "download_url": "https://cbia.fi.muni.cz/files/segmentation/fru-net/FRU_processing.zip",
+      "id": "10.5281/zenodo.6559929",
+      "license": "MIT",
+      "links": [],
+      "name": "Small Extracellular Vesicle TEM Instance Segmentation annotated data",
+      "owners": [
+        271523
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6559929/6559930/rdf.yaml",
+      "source": "https://cbia.fi.muni.cz/research/segmentation/fru-net",
+      "tags": [
+        "extracellular-vesicles",
+        "segmentation",
+        "tem",
+        "exosomes",
+        "electron-microscopy",
+        "2d-segmentation",
+        "2d",
+        "segmentation",
+        "instance-segmentation"
+      ],
+      "type": "dataset",
+      "versions": [
+        "6559930"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "affiliation": "Instituto Gulbenkian de Ciencia",
+          "name": "Estibaliz Gomez de Mariscal"
+        }
+      ],
+      "covers": [
+        "https://zenodo.org/api/files/9ea15be9-4f23-4c40-94ca-a6bf0e8a2f77/cover_1.png",
+        "https://zenodo.org/api/files/9ea15be9-4f23-4c40-94ca-a6bf0e8a2f77/cover.png"
+      ],
+      "description": "This trained 2D U-Net model segments the contour, foreground and background of Bacillus Subtilis bacteria imaged with Widefield microscopy images. The current segmentation enables running further watershed segmentation to obtain a unique label for each individual bacteria detected in the image.",
+      "download_count": 1359,
+      "id": "10.5281/zenodo.7261974",
+      "license": "MIT",
+      "links": [
+        "deepimagej/deepimagej",
+        "imjoy/BioImageIO-Packager",
+        "ilastik/ilastik",
+        "zero/notebook_u-net_2d_multilabel_zerocostdl4mic"
+      ],
+      "name": " B. Sutilist bacteria segmentation - Widefield microscopy - 2D UNet",
+      "nickname": "placid-llama",
+      "nickname_icon": "\ud83e\udd99",
+      "owners": [
+        147356
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.7261974/7546703/rdf.yaml",
+      "tags": [
+        "zerocostdl4mic",
+        "segmentation",
+        "2d",
+        "unet",
+        "bacillus-subtilis",
+        "fluorescence-light-microscopy",
+        "cells",
+        "semantic-segmentation",
+        "bacteria",
+        "microbiology"
+      ],
+      "type": "model",
+      "versions": [
+        "7546703",
+        "7261975"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "affiliation": "EMBL Heidelberg",
+          "github_user": "jhennies",
+          "name": "Julian Hennies",
+          "orcid": "0000-0002-0555-151X"
+        }
+      ],
+      "covers": [
+        "https://zenodo.org/api/files/c95661ca-b06a-464f-810c-5c9804ebe982/coverimage.jpg"
+      ],
+      "description": "Cellular membrane prediction model for volume SEM datasets",
+      "download_count": 1352,
+      "id": "10.5281/zenodo.7274275",
+      "license": "CC-BY-4.0",
+      "links": [
+        "imjoy/BioImageIO-Packager",
+        "ilastik/ilastik"
+      ],
+      "name": "CebraNET Cellular Membranes in Volume SEM",
+      "nickname": "joyful-deer",
+      "nickname_icon": "\ud83e\udd8c",
+      "owners": [
+        432585
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.7274275/7274276/rdf.yaml",
+      "tags": [
+        "unet",
+        "3d",
+        "cells",
+        "whole-organism",
+        "ilastik",
+        "semantic-segmentation",
+        "electron-microscopy",
+        "pytorch",
+        "membranes",
+        "hela",
+        "macrophage",
+        "platynereis",
+        "calu-3"
+      ],
+      "type": "model",
+      "versions": [
+        "7274276"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "name": "Daniel Capek",
+          "orcid": "0000-0001-5199-9940"
+        },
+        {
+          "name": "Matvey Safroshkin",
+          "orcid": "0000-0003-3955-5081"
+        },
+        {
+          "name": "Hernan Morales",
+          "orcid": "0000-0002-9578-2556"
+        },
+        {
+          "name": "Grigory Arutyunov",
+          "orcid": "0000-0002-4372-9155"
+        },
+        {
+          "name": "Nikan Toulany"
+        },
+        {
+          "name": "Patrick Mueller"
+        }
+      ],
+      "covers": [
+        "https://zenodo.org/api/files/1e6b7502-1c32-4f3a-98ff-bbed8f2b808f/phenotypes_features.png"
+      ],
+      "description": "EmbryoNet Model by embryoNet Team",
+      "download_count": 796,
+      "id": "10.5281/zenodo.7315440",
+      "license": "GPL-3.0",
+      "links": [
+        "Embryonet.de",
+        "imjoy/BioImageIO-Packager"
+      ],
+      "name": "EmbryoNet base model",
+      "nickname": "nice-peacock",
+      "nickname_icon": "\ud83e\udd9a",
+      "owners": [
+        411780
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.7315440/7315441/rdf.yaml",
+      "tags": [
+        "classification",
+        "resnet-18",
+        "embryology",
+        "onnx",
+        "embryo",
+        "developmental-biology"
+      ],
+      "type": "model",
+      "versions": [
+        "7315441"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "affiliation": "EMBL Heidelberg",
+          "name": "Jonas Hellgoth"
+        }
+      ],
+      "covers": [
+        "https://zenodo.org/api/files/594b8635-b6ad-4507-a944-e23d691a933c/cover.png"
+      ],
+      "description": "Prediction enhancer for segmenting cell boundaries in EM images.",
+      "download_count": 593,
+      "id": "10.5281/zenodo.6808325",
+      "license": "CC-BY-4.0",
+      "links": [
+        "ilastik/ilastik",
+        "deepimagej/deepimagej",
+        "ilastik/torch-em-3d-unet-notebook",
+        "imjoy/BioImageIO-Packager"
+      ],
+      "name": "EM3DBoundaryEnhancer",
+      "nickname": "determined-chipmunk",
+      "nickname_icon": "\ud83d\udc3f",
+      "owners": [
+        77626
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6808325/6808413/rdf.yaml",
+      "tags": [
+        "unet",
+        "cells",
+        "electron-microscopy",
+        "instance-segmentation",
+        "3d",
+        "shallow2deep"
+      ],
+      "training_data": {
+        "id": "ilastik/vnc"
+      },
+      "type": "model",
+      "versions": [
+        "6808413"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "affiliation": "SUSTech",
+          "name": "Zoufu"
+        }
+      ],
+      "covers": [
+        "https://zenodo.org/api/files/d92e7d96-f4c9-4fd3-a23b-c51b6b1cda66/image.png",
+        "https://zenodo.org/api/files/d92e7d96-f4c9-4fd3-a23b-c51b6b1cda66/lable.png"
+      ],
+      "description": "DeepImageJ compatible FRUNet trained to subtly segment cells and gland.",
+      "download_count": 554,
+      "id": "10.5281/zenodo.6865412",
+      "license": "CC-BY-4.0",
+      "name": "Cells and gland Segmentation (FRUNet)",
+      "nickname": "impartial-shark",
+      "nickname_icon": "\ud83e\udd88",
+      "owners": [
+        370412
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6865412/6919253/rdf.yaml",
+      "tags": [
+        "deepimagej",
+        "segmentation",
+        "cells and gland",
+        "fourier channel attention"
+      ],
+      "type": "model",
+      "versions": [
+        "6919253"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "github_user": "petebankhead",
+          "name": "Pete Bankhead"
+        }
+      ],
+      "covers": [
+        "https://raw.githubusercontent.com/qupath/qupath/e96e7f228c2a9e27e7236108808540a4dbf503e8/qupath-gui-fx/src/main/resources/icons/QuPath_512.png"
+      ],
+      "description": "QuPath is an open, powerful, flexible, extensible software platform for bioimage analysis.",
+      "download_count": 1,
+      "icon": "https://raw.githubusercontent.com/qupath/qupath/e96e7f228c2a9e27e7236108808540a4dbf503e8/qupath-gui-fx/src/main/resources/icons/QuPath_64.png",
+      "id": "bioimageio/qupath",
+      "name": "QuPath",
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/bioimageio/qupath/latest/rdf.yaml",
+      "tags": [
+        "qupath"
+      ],
+      "type": "application",
       "versions": [
         "latest"
       ]
@@ -49,34 +1620,27 @@
     {
       "authors": [
         {
-          "affiliation": "EPFL, UC3M",
-          "name": "DeepImageJ team"
+          "github_user": "uschmidt83",
+          "name": "Uwe Schmidt"
+        },
+        {
+          "github_user": "maweigert",
+          "name": "Martin Weigert"
         }
       ],
       "covers": [
-        "./exampleImage.gif"
+        "https://raw.githubusercontent.com/stardist/stardist/master/images/stardist_logo.jpg"
       ],
-      "description": "3D U-Net trained using ZeroCostDL4Mic notebooks to segment mitochondria in Transmission Electron Microscopy (TEM) data.",
-      "download_url": "https://sandbox.zenodo.org/record/907831/files/3DUNet_ZeroCostDL4Mic.bioimage.io.model.zip",
-      "id": "deepimagej/3DUNetZeroCostDL4Mic",
-      "license": "MIT",
-      "links": [
-        "deepimagej/deepimagej",
-        "zero/Notebook_U-Net_3D_ZeroCostDL4Mic_DeepImageJ",
-        "imjoy/BioImageIO-Packager"
-      ],
-      "name": "3D U-Net - ZeroCostDL4Mic",
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/deepimagej/3DUNetZeroCostDL4Mic/latest/rdf.yaml",
+      "description": "Object Detection with Star-convex Shapes",
+      "download_count": 1,
+      "icon": "https://raw.githubusercontent.com/stardist/stardist/master/images/stardist_logo.jpg",
+      "id": "bioimageio/stardist",
+      "name": "StarDist",
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/bioimageio/stardist/latest/rdf.yaml",
       "tags": [
-        "deepimagej",
-        "tem",
-        "mitochondria",
-        "segmentation",
-        "3d-unet",
-        "zerocostdl4mic",
-        "deepimagej-beta"
+        "stardist"
       ],
-      "type": "model",
+      "type": "application",
       "versions": [
         "latest"
       ]
@@ -93,10 +1657,11 @@
         }
       ],
       "covers": [
-        "./input.png",
-        "./zoom.png"
+        "https://raw.githubusercontent.com/deepimagej/models/master/deepstorm_zerocostdl4mic/input.png",
+        "https://raw.githubusercontent.com/deepimagej/models/master/deepstorm_zerocostdl4mic/zoom.png"
       ],
       "description": "A trained Deep-STORM model for image reconstruction from high-density single-molecule localization microscopy (SMLM).",
+      "download_count": 1,
       "download_url": "https://sandbox.zenodo.org/record/907832/files/bioimage.io.model.zip",
       "id": "deepimagej/DeepSTORMZeroCostDL4Mic",
       "license": "MIT",
@@ -112,7 +1677,8 @@
         "deepimagej",
         "smlm",
         "image-reconstruction",
-        "super-resolution"
+        "super-resolution",
+        "tensorflow"
       ],
       "type": "model",
       "versions": [
@@ -158,6 +1724,7 @@
         "https://raw.githubusercontent.com/deepimagej/models/master/fru-net_sev_segmentation/frunet_sev.jpg"
       ],
       "description": "Ready to use notebook for the segmentation of small extrcaellular vesicles in transmission electron microscopy (TEM) images. The notebook is optimized to use it in Google Colaboratory. It will download the original code and dataset, and make the inference connecting with Google's GPU.",
+      "download_count": 1,
       "id": "deepimagej/EVsTEMsegmentationFRUNet",
       "links": [
         "deepimagej/FRUNet2DsEVSegmentation"
@@ -183,102 +1750,6 @@
     {
       "authors": [
         {
-          "affiliation": "Universidad Carlos III de Madrid",
-          "name": "Estibaliz G\u00f3mez-de-Mariscal"
-        },
-        {
-          "affiliation": "Masaryk University",
-          "name": "Martin Ma\u0161ka"
-        },
-        {
-          "affiliation": "Masaryk University",
-          "name": "Anna Kotrbov\u00e1"
-        },
-        {
-          "affiliation": "Masaryk University",
-          "name": "Vendula Posp\u00edchalov\u00e1"
-        },
-        {
-          "affiliation": "Masaryk University",
-          "name": "Pavel Matula"
-        },
-        {
-          "affiliation": "Universidad Carlos III de Madrid",
-          "name": "Arrate Mu\u00f1oz-Barrutia"
-        }
-      ],
-      "covers": [
-        "https://raw.githubusercontent.com/deepimagej/models/master/frunet_sev.jpg"
-      ],
-      "description": "DeepImageJ compatible fully residual U-Net trained to segment small extracellular vesicles in 2D TEM images",
-      "download_url": "https://sandbox.zenodo.org/record/894459/files/deepimagej_fru-net_sev_segmentation.zip",
-      "id": "deepimagej/FRUNet2DsEVSegmentation",
-      "license": "BSD-3-Clause",
-      "links": [
-        "deepimagej/deepimagej",
-        "deepimagej/EVsTEMsegmentationFRUNet",
-        "imjoy/BioImageIO-Packager"
-      ],
-      "name": "Small Extracellular Vesicle TEM Segmentation (Fully Residual U-Net)",
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/deepimagej/FRUNet2DsEVSegmentation/latest/rdf.yaml",
-      "tags": [
-        "deepimagej",
-        "extracellular-vesicles",
-        "segmentation",
-        "tem",
-        "frunet",
-        "exosomes",
-        "electron-microscopy",
-        "2d-segmentation"
-      ],
-      "type": "model",
-      "versions": [
-        "latest"
-      ]
-    },
-    {
-      "authors": [
-        {
-          "affiliation": "University of California",
-          "name": "Yair Rivenson"
-        },
-        {
-          "affiliation": "University of California",
-          "name": "Hongda Wang"
-        },
-        {
-          "affiliation": "University of California",
-          "name": "Aydogan Ozcan"
-        }
-      ],
-      "covers": [
-        "https://raw.githubusercontent.com/deepimagej/models/master/exampleImage.png",
-        "https://raw.githubusercontent.com/deepimagej/models/master/resultImage.png"
-      ],
-      "description": "A trained GAN to transform wide-field autofluorescence images of unlabelled tissue sections into images that are equivalent to the bright-field images of histologically stained versions of the same samples.",
-      "download_url": "https://sandbox.zenodo.org/record/906803/files/bioimage.io.model.zip",
-      "id": "deepimagej/JonesVirtualStaining",
-      "license": "CC BY 4.0",
-      "links": [
-        "deepimagej/deepimagej",
-        "imjoy/BioImageIO-Packager"
-      ],
-      "name": "Jones Virtual Staining (GAN)",
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/deepimagej/JonesVirtualStaining/latest/rdf.yaml",
-      "tags": [
-        "deepimagej",
-        "gan",
-        "virtual-staining",
-        "histology"
-      ],
-      "type": "model",
-      "versions": [
-        "latest"
-      ]
-    },
-    {
-      "authors": [
-        {
           "affiliation": "Centre for Biomedical Image Analysis, Masaryk University",
           "name": "Filip Lux"
         },
@@ -288,9 +1759,10 @@
         }
       ],
       "covers": [
-        "./cover.jpg"
+        "https://raw.githubusercontent.com/deepimagej/models/master/mu-lux_ctc_phc-c2dl-psc/cover.jpg"
       ],
       "description": "The method combines deep learning with watershed segmentation. For each frame, the convolutional neural network of U-Net shape detects all cells by markers and recognizes the foreground and the background of the frame. Then, the final segmentation is generated by a Marker-Controlled Watershed transformation.",
+      "download_count": 1,
       "download_url": "https://sandbox.zenodo.org/record/914413/files/mu-lux_ctc_phc-c2dl-psc.zip",
       "id": "deepimagej/MU-Lux_CTC_PhC-C2DL-PSC",
       "license": "MIT",
@@ -326,6 +1798,7 @@
         "https://raw.githubusercontent.com/deepimagej/models/master/datasets/MoNuSeg3.jpg"
       ],
       "description": "Labelled images for instance segmentation of cell nuclei in digital pathology datasets (MoNuSeg 2018 Challenge).",
+      "download_count": 1,
       "id": "deepimagej/MoNuSeg_digital_pathology_miccai2018",
       "name": "Multi-Organ Nucleus Segmentation Challenge - MICCAI 2018",
       "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/deepimagej/MoNuSeg_digital_pathology_miccai2018/latest/rdf.yaml",
@@ -361,10 +1834,11 @@
         }
       ],
       "covers": [
-        "https://raw.githubusercontent.com/deepimagej/models/master/exampleImage.png",
-        "https://raw.githubusercontent.com/deepimagej/models/master/resultImage.png"
+        "https://raw.githubusercontent.com/deepimagej/models/master/mt3_virtual_staining/exampleImage.png",
+        "https://raw.githubusercontent.com/deepimagej/models/master/mt3_virtual_staining/resultImage.png"
       ],
       "description": "A trained GAN to transform wide-field autofluorescence images of unlabelled tissue sections into images that are equivalent to the bright-field images of histologically stained versions of the same samples.",
+      "download_count": 1,
       "download_url": "https://sandbox.zenodo.org/record/906805/files/bioimage.io.model.zip",
       "id": "deepimagej/Mt3VirtualStaining",
       "license": "CC-BY-4.0",
@@ -388,25 +1862,26 @@
     {
       "authors": [
         {
-          "affiliation": null,
+          "affiliation": "EPFL",
           "name": "Baptiste Ottino"
         },
         {
-          "affiliation": null,
+          "affiliation": "EPFL",
           "name": "Kyle M. Douglass"
         },
         {
-          "affiliation": null,
+          "affiliation": "EPFL",
           "name": "Suliana Manley"
         }
       ],
       "covers": [
-        "./cover_image.jpg"
+        "https://raw.githubusercontent.com/deepimagej/models/master/defcon_density_map_estimation/cover_image.jpg"
       ],
       "description": "Density Estimation by Fully Convolutional Networks (DEFCoN) - A fluorescent spot counter for single molecule localization microscopy. DEFCoN was written by Baptiste Ottino as a Masters thesis project under the guidance of Kyle M. Douglass and Suliana Manley in the Laboratory of Experimental Biophysics.",
+      "download_count": 1,
       "download_url": "https://zenodo.org/record/4608442/files/SMLM_Density%20Map_Estimation_%28DEFCoN%29.bioimage.io.model.zip",
       "id": "deepimagej/SMLMDensityMapEstimationDEFCoN",
-      "license": "BSD-3",
+      "license": "BSD-3-Clause",
       "links": [
         "deepimagej/deepimagej",
         "imjoy/BioImageIO-Packager"
@@ -416,7 +1891,8 @@
       "tags": [
         "unet",
         "deepimagej",
-        "deepimagej.js"
+        "deepimagej.js",
+        "tensorflow"
       ],
       "type": "model",
       "versions": [
@@ -431,9 +1907,10 @@
         }
       ],
       "covers": [
-        "./cover.jpg"
+        "https://raw.githubusercontent.com/deepimagej/models/master/skin_lesion_classification/cover.jpg"
       ],
       "description": "CNN trained to classify the type of imaged skin lesion.",
+      "download_count": 1,
       "download_url": "https://sandbox.zenodo.org/record/906807/files/bioimage.io.model.zip",
       "id": "deepimagej/SkinLesionClassification",
       "license": "BSD2",
@@ -458,51 +1935,15 @@
     {
       "authors": [
         {
-          "affiliation": "Universidad Carlos III de Madrid",
-          "name": "Estibaliz G\u00f3mez de Mariscal"
-        }
-      ],
-      "covers": [
-        "./combined.jpg"
-      ],
-      "description": "Nucleus segmentation in digital pathology datasets (MoNuSeg 2018 Challenge)",
-      "download_url": "https://sandbox.zenodo.org/record/894493/files/MoNu_HE_StarDist_9JUL.bioimage.io.model.zip",
-      "id": "deepimagej/Stardist2DZeroCostDL4Mic",
-      "license": "MIT",
-      "links": [
-        "deepimagej/deepimagej",
-        "zero/Notebook_StarDist_2D_ZeroCostDL4Mic_DeepImageJ",
-        "deepimagej/MoNuSeg_digital_pathology_miccai2018"
-      ],
-      "name": "Multi-Organ Nucleus Segmentation Challenge",
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/deepimagej/Stardist2DZeroCostDL4Mic/latest/rdf.yaml",
-      "tags": [
-        "zerocostdl4mic",
-        "deepimagej",
-        "segmentation",
-        "histopathology",
-        "stardist",
-        "digital-pathology",
-        "nucleus-segmentation",
-        "trainable",
-        "2d"
-      ],
-      "type": "model",
-      "versions": [
-        "latest"
-      ]
-    },
-    {
-      "authors": [
-        {
           "affiliation": "EPFL, UC3M",
           "name": "DeepImageJ"
         }
       ],
       "covers": [
-        "https://raw.githubusercontent.com/deepimagej/models/master/cover_image.jpg"
+        "https://raw.githubusercontent.com/deepimagej/models/master/u-net_glioblastoma_segmentation/cover_image.jpg"
       ],
       "description": "DeepImageJ compatible U-Net trained to segment 2D phase contrast microscopy images of glioblastoma-astrocytoma U373 cells on a polyacrylamide substrate.",
+      "download_count": 1,
       "download_url": "https://zenodo.org/record/4155785/files/deepimagej_u-net_glioblastoma_segmentation.zip",
       "id": "deepimagej/UNet2DGlioblastomaSegmentation",
       "license": "BSD-2",
@@ -526,128 +1967,6 @@
     {
       "authors": [
         {
-          "affiliation": "EPFL, UC3M",
-          "name": "DeepImageJ"
-        }
-      ],
-      "covers": [
-        "https://raw.githubusercontent.com/deepimagej/models/master/unet_hela_seg.jpg"
-      ],
-      "description": "DeepImageJ compatible U-Net trained to segment Hela cells in 2D phase contrast microscopy images",
-      "download_url": "https://sandbox.zenodo.org/record/913978/files/u-net_hela_segmentation.zip",
-      "id": "deepimagej/UNet2DHeLaSegmentation",
-      "license": "BSD-2",
-      "links": [
-        "deepimagej/deepimagej",
-        "imjoy/BioImageIO-Packager"
-      ],
-      "name": "HeLa DIC Cell Segmentation (U-Net)",
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/deepimagej/UNet2DHeLaSegmentation/latest/rdf.yaml",
-      "tags": [
-        "deepimagej",
-        "hela-cells",
-        "segmentation",
-        "phase-contrast"
-      ],
-      "type": "model",
-      "versions": [
-        "latest"
-      ]
-    },
-    {
-      "authors": [
-        {
-          "affiliation": "Ikerbasque - EHU/UPV",
-          "name": "Ignacio Arganda-Carreras"
-        },
-        {
-          "affiliation": "EPFL, UC3M",
-          "name": "DeepImageJ"
-        }
-      ],
-      "covers": [
-        "./exampleImage.png",
-        "./resultImage.png"
-      ],
-      "description": "DeepImageJ compatible U-Net trained to segment phase contrast microscopy images of pancreatic stem cells on a 2D polystyrene substrate.",
-      "download_url": "https://github.com/deepimagej/models/releases/download/0.3/PancreaticCellSegmentation.U-Net.bioimage.io.model.zip",
-      "id": "deepimagej/UNet2DPancreaticSegmentation",
-      "license": "BSD-2",
-      "links": [
-        "deepimagej/deepimagej",
-        "deepimagej/unet-pancreaticcellsegmentation",
-        "imjoy/BioImageIO-Packager"
-      ],
-      "name": "Pancreatic Cell Segmentation (U-Net)",
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/deepimagej/UNet2DPancreaticSegmentation/latest/rdf.yaml",
-      "tags": [
-        "deepimagej",
-        "pancreatic-stem-cells",
-        "segmentation",
-        "phase-contrast",
-        "unet",
-        "neubias",
-        "cell-tracking-challenge"
-      ],
-      "type": "model",
-      "versions": [
-        "latest"
-      ]
-    },
-    {
-      "authors": [
-        {
-          "affiliation": "AGH University of Science and Technology, Poland",
-          "name": "Joanna Gajda"
-        },
-        {
-          "affiliation": "Quorumetrix Solutions, Canada",
-          "name": "Tyler F.W. Sloan"
-        },
-        {
-          "affiliation": "Micro/Bio/Nanofluidics Unit, Okinawa Institute of Science and Technology Graduate University, Japan",
-          "name": "Hsieh-Fu Tsai"
-        },
-        {
-          "affiliation": "ImagineA, The Netherlands",
-          "name": "Andrei Rares"
-        },
-        {
-          "affiliation": "Micro/Bio/Nanofluidics Unit, Okinawa Institute of Science and Technology Graduate University, Japan",
-          "name": "Amy Q. Shen"
-        }
-      ],
-      "covers": [
-        "./cover.jpg"
-      ],
-      "description": "Trained model given in Usiigaci for instance segmentation of cells in a 2D substrate and phase contrast microscopy images. The model is a Mask R-CNN and the input is preprocessed to get an RGB image from the grayscale image.",
-      "download_url": "https://zenodo.org/record/4155785/files/usiigaci.bioimage.io.model.zip",
-      "id": "deepimagej/Usiigaci",
-      "license": "MIT",
-      "links": [
-        "deepimagej/deepimagej",
-        "imjoy/BioImageIO-Packager"
-      ],
-      "name": "NIH/3T3 Fibroblast Phase Contrast Segmentation (Usiigaci-Mask R-CNN)",
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/deepimagej/Usiigaci/latest/rdf.yaml",
-      "tags": [
-        "deepimagej",
-        "usiigaci",
-        "phase-contrast",
-        "fibroblasts",
-        "maskrcnn",
-        "2d",
-        "segmentation",
-        "deepimagej-beta"
-      ],
-      "type": "model",
-      "versions": [
-        "latest"
-      ]
-    },
-    {
-      "authors": [
-        {
           "affiliation": "University of California, Los Angeles, CA, USA",
           "name": "Hongda Wang"
         },
@@ -661,10 +1980,11 @@
         }
       ],
       "covers": [
-        "https://raw.githubusercontent.com/deepimagej/models/master/exampleImage.png",
-        "https://raw.githubusercontent.com/deepimagej/models/master/resultImage.png"
+        "https://raw.githubusercontent.com/deepimagej/models/master/widefield_dapi_super-resolution/exampleImage.png",
+        "https://raw.githubusercontent.com/deepimagej/models/master/widefield_dapi_super-resolution/resultImage.png"
       ],
       "description": "A trained GAN to transform diffraction-limited input images into super-resolved ones.",
+      "download_count": 1,
       "download_url": "https://sandbox.zenodo.org/record/914422/files/widefield_dapi_super-resolution.zip",
       "id": "deepimagej/WidefieldDapiSuperResolution",
       "license": "CC-BY-4.0",
@@ -701,10 +2021,11 @@
         }
       ],
       "covers": [
-        "https://raw.githubusercontent.com/deepimagej/models/master/exampleImage.png",
-        "https://raw.githubusercontent.com/deepimagej/models/master/resultImage.png"
+        "https://raw.githubusercontent.com/deepimagej/models/master/widefield_fitc_super-resolution/exampleImage.png",
+        "https://raw.githubusercontent.com/deepimagej/models/master/widefield_fitc_super-resolution/resultImage.png"
       ],
       "description": "A trained GAN to transform diffraction-limited input images into super-resolved ones.",
+      "download_count": 1,
       "download_url": "https://sandbox.zenodo.org/record/914425/files/widefield_fitc_super-resolution.zip",
       "id": "deepimagej/WidefieldFitcSuperResolution",
       "license": "CC-BY-4.0",
@@ -741,10 +2062,11 @@
         }
       ],
       "covers": [
-        "https://raw.githubusercontent.com/deepimagej/models/master/exampleImage.png",
-        "https://raw.githubusercontent.com/deepimagej/models/master/resultImage.png"
+        "https://raw.githubusercontent.com/deepimagej/models/master/widefield_txred_super-resolution/exampleImage.png",
+        "https://raw.githubusercontent.com/deepimagej/models/master/widefield_txred_super-resolution/resultImage.png"
       ],
       "description": "A trained GAN to transform diffraction-limited input images into super-resolved ones.",
+      "download_count": 1,
       "download_url": "https://sandbox.zenodo.org/record/913992/files/widefield_txred_super-resolution.zip",
       "id": "deepimagej/WidefieldTxredSuperResolution",
       "license": "CC BY 4.0",
@@ -770,6 +2092,7 @@
       "badges": [],
       "covers": [],
       "description": "Export BioImage.IO model packages for deepImageJ from a model description file",
+      "download_count": 1,
       "icon": "https://raw.githubusercontent.com/deepimagej/models/master/logos/icon.png",
       "id": "deepimagej/deepimagej",
       "name": "deepimagej",
@@ -792,6 +2115,7 @@
         }
       ],
       "description": "DeepImageJ is a user-friendly plugin that enables the use of pre-trained deep learning models in ImageJ and Fiji.",
+      "download_count": 1,
       "icon": "https://raw.githubusercontent.com/deepimagej/models/master/logos/icon.png",
       "id": "deepimagej/deepimagej-web",
       "name": "DeepImageJ",
@@ -817,6 +2141,7 @@
         "https://raw.githubusercontent.com/deepimagej/models/master/workflows/smlm_deepstorm/cover.png"
       ],
       "description": "Single molecule localization microscopy (SMLM) processing using deepImageJ and ThunderSTORM in an ImageJ macro.",
+      "download_count": 1,
       "download_url": "https://raw.githubusercontent.com/deepimagej/imagej-macros/master/DeepSTORM4stacksThunderSTORM.ijm",
       "icon": "https://raw.githubusercontent.com/deepimagej/models/master/logos/icon.png",
       "id": "deepimagej/smlm-deepimagej",
@@ -861,6 +2186,7 @@
         "https://raw.githubusercontent.com/deepimagej/models/master/u-net_pancreatic_segmentation/usecase.png"
       ],
       "description": "Easy example to define a 2D U-Net for segmentation with Keras and import it into DeepImageJ format",
+      "download_count": 1,
       "id": "deepimagej/unet-pancreaticcellsegmentation",
       "links": [
         "deepimagej/UNet2DPancreaticSegmentation"
@@ -883,9 +2209,12 @@
     },
     {
       "authors": [
-        "Fiji community"
+        {
+          "name": "Fiji community"
+        }
       ],
       "description": "Fiji is an image processing package \u2014 a \"batteries-included\" distribution of ImageJ, bundling many plugins which facilitate scientific image analysis.",
+      "download_count": 1,
       "icon": "https://raw.githubusercontent.com/bioimage-io/fiji-bioimage-io/master/Fiji-icon.png",
       "id": "fiji/Fiji",
       "name": "Fiji",
@@ -911,6 +2240,7 @@
         "https://raw.githubusercontent.com/bioimage-io/fiji-bioimage-io/master/models/n2v-sem-demo/thumbnail.png"
       ],
       "description": "Demo model for denoising trained on a single SEM image with Noise2Void",
+      "download_count": 1,
       "download_url": "https://github.com/bioimage-io/fiji-bioimage-io/releases/download/0.3.1/n2v-sem-demo.zip",
       "id": "fiji/N2VSEMDemo",
       "license": "BSD-3-Clause",
@@ -930,15 +2260,15 @@
       ]
     },
     {
-      "authors": [],
       "badges": [],
       "covers": [
         "https://imjoy-team.github.io/imjoy-plugins/hpa-classification/hpa-classification-cover.gif"
       ],
       "description": "ShuffleNetV2 for HPA.",
+      "download_count": 1,
       "icon": "https://raw.githubusercontent.com/bioimage-io/tfjs-bioimage-io/master/apps/hpa-logo.gif",
       "id": "hpa/HPA-Classification",
-      "name": "HPA Collection",
+      "name": "HPA-Classification",
       "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/hpa/HPA-Classification/latest/rdf.yaml",
       "source": "https://raw.githubusercontent.com/imjoy-team/imjoy-plugins/master/repository/HPA-Classification.imjoy.html",
       "tags": [
@@ -951,67 +2281,99 @@
     },
     {
       "authors": [
-        "Shubin Dai"
-      ],
-      "badges": [
         {
-          "ext": "1st",
-          "label": "HPA Competition",
-          "url": "https://www.kaggle.com/c/human-protein-atlas-image-classification/leaderboard"
+          "name": "Jay Kaimal"
+        },
+        {
+          "name": "Peter Thul"
+        },
+        {
+          "name": "Hao Xu"
+        },
+        {
+          "name": "Wei Ouyang"
+        },
+        {
+          "name": "Emma Lundberg"
         }
       ],
       "covers": [
-        "https://raw.githubusercontent.com/CellProfiling/HPA-model-zoo/master/hpa_challenge_header.png",
-        "https://raw.githubusercontent.com/CellProfiling/HPA-competition-solutions/master/bestfitting/src/bestfitting-densenet-diagram.png"
+        "https://zenodo.org/api/files/a24a1e8a-cdc5-4b56-b9c3-0b82417e74a5/hpaseg-cover.png"
       ],
-      "description": "A CNN model using focal loss and image augmentation, optimized with Adam optimizer.",
-      "id": "hpa/HPA-bestfitting",
-      "license": "MIT",
-      "name": "HPA-bestfitting",
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/hpa/HPA-bestfitting/latest/rdf.yaml",
+      "description": "Annotated images from the Human Protein Atlas for cell segmentation",
+      "download_count": 1,
+      "download_url": "https://zenodo.org/record/4665863/files/hpa_cell_segmentation_dataset_v2_512x512_4train_159test.zip?download=1",
+      "id": "hpa/hpa-cell-image-segmentation-dataset",
+      "license": "CC-BY-4.0",
+      "name": "HPA Cell Image Segmentation Dataset",
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/hpa/hpa-cell-image-segmentation-dataset/latest/rdf.yaml",
+      "source": "https://zenodo.org/record/4665863",
       "tags": [
-        "classification",
-        "densenet-121",
-        "inception-v3",
-        "resnet-34",
-        "resnet-50"
+        "fluorescence-light-microscopy",
+        "2D",
+        "cells",
+        "nuclei",
+        "semantic-segmentation",
+        "instance-segmentation"
       ],
-      "type": "model",
+      "type": "dataset",
       "versions": [
         "latest"
       ]
     },
     {
       "authors": [
-        "Moshe Livne",
-        "Wei OUYANG"
-      ],
-      "badges": [
         {
-          "icon": "https://imjoy.io/static/badge/powered-by-imjoy-badge.svg",
-          "label": "Powered by ImJoy",
-          "url": "https://imjoy.io"
+          "name": "The Human Protein Atlas"
         }
       ],
       "covers": [
-        "https://imjoy-team.github.io/imjoy-plugins/hpa-classification/hpa-classification-cover.gif"
+        "https://raw.githubusercontent.com/CellProfiling/HPA-model-zoo/master/collection/hpa-single-cell-classification.png"
       ],
-      "description": "A light-weight model for HPA image classification competition",
-      "id": "hpa/HPAShuffleNetV2",
-      "license": "Apache 2.0",
-      "links": [
-        "hpa/HPA-Classification"
-      ],
-      "name": "HPA ShuffleNetV2",
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/hpa/HPAShuffleNetV2/latest/rdf.yaml",
-      "source": "https://raw.githubusercontent.com/oeway/Anet-Model-Zoo/master/4_hpa_shufflenet_v2/model.json",
+      "description": "Training dataset for the Human Protein Atlas Single Cell Classification competition 2021",
+      "download_count": 1,
+      "download_url": "https://www.kaggle.com/competitions/hpa-single-cell-image-classification/data",
+      "id": "hpa/hpa-kaggle-2021-dataset",
+      "license": "CC-BY-4.0",
+      "name": "HPA Single Cell Classification Dataset 2021",
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/hpa/hpa-kaggle-2021-dataset/latest/rdf.yaml",
+      "source": "https://www.kaggle.com/competitions/hpa-single-cell-image-classification/data",
       "tags": [
-        "shufflenet",
-        "tensorflow.js",
-        "classification",
-        "imjoy"
+        "fluorescence-light-microscopy",
+        "2D",
+        "cells",
+        "nuclei",
+        "protein",
+        "classification"
       ],
-      "type": "model",
+      "type": "dataset",
+      "versions": [
+        "latest"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "name": "Constantin Pape"
+        }
+      ],
+      "covers": [
+        "https://raw.githubusercontent.com/ilastik/bioimage-io-models/main/dataset_src/arabidopsis_atlas.jpg"
+      ],
+      "description": "3D digital tissue atlas of Arabidopsis thaliana, containing image data and cell segmentations.",
+      "download_count": 1,
+      "id": "ilastik/arabidopsis_tissue_atlas",
+      "name": "Arabidopsis 3D Digital Tissue Atlas",
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/ilastik/arabidopsis_tissue_atlas/latest/rdf.yaml",
+      "source": "https://osf.io/fzr56/",
+      "tags": [
+        "light-microscopy",
+        "arabidopsis",
+        "cells",
+        "instance-segmentation",
+        "3D"
+      ],
+      "type": "dataset",
       "versions": [
         "latest"
       ]
@@ -1028,6 +2390,7 @@
         "https://raw.githubusercontent.com/ilastik/bioimage-io-models/main/dataset_src/covid-if-cover2.jpg"
       ],
       "description": "Training data for cell and nucleus segmentation as well as infection classification in IF data of Covid-19 infected cells.",
+      "download_count": 1,
       "id": "ilastik/covid_if_training_data",
       "license": "CC-BY-4.0",
       "name": "Covid-IF Training Data",
@@ -1060,6 +2423,7 @@
         "https://raw.githubusercontent.com/ilastik/bioimage-io-models/main/dataset_src/cremi-cover2.png"
       ],
       "description": "Training data from the challenge on 3d EM segmentation on neuronal processes.",
+      "download_count": 1,
       "id": "ilastik/cremi_training_data",
       "name": "CREMI: MICCAI Challenge on Circuit Reconstruction from Electron Microscopy Images",
       "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/ilastik/cremi_training_data/latest/rdf.yaml",
@@ -1078,10 +2442,15 @@
       ]
     },
     {
-      "authors": [],
+      "authors": [
+        {
+          "name": "ilastik Team"
+        }
+      ],
       "badges": [],
       "covers": [],
-      "description": "Export BioImage.IO model packages for ilastik from a model description file",
+      "description": "the interactive learning and segmentation toolkit",
+      "download_count": 1,
       "icon": "https://raw.githubusercontent.com/ilastik/bioimage-io-models/master/image/ilastik-fist-icon.png",
       "id": "ilastik/ilastik",
       "name": "ilastik",
@@ -1107,6 +2476,7 @@
         "https://raw.githubusercontent.com/ilastik/bioimage-io-models/main/dataset_src/isbi2012-cover1.png"
       ],
       "description": "Training data from challenge on 2d EM segmentation of neuronal processes.",
+      "download_count": 1,
       "id": "ilastik/isbi2012_neuron_segmentation_challenge",
       "name": "ISBI Challenge: Segmentation of neuronal structures in EM stacks",
       "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/ilastik/isbi2012_neuron_segmentation_challenge/latest/rdf.yaml",
@@ -1125,24 +2495,6 @@
       ]
     },
     {
-      "authors": [],
-      "badges": [],
-      "covers": [],
-      "description": "Run the live cell boundary model via the BioEngine",
-      "icon": "https://raw.githubusercontent.com/ilastik/bioimage-io-models/07147313b07f6842f0b9890ee7a79e47c44258e5/image/circular-play-button.png",
-      "id": "ilastik/live-cell-boundary-model",
-      "name": "Live cell boundary model preview",
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/ilastik/live-cell-boundary-model/latest/rdf.yaml",
-      "source": "https://raw.githubusercontent.com/ilastik/bioimage-io-models/main/src/live-cell-boundary-preview.imjoy.html",
-      "tags": [
-        "bioengine"
-      ],
-      "type": "application",
-      "versions": [
-        "latest"
-      ]
-    },
-    {
       "authors": [
         {
           "name": "Constantin Pape"
@@ -1152,6 +2504,7 @@
         "https://raw.githubusercontent.com/ilastik/bioimage-io-models/main/dataset_src/livecell-cover0.jpg"
       ],
       "description": "LIVECell\u2014A large-scale dataset for label-free live cell segmentation",
+      "download_count": 1,
       "id": "ilastik/livecell_dataset",
       "license": "CC-BY-NC-4.0",
       "name": "LIVECell",
@@ -1180,6 +2533,7 @@
         "https://raw.githubusercontent.com/ilastik/bioimage-io-models/main/dataset_src/mitoem-cover1.png"
       ],
       "description": "Training data for mitochondria segmentation in 3d EM.",
+      "download_count": 1,
       "id": "ilastik/mitoem_segmentation_challenge",
       "name": "MitoEM Challenge: Large-scale 3D Mitochondria Instance Segmentation",
       "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/ilastik/mitoem_segmentation_challenge/latest/rdf.yaml",
@@ -1202,10 +2556,34 @@
           "name": "Constantin Pape"
         }
       ],
+      "badges": [],
+      "covers": [],
+      "description": "Segmentation plugin for models that predict pixel affinities",
+      "download_count": 1,
+      "icon": "https://raw.githubusercontent.com/ilastik/bioimage-io-models/main/image/mws.png",
+      "id": "ilastik/mws-segmentation",
+      "name": "Mutex Watershed Plugin",
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/ilastik/mws-segmentation/latest/rdf.yaml",
+      "source": "https://raw.githubusercontent.com/ilastik/bioimage-io-models/main/src/mws-segmentation.imjoy.html",
+      "tags": [
+        "bioengine"
+      ],
+      "type": "application",
+      "versions": [
+        "latest"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "name": "Constantin Pape"
+        }
+      ],
       "covers": [
         "https://raw.githubusercontent.com/ilastik/bioimage-io-models/main/dataset_src/plantseg_cover.jpg"
       ],
       "description": "Training data for cell segmentation in Arabidopsis ovules.",
+      "download_count": 1,
       "id": "ilastik/plantseg_ovules",
       "license": "CC-BY-4.0",
       "name": "Arabidopsis Ovules Traning Data",
@@ -1233,6 +2611,7 @@
         "https://raw.githubusercontent.com/ilastik/bioimage-io-models/main/dataset_src/plantseg_cover.jpg"
       ],
       "description": "Training data for cell segmentation in Arabidopsis lateral root.",
+      "download_count": 1,
       "id": "ilastik/plantseg_root",
       "license": "CC-BY-4.0",
       "name": "Arabidopsis Lateral Root Traning Data",
@@ -1260,6 +2639,7 @@
         "https://raw.githubusercontent.com/ilastik/bioimage-io-models/main/dataset_src/platy-cover0.png"
       ],
       "description": "Training data for EM segmentation of cellular membranes, nuclei, cuticle and cilia in Platynereis.",
+      "download_count": 1,
       "id": "ilastik/platynereis_em_training_data",
       "license": "CC-BY-4.0",
       "name": "Platynereis EM Traning Data",
@@ -1289,10 +2669,11 @@
         "https://raw.githubusercontent.com/ilastik/bioimage-io-models/main/dataset_src/dsb-cover0.jpg"
       ],
       "description": "Subset of the nucleus segmentation training data from the 2018 Kaggle Data Science Bowl.",
-      "id": "ilastik/stradist_dsb_training_data",
+      "download_count": 1,
+      "id": "ilastik/stardist_dsb_training_data",
       "license": "CC0-1.0",
       "name": "DSB Nucleus Segmentation Training Data",
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/ilastik/stradist_dsb_training_data/latest/rdf.yaml",
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/ilastik/stardist_dsb_training_data/latest/rdf.yaml",
       "source": "https://github.com/stardist/stardist/releases/download/0.1.0/dsb2018.zip",
       "tags": [
         "nuclei",
@@ -1313,14 +2694,42 @@
         }
       ],
       "covers": [
-        "https://github.com/constantinpape/torch-em/blob/main/experiments/misc/targets.png"
+        "https://raw.githubusercontent.com/ilastik/bioimage-io-models/main/dataset_src/tnbc_cover.jpg"
+      ],
+      "description": "Dataset of H&E Brightfield images with nucleus instance annotations. Contains 50 annotated images, divided into 11 patients.",
+      "download_count": 1,
+      "id": "ilastik/tnbc",
+      "license": "CC-BY-4.0",
+      "name": "Segmentation of Nuclei in Histopathology Images",
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/ilastik/tnbc/latest/rdf.yaml",
+      "source": "https://zenodo.org/record/1175282#.Ynpj81xBwUG",
+      "tags": [
+        "nuclei",
+        "instance-segmentation",
+        "brightfield-microscopy",
+        "2D"
+      ],
+      "type": "dataset",
+      "versions": [
+        "latest"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "name": "Constantin Pape"
+        }
+      ],
+      "covers": [
+        "https://raw.githubusercontent.com/constantinpape/torch-em/main/experiments/misc/targets.png"
       ],
       "description": "Train a 2d UNet for semgentation tasks",
+      "download_count": 1,
       "id": "ilastik/torch-em-2d-unet-notebook",
       "license": "CC-BY-4.0",
       "name": "2D UNet Training",
       "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/ilastik/torch-em-2d-unet-notebook/latest/rdf.yaml",
-      "source": "https://github.com/constantinpape/torch-em/blob/main/experiments/2D-UNet-Training.ipynb",
+      "source": "https://raw.githubusercontent.com/constantinpape/torch-em/main/experiments/2D-UNet-Training.ipynb",
       "tags": [
         "instance-segmentation",
         "semantic-segmentation",
@@ -1339,14 +2748,15 @@
         }
       ],
       "covers": [
-        "https://github.com/constantinpape/torch-em/blob/main/experiments/misc/targets.png"
+        "https://raw.githubusercontent.com/constantinpape/torch-em/main/experiments/misc/targets.png"
       ],
       "description": "Train a 2d UNet for semgentation tasks",
+      "download_count": 1,
       "id": "ilastik/torch-em-3d-unet-notebook",
       "license": "CC-BY-4.0",
       "name": "3D UNet Training",
       "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/ilastik/torch-em-3d-unet-notebook/latest/rdf.yaml",
-      "source": "https://github.com/constantinpape/torch-em/blob/main/experiments/3D-UNet-Training.ipynb",
+      "source": "https://raw.githubusercontent.com/constantinpape/torch-em/main/experiments/3D-UNet-Training.ipynb",
       "tags": [
         "instance-segmentation",
         "semantic-segmentation",
@@ -1368,6 +2778,7 @@
         "https://s3-eu-west-1.amazonaws.com/pfigshare-u-previews/1288336/preview.jpg"
       ],
       "description": "Training data for cell segmentation in Arabidopsis lateral root.",
+      "download_count": 1,
       "id": "ilastik/vnc",
       "license": "CC-BY-4.0",
       "name": "Segmented anisotropic ssTEM dataset of neural tissue",
@@ -1385,10 +2796,10 @@
       ]
     },
     {
-      "authors": [],
       "badges": [],
       "covers": [],
       "description": "Exporting BioImage.IO model packages from the model description file",
+      "download_count": 1,
       "icon": "https://raw.githubusercontent.com/imjoy-team/bioimage-io-models/master/asset/download-icon.png",
       "id": "imjoy/BioImageIO-Packager",
       "name": "BioImageIO-Packager",
@@ -1403,10 +2814,28 @@
       ]
     },
     {
-      "authors": [],
+      "badges": [],
+      "covers": [],
+      "description": "An generic BioEngine for processing images",
+      "download_count": 1,
+      "icon": "https://raw.githubusercontent.com/imjoy-team/bioimage-io-resources/master/src/bioengine-icon.svg",
+      "id": "imjoy/GenericBioEngineApp",
+      "name": "GenericBioEngineApp",
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/imjoy/GenericBioEngineApp/latest/rdf.yaml",
+      "source": "https://raw.githubusercontent.com/imjoy-team/bioimage-io-models/master/src/generic-bioengine-app.imjoy.html",
+      "tags": [
+        "bioengine"
+      ],
+      "type": "application",
+      "versions": [
+        "latest"
+      ]
+    },
+    {
       "badges": [],
       "covers": [],
       "description": "Run the HPA single cell classification model via the the BioEngine",
+      "download_count": 1,
       "icon": "https://raw.githubusercontent.com/ilastik/bioimage-io-models/07147313b07f6842f0b9890ee7a79e47c44258e5/image/circular-play-button.png",
       "id": "imjoy/HPA-Single-Cell",
       "name": "HPA Single Cell",
@@ -1415,16 +2844,16 @@
       "tags": [
         "bioengine"
       ],
-      "type": "collection",
+      "type": "application",
       "versions": [
         "latest"
       ]
     },
     {
-      "authors": [],
       "badges": [],
       "covers": [],
       "description": "ImJoy: Supercharging interactivity and scalability!",
+      "download_count": 1,
       "icon": "https://imjoy.io/static/img/imjoy-icon.png",
       "id": "imjoy/ImJoy",
       "name": "ImJoy",
@@ -1441,13 +2870,13 @@
       ]
     },
     {
-      "authors": [],
       "badges": [],
       "covers": [],
       "description": "ImageJ running in the browser",
+      "download_count": 1,
       "icon": "https://raw.githubusercontent.com/imjoy-team/imagej.js/master/src/assets/icons/chrome/chrome-installprocess-128-128.png",
       "id": "imjoy/ImageJ.JS",
-      "name": "ImJoy Collection",
+      "name": "ImageJ.JS",
       "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/imjoy/ImageJ.JS/latest/rdf.yaml",
       "source": "https://raw.githubusercontent.com/imjoy-team/bioimage-io-models/master/src/imagej-js.imjoy.html",
       "tags": [
@@ -1469,9 +2898,10 @@
         "https://raw.githubusercontent.com/imjoy-team/bioimage-io-models/master/asset/LuCa-7color_Scan1.png"
       ],
       "description": "Sample PerkinElmer Vectra QPTIFF files (c) PerkinElmer (http://www.perkinelmer.com)",
+      "download_count": 1,
       "download_url": "https://downloads.openmicroscopy.org/images/Vectra-QPTIFF/perkinelmer/PKI_scans/LuCa-7color_Scan1.qptiff",
       "id": "imjoy/LuCa-7color",
-      "license": "CC-BY 4.0",
+      "license": "CC-BY-4.0",
       "links": [
         "imjoy/vizarr"
       ],
@@ -1487,10 +2917,10 @@
       ]
     },
     {
-      "authors": [],
       "badges": [],
       "covers": [],
       "description": "A minimal, purely client-side program for viewing Zarr-based images with Viv & ImJoy",
+      "download_count": 1,
       "icon": "https://raw.githubusercontent.com/hms-dbmi/vizarr/main/assets/logo.png",
       "id": "imjoy/vizarr",
       "name": "vizarr",
@@ -1514,6 +2944,7 @@
         "https://github.com/HenriquesLab/ZeroCostDL4Mic/raw/master/Wiki_files/CARE_wiki.png"
       ],
       "description": "Fluorescence microscopy (Lifeact-RFP)",
+      "download_count": 1,
       "download_url": "https://doi.org/10.5281/zenodo.3713330",
       "id": "zero/Dataset_CARE_2D_ZeroCostDL4Mic",
       "name": "CARE (2D) example training and test dataset - ZeroCostDL4Mic",
@@ -1542,6 +2973,7 @@
         "https://zenodo.org/api/iiif/v2/0417c6d1-0fe3-4d48-bc5a-dfaee6398433:532d7c49-5961-4d61-8ba2-a040f2f19cfd:A_E.coli_H-NS_mScarlet_examples.png/full/750,/0/default.png"
       ],
       "description": "Paired training and test images of H-NS-mScarlet-I expressing E. coli cells for image denoising.",
+      "download_count": 1,
       "download_url": "https://zenodo.org/record/5551112",
       "id": "zero/Dataset_CARE_2D_coli_DeepBacs",
       "name": "Escherichia coli nucleoid denoising dataset - DeepBacs",
@@ -1568,6 +3000,7 @@
         "https://github.com/HenriquesLab/ZeroCostDL4Mic/raw/master/Wiki_files/CARE_wiki.png"
       ],
       "description": "Fluorescence microscopy (Lifeact-RFP)",
+      "download_count": 1,
       "download_url": "https://doi.org/10.5281/zenodo.3713337",
       "id": "zero/Dataset_CARE_3D_ZeroCostDL4Mic",
       "name": "CARE (3D) example training and test dataset - ZeroCostDL4Mic",
@@ -1593,6 +3026,7 @@
         "https://github.com/HenriquesLab/ZeroCostDL4Mic/raw/master/BioimageModelZoo/Images/CycleGAN_dataset.png"
       ],
       "description": "Unpaired microscopy images (fluorescence) of microtubules (Spinning-disk and SRRF reconstructed images)",
+      "download_count": 1,
       "download_url": "https://doi.org/10.5281/zenodo.3941884",
       "id": "zero/Dataset_CycleGAN_ZeroCostDL4Mic",
       "name": "CycleGAN example training and test dataset - ZeroCostDL4Mic",
@@ -1619,6 +3053,7 @@
         "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/BioimageModelZoo/Images/DeepSTORM_dataset.png"
       ],
       "description": "Time-series of simulated, randomly distributed single-molecule localization (SMLM) data (Training dataset). Experimental time-series dSTORM acquisition of Glial cells stained with phalloidin for actin (Example dataset).",
+      "download_count": 1,
       "download_url": "https://doi.org/10.5281/zenodo.3959089",
       "id": "zero/Dataset_Deep-STORM_ZeroCostDL4Mic",
       "name": "Deep-STORM training and example dataset - ZeroCostDL4Mic",
@@ -1650,6 +3085,7 @@
         "https://github.com/HenriquesLab/ZeroCostDL4Mic/raw/master/Wiki_files/N2V_wiki.png"
       ],
       "description": "Fluorescence microscopy (paxillin-GFP)",
+      "download_count": 1,
       "download_url": "https://doi.org/10.5281/zenodo.3713315",
       "id": "zero/Dataset_Noise2Void_2D_ZeroCostDL4Mic",
       "name": "Noise2Void (2D) example training and test dataset - ZeroCostDL4Mic",
@@ -1678,6 +3114,7 @@
         "https://zenodo.org/api/iiif/v2/effa726a-dcdb-47a5-bd2e-63a4a6648ca7:aad7cd51-d389-4cf3-a84e-2d93d1891f20:B.subtilis_VerCINI_examples.png/full/750,/0/default.png"
       ],
       "description": "Live-cell time series of vertically aligned B. subtilis cells expressing FtsZ-GFP protein fusion.",
+      "download_count": 1,
       "download_url": "https://zenodo.org/record/5551135",
       "id": "zero/Dataset_Noise2Void_2D_subtilis_DeepBacs",
       "name": "Bacillus subtilis denoising dataset - DeepBacs",
@@ -1703,6 +3140,7 @@
         "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/BioimageModelZoo/Images/N2V_3D_dataset.png"
       ],
       "description": "Fluorescence microscopy (Lifeact-RFP)",
+      "download_count": 1,
       "download_url": "https://doi.org/10.5281/zenodo.3713326",
       "id": "zero/Dataset_Noise2Void_3D_ZeroCostDL4Mic",
       "name": "Noise2Void (3D) example training and test dataset - ZeroCostDL4Mic",
@@ -1728,6 +3166,7 @@
         "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/BioimageModelZoo/Images/NoisyNuclei_dataset.png"
       ],
       "description": "This dataset contains a denoising training and test dataset for deep learning applications. The training dataset comprises 20 paired matching noisy and high signal-to-noise images. The test dataset contains five paired matching noisy and high signal-to-noise images. Images are Fluorescence microscopy (SiR-DNA) images acquired using a spinning disk confocal microscope with a 20x 0.8 NA objective.",
+      "download_count": 1,
       "download_url": "https://zenodo.org/record/5750174",
       "id": "zero/Dataset_Noisy_Nuclei_ZeroCostDL4Mic",
       "name": "Noisy nuclei dataset.",
@@ -1757,6 +3196,7 @@
         "https://zenodo.org/api/iiif/v2/c6dca42a-62cd-423d-8216-b2ae20dab6a3:790a798b-26b2-425b-b1b6-9545d89daa7d:A_Segmentation_E.coli_large_FoV.png/full/750,/0/default.png"
       ],
       "description": "Training and test images of live E. coli cells imaged under bright field for the task of segmentation.",
+      "download_count": 1,
       "download_url": "https://zenodo.org/record/5550935",
       "id": "zero/Dataset_SplineDist_2D_DeepBacs",
       "name": "Escherichia coli bright field segmentation dataset - DeepBacs",
@@ -1797,6 +3237,7 @@
         "https://zenodo.org/api/iiif/v2/c6dca42a-62cd-423d-8216-b2ae20dab6a3:790a798b-26b2-425b-b1b6-9545d89daa7d:A_Segmentation_E.coli_large_FoV.png/full/750,/0/default.png"
       ],
       "description": "Mixed training and test images of S. aureus, E. coli and B. subtilis for cell segmentation using StarDist.",
+      "download_count": 1,
       "download_url": "https://zenodo.org/record/5551009",
       "id": "zero/Dataset_StarDist_2D_DeepBacs",
       "name": "Mixed segmentation dataset - DeepBacs",
@@ -1825,6 +3266,7 @@
         "https://github.com/HenriquesLab/ZeroCostDL4Mic/raw/master/Wiki_files/Stardist_nuclei_masks.png"
       ],
       "description": "Fluorescence microscopy (SiR-DNA) and masks obtained via manual segmentation",
+      "download_count": 1,
       "download_url": "https://doi.org/10.5281/zenodo.3715492",
       "id": "zero/Dataset_StarDist_2D_ZeroCostDL4Mic_2D",
       "name": "StarDist (2D) example training and test dataset - ZeroCostDL4Mic",
@@ -1850,6 +3292,7 @@
         "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Wiki_files/StarDist_trainingfluo_trackmate.png"
       ],
       "description": "Fluorescence microscopy of Nuclei (SiR-DNA) and masks obtained via manual segmentation",
+      "download_count": 1,
       "download_url": "https://zenodo.org/record/4034976",
       "id": "zero/Dataset_StarDist_Fluo_ZeroCostDL4Mic",
       "name": "Combining StarDist and TrackMate example 1 - Breast cancer cell dataset",
@@ -1876,6 +3319,7 @@
         "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Wiki_files/StarDist_trainingflo_trackmate.png"
       ],
       "description": "Paired brightfield images of cancer cells and corresponding masks",
+      "download_count": 1,
       "download_url": "https://zenodo.org/record/4034939",
       "id": "zero/Dataset_StarDist_brightfield2_ZeroCostDL4Mic",
       "name": "Combining StarDist and TrackMate example 3 - Flow chamber dataset",
@@ -1902,6 +3346,7 @@
         "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Wiki_files/StarDist_trainingTcells_trackmate.png"
       ],
       "description": "Paired brightfield images of migrating T cells and corresponding masks",
+      "download_count": 1,
       "download_url": "https://zenodo.org/record/4034929",
       "id": "zero/Dataset_StarDist_brightfield_ZeroCostDL4Mic",
       "name": "Combining StarDist and TrackMate example 2 - T cell dataset",
@@ -1931,6 +3376,7 @@
         "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/BioimageModelZoo/Images/Moreno_dataset_stardist.png"
       ],
       "description": "Fluorescence microscopy of Nuclei (SiR-DNA) and masks obtained via manual segmentation",
+      "download_count": 1,
       "download_url": "https://zenodo.org/record/4811213",
       "id": "zero/Dataset_StarDist_fluo2_ZeroCostDL4Mic",
       "name": "training dataset for automated tracking of MDA-MB-231 and BT20 cells",
@@ -1957,6 +3403,7 @@
         "https://zenodo.org/api/iiif/v2/c6dca42a-62cd-423d-8216-b2ae20dab6a3:790a798b-26b2-425b-b1b6-9545d89daa7d:A_Segmentation_E.coli_large_FoV.png/full/750,/0/default.png"
       ],
       "description": "Paired bright field and segmented mask images of live E. coli cells imaged under bright field.",
+      "download_count": 1,
       "download_url": "https://zenodo.org/record/5550935",
       "id": "zero/Dataset_U-Net_2D_DeepBacs",
       "name": "Escherichia coli bright field segmentation dataset - DeepBacs",
@@ -1985,6 +3432,7 @@
         "https://zenodo.org/api/iiif/v2/8ba101cf-97ac-4e68-9fff-4cc130b5ea81:93b67447-8b0a-4053-a522-9c141623ca6f:A_Multilabel_U-Net_example_B.subtilis.png/full/750,/0/default.png"
       ],
       "description": "Paired bright field images and segmented binary masks of live E. coli cells.",
+      "download_count": 1,
       "download_url": "https://zenodo.org/record/5639253",
       "id": "zero/Dataset_U-Net_2D_multilabel_DeepBacs",
       "name": "Multi-label U-Net training dataset (Bacillus subtilis) - DeepBacs",
@@ -2014,6 +3462,7 @@
         "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/BioimageModelZoo/Images/yolo_dataset.png"
       ],
       "description": "2D grayscale .png images with corresponding bounding box annotations in .xml  PASCAL Voc format.",
+      "download_count": 1,
       "download_url": "https://doi.org/10.5281/zenodo.3941908",
       "id": "zero/Dataset_YOLOv2_ZeroCostDL4Mic",
       "name": "YoloV2 example training and test dataset - ZeroCostDL4Mic",
@@ -2040,6 +3489,7 @@
         "https://zenodo.org/api/iiif/v2/5b4a4304-ea44-47ce-9c75-4a069bfc9536:e3c27642-4605-42c3-ad3c-1e120917b97e:Antibiotic_profiling_examples.png/full/750,/0/default.png"
       ],
       "description": "Training and test images of E. coli cells treated with different antibiotics for antibiotic phenotyping.",
+      "download_count": 1,
       "download_url": "https://zenodo.org/record/5551057",
       "id": "zero/Dataset_YOLOv2_antibiotic_DeepBacs",
       "name": "Escherichia coli antibiotic phenotyping object detection dataset - DeepBacs",
@@ -2068,6 +3518,7 @@
         "https://zenodo.org/api/iiif/v2/e30f5766-cc61-4a7c-9d36-30681f2dcbc2:677b2046-5d0b-49df-b231-b5470b6fcbc8:A_Object_detection_cell_cycle.png/full/750,/0/default.png"
       ],
       "description": "Training and test images of E. coli cells for object detection and classification.",
+      "download_count": 1,
       "download_url": "https://zenodo.org/record/5551016",
       "id": "zero/Dataset_YOLOv2_coli_DeepBacs",
       "name": "Escherichia coli growth stage object detection dataset - DeepBacs",
@@ -2093,6 +3544,7 @@
         "https://github.com/HenriquesLab/ZeroCostDL4Mic/raw/master/Wiki_files/Fnet_exemplary_data_mitochondria.png"
       ],
       "description": "Confocal microscopy data (TOM20 labeled with Alexa Fluor 594)",
+      "download_count": 1,
       "download_url": "https://doi.org/10.5281/zenodo.3748967",
       "id": "zero/Dataset_fnet_3D_ZeroCostDL4Mic",
       "name": "Label-free prediction (fnet) example training and test dataset - ZeroCostDL4Mic",
@@ -2121,6 +3573,7 @@
         "https://zenodo.org/api/iiif/v2/850bd89d-e7ca-4009-80ad-865819df1b6d:c18f2e19-3761-4852-8034-4cefcf7ca318:Artificial_labeling.png/full/750,/0/default.png"
       ],
       "description": "Training and test images of E. coli cells for artificial labeling of membranes in brightfield images using fnet or CARE, as well as trained models for prediction of super-resolution membranes.",
+      "download_count": 1,
       "download_url": "https://zenodo.org/record/5551123",
       "id": "zero/Dataset_fnet_DeepBacs",
       "name": "Artificial labeling of E. coli membranes dataset - DeepBacs",
@@ -2147,6 +3600,7 @@
         "https://github.com/HenriquesLab/ZeroCostDL4Mic/raw/master/BioimageModelZoo/Images/pix2pix_dataset.png"
       ],
       "description": "Paired microscopy images (fluorescence) of lifeact-RFP and sir-DNA",
+      "download_count": 1,
       "download_url": "https://doi.org/10.5281/zenodo.3941889",
       "id": "zero/Dataset_pix2pix_ZeroCostDL4Mic",
       "name": "pix2pix example training and test dataset - ZeroCostDL4Mic",
@@ -2165,9 +3619,10 @@
       "badges": [],
       "covers": [],
       "description": "Previewing Jupyter notebook without a Jupyter server",
+      "download_count": 1,
       "icon": "https://raw.githubusercontent.com/imjoy-team/bioimage-io-models/master/asset/preview-icon-small.png",
       "id": "zero/Notebook Preview",
-      "name": "ZeroCost4Mic Collection",
+      "name": "Notebook Preview",
       "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/zero/Notebook Preview/latest/rdf.yaml",
       "source": "https://raw.githubusercontent.com/bioimage-io/nbpreview/master/notebook-preview.imjoy.html",
       "tags": [
@@ -2198,6 +3653,7 @@
         "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/BioimageModelZoo/Images/augmentor_notebook.png"
       ],
       "description": "Artificially increase the size of your training dataset. Augmentor is a data augmentation library. Data augmentation can improve training progress by amplifying differences in the dataset. This can be useful if the available dataset is small since, in this case, it is possible that a network could quickly learn every example in the dataset (overfitting), without augmentation. Augmentation can be especially valuable when training dataset need to be manually labelled. Note - visit the ZeroCostDL4Mic wiki to check the original publications this network is based on and make sure you cite these.",
+      "download_count": 1,
       "download_url": "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Tools/Augmentor_ZeroCostDL4Mic.ipynb",
       "id": "zero/Notebook_Augmentor_ZeroCostDL4Mic",
       "links": [
@@ -2236,6 +3692,7 @@
         "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/BioimageModelZoo/Images/CARE2D_notebook_3.png"
       ],
       "description": "Supervised restoration of 2D images. CARE is a neural network capable of image restoration from corrupted bio-images, first published in 2018 by Weigert et al. in Nature Methods. The network allows image denoising and resolution improvement in 2D and 3D images, in a supervised training manner. The function of the network is essentially determined by the set of images provided in the training dataset. For instance, if noisy images are provided as input and high signal-to-noise ratio images are provided as targets, the network will perform denoising. Note - visit the ZeroCostDL4Mic wiki to check the original publications this network is based on and make sure you cite these.",
+      "download_count": 1,
       "download_url": "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Colab_notebooks/CARE_2D_ZeroCostDL4Mic.ipynb",
       "id": "zero/Notebook_CARE_2D_ZeroCostDL4Mic",
       "links": [
@@ -2277,6 +3734,7 @@
         "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/BioimageModelZoo/Images/3D_CARE_notebook.png"
       ],
       "description": "Supervised restoration of 3D images. CARE is a neural network capable of image restoration from corrupted bio-images, first published in 2018 by Weigert et al. in Nature Methods. The network allows image denoising and resolution improvement in 2D and 3D images, in a supervised training manner. The function of the network is essentially determined by the set of images provided in the training dataset. For instance, if noisy images are provided as input and high signal-to-noise ratio images are provided as targets, the network will perform denoising. Note - visit the ZeroCostDL4Mic wiki to check the original publications this network is based on and make sure you cite these.",
+      "download_count": 1,
       "download_url": "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Colab_notebooks/CARE_3D_ZeroCostDL4Mic.ipynb",
       "id": "zero/Notebook_CARE_3D_ZeroCostDL4Mic",
       "links": [
@@ -2319,6 +3777,7 @@
         "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/BioimageModelZoo/Images/cellpose_notebook_5.png"
       ],
       "description": "Instance segmentation of 2D and 3D images. Cellpose is a generalist algorithm for cellular segmentation.",
+      "download_count": 1,
       "download_url": "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Colab_notebooks/Beta%20notebooks/Cellpose_2D_ZeroCostDL4Mic.ipynb",
       "id": "zero/Notebook_Cellpose_2D_ZeroCostDL4Mic",
       "links": [
@@ -2360,6 +3819,7 @@
         "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/BioimageModelZoo/Images/cycleGAN_notebook.png"
       ],
       "description": "Unpaired image-to-image translation of 2D images. CycleGAN is a method that can capture the characteristics of one image domain and figure out how these characteristics could be translated into another image domain, all in the absence of any paired training examples (ie transform a horse into zebra or apples into oranges). While CycleGAN can potentially be used for any type of image-to-image translation, we illustrate that it can be used to predict what a fluorescent label would look like when imaged using another imaging modalities. Note - visit the ZeroCostDL4Mic wiki to check the original publications this network is based on and make sure you cite these.",
+      "download_count": 1,
       "download_url": "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Colab_notebooks/CycleGAN_ZeroCostDL4Mic.ipynb",
       "id": "zero/Notebook_CycleGAN_2D_ZeroCostDL4Mic",
       "links": [
@@ -2397,6 +3857,7 @@
         "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/BioimageModelZoo/Images/DFCAN_notebook.png"
       ],
       "description": "Super-resolution via super-pixelisation. Deep Fourier channel attention network (DFCAN) is a network created to transform low-resolution (LR) images to super-resolved (SR) images, published by Qiao, Chang and Li, Di and Guo, Yuting and Liu, Chong and Jiang, Tao and Dai, Qionghai and Li, Dong. The training is done using LR-SR image pairs, taking the LR images as input and obtaining an output as close to SR as posible.",
+      "download_count": 1,
       "download_url": "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Colab_notebooks/Beta%20notebooks/DFCAN_ZeroCostDL4Mic.ipynb",
       "id": "zero/Notebook_DFCAN_ZeroCostDL4Mic",
       "links": [
@@ -2433,6 +3894,7 @@
         "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/BioimageModelZoo/Images/DrMIME_notebook.png"
       ],
       "description": "DRMIME is an network that can be used to register microscopy images (affine and perspective registration).",
+      "download_count": 1,
       "download_url": "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Colab_notebooks/Beta%20notebooks/DRMIME_2D_ZeroCostDL4Mic.ipynb",
       "id": "zero/Notebook_DRMIME_ZeroCostDL4Mic",
       "links": [
@@ -2469,6 +3931,7 @@
         "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/BioimageModelZoo/Images/DecoNoising_notebook.png"
       ],
       "description": "Self-supervised denoising of 2D images. DecoNoising 2D is deep-learning method that can be used to denoise 2D microscopy images. By running this notebook, you can train your own network and denoise your images. Note - visit the ZeroCostDL4Mic wiki to check the original publications this network is based on and make sure you cite these.",
+      "download_count": 1,
       "download_url": "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Colab_notebooks/Beta%20notebooks/DecoNoising_2D_ZeroCostDL4Mic.ipynb",
       "id": "zero/Notebook_DecoNoising_2D_ZeroCostDL4Mic",
       "links": [
@@ -2511,6 +3974,7 @@
         "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/BioimageModelZoo/Images/DeepSTORM_notebook_2.png"
       ],
       "description": "Single Molecule Localization Microscopy (SMLM) image reconstruction from high-density emitter data. Deep-STORM is a neural network capable of image reconstruction from high-density single-molecule localization microscopy (SMLM), first published in 2018 by Nehme et al. in Optica. This network allows image reconstruction of 2D super-resolution images, in a supervised training manner. The network is trained using simulated high-density SMLM data for which the ground-truth is available. These simulations are obtained from random distribution of single molecules in a field-of-view and therefore do not imprint structural priors during training. The network output a super-resolution image with increased pixel density (typically upsampling factor of 8 in each dimension). Note - visit the ZeroCostDL4Mic wiki to check the original publications this network is based on and make sure you cite these.",
+      "download_count": 1,
       "download_url": "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Colab_notebooks/Deep-STORM_2D_ZeroCostDL4Mic.ipynb",
       "id": "zero/Notebook_Deep-STORM_2D_ZeroCostDL4Mic",
       "links": [
@@ -2550,6 +4014,7 @@
         "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/BioimageModelZoo/Images/DeepSTORM_notebook_2.png"
       ],
       "description": "Single Molecule Localization Microscopy (SMLM) image reconstruction from high-density emitter data. Deep-STORM is a neural network capable of image reconstruction from high-density single-molecule localization microscopy (SMLM), first published in 2018 by Nehme et al. in Optica. This network allows image reconstruction of 2D super-resolution images, in a supervised training manner. The network is trained using simulated high-density SMLM data for which the ground-truth is available. These simulations are obtained from random distribution of single molecules in a field-of-view and therefore do not imprint structural priors during training. The network output a super-resolution image with increased pixel density (typically upsampling factor of 8 in each dimension). Note - visit the ZeroCostDL4Mic wiki to check the original publications this network is based on and make sure you cite these. Networks trained in this notebook can be used in Fiji via deepImageJ and ThunderSTORM plugin.",
+      "download_count": 1,
       "download_url": "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Colab_notebooks/BioImage.io%20notebooks/Deep-STORM_2D_ZeroCostDL4Mic_BioImageModelZoo_export.ipynb",
       "id": "zero/Notebook_Deep-STORM_2D_ZeroCostDL4Mic_DeepImageJ",
       "links": [
@@ -2589,6 +4054,7 @@
         "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/BioimageModelZoo/Images/Denoiseg_notebook.png"
       ],
       "description": "Joint denoising and binary segmentation of 2D images. DenoiSeg 2D is deep-learning method that can be used to jointly denoise and segment 2D microscopy images. The benefits of using DenoiSeg (compared to other Deep Learning-based segmentation methods) are more prononced when only a few annotated images are available. However, the denoising part requires many images to perform well. All the noisy images don't need to be labeled to train DenoiSeg. Note - visit the ZeroCostDL4Mic wiki to check the original publications this network is based on and make sure you cite these.",
+      "download_count": 1,
       "download_url": "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Colab_notebooks/Beta%20notebooks/DenoiSeg_ZeroCostDL4Mic.ipynb",
       "id": "zero/Notebook_DenoiSeg_2D_ZeroCostDL4Mic",
       "links": [
@@ -2626,6 +4092,7 @@
         "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/BioimageModelZoo/Images/yolo_notebook_2.png"
       ],
       "description": "Object detection of 2D images. Detectron2 is an object detection network developed by Facebook AI Research, which identifies objects in images and draws bounding boxes around them.",
+      "download_count": 1,
       "download_url": "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Colab_notebooks/Beta%20notebooks/Detectron2_2D_ZeroCostDL4Mic.ipynb",
       "id": "zero/Notebook_Detectron2_ZeroCostDL4Mic",
       "links": [
@@ -2665,6 +4132,7 @@
         "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/BioimageModelZoo/Images/2D_Stardist_notebook.png"
       ],
       "description": "Instance segmentation of 2D images. EmbedSeg 2D is a deep-learning method that can be used to segment object from bioimages and was first published by Lalit et al. in 2021, on arXiv.",
+      "download_count": 1,
       "download_url": "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Colab_notebooks/Beta%20notebooks/EmbedSeg_2D_ZeroCostDL4Mic.ipynb",
       "id": "zero/Notebook_EmbedSeg_2D_ZeroCostDL4Mic",
       "links": [
@@ -2710,6 +4178,7 @@
         "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/BioimageModelZoo/Images/cellpose_notebook_5.png"
       ],
       "description": "Interactive instance segmentation using Kaibu and Cellpose.",
+      "download_count": 1,
       "download_url": "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Colab_notebooks/Beta%20notebooks/ZeroCostDL4Mic_Interactive_annotations_Cellpose.ipynb",
       "id": "zero/Notebook_Interactive_Segmentation_Kaibu_2D_ZeroCostDL4Mic",
       "links": [
@@ -2746,6 +4215,7 @@
         "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/BioimageModelZoo/Images/maskRCNN_notebook.png"
       ],
       "description": "Instance segmentation of 2D images. MaskRCNN is a is an object detection and segmentation network, which identifies objects in images and draws bounding boxes around them.",
+      "download_count": 1,
       "download_url": "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Colab_notebooks/Beta%20notebooks/MaskRCNN_ZeroCostDL4Mic.ipynb",
       "id": "zero/Notebook_MaskRCNN_ZeroCostDL4Mic",
       "links": [
@@ -2783,6 +4253,7 @@
         "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/BioimageModelZoo/Images/N2V2D_notebook_3.png"
       ],
       "description": "self-supervised denoising of 2D images. Noise2Void 2D is deep-learning method that can be used to denoise 2D microscopy images. By running this notebook, you can train your own network and denoise your images. Note - visit the ZeroCostDL4Mic wiki to check the original publications this network is based on and make sure you cite these.",
+      "download_count": 1,
       "download_url": "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Colab_notebooks/Noise2Void_2D_ZeroCostDL4Mic.ipynb",
       "id": "zero/Notebook_Noise2Void_2D_ZeroCostDL4Mic",
       "links": [
@@ -2825,6 +4296,7 @@
         "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/BioimageModelZoo/Images/N2V_3D_notebook_2.png"
       ],
       "description": "self-supervised denoising of 3D images. Noise2VOID 3D is deep-learning method that can be used to denoise 3D microscopy images. By running this notebook, you can train your own network and denoise your images. Note - visit the ZeroCostDL4Mic wiki to check the original publications this network is based on and make sure you cite these.",
+      "download_count": 1,
       "download_url": "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Colab_notebooks/Noise2Void_3D_ZeroCostDL4Mic.ipynb",
       "id": "zero/Notebook_Noise2Void_3D_ZeroCostDL4Mic",
       "links": [
@@ -2863,6 +4335,7 @@
         "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/BioimageModelZoo/Images/QC_notebook.png"
       ],
       "description": "Error mapping and quality metrics estimation.",
+      "download_count": 1,
       "download_url": "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Tools/Quality_Control_ZeroCostDL4Mic.ipynb",
       "id": "zero/Notebook_Quality_Control_ZeroCostDL4Mic",
       "links": [
@@ -2898,6 +4371,7 @@
         "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/BioimageModelZoo/Images/3D_CARE_notebook.png"
       ],
       "description": "Supervised restoration of 3D images. RCAN is a neural network capable of image restoration from corrupted bio-images. The network allows image denoising and resolution improvement in 3D images, in a supervised training manner. The function of the network is essentially determined by the set of images provided in the training dataset. For instance, if noisy images are provided as input and high signal-to-noise ratio images are provided as targets, the network will perform denoising. Note - visit the ZeroCostDL4Mic wiki to check the original publications this network is based on and make sure you cite these.",
+      "download_count": 1,
       "download_url": "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Colab_notebooks/Beta%20notebooks/3D-RCAN_ZeroCostDL4Mic.ipynb",
       "id": "zero/Notebook_RCAN_3D_ZeroCostDL4Mic",
       "links": [
@@ -2937,6 +4411,7 @@
         "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/BioimageModelZoo/Images/yolo_notebook_2.png"
       ],
       "description": "Object detection of 2D images. RetinaNet is a is an object detection network, which identifies objects in images and draws bounding boxes around them.",
+      "download_count": 1,
       "download_url": "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Colab_notebooks/Beta%20notebooks/RetinaNet_ZeroCostDL4Mic.ipynb",
       "id": "zero/Notebook_RetinaNet_ZeroCostDL4Mic",
       "links": [
@@ -2976,6 +4451,7 @@
         "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Wiki_files/SplineDist_overlay_cropped.png"
       ],
       "description": "Instance segmentation of 2D images. SplineDist is a neural network inspired by StarDist, capable of performing image instance segmentation. Unlike StarDist, SplineDist uses cubic splines to describe the contour of each object and therefore can potentially segment objects of any shapes. This version is only for 2D dataset. Note - visit the ZeroCostDL4Mic wiki to check the original publications this network is based on and make sure you cite these.",
+      "download_count": 1,
       "download_url": "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Colab_notebooks/Beta%20notebooks/SplineDist_2D_ZeroCostDL4Mic.ipynb",
       "id": "zero/Notebook_SplineDist_2D_ZeroCostDL4Mic",
       "links": [
@@ -3022,6 +4498,7 @@
         "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Wiki_files/StarDist_trainingfluo_trackmate.png"
       ],
       "description": "2D instance segmentation of oval objects (ie nuclei). StarDist is a deep-learning method that can be used to segment cell nuclei in 2D (xy) single images or in stacks (xyz). Note - visit the ZeroCostDL4Mic wiki to check the original publications this network is based on and make sure you cite these.",
+      "download_count": 1,
       "download_url": "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Colab_notebooks/StarDist_2D_ZeroCostDL4Mic.ipynb",
       "id": "zero/Notebook_StarDist_2D_ZeroCostDL4Mic",
       "links": [
@@ -3051,53 +4528,6 @@
     {
       "authors": [
         {
-          "name": "Estibaliz G\u00f3mez de Mariscal and the deepImageJ and the ZeroCostDL4Mic teams"
-        }
-      ],
-      "badges": [
-        {
-          "icon": "https://colab.research.google.com/assets/colab-badge.svg",
-          "label": "Open in Colab",
-          "url": "https://colab.research.google.com/github/HenriquesLab/ZeroCostDL4Mic/blob/master/Colab_notebooks/BioImage.io%20notebooks/StarDist_2D_ZeroCostDL4Mic_BioImageModelZoo_export.ipynb"
-        }
-      ],
-      "covers": [
-        "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/BioimageModelZoo/Images/2D_Stardist_notebook.png",
-        "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Wiki_files/StarDist_trainingTcells_trackmate.png",
-        "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Wiki_files/StarDist_trainingflo_trackmate.png",
-        "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Wiki_files/StarDist_trainingfluo_trackmate.png"
-      ],
-      "description": "2D instance segmentation of oval objects (ie nuclei). StarDist is a deep-learning method that can be used to segment cell nuclei in 2D (xy) images. Note - visit the ZeroCostDL4Mic wiki to check the original publications this network is based on and make sure you cite these. Networks trained in this notebook can be used in Fiji via deepImageJ and StarDist plugins for ImageJ.",
-      "download_url": "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Colab_notebooks/BioImage.io%20notebooks/StarDist_2D_ZeroCostDL4Mic_BioImageModelZoo_export.ipynb",
-      "id": "zero/Notebook_StarDist_2D_ZeroCostDL4Mic_DeepImageJ",
-      "links": [
-        "zero/Notebook Preview",
-        "zero/Dataset_StarDist_2D_ZeroCostDL4Mic_2D",
-        "zero/Dataset_StarDist_Fluo_ZeroCostDL4Mic",
-        "zero/Dataset_StarDist_brightfield_ZeroCostDL4Mic",
-        "zero/Dataset_StarDist_brightfield2_ZeroCostDL4Mic",
-        "zero/Dataset_StarDist_fluo2_ZeroCostDL4Mic",
-        "zero/Dataset_StarDist_2D_DeepBacs"
-      ],
-      "name": "StarDist (2D) - ZeroCostDL4Mic - DeepImageJ",
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/zero/Notebook_StarDist_2D_ZeroCostDL4Mic_DeepImageJ/latest/rdf.yaml",
-      "tags": [
-        "colab",
-        "notebook",
-        "StarDist",
-        "segmentation",
-        "ZeroCostDL4Mic",
-        "2D",
-        "deepimagej"
-      ],
-      "type": "application",
-      "versions": [
-        "latest"
-      ]
-    },
-    {
-      "authors": [
-        {
           "name": "Guillaume Jacquemet and the ZeroCostDL4Mic Team"
         }
       ],
@@ -3112,6 +4542,7 @@
         "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/BioimageModelZoo/Images/StarDist_3D.png"
       ],
       "description": "3D instance segmentation of oval objects (ie nuclei). StarDist is a deep-learning method that can be used to segment cell nuclei in 3D (xyz) images. Note - visit the ZeroCostDL4Mic wiki to check the original publications this network is based on and make sure you cite these.",
+      "download_count": 1,
       "download_url": "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Colab_notebooks/StarDist_3D_ZeroCostDL4Mic.ipynb",
       "id": "zero/Notebook_StarDist_3D_ZeroCostDL4Mic",
       "links": [
@@ -3149,6 +4580,7 @@
         "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/BioimageModelZoo/Images/2D_Unet_notebook.png"
       ],
       "description": "2D binary segmentation. U-Net is an encoder-decoder architecture originally used for image segmentation. The first half of the U-Net architecture is a downsampling convolutional neural network which acts as a feature extractor from input images. The other half upsamples these results and restores an image by combining results from downsampling with the upsampled images. Note - visit the ZeroCostDL4Mic wiki to check the original publications this network is based on and make sure you cite these.",
+      "download_count": 1,
       "download_url": "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Colab_notebooks/U-Net_2D_ZeroCostDL4Mic.ipynb",
       "id": "zero/Notebook_U-Net_2D_ZeroCostDL4Mic",
       "links": [
@@ -3173,52 +4605,14 @@
     {
       "authors": [
         {
-          "name": "Estibaliz G\u00f3mez de Mariscal and the deepImageJ and the ZeroCostDL4Mic teams"
+          "name": "Estibaliz G\u00f3mez de Mariscal and the ZeroCostDL4Mic team"
         }
       ],
       "badges": [
         {
           "icon": "https://colab.research.google.com/assets/colab-badge.svg",
           "label": "Open in Colab",
-          "url": "https://colab.research.google.com/github/HenriquesLab/ZeroCostDL4Mic/blob/master/Colab_notebooks/BioImage.io%20notebooks/U-Net_2D_ZeroCostDL4Mic_BioImageModelZoo_export.ipynb"
-        }
-      ],
-      "covers": [
-        "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/BioimageModelZoo/Images/2D_Unet_notebook.png"
-      ],
-      "description": "2D binary segmentation. U-Net is an encoder-decoder architecture originally used for image segmentation. The first half of the U-Net architecture is a downsampling convolutional neural network which acts as a feature extractor from input images. The other half upsamples these results and restores an image by combining results from downsampling with the upsampled images. Note - visit the ZeroCostDL4Mic wiki to check the original publications this network is based on and make sure you cite these. Networks trained in this notebook can be used in Fiji via deepImageJ.",
-      "download_url": "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Colab_notebooks/BioImage.io%20notebooks/U-Net_2D_ZeroCostDL4Mic_BioImageModelZoo_export.ipynb",
-      "id": "zero/Notebook_U-Net_2D_ZeroCostDL4Mic_DeepImageJ",
-      "links": [
-        "zero/Notebook Preview"
-      ],
-      "name": "U-Net (2D) - ZeroCostDL4Mic - DeepImageJ",
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/zero/Notebook_U-Net_2D_ZeroCostDL4Mic_DeepImageJ/latest/rdf.yaml",
-      "tags": [
-        "colab",
-        "notebook",
-        "U-Net",
-        "segmentation",
-        "ZeroCostDL4Mic",
-        "2D",
-        "deepimagej"
-      ],
-      "type": "application",
-      "versions": [
-        "latest"
-      ]
-    },
-    {
-      "authors": [
-        {
-          "name": "Estibaliz G\u00f3mez de Mariscal and the ZeroCostDL4Mic teams"
-        }
-      ],
-      "badges": [
-        {
-          "icon": "https://colab.research.google.com/assets/colab-badge.svg",
-          "label": "Open in Colab",
-          "url": "https://colab.research.google.com/github/HenriquesLab/ZeroCostDL4Mic/blob/master/Colab_notebooks/Beta%20notebooks/U-Net_2D_Multilabel_ZeroCostDL4Mic.ipynb"
+          "url": "https://colab.research.google.com/github/HenriquesLab/ZeroCostDL4Mic/blob/master/Colab_notebooks/U-Net_2D_Multilabel_ZeroCostDL4Mic.ipynb"
         }
       ],
       "covers": [
@@ -3226,7 +4620,8 @@
         "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Wiki_files/UNet-multilabel-example-zoom.png"
       ],
       "description": "2D semantic segmentation. U-Net is an encoder-decoder architecture originally used for image segmentation. The first half of the U-Net architecture is a downsampling convolutional neural network which acts as a feature extractor from input images. The other half upsamples these results and restores an image by combining results from downsampling with the upsampled images. Note - visit the ZeroCostDL4Mic wiki to check the original publications this network is based on and make sure you cite these.",
-      "download_url": "https://github.com/HenriquesLab/ZeroCostDL4Mic/blob/master/Colab_notebooks/Beta%20notebooks/U-Net_2D_Multilabel_ZeroCostDL4Mic.ipynb",
+      "download_count": 1,
+      "download_url": "https://colab.research.google.com/github/HenriquesLab/ZeroCostDL4Mic/blob/master/Colab_notebooks/U-Net_2D_Multilabel_ZeroCostDL4Mic.ipynb",
       "id": "zero/Notebook_U-Net_2D_multilabel_ZeroCostDL4Mic",
       "links": [
         "zero/Notebook Preview",
@@ -3252,7 +4647,7 @@
     {
       "authors": [
         {
-          "name": "Daniel Krentzel and the ZeroCostDL4Mic Team"
+          "name": "Daniel Krentzel and Estibaliz G\u00f3mez de Mariscal andthe ZeroCostDL4Mic Team"
         }
       ],
       "badges": [
@@ -3266,6 +4661,7 @@
         "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/BioimageModelZoo/Images/3D_Unet_notebook.png"
       ],
       "description": "3D binary segmentation. The 3D U-Net was first introduced by \u00c7i\u00e7ek et al for learning dense volumetric segmentations from sparsely annotated ground-truth data building upon the original U-Net architecture by Ronneberger et al. Note - visit the ZeroCostDL4Mic wiki to check the original publications this network is based on and make sure you cite these.",
+      "download_count": 1,
       "download_url": "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Colab_notebooks/U-Net_3D_ZeroCostDL4Mic.ipynb",
       "id": "zero/Notebook_U-Net_3D_ZeroCostDL4Mic",
       "links": [
@@ -3280,44 +4676,6 @@
         "segmentation",
         "ZeroCostDL4Mic",
         "3D"
-      ],
-      "type": "application",
-      "versions": [
-        "latest"
-      ]
-    },
-    {
-      "authors": [
-        {
-          "name": "Estibaliz G\u00f3mez de Mariscal and the deepImageJ and the ZeroCostDL4Mic teams"
-        }
-      ],
-      "badges": [
-        {
-          "icon": "https://colab.research.google.com/assets/colab-badge.svg",
-          "label": "Open in Colab",
-          "url": "https://colab.research.google.com/github/HenriquesLab/ZeroCostDL4Mic/blob/master/Colab_notebooks/BioImage.io%20notebooks/U-Net_3D_ZeroCostDL4Mic_BioImageModelZoo_export.ipynb"
-        }
-      ],
-      "covers": [
-        "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/BioimageModelZoo/Images/3D_Unet_notebook.png"
-      ],
-      "description": "3D binary segmentation. The 3D U-Net was first introduced by \u00c7i\u00e7ek et al for learning dense volumetric segmentations from sparsely annotated ground-truth data building upon the original U-Net architecture by Ronneberger et al. Note - visit the ZeroCostDL4Mic wiki to check the original publications this network is based on and make sure you cite these. Networks trained in this notebook can be used in Fiji via deepImageJ.",
-      "download_url": "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Colab_notebooks/BioImage.io%20notebooks/U-Net_3D_ZeroCostDL4Mic_BioImageModelZoo_export.ipynb",
-      "id": "zero/Notebook_U-Net_3D_ZeroCostDL4Mic_DeepImageJ",
-      "links": [
-        "zero/Notebook Preview"
-      ],
-      "name": "U-Net (3D) - ZeroCostDL4Mic - DeepImageJ",
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/zero/Notebook_U-Net_3D_ZeroCostDL4Mic_DeepImageJ/latest/rdf.yaml",
-      "tags": [
-        "colab",
-        "notebook",
-        "U-Net",
-        "segmentation",
-        "ZeroCostDL4Mic",
-        "3D",
-        "deepimagej"
       ],
       "type": "application",
       "versions": [
@@ -3342,6 +4700,7 @@
         "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/BioimageModelZoo/Images/yolo_notebook_2.png"
       ],
       "description": "Object detection of 2D images. YOLOv2 is an object detection network developed by Redmon & Farhadi, which identifies objects in images and draws bounding boxes around them.",
+      "download_count": 1,
       "download_url": "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Colab_notebooks/YOLOv2_ZeroCostDL4Mic.ipynb",
       "id": "zero/Notebook_YOLOv2_ZeroCostDL4Mic",
       "links": [
@@ -3381,6 +4740,7 @@
         "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/BioimageModelZoo/Images/fnet_notebook.png"
       ],
       "description": "Paired image-to-image translation of 2D images. Label-free Prediction (fnet) is a neural network used to infer the features of cellular structures from brightfield or EM images without coloured labels. The network is trained using paired training images from the same field of view, imaged in a label-free (e.g. brightfield) and labelled condition (e.g. fluorescent protein). When trained, this allows the user to identify certain structures from brightfield images alone. The performance of fnet may depend significantly on the structure at hand. Note - visit the ZeroCostDL4Mic wiki to check the original publications this network is based on and make sure you cite these.",
+      "download_count": 1,
       "download_url": "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Colab_notebooks/fnet_2D_ZeroCostDL4Mic.ipynb",
       "id": "zero/Notebook_fnet_2D_ZeroCostDL4Mic",
       "links": [
@@ -3419,6 +4779,7 @@
         "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/BioimageModelZoo/Images/fnet_notebook.png"
       ],
       "description": "Paired image-to-image translation of 3D images. Label-free Prediction (fnet) is a neural network used to infer the features of cellular structures from brightfield or EM images without coloured labels. The network is trained using paired training images from the same field of view, imaged in a label-free (e.g. brightfield) and labelled condition (e.g. fluorescent protein). When trained, this allows the user to identify certain structures from brightfield images alone. The performance of fnet may depend significantly on the structure at hand. Note - visit the ZeroCostDL4Mic wiki to check the original publications this network is based on and make sure you cite these.",
+      "download_count": 1,
       "download_url": "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Colab_notebooks/fnet_3D_ZeroCostDL4Mic.ipynb",
       "id": "zero/Notebook_fnet_3D_ZeroCostDL4Mic",
       "links": [
@@ -3458,6 +4819,7 @@
         "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/BioimageModelZoo/Images/pix2pix_notebook.png"
       ],
       "description": "Paired image-to-image translation of 2D images. pix2pix is a deep-learning method that can be used to translate one type of images into another. While pix2pix can potentially be used for any type of image-to-image translation, we demonstrate that it can be used to predict a fluorescent image from another fluorescent image. Note - visit the ZeroCostDL4Mic wiki to check the original publications this network is based on and make sure you cite these.",
+      "download_count": 1,
       "download_url": "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Colab_notebooks/pix2pix_ZeroCostDL4Mic.ipynb",
       "id": "zero/Notebook_pix2pix_2D_ZeroCostDL4Mic",
       "links": [
@@ -3477,1053 +4839,6 @@
       "versions": [
         "latest"
       ]
-    },
-    {
-      "authors": [
-        {
-          "affiliation": "UC3M, EPFL",
-          "name": "DeepImageJ"
-        },
-        {
-          "affiliation": "UCL, University of Turku and \u00c5bo Akademi University",
-          "name": "ZeroCostDL4Mic"
-        }
-      ],
-      "covers": [
-        "https://zenodo.org/api/files/eb8f4259-001c-4989-b8ea-d2997918599d/input.png",
-        "https://zenodo.org/api/files/eb8f4259-001c-4989-b8ea-d2997918599d/output.png"
-      ],
-      "description": "A 3D U-net to predict cell membranes in plant tissues, trained on volumes of Arabidopsis thaliana ovules acquired on a confocal microscope.",
-      "id": "10.5281/zenodo.5749843",
-      "license": "MIT",
-      "links": [
-        "imjoy/BioImageIO-Packager"
-      ],
-      "name": "Cell Segmentation from Membrane Staining for Plant Tissues",
-      "nickname": "humorous-owl",
-      "nickname_icon": "\ud83e\udd89",
-      "owners": [
-        252845
-      ],
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.5749843/5888237/rdf.yaml",
-      "tags": [
-        "zerocostdl4mic",
-        "deepimagej",
-        "segmentation",
-        "3d",
-        "unet",
-        "fluorescence-light-microscopy",
-        "cell-membrane",
-        "plant",
-        "arabidopsis",
-        "tensorflow"
-      ],
-      "type": "model",
-      "versions": [
-        "5888237",
-        "5877226"
-      ]
-    },
-    {
-      "authors": [
-        {
-          "affiliation": "EMBL Heidelberg",
-          "name": "Constantin Pape"
-        }
-      ],
-      "covers": [
-        "https://zenodo.org/api/files/a3d790f1-5203-4bd3-a975-d0fff38c0d97/cover.png"
-      ],
-      "description": "Nucleus segmentation for fluorescence microscopy",
-      "id": "10.5281/zenodo.5764892",
-      "license": "CC-BY-4.0",
-      "links": [
-        "ilastik/stardist_dsb_training_data",
-        "ilastik/ilastik",
-        "deepimagej/deepimagej",
-        "imjoy/BioImageIO-Packager"
-      ],
-      "name": "NucleiSegmentationBoundaryModel",
-      "nickname": "affable-shark",
-      "nickname_icon": "\ud83e\udd88",
-      "owners": [
-        77626
-      ],
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.5764892/6322939/rdf.yaml",
-      "tags": [
-        "fluorescence-light-microscopy",
-        "nuclei",
-        "instance-segmentation",
-        "unet",
-        "2d"
-      ],
-      "type": "model",
-      "versions": [
-        "6322939"
-      ]
-    },
-    {
-      "authors": [
-        {
-          "affiliation": "",
-          "name": "ZeroCostDL4Mic team"
-        },
-        {
-          "name": "Constantin Pape"
-        },
-        {
-          "name": "DeepImageJ team"
-        }
-      ],
-      "covers": [
-        "https://zenodo.org/api/files/5a9cfb56-3a5d-4796-986d-8f46b7987b92/cover.png"
-      ],
-      "description": "2D UNet trained using ZeroCostDL4Mic notebooks on data from ISBI Challenge for neuron segmentation in Transmission Electron Microscopy images.",
-      "id": "10.5281/zenodo.5817052",
-      "license": "MIT",
-      "links": [
-        "imjoy/BioImageIO-Packager",
-        "zero/notebook_u-net_2d_zerocostdl4mic_deepimagej",
-        "deepimagej/deepimagej"
-      ],
-      "name": "Neuron Segmentation in 2D EM (Membrane)",
-      "nickname": "creative-panda",
-      "nickname_icon": "\ud83d\udc3c",
-      "owners": [
-        271523
-      ],
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.5817052/5906839/rdf.yaml",
-      "tags": [
-        "zerocostdl4mic",
-        "deepimagej",
-        "segmentation",
-        "electron-microscopy",
-        "unet",
-        "isbi2012-challenge",
-        "neurons",
-        "brain",
-        "boundary-segmentation",
-        "2d"
-      ],
-      "type": "model",
-      "versions": [
-        "5906839",
-        "5850574"
-      ]
-    },
-    {
-      "authors": [
-        {
-          "affiliation": "EMBL Heidelberg",
-          "name": "Constantin Pape"
-        }
-      ],
-      "covers": [
-        "https://zenodo.org/api/files/be41e515-ce79-48f5-a482-35e1f11701c2/cover.png"
-      ],
-      "description": "Cell segmentation for immunofluorescence microscopy.",
-      "id": "10.5281/zenodo.5847355",
-      "license": "CC-BY-4.0",
-      "links": [
-        "ilastik/covid_if_training_data",
-        "ilastik/ilastik",
-        "deepimagej/deepimagej",
-        "imjoy/BioImageIO-Packager"
-      ],
-      "name": "CovidIFCellSegmentationBoundaryModel",
-      "nickname": "powerful-chipmunk",
-      "nickname_icon": "\ud83d\udc3f",
-      "owners": [
-        77626
-      ],
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.5847355/6322908/rdf.yaml",
-      "tags": [
-        "unet",
-        "cells",
-        "transmission-light-microscopy",
-        "covid19",
-        "immunofluorescence",
-        "instance-segmentation"
-      ],
-      "type": "model",
-      "versions": [
-        "6322908"
-      ]
-    },
-    {
-      "authors": [
-        {
-          "affiliation": "EMBL Heidelberg",
-          "name": "Constantin Pape"
-        }
-      ],
-      "covers": [
-        "https://zenodo.org/api/files/f2a796dc-27f5-43b8-aadb-981898f39b87/cover.png"
-      ],
-      "description": "Cell segmentation for phase-contrast microscopy.",
-      "id": "10.5281/zenodo.5869899",
-      "license": "CC-BY-4.0",
-      "links": [
-        "ilastik/livecell_dataset",
-        "ilastik/ilastik",
-        "deepimagej/deepimagej",
-        "imjoy/BioImageIO-Packager"
-      ],
-      "name": "LiveCellSegmentationBoundaryModel",
-      "nickname": "hiding-tiger",
-      "nickname_icon": "\ud83d\udc05",
-      "owners": [
-        77626
-      ],
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.5869899/6321179/rdf.yaml",
-      "tags": [
-        "2d",
-        "transmission-light-microscopy",
-        "label-free",
-        "cells",
-        "instance-segmentation",
-        "unet"
-      ],
-      "type": "model",
-      "versions": [
-        "6321179",
-        "5869900"
-      ]
-    },
-    {
-      "authors": [
-        {
-          "name": "Constantin Pape"
-        }
-      ],
-      "covers": [
-        "https://zenodo.org/api/files/a6d65a8b-4fed-453f-89f6-515a2a73a99e/cover.png"
-      ],
-      "description": "Neuron segmentation in EM, trained on the CREMI challenge data.",
-      "id": "10.5281/zenodo.5874741",
-      "license": "CC-BY-4.0",
-      "links": [
-        "deepimagej/deepimagej",
-        "ilastik/cremi_training_data",
-        "ilastik/ilastik",
-        "imjoy/BioImageIO-Packager"
-      ],
-      "name": "Neuron Segmentation in EM (Membrane Prediction)",
-      "nickname": "impartial-shrimp",
-      "nickname_icon": "\ud83e\udd90",
-      "owners": [
-        77626
-      ],
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.5874741/5874742/rdf.yaml",
-      "tags": [
-        "unet",
-        "neurons",
-        "instance-segmentation",
-        "electron-microscopy",
-        "cremi",
-        "connectomics",
-        "3d",
-        "affinity-prediction"
-      ],
-      "type": "model",
-      "versions": [
-        "5874742"
-      ]
-    },
-    {
-      "authors": [
-        {
-          "name": "Constantin Pape"
-        }
-      ],
-      "covers": [
-        "https://zenodo.org/api/files/2d9489cd-a4dd-4730-8a71-577d0fcd0f5c/cover.png"
-      ],
-      "description": "Mitochondria segmentation for electron microscopy.",
-      "id": "10.5281/zenodo.5874841",
-      "license": "CC-BY-4.0",
-      "links": [
-        "deepimagej/deepimagej",
-        "ilastik/ilastik",
-        "ilastik/mitoem_segmentation_challenge",
-        "imjoy/BioImageIO-Packager"
-      ],
-      "name": "Mitochondria Segmentation for EM",
-      "nickname": "kind-seashell",
-      "nickname_icon": "\ud83d\udc1a",
-      "owners": [
-        77626
-      ],
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.5874841/5874842/rdf.yaml",
-      "tags": [
-        "3d",
-        "electron-microscopy",
-        "mitochondria",
-        "instance-segmentation",
-        "unet",
-        "brain"
-      ],
-      "type": "model",
-      "versions": [
-        "5874842"
-      ]
-    },
-    {
-      "authors": [
-        {
-          "name": "Shubin Dai"
-        }
-      ],
-      "covers": [
-        "https://zenodo.org/api/files/91895c21-4e8e-4cd0-98c3-1fae496b6068/bestfitting-densenet-diagram.png"
-      ],
-      "description": "The winning model of HPA image classification 2019 by Bestfitting",
-      "id": "10.5281/zenodo.5910163",
-      "license": "MIT",
-      "links": [
-        "imjoy/BioImageIO-Packager"
-      ],
-      "name": "HPA Bestfitting Densenet",
-      "nickname": "polite-pig",
-      "nickname_icon": "\ud83d\udc16",
-      "owners": [
-        47882
-      ],
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.5910163/5942853/rdf.yaml",
-      "tags": [
-        "classification",
-        "densenet-121",
-        "hpa",
-        "onnx",
-        "cells",
-        "protein-localization"
-      ],
-      "type": "model",
-      "versions": [
-        "5942853"
-      ]
-    },
-    {
-      "authors": [
-        {
-          "name": "Shubin Dai"
-        }
-      ],
-      "covers": [
-        "https://zenodo.org/api/files/c8028ef3-de08-459c-b88a-2f0bfd11485b/diagram-of-InceptionV3.png"
-      ],
-      "description": "The winning model of HPA image classification 2021 by Bestfitting",
-      "id": "10.5281/zenodo.5910854",
-      "license": "MIT",
-      "links": [
-        "imjoy/BioImageIO-Packager"
-      ],
-      "name": "HPA Bestfitting InceptionV3",
-      "owners": [
-        47882
-      ],
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.5910854/5911832/rdf.yaml",
-      "tags": [
-        "classification",
-        "inception-v3",
-        "hpa",
-        "onnx",
-        "cells",
-        "protein-localization"
-      ],
-      "type": "model",
-      "versions": [
-        "5911832"
-      ]
-    },
-    {
-      "authors": [
-        {
-          "affiliation": "Ikerbasque - EHU/UPV",
-          "name": "Ignacio Arganda-Carreras"
-        },
-        {
-          "affiliation": "EPFL, UC3M",
-          "name": "DeepImageJ"
-        }
-      ],
-      "covers": [
-        "https://zenodo.org/api/files/436a4ace-0b71-4bee-bf08-b0c197350a4c/input.png",
-        "https://zenodo.org/api/files/436a4ace-0b71-4bee-bf08-b0c197350a4c/output.png"
-      ],
-      "description": "DeepImageJ compatible U-Net trained to segment phase contrast microscopy images of pancreatic stem cells on a 2D polystyrene substrate.",
-      "id": "10.5281/zenodo.5914248",
-      "license": "BSD-2-Clause",
-      "links": [
-        "imjoy/BioImageIO-Packager"
-      ],
-      "name": "Pancreatic Phase Contrast Cell Segmentation (U-Net)",
-      "nickname": "discreet-rooster",
-      "nickname_icon": "\ud83d\udc13",
-      "owners": [
-        147356
-      ],
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.5914248/5914249/rdf.yaml",
-      "tags": [
-        "deepimagej",
-        "pancreatic-stem-cells",
-        "segmentation",
-        "phase-contrast",
-        "unet",
-        "neubias",
-        "cell-tracking-challenge",
-        "2d",
-        "tensorflow"
-      ],
-      "type": "model",
-      "versions": [
-        "5914249"
-      ]
-    },
-    {
-      "authors": [
-        {
-          "name": "Constantin Pape; @constantinpape"
-        }
-      ],
-      "covers": [
-        "https://zenodo.org/api/files/334f9dd9-ae1e-46e2-9a6a-5445758c4e9c/cover.png"
-      ],
-      "description": "{organelle} segmentation in EM of platynereis.",
-      "id": "10.5281/zenodo.6028097",
-      "license": "CC-BY-4.0",
-      "links": [
-        "ilastik/platynereis_em_training_data",
-        "deepimagej/deepimagej",
-        "ilastik/ilastik",
-        "imjoy/BioImageIO-Packager"
-      ],
-      "name": "PlatynereisEMnucleiSegmentationBoundaryModel",
-      "nickname": "organized-badger",
-      "nickname_icon": "\ud83e\udda1",
-      "owners": [
-        77626
-      ],
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6028097/6028098/rdf.yaml",
-      "tags": [
-        "unet",
-        "nuclei",
-        "instance-segmentation",
-        "electron-microscopy",
-        "platynereis",
-        "affinity-prediction"
-      ],
-      "type": "model",
-      "versions": [
-        "6028098"
-      ]
-    },
-    {
-      "authors": [
-        {
-          "name": "Constantin Pape; @constantinpape"
-        }
-      ],
-      "covers": [
-        "https://zenodo.org/api/files/9a4c6150-10d1-4c82-9305-8ac21bc435b5/cover.png"
-      ],
-      "description": "Cell segmentation in EM of platynereis.",
-      "id": "10.5281/zenodo.6028280",
-      "license": "CC-BY-4.0",
-      "links": [
-        "deepimagej/deepimagej",
-        "ilastik/platynereis_em_training_data",
-        "ilastik/ilastik",
-        "imjoy/BioImageIO-Packager"
-      ],
-      "name": "PlatynereisEMcellsSegmentationBoundaryModel",
-      "nickname": "willing-hedgehog",
-      "nickname_icon": "\ud83e\udd94",
-      "owners": [
-        77626
-      ],
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6028280/6028281/rdf.yaml",
-      "tags": [
-        "unet",
-        "cells",
-        "instance-segmentation",
-        "electron-microscopy",
-        "platynereis"
-      ],
-      "type": "model",
-      "versions": [
-        "6028281"
-      ]
-    },
-    {
-      "authors": [
-        {
-          "name": "Constantin Pape; @constantinpape"
-        }
-      ],
-      "covers": [
-        "https://zenodo.org/api/files/573e9a49-d156-46ea-838e-55ec9ebe9e00/cover.png"
-      ],
-      "description": "affinity-model",
-      "id": "10.5281/zenodo.6079314",
-      "license": "CC-BY-4.0",
-      "links": [
-        "ilastik/ilastik",
-        "imjoy/BioImageIO-Packager"
-      ],
-      "name": "EpitheliaAffinityModel",
-      "nickname": "wild-whale",
-      "nickname_icon": "\ud83d\udc33",
-      "owners": [
-        77626
-      ],
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6079314/6385590/rdf.yaml",
-      "tags": [
-        "u-net",
-        "segmentation"
-      ],
-      "type": "model",
-      "versions": [
-        "6385590",
-        "6079315"
-      ]
-    },
-    {
-      "authors": [
-        {
-          "name": "Hao Xu"
-        },
-        {
-          "name": "Wei Ouyang"
-        }
-      ],
-      "covers": [
-        "https://zenodo.org/api/files/a24a1e8a-cdc5-4b56-b9c3-0b82417e74a5/hpaseg-cover.png"
-      ],
-      "description": "Cell segmentation model for segmenting images from the Human Protein Atlas",
-      "id": "10.5281/zenodo.6200635",
-      "license": "CC-BY-4.0",
-      "links": [
-        "imjoy/BioImageIO-Packager"
-      ],
-      "name": "HPA Cell Segmentation (DPNUnet)",
-      "nickname": "loyal-parrot",
-      "nickname_icon": "\ud83e\udd9c",
-      "owners": [
-        47882
-      ],
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6200635/6200636/rdf.yaml",
-      "tags": [
-        "nucleus-segmentation"
-      ],
-      "type": "model",
-      "versions": [
-        "6200636"
-      ]
-    },
-    {
-      "authors": [
-        {
-          "name": "Hao Xu"
-        },
-        {
-          "name": "Wei Ouyang"
-        }
-      ],
-      "covers": [
-        "https://zenodo.org/api/files/9f580ca7-5f85-41ac-be2b-201172ed09b3/hpaseg-cover.png"
-      ],
-      "description": "Nuclei segmentation model for segmenting images from the Human Protein Atlas",
-      "id": "10.5281/zenodo.6200999",
-      "license": "CC-BY-4.0",
-      "links": [
-        "deepimagej/deepimagej"
-      ],
-      "name": "HPA Nucleus Segmentation (DPNUnet)",
-      "nickname": "conscientious-seashell",
-      "nickname_icon": "\ud83d\udc1a",
-      "owners": [
-        47882
-      ],
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6200999/6224243/rdf.yaml",
-      "tags": [
-        "nucleus-segmentation"
-      ],
-      "type": "model",
-      "versions": [
-        "6224243"
-      ]
-    },
-    {
-      "authors": [
-        {
-          "name": "Lorenzo Cerrone"
-        },
-        {
-          "name": "Adrian Wolny"
-        }
-      ],
-      "covers": [
-        "https://zenodo.org/api/files/990c06ad-189d-4cfa-8168-46bb2858a634/raw.png",
-        "https://zenodo.org/api/files/990c06ad-189d-4cfa-8168-46bb2858a634/pred.png"
-      ],
-      "description": "A 2D U-Net trained to predict the cell boundaries in confocal stacks of Arabidopsis ovules. Trained on z-slices of 3D confocal images.",
-      "id": "10.5281/zenodo.6334383",
-      "license": "MIT",
-      "links": [
-        "imjoy/BioImageIO-Packager"
-      ],
-      "name": "2D UNet Arabidopsis Ovules",
-      "nickname": "pioneering-rhino",
-      "nickname_icon": "\ud83e\udd8f",
-      "owners": [
-        66700
-      ],
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6334383/6346500/rdf.yaml",
-      "tags": [
-        "plantseg",
-        "unet",
-        "2d",
-        "semantic-segmentation",
-        "arabidopsis",
-        "ovules",
-        "cell-membrane",
-        "plant",
-        "tissue",
-        "fluorescence-light-microscopy",
-        "pytorch"
-      ],
-      "type": "model",
-      "versions": [
-        "6346500",
-        "6334384"
-      ]
-    },
-    {
-      "authors": [
-        {
-          "name": "Adrian Wolny"
-        },
-        {
-          "name": "Lorenzo Cerrone"
-        }
-      ],
-      "covers": [
-        "https://zenodo.org/api/files/9a608180-9f71-43d9-9242-b4e0a4aec21d/ilastik_raw.png",
-        "https://zenodo.org/api/files/9a608180-9f71-43d9-9242-b4e0a4aec21d/ilastik_sneak.png",
-        "https://zenodo.org/api/files/9a608180-9f71-43d9-9242-b4e0a4aec21d/ilastik_pred.png"
-      ],
-      "description": "A 3d U-Net trained to predict the cell boundaries in confocal stacks of Arabidopsis ovules. Voxel size: (0.235, 0.150, 0.150) microns ZYX",
-      "id": "10.5281/zenodo.6334583",
-      "license": "MIT",
-      "links": [
-        "imjoy/BioImageIO-Packager"
-      ],
-      "name": "3D UNet Arabidopsis Ovules",
-      "nickname": "passionate-t-rex",
-      "nickname_icon": "\ud83e\udd96",
-      "owners": [
-        66700
-      ],
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6334583/6346519/rdf.yaml",
-      "tags": [
-        "plantseg",
-        "unet",
-        "3d",
-        "semantic-segmentation",
-        "arabidopsis",
-        "ovules",
-        "cell-membrane",
-        "plant",
-        "tissue",
-        "fluorescence-light-microscopy",
-        "pytorch"
-      ],
-      "type": "model",
-      "versions": [
-        "6346519",
-        "6334584"
-      ]
-    },
-    {
-      "authors": [
-        {
-          "name": "Adrian Wolny"
-        },
-        {
-          "name": "Lorenzo Cerrone"
-        }
-      ],
-      "covers": [
-        "https://zenodo.org/api/files/6955b0c0-b211-42a1-8251-0e3d82f612d5/raw.png",
-        "https://zenodo.org/api/files/6955b0c0-b211-42a1-8251-0e3d82f612d5/pred.png"
-      ],
-      "description": "A 3D U-Net trained to predict the cell boundaries in lightsheet stacks of Arabidopsis Lateral Root Primordia. (0.25x0.1625x0.1625) microns ZYX",
-      "id": "10.5281/zenodo.6334777",
-      "license": "MIT",
-      "links": [
-        "imjoy/BioImageIO-Packager"
-      ],
-      "name": "3D UNet Lateral Root Primordia Cells",
-      "nickname": "thoughtful-turtle",
-      "nickname_icon": "\ud83d\udc22",
-      "owners": [
-        66700
-      ],
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6334777/6346524/rdf.yaml",
-      "tags": [
-        "plantseg",
-        "unet",
-        "3d",
-        "semantic-segmentation",
-        "arabidopsis",
-        "lateral-root",
-        "cell-membrane",
-        "plant",
-        "tissue",
-        "light-sheet-fluorescence-microscopy",
-        "pytorch",
-        "plantseg"
-      ],
-      "type": "model",
-      "versions": [
-        "6346524",
-        "6334778"
-      ]
-    },
-    {
-      "authors": [
-        {
-          "name": "Lorenzo Cerrone"
-        },
-        {
-          "name": "Adrian Wolny"
-        }
-      ],
-      "covers": [
-        "https://zenodo.org/api/files/4a69ddca-3874-4469-b11d-b9ed626d197f/raw.png",
-        "https://zenodo.org/api/files/4a69ddca-3874-4469-b11d-b9ed626d197f/pred.png"
-      ],
-      "description": "2D Unet trained on z-slices of confocal images of Arabidopsis thaliana apical stem cells. Trained on z-slices of 3D confocal images. Voxel size: [0.25, 0.25, 0.25]",
-      "id": "10.5281/zenodo.6334881",
-      "license": "MIT",
-      "links": [
-        "imjoy/BioImageIO-Packager"
-      ],
-      "name": "2D UNet Arabidopsis Apical Stem Cells",
-      "nickname": "laid-back-lobster",
-      "nickname_icon": "\ud83e\udd9e",
-      "owners": [
-        66700
-      ],
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6334881/6346477/rdf.yaml",
-      "tags": [
-        "plantseg",
-        "unet",
-        "2d",
-        "semantic-segmentation",
-        "arabidopsis",
-        "stem-cells",
-        "cell-membrane",
-        "plant",
-        "tissue",
-        "fluorescence-light-microscopy",
-        "pytorch"
-      ],
-      "type": "model",
-      "versions": [
-        "6346477",
-        "6334882"
-      ]
-    },
-    {
-      "authors": [
-        {
-          "github_user": "uschmidt83",
-          "name": "Uwe Schmidt"
-        },
-        {
-          "github_user": "maweigert",
-          "name": "Martin Weigert"
-        }
-      ],
-      "covers": [
-        "https://zenodo.org/api/files/9ae447ab-07e8-4f44-bc0a-b750d72fe478/stardist_logo.jpg",
-        "https://zenodo.org/api/files/9ae447ab-07e8-4f44-bc0a-b750d72fe478/example_histo.jpg"
-      ],
-      "description": "StarDist - Object Detection with Star-convex Shapes",
-      "id": "10.5281/zenodo.6338614",
-      "license": "BSD-3-Clause",
-      "links": [
-        "deepimagej/deepimagej",
-        "imjoy/BioImageIO-Packager"
-      ],
-      "name": "StarDist H&E Nuclei Segmentation",
-      "nickname": "chatty-frog",
-      "nickname_icon": "\ud83d\udc38",
-      "owners": [
-        313404
-      ],
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6338614/6338615/rdf.yaml",
-      "tags": [
-        "whole-slide-imaging",
-        "2d",
-        "nuclei",
-        "tensorflow",
-        "unet",
-        "instance-segmentation",
-        "object-detection",
-        "stardist"
-      ],
-      "type": "model",
-      "versions": [
-        "6338615"
-      ]
-    },
-    {
-      "authors": [
-        {
-          "name": "Lorenzo Cerrone"
-        },
-        {
-          "name": "Adrian Wolny"
-        }
-      ],
-      "covers": [
-        "https://zenodo.org/api/files/9c2e422f-08fd-4692-bcf9-41e1a74e193d/raw.png",
-        "https://zenodo.org/api/files/9c2e422f-08fd-4692-bcf9-41e1a74e193d/pred.png"
-      ],
-      "description": "3D Unet trained on confocal images of Arabidopsis thaliana apical stem cell: https://www.repository.cam.ac.uk/handle/1810/262530. Voxel size: [0.25, 0.25, 0.25]",
-      "id": "10.5281/zenodo.6346511",
-      "license": "MIT",
-      "links": [
-        "imjoy/BioImageIO-Packager"
-      ],
-      "name": "3D UNet Arabidopsis Apical Stem Cells",
-      "nickname": "emotional-cricket",
-      "nickname_icon": "\ud83e\udd97",
-      "owners": [
-        66700
-      ],
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6346511/6346512/rdf.yaml",
-      "tags": [
-        "plantseg",
-        "unet",
-        "3d",
-        "semantic-segmentation",
-        "arabidopsis",
-        "stem-cells",
-        "cell-membrane",
-        "plant",
-        "tissue",
-        "fluorescence-light-microscopy",
-        "pytorch"
-      ],
-      "type": "model",
-      "versions": [
-        "6346512"
-      ]
-    },
-    {
-      "authors": [
-        {
-          "github_user": "uschmidt83",
-          "name": "Uwe Schmidt"
-        },
-        {
-          "github_user": "maweigert",
-          "name": "Martin Weigert"
-        }
-      ],
-      "covers": [
-        "https://zenodo.org/api/files/7ad06458-46e3-444b-b018-55a3c7a9fe27/stardist_logo.jpg",
-        "https://zenodo.org/api/files/7ad06458-46e3-444b-b018-55a3c7a9fe27/example_fluo.jpg"
-      ],
-      "description": "StarDist - Object Detection with Star-convex Shapes",
-      "id": "10.5281/zenodo.6348084",
-      "license": "BSD-3-Clause",
-      "links": [
-        "deepimagej/deepimagej",
-        "imjoy/BioImageIO-Packager"
-      ],
-      "name": "StarDist Fluorescence Nuclei Segmentation",
-      "nickname": "fearless-crab",
-      "nickname_icon": "\ud83e\udd80",
-      "owners": [
-        313404
-      ],
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6348084/6348085/rdf.yaml",
-      "tags": [
-        "fluorescence-light-microscopy",
-        "whole-slide-imaging",
-        "other",
-        "2d",
-        "cells",
-        "nuclei",
-        "tensorflow",
-        "fiji",
-        "unet",
-        "instance-segmentation",
-        "object-detection",
-        "stardist"
-      ],
-      "type": "model",
-      "versions": [
-        "6348085"
-      ]
-    },
-    {
-      "authors": [
-        {
-          "affiliation": "EMBL Heidelberg",
-          "name": "Constantin Pape"
-        }
-      ],
-      "covers": [
-        "https://zenodo.org/api/files/647f8e3d-3f05-4e3d-a43e-e72717a076a0/cover.png"
-      ],
-      "description": "Perform leaf segmentation in light microscopy images of Arabidopsis",
-      "id": "10.5281/zenodo.6348728",
-      "license": "MIT",
-      "links": [
-        "deepimagej/deepimagej",
-        "imjoy/BioImageIO-Packager"
-      ],
-      "name": "Arabidopsis Leaf Segmentation",
-      "nickname": "non-judgemental-eagle",
-      "nickname_icon": "\ud83e\udd85",
-      "owners": [
-        77626
-      ],
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6348728/6348729/rdf.yaml",
-      "tags": [
-        "zerocostdl4mic",
-        "deepimagej",
-        "segmentation",
-        "unet"
-      ],
-      "type": "model",
-      "versions": [
-        "6348729"
-      ]
-    },
-    {
-      "authors": [
-        {
-          "name": "A. Wolny"
-        },
-        {
-          "name": "V. Bondarenko"
-        }
-      ],
-      "covers": [
-        "https://zenodo.org/api/files/87d721be-2c22-4b0c-b6e0-0aed3b4bdc33/raw.png",
-        "https://zenodo.org/api/files/87d721be-2c22-4b0c-b6e0-0aed3b4bdc33/pred.png"
-      ],
-      "description": "A 3D U-Net trained to predict the cell boundaries in live light sheet images of developing mouse embryo. Voxel size: 0.2\u00d70.2\u00d71.0 \u00b5m^3",
-      "id": "10.5281/zenodo.6384845",
-      "license": "MIT",
-      "links": [
-        "imjoy/BioImageIO-Packager"
-      ],
-      "name": "3D UNet Mouse Embryo Live",
-      "nickname": "powerful-fish",
-      "nickname_icon": "\ud83d\udc1f",
-      "owners": [
-        66700
-      ],
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6384845/6384846/rdf.yaml",
-      "tags": [
-        "plantseg",
-        "unet",
-        "3d",
-        "semantic-segmentation",
-        "mouse-embryo",
-        "cell-membrane",
-        "animal",
-        "tissue",
-        "light-sheet-microscopy",
-        "pytorch",
-        "live"
-      ],
-      "type": "model",
-      "versions": [
-        "6384846"
-      ]
-    },
-    {
-      "authors": [
-        {
-          "affiliation": "EMBL Heidelberg",
-          "name": "Constantin Pape"
-        }
-      ],
-      "covers": [
-        "https://zenodo.org/api/files/73fe6e10-5600-44ac-b8ab-f8c38568a529/cover.png"
-      ],
-      "description": "Prediction Enhancer for segmenting mitochondria in EM images.",
-      "id": "10.5281/zenodo.6406756",
-      "license": "CC-BY-4.0",
-      "links": [
-        "ilastik/ilastik",
-        "deepimagej/deepimagej",
-        "imjoy/BioImageIO-Packager"
-      ],
-      "name": "EnhancerMitochondriaEM2D",
-      "nickname": "hiding-blowfish",
-      "nickname_icon": "\ud83d\udc21",
-      "owners": [
-        77626
-      ],
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6406756/6406757/rdf.yaml",
-      "tags": [
-        "unet",
-        "mitochondria",
-        "electron-microscopy",
-        "instance-segmentation",
-        "2d"
-      ],
-      "type": "model",
-      "versions": [
-        "6406757"
-      ]
-    },
-    {
-      "authors": [
-        {
-          "affiliation": "EMBL Heidelberg",
-          "name": "Constantin Pape"
-        }
-      ],
-      "covers": [
-        "https://zenodo.org/api/files/a7eb8d94-9217-4276-8b0d-ff88e1ac78c7/cover.png"
-      ],
-      "description": "Segmentation of mitochondria in EM images.",
-      "id": "10.5281/zenodo.6406803",
-      "license": "CC-BY-4.0",
-      "links": [
-        "deepimagej/deepimagej",
-        "ilastik/ilastik",
-        "imjoy/BioImageIO-Packager"
-      ],
-      "name": "MitchondriaEMSegmentation2D",
-      "nickname": "shivering-raccoon",
-      "nickname_icon": "\ud83e\udd9d",
-      "owners": [
-        77626
-      ],
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6406803/6406804/rdf.yaml",
-      "tags": [
-        "unet",
-        "mitochondria",
-        "electron-microscopy",
-        "instance-segmentation",
-        "2d"
-      ],
-      "type": "model",
-      "versions": [
-        "6406804"
-      ]
     }
   ],
   "config": {
@@ -4531,34 +4846,62 @@
     "default_type": "model",
     "explore_button_text": "Start Exploring",
     "n_resource_versions": {
-      "application": 94,
-      "collection": 2,
-      "dataset": 72,
-      "model": 100,
+      "application": 96,
+      "dataset": 82,
+      "model": 109,
       "notebook": 4
     },
     "n_resources": {
-      "application": 47,
-      "collection": 1,
-      "dataset": 36,
-      "model": 46,
+      "application": 48,
+      "dataset": 41,
+      "model": 44,
       "notebook": 2
     },
     "partners": [
       {
         "background_image": "static/img/zoo-background.svg",
+        "branch": "main",
+        "collection_file_name": "collection.bioimage.io.yaml",
+        "default_type": "model",
+        "explore_button_text": "Start Exploring",
+        "icon": "https://raw.githubusercontent.com/bioimage-io/bioimage.io/main/public/static/img/bioimage-io-icon.svg",
+        "id": "bioimageio",
+        "logo": "https://raw.githubusercontent.com/bioimage-io/bioimage.io/main/public/static/img/bioimage-io-icon.svg",
+        "name": "BioImage.IO",
+        "repository": "bioimage-io/bioimage-io-resources",
+        "resource_types": [
+          "model",
+          "application",
+          "notebook",
+          "dataset"
+        ],
+        "splash_feature_list": [
+          "Integrate with Fiji, Ilastik, ImJoy",
+          "Try model instantly with BioEngine",
+          "Contribute your models via Zenodo",
+          "Link models to datasets and applications"
+        ],
+        "splash_subtitle": "Advanced AI models in one-click",
+        "splash_title": "BioImage Model Zoo",
+        "tags": [],
+        "url_root": "https://raw.githubusercontent.com/bioimage-io/bioimage-io-resources/main"
+      },
+      {
+        "background_image": "static/img/zoo-background.svg",
+        "branch": "master",
+        "collection_file_name": "manifest.bioimage.io.yaml",
         "default_type": "application",
         "explore_button_text": "Start Exploring",
         "icon": "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Wiki_files/ZeroCostLogo.png",
         "id": "zero",
         "logo": "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Wiki_files/ZeroCostLogo.png",
         "name": "ZeroCostDL4Mic",
+        "repository": "HenriquesLab/ZeroCostDL4Mic",
         "resource_types": [
           "model",
           "application",
           "dataset"
         ],
-        "source": "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/manifest.bioimage.io.yaml",
         "splash_feature_list": [],
         "splash_subtitle": "A Google Colab based no-cost toolbox to explore Deep-Learning in Microscopy",
         "splash_title": "ZeroCostDL4Mic",
@@ -4570,17 +4913,19 @@
       },
       {
         "background_image": "static/img/zoo-background.svg",
+        "branch": "master",
+        "collection_file_name": "manifest.bioimage.io.yaml",
         "explore_button_text": "Start Exploring",
         "icon": "https://raw.githubusercontent.com/deepimagej/models/master/logos/icon.png",
         "id": "deepimagej",
         "logo": "https://raw.githubusercontent.com/deepimagej/models/master/logos/logo.png",
         "name": "DeepImageJ",
+        "repository": "deepimagej/models",
         "resource_types": [
           "model",
           "notebook",
           "application"
         ],
-        "source": "https://raw.githubusercontent.com/deepimagej/models/master/manifest.bioimage.io.yaml",
         "splash_feature_list": null,
         "splash_subtitle": "A user-friendly plugin to run deep learning models in ImageJ",
         "splash_title": "deepImageJ",
@@ -4598,16 +4943,18 @@
       },
       {
         "background_image": "static/img/zoo-background.svg",
+        "branch": "master",
+        "collection_file_name": "manifest.bioimage.io.yaml",
         "explore_button_text": "Start Exploring",
         "icon": "https://fiji.sc/site/logo.png",
         "id": "fiji",
         "logo": "https://fiji.sc/site/logo.png",
         "name": "Fiji",
+        "repository": "bioimage-io/fiji-bioimage-io",
         "resource_types": [
           "model",
           "notebook"
         ],
-        "source": "https://raw.githubusercontent.com/bioimage-io/fiji-bioimage-io/master/manifest.bioimage.io.yaml",
         "splash_feature_list": [],
         "splash_subtitle": "Fiji is just ImageJ",
         "splash_title": "Fiji",
@@ -4618,17 +4965,19 @@
       },
       {
         "background_image": "static/img/zoo-background.svg",
+        "branch": "master",
+        "collection_file_name": "collection.bioimage.io.yaml",
         "default_type": "application",
         "explore_button_text": "Start Exploring",
         "icon": "https://imjoy.io/static/img/imjoy-icon.svg",
         "id": "imjoy",
         "logo": "https://imjoy.io/static/img/imjoy-icon.svg",
         "name": "ImJoy",
+        "repository": "imjoy-team/bioimage-io-resources",
         "resource_types": [
           "notebook",
           "application"
         ],
-        "source": "https://raw.githubusercontent.com/imjoy-team/bioimage-io-models/master/manifest.bioimage.io.yaml",
         "splash_feature_list": [
           "Minimal and flexible plugin powered web application",
           "Server-less progressive web application with offline support",
@@ -4643,16 +4992,18 @@
       },
       {
         "background_image": "static/img/zoo-background.svg",
+        "branch": "main",
+        "collection_file_name": "collection.yaml",
         "default_type": "model",
         "explore_button_text": "Start Exploring",
         "icon": "https://raw.githubusercontent.com/ilastik/bioimage-io-models/main/image/ilastik-fist-icon.png",
         "id": "ilastik",
         "logo": "https://raw.githubusercontent.com/ilastik/bioimage-io-models/main/image/ilastik-fist-icon.png",
         "name": "ilastik",
+        "repository": "ilastik/bioimage-io-resources",
         "resource_types": [
           "application"
         ],
-        "source": "https://raw.githubusercontent.com/ilastik/bioimage-io-resources/main/collection.yaml",
         "splash_feature_list": null,
         "splash_subtitle": "the interactive learning and segmentation toolkit",
         "splash_title": "ilastik",
@@ -4671,17 +5022,19 @@
       {
         "about_url": "https://www.proteinatlas.org/",
         "background_image": "static/img/zoo-background.svg",
+        "branch": "master",
+        "collection_file_name": "manifest.bioimage.io.yaml",
         "default_type": "model",
         "explore_button_text": "Start Exploring",
         "icon": "https://raw.githubusercontent.com/bioimage-io/tfjs-bioimage-io/master/apps/hpa-logo.gif",
         "id": "hpa",
         "logo": "https://raw.githubusercontent.com/bioimage-io/tfjs-bioimage-io/master/apps/hpa-logo.gif",
         "name": "HPA",
+        "repository": "CellProfiling/HPA-model-zoo",
         "resource_types": [
           "model",
           "application"
         ],
-        "source": "https://raw.githubusercontent.com/CellProfiling/HPA-model-zoo/master/manifest.bioimage.io.yaml",
         "splash_feature_list": [],
         "splash_subtitle": null,
         "splash_title": "The Human Protein Atlas",
@@ -4698,7 +5051,7 @@
     "splash_feature_list": [
       "Integrate with Fiji, Ilastik, ImJoy",
       "Try model instantly with BioEngine",
-      "Contribute your models via Github",
+      "Contribute your models via Zenodo",
       "Link models to datasets and applications"
     ],
     "splash_subtitle": "Advanced AI models in one-click",
