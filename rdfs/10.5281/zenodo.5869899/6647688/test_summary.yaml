@@ -1,6 +1,6 @@
 bioimageio_spec_version: 0.4.8.post1
 rdf_sha256: 29c202f71fe014799f26f2c1d36fdc8af52e829a576d8a7dc619c750d279361f
-status: passed
+status: failed
 tests:
   bioimageio:
   - bioimageio_spec_version: 0.4.8post1
@@ -28,5 +28,31 @@ tests:
         ''deepimagej'', ''n2v'']}]'
       weights: {pytorch_state_dict: missing 'pytorch_version', torchscript: missing
           'pytorch_version'}
+  - error: No module named 'tqdm'
+    name: import test_resource from test environment
+    status: failed
+    traceback: ["  File \"/home/runner/work/collection-bioimage-io/collection-bioimage-io/scripts/dynamic_validation.py\",
+        line 41, in main\n    from bioimageio.core.resource_tests import test_resource\n",
+      "  File \"/home/runner/micromamba-root/envs/6647688/lib/python3.9/site-packages/bioimageio/core/__init__.py\",
+        line 13, in <module>\n    from .prediction_pipeline import create_prediction_pipeline\n",
+      "  File \"/home/runner/micromamba-root/envs/6647688/lib/python3.9/site-packages/bioimageio/core/prediction_pipeline/__init__.py\",
+        line 2, in <module>\n    from ._prediction_pipeline import PredictionPipeline,
+        create_prediction_pipeline\n", "  File \"/home/runner/micromamba-root/envs/6647688/lib/python3.9/site-packages/bioimageio/core/prediction_pipeline/_prediction_pipeline.py\",
+        line 12, in <module>\n    from ._stat_state import StatsState\n", "  File
+        \"/home/runner/micromamba-root/envs/6647688/lib/python3.9/site-packages/bioimageio/core/prediction_pipeline/_stat_state.py\",
+        line 3, in <module>\n    from tqdm import tqdm\n"]
+  - error: No module named 'tqdm'
+    name: import test_resource from test environment
+    status: failed
+    traceback: ["  File \"/home/runner/work/collection-bioimage-io/collection-bioimage-io/scripts/dynamic_validation.py\",
+        line 41, in main\n    from bioimageio.core.resource_tests import test_resource\n",
+      "  File \"/home/runner/micromamba-root/envs/6647688/lib/python3.9/site-packages/bioimageio/core/__init__.py\",
+        line 13, in <module>\n    from .prediction_pipeline import create_prediction_pipeline\n",
+      "  File \"/home/runner/micromamba-root/envs/6647688/lib/python3.9/site-packages/bioimageio/core/prediction_pipeline/__init__.py\",
+        line 2, in <module>\n    from ._prediction_pipeline import PredictionPipeline,
+        create_prediction_pipeline\n", "  File \"/home/runner/micromamba-root/envs/6647688/lib/python3.9/site-packages/bioimageio/core/prediction_pipeline/_prediction_pipeline.py\",
+        line 12, in <module>\n    from ._stat_state import StatsState\n", "  File
+        \"/home/runner/micromamba-root/envs/6647688/lib/python3.9/site-packages/bioimageio/core/prediction_pipeline/_stat_state.py\",
+        line 3, in <module>\n    from tqdm import tqdm\n"]
   deepimagej: []
   ilastik: []

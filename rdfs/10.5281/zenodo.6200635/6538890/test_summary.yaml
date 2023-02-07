@@ -1,6 +1,6 @@
 bioimageio_spec_version: 0.4.8.post1
 rdf_sha256: 7a414cb62dc53c18258d2f494144839183727255a6764b3092d777475468f537
-status: passed
+status: failed
 tests:
   bioimageio:
   - bioimageio_spec_version: 0.4.8post1
@@ -44,6 +44,19 @@ tests:
         ''instance-segmentation'', ''object-detection'', ''image-classification'',
         ''denoising'', ''image-restoration'', ''image-reconstruction'', ''in-silico-labeling'']}]'
       weights: {torchscript: missing 'pytorch_version'}
+  - error: No module named 'tqdm'
+    name: import test_resource from test environment
+    status: failed
+    traceback: ["  File \"/home/runner/work/collection-bioimage-io/collection-bioimage-io/scripts/dynamic_validation.py\",
+        line 41, in main\n    from bioimageio.core.resource_tests import test_resource\n",
+      "  File \"/home/runner/micromamba-root/envs/6538890/lib/python3.9/site-packages/bioimageio/core/__init__.py\",
+        line 13, in <module>\n    from .prediction_pipeline import create_prediction_pipeline\n",
+      "  File \"/home/runner/micromamba-root/envs/6538890/lib/python3.9/site-packages/bioimageio/core/prediction_pipeline/__init__.py\",
+        line 2, in <module>\n    from ._prediction_pipeline import PredictionPipeline,
+        create_prediction_pipeline\n", "  File \"/home/runner/micromamba-root/envs/6538890/lib/python3.9/site-packages/bioimageio/core/prediction_pipeline/_prediction_pipeline.py\",
+        line 12, in <module>\n    from ._stat_state import StatsState\n", "  File
+        \"/home/runner/micromamba-root/envs/6538890/lib/python3.9/site-packages/bioimageio/core/prediction_pipeline/_stat_state.py\",
+        line 3, in <module>\n    from tqdm import tqdm\n"]
   deepimagej: []
   ilastik:
   - bioimageio_core_version: 0.5.3post2

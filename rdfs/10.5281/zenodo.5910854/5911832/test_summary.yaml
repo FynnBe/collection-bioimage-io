@@ -1,7 +1,7 @@
 bioimageio_core_version: 0.5.3.post2
 bioimageio_spec_version: 0.4.8.post1
 rdf_sha256: f6a6d671ea8b9a8152678cf00e15760eeac9d311b746976423ff80926598422b
-status: passed
+status: failed
 tests:
   bioimageio:
   - bioimageio_spec_version: 0.4.8post1
@@ -39,6 +39,32 @@ tests:
         ''inception'', ''shufflenet'']}, {''task'': [''semantic-segmentation'', ''instance-segmentation'',
         ''object-detection'', ''image-classification'', ''denoising'', ''image-restoration'',
         ''image-reconstruction'', ''in-silico-labeling'']}]'}
+  - error: No module named 'tqdm'
+    name: import test_resource from test environment
+    status: failed
+    traceback: ["  File \"/home/runner/work/collection-bioimage-io/collection-bioimage-io/scripts/dynamic_validation.py\",
+        line 41, in main\n    from bioimageio.core.resource_tests import test_resource\n",
+      "  File \"/home/runner/micromamba-root/envs/5911832/lib/python3.11/site-packages/bioimageio/core/__init__.py\",
+        line 13, in <module>\n    from .prediction_pipeline import create_prediction_pipeline\n",
+      "  File \"/home/runner/micromamba-root/envs/5911832/lib/python3.11/site-packages/bioimageio/core/prediction_pipeline/__init__.py\",
+        line 2, in <module>\n    from ._prediction_pipeline import PredictionPipeline,
+        create_prediction_pipeline\n", "  File \"/home/runner/micromamba-root/envs/5911832/lib/python3.11/site-packages/bioimageio/core/prediction_pipeline/_prediction_pipeline.py\",
+        line 12, in <module>\n    from ._stat_state import StatsState\n", "  File
+        \"/home/runner/micromamba-root/envs/5911832/lib/python3.11/site-packages/bioimageio/core/prediction_pipeline/_stat_state.py\",
+        line 3, in <module>\n    from tqdm import tqdm\n"]
+  - error: No module named 'tqdm'
+    name: import test_resource from test environment
+    status: failed
+    traceback: ["  File \"/home/runner/work/collection-bioimage-io/collection-bioimage-io/scripts/dynamic_validation.py\",
+        line 41, in main\n    from bioimageio.core.resource_tests import test_resource\n",
+      "  File \"/home/runner/micromamba-root/envs/5911832/lib/python3.9/site-packages/bioimageio/core/__init__.py\",
+        line 13, in <module>\n    from .prediction_pipeline import create_prediction_pipeline\n",
+      "  File \"/home/runner/micromamba-root/envs/5911832/lib/python3.9/site-packages/bioimageio/core/prediction_pipeline/__init__.py\",
+        line 2, in <module>\n    from ._prediction_pipeline import PredictionPipeline,
+        create_prediction_pipeline\n", "  File \"/home/runner/micromamba-root/envs/5911832/lib/python3.9/site-packages/bioimageio/core/prediction_pipeline/_prediction_pipeline.py\",
+        line 12, in <module>\n    from ._stat_state import StatsState\n", "  File
+        \"/home/runner/micromamba-root/envs/5911832/lib/python3.9/site-packages/bioimageio/core/prediction_pipeline/_stat_state.py\",
+        line 3, in <module>\n    from tqdm import tqdm\n"]
   deepimagej:
   - bioimageio_core_version: 0.5.3post2
     bioimageio_spec_version: 0.4.5post7

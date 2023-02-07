@@ -1,6 +1,6 @@
 bioimageio_spec_version: 0.4.8.post1
 rdf_sha256: cd32b797a43aaa3517de5e9ad6a76dfaf0fe718c56c8655c6f4eedb0b911bed7
-status: passed
+status: failed
 tests:
   bioimageio:
   - bioimageio_spec_version: 0.4.8post1
@@ -20,6 +20,18 @@ tests:
     traceback: null
     warnings: {license: BSD-2-Clause (BSD 2-Clause "Simplified" License) is not FSF
         Free/libre.}
+  - error: No module named 'tqdm'
+    name: import test_resource from test environment
+    status: failed
+    traceback: ["  File \"scripts/dynamic_validation.py\", line 41, in main\n    from
+        bioimageio.core.resource_tests import test_resource\n", "  File \"/home/runner/micromamba-root/envs/6514622/lib/python3.7/site-packages/bioimageio/core/__init__.py\",
+        line 13, in <module>\n    from .prediction_pipeline import create_prediction_pipeline\n",
+      "  File \"/home/runner/micromamba-root/envs/6514622/lib/python3.7/site-packages/bioimageio/core/prediction_pipeline/__init__.py\",
+        line 2, in <module>\n    from ._prediction_pipeline import PredictionPipeline,
+        create_prediction_pipeline\n", "  File \"/home/runner/micromamba-root/envs/6514622/lib/python3.7/site-packages/bioimageio/core/prediction_pipeline/_prediction_pipeline.py\",
+        line 12, in <module>\n    from ._stat_state import StatsState\n", "  File
+        \"/home/runner/micromamba-root/envs/6514622/lib/python3.7/site-packages/bioimageio/core/prediction_pipeline/_stat_state.py\",
+        line 3, in <module>\n    from tqdm import tqdm\n"]
   deepimagej: []
   ilastik:
   - {bioimageio_core_version: 0.5.1, bioimageio_spec_version: 0.4.5post3, error: null,

@@ -1,6 +1,6 @@
 bioimageio_spec_version: 0.4.8.post1
 rdf_sha256: 30b98d3f7d965db2af185669f42a52dea3180e4d10b3def37c7ba57992b586df
-status: passed
+status: failed
 tests:
   bioimageio:
   - bioimageio_spec_version: 0.4.8post1
@@ -26,6 +26,19 @@ tests:
         ''super-resolution-microscopy'', ''x-ray-microscopy'', ''force-microscopy'',
         ''high-content-imaging'', ''whole-slide-imaging'', ''other'']}, {''software'':
         [''ilastik'', ''imagej'', ''fiji'', ''imjoy'', ''deepimagej'', ''n2v'']}]'}
+  - error: No module named 'tqdm'
+    name: import test_resource from test environment
+    status: failed
+    traceback: ["  File \"/home/runner/work/collection-bioimage-io/collection-bioimage-io/scripts/dynamic_validation.py\",
+        line 41, in main\n    from bioimageio.core.resource_tests import test_resource\n",
+      "  File \"/home/runner/micromamba-root/envs/6383430/lib/python3.10/site-packages/bioimageio/core/__init__.py\",
+        line 13, in <module>\n    from .prediction_pipeline import create_prediction_pipeline\n",
+      "  File \"/home/runner/micromamba-root/envs/6383430/lib/python3.10/site-packages/bioimageio/core/prediction_pipeline/__init__.py\",
+        line 2, in <module>\n    from ._prediction_pipeline import PredictionPipeline,
+        create_prediction_pipeline\n", "  File \"/home/runner/micromamba-root/envs/6383430/lib/python3.10/site-packages/bioimageio/core/prediction_pipeline/_prediction_pipeline.py\",
+        line 12, in <module>\n    from ._stat_state import StatsState\n", "  File
+        \"/home/runner/micromamba-root/envs/6383430/lib/python3.10/site-packages/bioimageio/core/prediction_pipeline/_stat_state.py\",
+        line 3, in <module>\n    from tqdm import tqdm\n"]
   deepimagej: []
   ilastik:
   - {bioimageio_core_version: 0.5.3post2, bioimageio_spec_version: 0.4.5post6, error: null,

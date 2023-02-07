@@ -1,6 +1,6 @@
 bioimageio_spec_version: 0.4.8.post1
 rdf_sha256: 7f8d7af3ddb317714ed07ac79ef3ccdbe2dd60cbc4716e00a58dd648aa10f8fd
-status: passed
+status: failed
 tests:
   bioimageio:
   - bioimageio_spec_version: 0.4.8post1
@@ -26,5 +26,44 @@ tests:
         ''tensorflow.js'']}, {''software'': [''ilastik'', ''imagej'', ''fiji'', ''imjoy'',
         ''deepimagej'', ''n2v'']}]'
       weights: {torchscript: missing 'pytorch_version'}
+  - error: No module named 'tqdm'
+    name: import test_resource from test environment
+    status: failed
+    traceback: ["  File \"/home/runner/work/collection-bioimage-io/collection-bioimage-io/scripts/dynamic_validation.py\",
+        line 41, in main\n    from bioimageio.core.resource_tests import test_resource\n",
+      "  File \"/home/runner/micromamba-root/envs/6647674/lib/python3.11/site-packages/bioimageio/core/__init__.py\",
+        line 13, in <module>\n    from .prediction_pipeline import create_prediction_pipeline\n",
+      "  File \"/home/runner/micromamba-root/envs/6647674/lib/python3.11/site-packages/bioimageio/core/prediction_pipeline/__init__.py\",
+        line 2, in <module>\n    from ._prediction_pipeline import PredictionPipeline,
+        create_prediction_pipeline\n", "  File \"/home/runner/micromamba-root/envs/6647674/lib/python3.11/site-packages/bioimageio/core/prediction_pipeline/_prediction_pipeline.py\",
+        line 12, in <module>\n    from ._stat_state import StatsState\n", "  File
+        \"/home/runner/micromamba-root/envs/6647674/lib/python3.11/site-packages/bioimageio/core/prediction_pipeline/_stat_state.py\",
+        line 3, in <module>\n    from tqdm import tqdm\n"]
+  - error: No module named 'tqdm'
+    name: import test_resource from test environment
+    status: failed
+    traceback: ["  File \"/home/runner/work/collection-bioimage-io/collection-bioimage-io/scripts/dynamic_validation.py\",
+        line 41, in main\n    from bioimageio.core.resource_tests import test_resource\n",
+      "  File \"/home/runner/micromamba-root/envs/6647674/lib/python3.10/site-packages/bioimageio/core/__init__.py\",
+        line 13, in <module>\n    from .prediction_pipeline import create_prediction_pipeline\n",
+      "  File \"/home/runner/micromamba-root/envs/6647674/lib/python3.10/site-packages/bioimageio/core/prediction_pipeline/__init__.py\",
+        line 2, in <module>\n    from ._prediction_pipeline import PredictionPipeline,
+        create_prediction_pipeline\n", "  File \"/home/runner/micromamba-root/envs/6647674/lib/python3.10/site-packages/bioimageio/core/prediction_pipeline/_prediction_pipeline.py\",
+        line 12, in <module>\n    from ._stat_state import StatsState\n", "  File
+        \"/home/runner/micromamba-root/envs/6647674/lib/python3.10/site-packages/bioimageio/core/prediction_pipeline/_stat_state.py\",
+        line 3, in <module>\n    from tqdm import tqdm\n"]
+  - error: No module named 'tqdm'
+    name: import test_resource from test environment
+    status: failed
+    traceback: ["  File \"/home/runner/work/collection-bioimage-io/collection-bioimage-io/scripts/dynamic_validation.py\",
+        line 41, in main\n    from bioimageio.core.resource_tests import test_resource\n",
+      "  File \"/home/runner/micromamba-root/envs/6647674/lib/python3.9/site-packages/bioimageio/core/__init__.py\",
+        line 13, in <module>\n    from .prediction_pipeline import create_prediction_pipeline\n",
+      "  File \"/home/runner/micromamba-root/envs/6647674/lib/python3.9/site-packages/bioimageio/core/prediction_pipeline/__init__.py\",
+        line 2, in <module>\n    from ._prediction_pipeline import PredictionPipeline,
+        create_prediction_pipeline\n", "  File \"/home/runner/micromamba-root/envs/6647674/lib/python3.9/site-packages/bioimageio/core/prediction_pipeline/_prediction_pipeline.py\",
+        line 12, in <module>\n    from ._stat_state import StatsState\n", "  File
+        \"/home/runner/micromamba-root/envs/6647674/lib/python3.9/site-packages/bioimageio/core/prediction_pipeline/_stat_state.py\",
+        line 3, in <module>\n    from tqdm import tqdm\n"]
   deepimagej: []
   ilastik: []
