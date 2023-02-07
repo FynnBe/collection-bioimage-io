@@ -3,8 +3,15 @@ id: 10.5281/zenodo.6559929
 owners:
 - 271523
 status: accepted
-type: dataset
+type: model
 versions:
+- created: '2022-06-08 16:01:52.984678'
+  doi: 10.5281/zenodo.6624846
+  name: Fully Residual U-Net - TEM
+  status: accepted
+  version_id: '6624846'
+  version_name: version 2
+  rdf_source: https://zenodo.org/api/files/21f14cf5-dec2-4768-8b95-dce1bb04a22b/rdf.yaml
 - created: '2022-05-18 10:12:14.635800'
   doi: 10.5281/zenodo.6559930
   name: Small Extracellular Vesicle TEM Instance Segmentation annotated data
