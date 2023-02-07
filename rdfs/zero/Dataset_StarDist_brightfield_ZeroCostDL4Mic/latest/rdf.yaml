@@ -38,7 +38,7 @@ covers:
 description: Paired brightfield images of migrating T cells and corresponding masks
 documentation: https://zenodo.org/record/4034929
 download_url: https://zenodo.org/record/4034929
-format_version: 0.2.2
+format_version: 0.2.3
 id: zero/Dataset_StarDist_brightfield_ZeroCostDL4Mic/latest
 maintainers: []
 name: Combining StarDist and TrackMate example 2 - T cell dataset

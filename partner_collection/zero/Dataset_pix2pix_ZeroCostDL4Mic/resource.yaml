@@ -8,7 +8,7 @@ versions:
   version_name: latest
   rdf_source:
     authors:
-    - Guillaume Jacquemet
+    - name: Guillaume Jacquemet
     cite:
     - doi: https://doi.org/10.1038/s41467-021-22518-0
       text: von Chamier, L., Laine, R.F., Jukkala, J. et al. Democratising deep learning
@@ -38,11 +38,10 @@ versions:
     description: Paired microscopy images (fluorescence) of lifeact-RFP and sir-DNA
     documentation: https://doi.org/10.5281/zenodo.3941889
     download_url: https://doi.org/10.5281/zenodo.3941889
-    format_version: 0.2.2
+    format_version: 0.2.3
     id: zero/Dataset_pix2pix_ZeroCostDL4Mic
     maintainers: []
     name: pix2pix example training and test dataset - ZeroCostDL4Mic
-    root_path: https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/manifest.bioimage.io.yaml
     tags:
     - pix2pix
     - ZeroCostDL4Mic

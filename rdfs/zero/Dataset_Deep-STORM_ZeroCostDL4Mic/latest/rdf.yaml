@@ -36,7 +36,7 @@ description: Time-series of simulated, randomly distributed single-molecule loca
   cells stained with phalloidin for actin (Example dataset).
 documentation: https://doi.org/10.5281/zenodo.3959089
 download_url: https://doi.org/10.5281/zenodo.3959089
-format_version: 0.2.2
+format_version: 0.2.3
 id: zero/Dataset_Deep-STORM_ZeroCostDL4Mic/latest
 maintainers: []
 name: Deep-STORM training and example dataset - ZeroCostDL4Mic

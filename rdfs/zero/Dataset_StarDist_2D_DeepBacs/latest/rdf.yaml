@@ -41,7 +41,7 @@ description: Mixed training and test images of S. aureus, E. coli and B. subtili
   for cell segmentation using StarDist.
 documentation: https://github.com/HenriquesLab/DeepBacs/wiki
 download_url: https://zenodo.org/record/5551009
-format_version: 0.2.2
+format_version: 0.2.3
 id: zero/Dataset_StarDist_2D_DeepBacs/latest
 maintainers: []
 name: Mixed segmentation dataset - DeepBacs

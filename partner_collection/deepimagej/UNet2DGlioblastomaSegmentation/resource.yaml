@@ -9,11 +9,11 @@ versions:
   rdf_source:
     attachments:
       files:
-      - ./preprocessing.txt
-      - ./postprocessing.txt
-      - ./exampleImage.tiff
-      - ./Results.csv
-      - ./resultImage.tiff
+      - https://raw.githubusercontent.com/deepimagej/models/master/u-net_glioblastoma_segmentation/preprocessing.txt
+      - https://raw.githubusercontent.com/deepimagej/models/master/u-net_glioblastoma_segmentation/postprocessing.txt
+      - https://raw.githubusercontent.com/deepimagej/models/master/u-net_glioblastoma_segmentation/exampleImage.tiff
+      - https://raw.githubusercontent.com/deepimagej/models/master/u-net_glioblastoma_segmentation/Results.csv
+      - https://raw.githubusercontent.com/deepimagej/models/master/u-net_glioblastoma_segmentation/resultImage.tiff
     authors:
     - affiliation: EPFL, UC3M
       name: DeepImageJ
@@ -51,21 +51,21 @@ versions:
             type: image
           runtime: 11.5 s s
     covers:
-    - ./cover_image.jpg
+    - https://raw.githubusercontent.com/deepimagej/models/master/u-net_glioblastoma_segmentation/cover_image.jpg
     description: DeepImageJ compatible U-Net trained to segment 2D phase contrast
       microscopy images of glioblastoma-astrocytoma U373 cells on a polyacrylamide
       substrate.
-    documentation: ./README.md
+    documentation: https://raw.githubusercontent.com/deepimagej/models/master/u-net_glioblastoma_segmentation/README.md
     download_url: https://zenodo.org/record/4155785/files/deepimagej_u-net_glioblastoma_segmentation.zip
-    format_version: 0.3.2
+    format_version: 0.3.6
     framework: tensorflow
     git_repo: https://github.com/deepimagej/python4deepimagej/tree/master/unet
     id: deepimagej/UNet2DGlioblastomaSegmentation
     inputs:
     - axes: byxc
       data_range:
-      - -inf
-      - inf
+      - -.inf
+      - .inf
       data_type: float32
       name: input
       shape:
@@ -83,8 +83,8 @@ versions:
     outputs:
     - axes: byxc
       data_range:
-      - 0
-      - 1
+      - 0.0
+      - 1.0
       data_type: float32
       halo:
       - 0
@@ -94,31 +94,30 @@ versions:
       name: output
       shape:
         offset:
-        - 0
-        - 0
-        - 0
-        - 0
-        reference_input: input
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        reference_tensor: input
         scale:
-        - 1
-        - 1
-        - 1
-        - 1
-    root_path: https://raw.githubusercontent.com/deepimagej/models/master/manifest.bioimage.io.yaml
+        - 1.0
+        - 1.0
+        - 1.0
+        - 1.0
     sample_inputs:
-    - ./exampleImage.tiff
+    - https://raw.githubusercontent.com/deepimagej/models/master/u-net_glioblastoma_segmentation/exampleImage.tiff
     sample_outputs:
-    - ./resultImage.tiff
+    - https://raw.githubusercontent.com/deepimagej/models/master/u-net_glioblastoma_segmentation/resultImage.tiff
     tags:
     - deepimagej
     - glioblastoma-cells
     - segmentation
     - phase-contrast
     test_inputs:
-    - ./exampleImage.npy
+    - https://raw.githubusercontent.com/deepimagej/models/master/u-net_glioblastoma_segmentation/exampleImage.npy
     test_outputs:
-    - ./resultImage.npy
-    timestamp: 2021-08-31 10:13:32.618903
+    - https://raw.githubusercontent.com/deepimagej/models/master/u-net_glioblastoma_segmentation/resultImage.npy
+    timestamp: '2021-08-31T10:13:32.618903'
     type: model
     weights:
       tensorflow_js:
@@ -130,4 +129,4 @@ versions:
           - ./config.xml
         sha256: 480558c92ade371c0cca02bac46242e3da12f220ffe31b0811150dcf52b2e189
         source: https://zenodo.org/record/4155785/files/u-net_glioblastoma_segmentation_tf_model.zip
-        tensorflow_version: 1.13
+        tensorflow_version: '1.13'

@@ -8,8 +8,8 @@ versions:
   version_name: latest
   rdf_source:
     authors:
-    - Mia Conduit
-    - Séamus Holden
+    - name: Mia Conduit
+    - name: Séamus Holden
     cite:
     - doi: https://doi.org/10.1101/2021.11.03.467152
       text: 'Christoph Spahn, Romain F. Laine, Pedro Matos Pereira, Estibaliz Gómez-de-Mariscal,
@@ -43,11 +43,10 @@ versions:
       FtsZ-GFP protein fusion.
     documentation: https://github.com/HenriquesLab/DeepBacs/wiki
     download_url: https://zenodo.org/record/5551135
-    format_version: 0.2.2
+    format_version: 0.2.3
     id: zero/Dataset_Noise2Void_2D_subtilis_DeepBacs
     maintainers: []
     name: Bacillus subtilis denoising dataset - DeepBacs
-    root_path: https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/manifest.bioimage.io.yaml
     tags:
     - Noise2Void
     - denoising

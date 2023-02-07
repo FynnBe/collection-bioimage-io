@@ -38,7 +38,7 @@ description: This dataset contains a denoising training and test dataset for dee
   acquired using a spinning disk confocal microscope with a 20x 0.8 NA objective.
 documentation: https://zenodo.org/record/5750174
 download_url: https://zenodo.org/record/5750174
-format_version: 0.2.2
+format_version: 0.2.3
 id: zero/Dataset_Noisy_Nuclei_ZeroCostDL4Mic/latest
 maintainers: []
 name: Noisy nuclei dataset.

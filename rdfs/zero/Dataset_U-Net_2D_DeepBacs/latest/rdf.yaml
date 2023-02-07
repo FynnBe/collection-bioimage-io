@@ -37,7 +37,7 @@ description: Paired bright field and segmented mask images of live E. coli cells
   under bright field.
 documentation: https://github.com/HenriquesLab/DeepBacs/wiki
 download_url: https://zenodo.org/record/5550935
-format_version: 0.2.2
+format_version: 0.2.3
 id: zero/Dataset_U-Net_2D_DeepBacs/latest
 maintainers: []
 name: Escherichia coli bright field segmentation dataset - DeepBacs

@@ -37,7 +37,7 @@ description: Live-cell time series of vertically aligned B. subtilis cells expre
   FtsZ-GFP protein fusion.
 documentation: https://github.com/HenriquesLab/DeepBacs/wiki
 download_url: https://zenodo.org/record/5551135
-format_version: 0.2.2
+format_version: 0.2.3
 id: zero/Dataset_Noise2Void_2D_subtilis_DeepBacs/latest
 maintainers: []
 name: Bacillus subtilis denoising dataset - DeepBacs

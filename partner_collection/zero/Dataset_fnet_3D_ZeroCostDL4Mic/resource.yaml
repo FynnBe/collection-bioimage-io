@@ -8,7 +8,7 @@ versions:
   version_name: latest
   rdf_source:
     authors:
-    - Christoph Spahn
+    - name: Christoph Spahn
     cite:
     - doi: https://doi.org/10.1038/s41467-021-22518-0
       text: von Chamier, L., Laine, R.F., Jukkala, J. et al. Democratising deep learning
@@ -38,11 +38,10 @@ versions:
     description: Confocal microscopy data (TOM20 labeled with Alexa Fluor 594)
     documentation: https://doi.org/10.5281/zenodo.3748967
     download_url: https://doi.org/10.5281/zenodo.3748967
-    format_version: 0.2.2
+    format_version: 0.2.3
     id: zero/Dataset_fnet_3D_ZeroCostDL4Mic
     maintainers: []
     name: Label-free prediction (fnet) example training and test dataset - ZeroCostDL4Mic
-    root_path: https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/manifest.bioimage.io.yaml
     tags:
     - fnet
     - labelling

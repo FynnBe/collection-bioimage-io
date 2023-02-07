@@ -38,7 +38,7 @@ covers:
 description: Paired brightfield images of cancer cells and corresponding masks
 documentation: https://zenodo.org/record/4034939
 download_url: https://zenodo.org/record/4034939
-format_version: 0.2.2
+format_version: 0.2.3
 id: zero/Dataset_StarDist_brightfield2_ZeroCostDL4Mic/latest
 maintainers: []
 name: Combining StarDist and TrackMate example 3 - Flow chamber dataset

@@ -8,8 +8,8 @@ versions:
   version_name: latest
   rdf_source:
     authors:
-    - Spahn Christoph
-    - Heilemann Mike
+    - name: Spahn Christoph
+    - name: Heilemann Mike
     cite:
     - doi: https://doi.org/10.1101/2021.11.03.467152
       text: 'Christoph Spahn, Romain F. Laine, Pedro Matos Pereira, Estibaliz Gómez-de-Mariscal,
@@ -43,11 +43,10 @@ versions:
       imaged under bright field.
     documentation: https://github.com/HenriquesLab/DeepBacs/wiki
     download_url: https://zenodo.org/record/5550935
-    format_version: 0.2.2
+    format_version: 0.2.3
     id: zero/Dataset_U-Net_2D_DeepBacs
     maintainers: []
     name: Escherichia coli bright field segmentation dataset - DeepBacs
-    root_path: https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/manifest.bioimage.io.yaml
     tags:
     - U-Net
     - segmentation

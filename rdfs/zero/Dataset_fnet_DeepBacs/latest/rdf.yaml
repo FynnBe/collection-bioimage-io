@@ -38,7 +38,7 @@ description: Training and test images of E. coli cells for artificial labeling o
   prediction of super-resolution membranes.
 documentation: https://github.com/HenriquesLab/DeepBacs/wiki
 download_url: https://zenodo.org/record/5551123
-format_version: 0.2.2
+format_version: 0.2.3
 id: zero/Dataset_fnet_DeepBacs/latest
 maintainers: []
 name: Artificial labeling of E. coli membranes dataset - DeepBacs

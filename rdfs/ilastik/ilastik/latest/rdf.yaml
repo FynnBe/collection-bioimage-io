@@ -1,5 +1,5 @@
-attachments: {}
-authors: []
+authors:
+- name: ilastik Team
 badges: []
 cite:
 - doi: 10.1038/s41592-019-0582-9
@@ -26,10 +26,9 @@ config:
   - ilastik
   url_root: https://raw.githubusercontent.com/ilastik/bioimage-io-models/main
 covers: []
-description: Export BioImage.IO model packages for ilastik from a model description
-  file
+description: the interactive learning and segmentation toolkit
 documentation: https://raw.githubusercontent.com/ilastik/ilastik/main/Readme.md
-format_version: 0.2.2
+format_version: 0.2.3
 icon: https://raw.githubusercontent.com/ilastik/bioimage-io-models/master/image/ilastik-fist-icon.png
 id: ilastik/ilastik/latest
 maintainers:

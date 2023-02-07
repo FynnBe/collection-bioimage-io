@@ -40,7 +40,7 @@ description: Fluorescence microscopy of Nuclei (SiR-DNA) and masks obtained via 
   segmentation
 documentation: https://zenodo.org/record/4811213
 download_url: https://zenodo.org/record/4811213
-format_version: 0.2.2
+format_version: 0.2.3
 id: zero/Dataset_StarDist_fluo2_ZeroCostDL4Mic/latest
 maintainers: []
 name: training dataset for automated tracking of MDA-MB-231 and BT20 cells

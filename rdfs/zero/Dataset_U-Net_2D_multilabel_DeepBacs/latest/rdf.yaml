@@ -37,7 +37,7 @@ description: Paired bright field images and segmented binary masks of live E. co
   cells.
 documentation: https://github.com/HenriquesLab/DeepBacs/wiki
 download_url: https://zenodo.org/record/5639253
-format_version: 0.2.2
+format_version: 0.2.3
 id: zero/Dataset_U-Net_2D_multilabel_DeepBacs/latest
 maintainers: []
 name: Multi-label U-Net training dataset (Bacillus subtilis) - DeepBacs

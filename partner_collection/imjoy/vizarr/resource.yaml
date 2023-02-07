@@ -7,6 +7,7 @@ versions:
   version_id: latest
   version_name: latest
   rdf_source:
+    badges: []
     config:
       background_image: static/img/zoo-background.svg
       default_type: application
@@ -27,14 +28,16 @@ versions:
       tags:
       - imjoy
       url_root: https://raw.githubusercontent.com/imjoy-team/bioimage-io-models/master
-    description: Resources for BioImgage.IO curated by the ImJoy Team.
+    covers: []
+    description: A minimal, purely client-side program for viewing Zarr-based images
+      with Viv & ImJoy
     documentation: https://imjoy.io/docs
-    format_version: 0.2.2
+    format_version: 0.2.3
+    icon: https://raw.githubusercontent.com/hms-dbmi/vizarr/main/assets/logo.png
     id: imjoy/vizarr
     name: vizarr
-    root_path: https://raw.githubusercontent.com/imjoy-team/bioimage-io-models/master/manifest.bioimage.io.yaml
     source: https://raw.githubusercontent.com/imjoy-team/bioimage-io-models/master/src/vizarr.imjoy.html
     tags:
-    - imjoy
-    - bioimage.io
+    - bioengine
     type: application
+    version: 0.0.1

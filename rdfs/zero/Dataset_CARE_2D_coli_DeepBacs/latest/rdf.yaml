@@ -37,7 +37,7 @@ description: Paired training and test images of H-NS-mScarlet-I expressing E. co
   cells for image denoising.
 documentation: https://github.com/HenriquesLab/DeepBacs/wiki
 download_url: https://zenodo.org/record/5551112
-format_version: 0.2.2
+format_version: 0.2.3
 id: zero/Dataset_CARE_2D_coli_DeepBacs/latest
 maintainers: []
 name: Escherichia coli nucleoid denoising dataset - DeepBacs

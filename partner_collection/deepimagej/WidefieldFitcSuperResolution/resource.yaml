@@ -9,10 +9,10 @@ versions:
   rdf_source:
     attachments:
       files:
-      - ./preprocessing.txt
-      - ./postprocessing.txt
-      - ./exampleImage.tiff
-      - ./resultImage.tiff
+      - https://raw.githubusercontent.com/deepimagej/models/master/widefield_fitc_super-resolution/preprocessing.txt
+      - https://raw.githubusercontent.com/deepimagej/models/master/widefield_fitc_super-resolution/postprocessing.txt
+      - https://raw.githubusercontent.com/deepimagej/models/master/widefield_fitc_super-resolution/exampleImage.tiff
+      - https://raw.githubusercontent.com/deepimagej/models/master/widefield_fitc_super-resolution/resultImage.tiff
     authors:
     - affiliation: University of California, Los Angeles, CA, USA
       name: Hongda Wang
@@ -52,20 +52,20 @@ versions:
             type: image
           runtime: 90.0 s
     covers:
-    - ./exampleImage.png
-    - ./resultImage.png
+    - https://raw.githubusercontent.com/deepimagej/models/master/widefield_fitc_super-resolution/exampleImage.png
+    - https://raw.githubusercontent.com/deepimagej/models/master/widefield_fitc_super-resolution/resultImage.png
     description: A trained GAN to transform diffraction-limited input images into
       super-resolved ones.
-    documentation: ./README.md
+    documentation: https://raw.githubusercontent.com/deepimagej/models/master/widefield_fitc_super-resolution/README.md
     download_url: https://sandbox.zenodo.org/record/914425/files/widefield_fitc_super-resolution.zip
-    format_version: 0.3.2
+    format_version: 0.3.6
     framework: tensorflow
     id: deepimagej/WidefieldFitcSuperResolution
     inputs:
     - axes: yxc
       data_range:
-      - -inf
-      - inf
+      - -.inf
+      - .inf
       data_type: float32
       name: input_images
       shape:
@@ -82,8 +82,8 @@ versions:
     outputs:
     - axes: byxc
       data_range:
-      - -inf
-      - inf
+      - -.inf
+      - .inf
       data_type: float32
       halo:
       - 0
@@ -93,31 +93,30 @@ versions:
       name: output_images
       shape:
         offset:
-        - 0
-        - 0
-        - 0
-        - 0
-        reference_input: input_images
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        reference_tensor: input_images
         scale:
         - 1.0
         - 1.0
         - 1.0
         - 1.0
-    root_path: https://raw.githubusercontent.com/deepimagej/models/master/manifest.bioimage.io.yaml
     sample_inputs:
-    - ./exampleImage.tiff
+    - https://raw.githubusercontent.com/deepimagej/models/master/widefield_fitc_super-resolution/exampleImage.tiff
     sample_outputs:
-    - ./resultImage.tiff
+    - https://raw.githubusercontent.com/deepimagej/models/master/widefield_fitc_super-resolution/resultImage.tiff
     tags:
     - deepimagej
     - gan
     - fluorescence-microscopy
     - super-resolution
     test_inputs:
-    - ./exampleImage.npy
+    - https://raw.githubusercontent.com/deepimagej/models/master/widefield_fitc_super-resolution/exampleImage.npy
     test_outputs:
-    - ./resultImage.npy
-    timestamp: 2021-09-09 17:51:50.000019
+    - https://raw.githubusercontent.com/deepimagej/models/master/widefield_fitc_super-resolution/resultImage.npy
+    timestamp: '2021-09-09T17:51:50.000019'
     type: model
     weights:
       tensorflow_saved_model_bundle:
@@ -125,5 +124,5 @@ versions:
           files:
           - ./config.xml
         sha256: d235aa1ee2a94e67afe45b2c89a2daa14f7f005d1e7ec8256369c4980bc5f016
-        source: ./tensorflow_saved_model_bundle.zip
-        tensorflow_version: 1.15
+        source: https://raw.githubusercontent.com/deepimagej/models/master/widefield_fitc_super-resolution/tensorflow_saved_model_bundle.zip
+        tensorflow_version: '1.15'

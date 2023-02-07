@@ -36,7 +36,7 @@ covers:
 description: Training and test images of E. coli cells for object detection and classification.
 documentation: https://github.com/HenriquesLab/DeepBacs/wiki
 download_url: https://zenodo.org/record/5551016
-format_version: 0.2.2
+format_version: 0.2.3
 id: zero/Dataset_YOLOv2_coli_DeepBacs/latest
 maintainers: []
 name: Escherichia coli growth stage object detection dataset - DeepBacs

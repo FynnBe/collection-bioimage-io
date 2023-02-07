@@ -9,20 +9,15 @@ versions:
   rdf_source:
     attachments:
       files:
-      - ./preprocessing.ijm
-      - ./post.ijm
-      - ./0066.tif
-      - ./lesion.csv
-      - ./0066_mask.png
+      - https://raw.githubusercontent.com/deepimagej/models/master/skin_lesion_classification/preprocessing.ijm
+      - https://raw.githubusercontent.com/deepimagej/models/master/skin_lesion_classification/post.ijm
+      - https://raw.githubusercontent.com/deepimagej/models/master/skin_lesion_classification/0066.tif
+      - https://raw.githubusercontent.com/deepimagej/models/master/skin_lesion_classification/lesion.csv
+      - https://raw.githubusercontent.com/deepimagej/models/master/skin_lesion_classification/0066_mask.png
     authors:
     - affiliation: UC3M
       name: Carlos García-López-de-Haro
-    cite:
-    - doi: 10.1038/s41592-021-01262-9
-      text: 'E. Gómez-de-Mariscal, C. García-López-de-Haro, W. Ouyang, L. Donati,
-        E. Lundberg, M. Unser, A. Muñoz-Barrutia, D. Sage, "DeepImageJ: A user-friendly
-        environment to run deep learning models in ImageJ", Nat Methods 18, 1192–1195
-        (2021).'
+    cite: []
     config:
       deepimagej:
         allow_tiling: false
@@ -50,19 +45,19 @@ versions:
             type: ResultsTable
           runtime: 0.3 s
     covers:
-    - ./cover.jpg
+    - https://raw.githubusercontent.com/deepimagej/models/master/skin_lesion_classification/cover.jpg
     description: CNN trained to classify the type of imaged skin lesion.
-    documentation: ./README.md
+    documentation: https://raw.githubusercontent.com/deepimagej/models/master/skin_lesion_classification/README.md
     download_url: https://sandbox.zenodo.org/record/906807/files/bioimage.io.model.zip
-    format_version: 0.3.2
+    format_version: 0.3.6
     framework: pytorch
     git_repo: https://gist.github.com/esgomezm/72b584887ca5ed5ed0231c47fff9aa9b#file-skin_lession_classification_pytorch_adapted-ipynb
     id: deepimagej/SkinLesionClassification
     inputs:
     - axes: bcyx
       data_range:
-      - -inf
-      - inf
+      - -.inf
+      - .inf
       data_type: float32
       name: input0
       shape:
@@ -76,7 +71,7 @@ versions:
         - 0
         - 1
         - 1
-    language: java
+    language: python
     license: BSD2
     links:
     - deepimagej/deepimagej
@@ -85,20 +80,19 @@ versions:
     outputs:
     - axes: bi
       data_range:
-      - -inf
-      - inf
+      - -.inf
+      - .inf
       data_type: float32
       name: output0
       shape:
       - -1
       - -1
-    root_path: https://raw.githubusercontent.com/deepimagej/models/master/manifest.bioimage.io.yaml
     run_mode:
-    - name: deepimagej
+      name: deepimagej
     sample_inputs:
-    - ./0066.tif
+    - https://raw.githubusercontent.com/deepimagej/models/master/skin_lesion_classification/0066.tif
     sample_outputs:
-    - ./lesion.csv
+    - https://raw.githubusercontent.com/deepimagej/models/master/skin_lesion_classification/lesion.csv
     tags:
     - deepimagej-beta
     - deepimagej
@@ -107,12 +101,12 @@ versions:
     - classification
     - pytorch
     test_inputs:
-    - ./0066.npy
+    - https://raw.githubusercontent.com/deepimagej/models/master/skin_lesion_classification/0066.npy
     test_outputs:
-    - ./lesion.npy
-    timestamp: 2020-08-31 10:13:32.618903
+    - https://raw.githubusercontent.com/deepimagej/models/master/skin_lesion_classification/lesion.npy
+    timestamp: '2020-08-31T10:13:32.618903'
     type: model
     weights:
       pytorch_script:
         sha256: b40e303e2a1996535da02626af6f2a4a243befc8f0957be4d47abdd940554f15
-        source: ./pytorch_script.pt
+        source: https://raw.githubusercontent.com/deepimagej/models/master/skin_lesion_classification/pytorch_script.pt

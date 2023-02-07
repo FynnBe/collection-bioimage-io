@@ -9,10 +9,10 @@ versions:
   rdf_source:
     attachments:
       files:
-      - ./preprocessing.txt
-      - ./postprocessing.txt
-      - ./exampleImage.tif
-      - ./resultImage.tif
+      - https://raw.githubusercontent.com/deepimagej/models/master/mt3_virtual_staining/preprocessing.txt
+      - https://raw.githubusercontent.com/deepimagej/models/master/mt3_virtual_staining/postprocessing.txt
+      - https://raw.githubusercontent.com/deepimagej/models/master/mt3_virtual_staining/exampleImage.tif
+      - https://raw.githubusercontent.com/deepimagej/models/master/mt3_virtual_staining/resultImage.tif
     authors:
     - affiliation: University of California
       name: Yair Rivenson
@@ -52,21 +52,21 @@ versions:
             type: image
           runtime: 95.2
     covers:
-    - ./exampleImage.png
-    - ./resultImage.png
+    - https://raw.githubusercontent.com/deepimagej/models/master/mt3_virtual_staining/exampleImage.png
+    - https://raw.githubusercontent.com/deepimagej/models/master/mt3_virtual_staining/resultImage.png
     description: A trained GAN to transform wide-field autofluorescence images of
       unlabelled tissue sections into images that are equivalent to the bright-field
       images of histologically stained versions of the same samples.
-    documentation: ./README.md
+    documentation: https://raw.githubusercontent.com/deepimagej/models/master/mt3_virtual_staining/README.md
     download_url: https://sandbox.zenodo.org/record/906805/files/bioimage.io.model.zip
-    format_version: 0.3.2
+    format_version: 0.3.6
     framework: tensorflow
     id: deepimagej/Mt3VirtualStaining
     inputs:
     - axes: yxc
       data_range:
-      - -inf
-      - inf
+      - -.inf
+      - .inf
       data_type: float32
       name: input_images
       shape:
@@ -83,8 +83,8 @@ versions:
     outputs:
     - axes: yxc
       data_range:
-      - -inf
-      - inf
+      - -.inf
+      - .inf
       data_type: float32
       halo:
       - 150
@@ -93,29 +93,28 @@ versions:
       name: output_images
       shape:
         offset:
-        - 0
-        - 0
-        - 0
-        reference_input: input_images
+        - 0.0
+        - 0.0
+        - 0.0
+        reference_tensor: input_images
         scale:
         - 1.0
         - 1.0
         - 3.0
-    root_path: https://raw.githubusercontent.com/deepimagej/models/master/manifest.bioimage.io.yaml
     sample_inputs:
-    - ./exampleImage.tif
+    - https://raw.githubusercontent.com/deepimagej/models/master/mt3_virtual_staining/exampleImage.tif
     sample_outputs:
-    - ./resultImage.tif
+    - https://raw.githubusercontent.com/deepimagej/models/master/mt3_virtual_staining/resultImage.tif
     tags:
     - deepimagej
     - gan
     - virtual-staining
     - histology
     test_inputs:
-    - ./exampleImage.npy
+    - https://raw.githubusercontent.com/deepimagej/models/master/mt3_virtual_staining/exampleImage.npy
     test_outputs:
-    - ./resultImage.npy
-    timestamp: 2021-03-09 15:58:33.000793
+    - https://raw.githubusercontent.com/deepimagej/models/master/mt3_virtual_staining/resultImage.npy
+    timestamp: '2021-03-09T15:58:33.000793'
     type: model
     weights:
       tensorflow_saved_model_bundle:
@@ -123,5 +122,5 @@ versions:
           files:
           - ./config.xml
         sha256: 9c20009f5eb0f751dcd4b9f1d43ef7b7ec989b41d6edd080804595aa436b6201
-        source: ./tensorflow_saved_model_bundle.zip
-        tensorflow_version: 1.15
+        source: https://raw.githubusercontent.com/deepimagej/models/master/mt3_virtual_staining/tensorflow_saved_model_bundle.zip
+        tensorflow_version: '1.15'

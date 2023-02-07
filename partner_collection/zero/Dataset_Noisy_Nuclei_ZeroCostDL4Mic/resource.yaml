@@ -8,7 +8,7 @@ versions:
   version_name: latest
   rdf_source:
     authors:
-    - Guillaume Jacquemet
+    - name: Guillaume Jacquemet
     cite:
     - doi: https://doi.org/10.1038/s41592-021-01284-3
       text: 'Laine RF, Arganda-Carreras I, Henriques R, Jacquemet G. Avoiding a replication
@@ -44,11 +44,10 @@ versions:
       objective.
     documentation: https://zenodo.org/record/5750174
     download_url: https://zenodo.org/record/5750174
-    format_version: 0.2.2
+    format_version: 0.2.3
     id: zero/Dataset_Noisy_Nuclei_ZeroCostDL4Mic
     maintainers: []
     name: Noisy nuclei dataset.
-    root_path: https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/manifest.bioimage.io.yaml
     tags:
     - denoising
     - CARE

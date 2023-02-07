@@ -8,7 +8,7 @@ versions:
   version_name: latest
   rdf_source:
     authors:
-    - Guillaume Jacquemet
+    - name: Guillaume Jacquemet
     cite:
     - doi: https://doi.org/10.1038/s41467-021-22518-0
       text: von Chamier, L., Laine, R.F., Jukkala, J. et al. Democratising deep learning
@@ -44,11 +44,10 @@ versions:
       manual segmentation
     documentation: https://zenodo.org/record/4034976
     download_url: https://zenodo.org/record/4034976
-    format_version: 0.2.2
+    format_version: 0.2.3
     id: zero/Dataset_StarDist_Fluo_ZeroCostDL4Mic
     maintainers: []
     name: Combining StarDist and TrackMate example 1 - Breast cancer cell dataset
-    root_path: https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/manifest.bioimage.io.yaml
     tags:
     - StarDist
     - ZeroCostDL4Mic

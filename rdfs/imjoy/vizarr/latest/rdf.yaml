@@ -1,5 +1,3 @@
-attachments: {}
-authors: []
 badges: []
 config:
   background_image: static/img/zoo-background.svg
@@ -28,8 +26,8 @@ config:
 covers: []
 description: A minimal, purely client-side program for viewing Zarr-based images with
   Viv & ImJoy
-documentation: https://raw.githubusercontent.com/hms-dbmi/vizarr/master/README.md
-format_version: 0.2.2
+documentation: https://imjoy.io/docs
+format_version: 0.2.3
 icon: https://raw.githubusercontent.com/hms-dbmi/vizarr/main/assets/logo.png
 id: imjoy/vizarr/latest
 name: vizarr

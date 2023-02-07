@@ -37,7 +37,7 @@ description: Training and test images of E. coli cells treated with different an
   for antibiotic phenotyping.
 documentation: https://github.com/HenriquesLab/DeepBacs/wiki
 download_url: https://zenodo.org/record/5551057
-format_version: 0.2.2
+format_version: 0.2.3
 id: zero/Dataset_YOLOv2_antibiotic_DeepBacs/latest
 maintainers: []
 name: Escherichia coli antibiotic phenotyping object detection dataset - DeepBacs

@@ -37,7 +37,7 @@ description: Training and test images of live E. coli cells imaged under bright 
   for the task of segmentation.
 documentation: https://github.com/HenriquesLab/DeepBacs/wiki
 download_url: https://zenodo.org/record/5550935
-format_version: 0.2.2
+format_version: 0.2.3
 id: zero/Dataset_SplineDist_2D_DeepBacs/latest
 maintainers: []
 name: Escherichia coli bright field segmentation dataset - DeepBacs
