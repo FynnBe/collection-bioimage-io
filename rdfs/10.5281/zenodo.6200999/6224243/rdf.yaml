@@ -48,7 +48,7 @@ covers:
 description: Nuclei segmentation model for segmenting images from the Human Protein
   Atlas
 documentation: https://zenodo.org/api/files/9f580ca7-5f85-41ac-be2b-201172ed09b3/README.md
-format_version: 0.4.5
+format_version: 0.4.8
 id: 10.5281/zenodo.6200999/6224243
 inputs:
 - axes: bcyx
@@ -77,6 +77,8 @@ inputs:
   - 512
 license: CC-BY-4.0
 links:
+- imjoy/BioImageIO-Packager
+- imjoy/HPA-Single-Cell
 - deepimagej/deepimagej
 name: HPA Nucleus Segmentation (DPNUnet)
 outputs:

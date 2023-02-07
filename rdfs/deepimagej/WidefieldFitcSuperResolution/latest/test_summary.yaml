@@ -1,5 +1,5 @@
 bioimageio_spec_version: 0.4.5post4
-rdf_sha256: f6fcfb366754eac56a24bea66934550bfea53fc5f1a3d7f088ba715618c76085
+rdf_sha256: 919a5a3dec79fe693a06864b521d2e3a62858ed2e7b3227eab768b7bdd1ffaa8
 status: failed
 tests:
   bioimageio:
@@ -12,6 +12,8 @@ tests:
     traceback: null
     warnings: {}
   deepimagej:
+  - {error: Missing/invalid weight formats for deepimagej/WidefieldFitcSuperResolution/latest,
+    name: reproduce test outputs with deepimagej 2.1.13, reason: error, status: failed}
   - bioimageio_core_version: 0.5.3post2
     bioimageio_spec_version: 0.4.5post7
     error: '{''_schema'': [''Referenced tensor input_images with 3 dimensions does
@@ -29,14 +31,12 @@ tests:
       "  File \"/usr/share/miniconda3/envs/deepImageJEnv/lib/python3.8/site-packages/marshmallow/schema.py\",
         line 717, in load\n    return self._do_load(\n", "  File \"/usr/share/miniconda3/envs/deepImageJEnv/lib/python3.8/site-packages/marshmallow/schema.py\",
         line 900, in _do_load\n    raise exc\n"]
-  - {error: Missing/invalid weight formats for deepimagej/WidefieldFitcSuperResolution/latest,
-    name: reproduce test outputs with deepimagej 2.1.13, reason: error, status: failed}
   ilastik:
   - bioimageio_core_version: 0.5.1
     bioimageio_spec_version: 0.4.5post3
     error: '{''_schema'': [''Referenced tensor input_images with 3 dimensions does
       not match output tensor output_images with 4 dimensions.'']}'
-    name: reproduce test outputs with ilastik <todo version> (draft) using tensorflow_saved_model_bundle
+    name: reproduce test outputs with ilastik 1.4.0b26 using tensorflow_saved_model_bundle
       weights
     reason: error
     status: failed
@@ -57,7 +57,7 @@ tests:
     bioimageio_spec_version: 0.4.5post6
     error: '{''_schema'': [''Referenced tensor input_images with 3 dimensions does
       not match output tensor output_images with 4 dimensions.'']}'
-    name: reproduce test outputs with ilastik <todo version> (draft) using tensorflow_saved_model_bundle
+    name: reproduce test outputs with ilastik 1.4.0b27 using tensorflow_saved_model_bundle
       weights
     reason: error
     status: failed

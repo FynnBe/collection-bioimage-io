@@ -1,12 +1,12 @@
 bioimageio_core_version: 0.5.3.post2
-bioimageio_spec_version: 0.4.5.post6
-rdf_sha256: b18e61025d583ae850b13c6fe2794c12089a5c0666b54b79a54c1c68aa82794d
-status: failed
+bioimageio_spec_version: 0.4.8.post1
+rdf_sha256: deef49d2f83915c970876a092e9904ae8aac410cd14fc2b87b4e7052c01b73d8
+status: passed
 tests:
   bioimageio:
-  - bioimageio_spec_version: 0.4.5post6
+  - bioimageio_spec_version: 0.4.8post1
     error: null
-    name: bioimageio.spec static validation of model RDF 0.4.5 with update to latest
+    name: bioimageio.spec static validation of model RDF 0.4.8 with update to latest
       format version
     nested_errors: {}
     status: passed
@@ -19,9 +19,9 @@ tests:
         ''deepimagej'', ''n2v'']}]'
       weights: {pytorch_state_dict: missing 'pytorch_version', torchscript: missing
           'pytorch_version'}
-  - bioimageio_spec_version: 0.4.5post6
+  - bioimageio_spec_version: 0.4.8post1
     error: null
-    name: bioimageio.spec static validation of model RDF 0.4.5
+    name: bioimageio.spec static validation of model RDF 0.4.8
     nested_errors: {}
     status: passed
     traceback: null
@@ -33,21 +33,6 @@ tests:
         ''deepimagej'', ''n2v'']}]'
       weights: {pytorch_state_dict: missing 'pytorch_version', torchscript: missing
           'pytorch_version'}
-  - bioimageio_core_version: 0.5.3post2
-    bioimageio_spec_version: 0.4.5post6
-    error: cannot reshape array of size 40669 into shape (1,1,32,360,360)
-    name: reproduced test outputs from test inputs
-    status: failed
-    traceback: ["  File \"/usr/share/miniconda/envs/5874742/lib/python3.9/site-packages/bioimageio/core/resource_tests.py\",
-        line 127, in test_resource\n    expected = [np.load(str(out_path)) for out_path
-        in model.test_outputs]\n", "  File \"/usr/share/miniconda/envs/5874742/lib/python3.9/site-packages/bioimageio/core/resource_tests.py\",
-        line 127, in <listcomp>\n    expected = [np.load(str(out_path)) for out_path
-        in model.test_outputs]\n", "  File \"/usr/share/miniconda/envs/5874742/lib/python3.9/site-packages/numpy/lib/npyio.py\",
-        line 430, in load\n    return format.read_array(fid, allow_pickle=allow_pickle,\n",
-      "  File \"/usr/share/miniconda/envs/5874742/lib/python3.9/site-packages/numpy/lib/format.py\",
-        line 786, in read_array\n    array.shape = shape\n"]
-  - {bioimageio_core_version: 0.5.3post2, bioimageio_spec_version: 0.4.5post6, error: null,
-    name: reproduced test outputs from test inputs, status: passed, traceback: null}
   deepimagej:
   - bioimageio_core_version: 0.5.3post2
     bioimageio_spec_version: 0.4.5post7
@@ -101,15 +86,19 @@ tests:
         rdf_path)\n", "  File \"/home/runner/work/models/models/scripts/utils.py\",
         line 27, in download_deepimagej_model\n    os.makedirs(fiji_dir + \"//models\")\n"]
   ilastik:
-  - {bioimageio_core_version: 0.5.1, bioimageio_spec_version: 0.4.5post3, error: null,
-    name: reproduce test outputs with ilastik <todo version> (draft) using pytorch_state_dict
-      weights, reason: null, status: passed, traceback: null}
   - {bioimageio_core_version: 0.5.3post2, bioimageio_spec_version: 0.4.5post6, error: null,
-    name: reproduce test outputs with ilastik <todo version> (draft) using pytorch_state_dict
-      weights, reason: null, status: passed, traceback: null}
+    name: reproduce test outputs with ilastik 1.4.0b27 using torchscript weights,
+    reason: null, status: passed, traceback: null}
   - {bioimageio_core_version: 0.5.3post2, bioimageio_spec_version: 0.4.5post6, error: null,
-    name: reproduce test outputs with ilastik <todo version> (draft) using torchscript
-      weights, reason: null, status: passed, traceback: null}
+    name: reproduce test outputs with ilastik 1.4.0b27 using pytorch_state_dict weights,
+    reason: null, status: passed, traceback: null}
   - {bioimageio_core_version: 0.5.1, bioimageio_spec_version: 0.4.5post3, error: null,
-    name: reproduce test outputs with ilastik <todo version> (draft) using torchscript
-      weights, reason: null, status: passed, traceback: null}
+    name: reproduce test outputs with ilastik 1.4.0b26 using torchscript weights,
+    reason: null, status: passed, traceback: null}
+  - {error: Missing/invalid weight formats for 10.5281/zenodo.5874741/5874742, name: reproduce
+      test outputs with ilastik 1.4.0b27, reason: error, status: failed}
+  - {bioimageio_core_version: 0.5.1, bioimageio_spec_version: 0.4.5post3, error: null,
+    name: reproduce test outputs with ilastik 1.4.0b26 using pytorch_state_dict weights,
+    reason: null, status: passed, traceback: null}
+  - {error: Missing/invalid weight formats for 10.5281/zenodo.5874741/5874742, name: reproduce
+      test outputs with ilastik 1.4.0b26, reason: error, status: failed}

@@ -1,0 +1,26 @@
+bioimageio_spec_version: 0.4.8.post1
+rdf_sha256: 7d36cb1ccc808ec34c96298ce3c7b6c838b64abf9858052d2e85a91007c15840
+status: passed
+tests:
+  bioimageio:
+  - bioimageio_spec_version: 0.4.8post1
+    error: null
+    name: bioimageio.spec static validation of dataset RDF 0.2.3 with update to latest
+      format version
+    nested_errors: {}
+    status: passed
+    traceback: null
+    warnings: {}
+  - bioimageio_spec_version: 0.4.8post1
+    error: null
+    name: bioimageio.spec static validation of dataset RDF 0.2.3
+    nested_errors: {}
+    status: passed
+    traceback: null
+    warnings: {}
+  deepimagej: []
+  ilastik:
+  - {error: Missing/invalid weight formats for ilastik/arabidopsis_tissue_atlas/latest,
+    name: reproduce test outputs with ilastik 1.4.0b27, reason: error, status: failed}
+  - {error: Missing/invalid weight formats for ilastik/arabidopsis_tissue_atlas/latest,
+    name: reproduce test outputs with ilastik 1.4.0b26, reason: error, status: failed}

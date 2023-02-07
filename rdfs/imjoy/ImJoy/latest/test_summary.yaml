@@ -1,5 +1,5 @@
 bioimageio_spec_version: 0.4.5post4
-rdf_sha256: 2d6902bbc0d87138ce5b0e43d389007212b56b10d6717fafb4657404116ab802
+rdf_sha256: 81f3b3a116ff5ecfa3a90fa24ba3aa406a87983d2991d3c17dbfb6ed54376ecd
 status: passed
 tests:
   bioimageio:
@@ -23,4 +23,6 @@ tests:
       test outputs with deepimagej 2.1.13, reason: error, status: failed}
   ilastik:
   - {error: Missing/invalid weight formats for imjoy/ImJoy/latest, name: reproduce
-      test outputs with ilastik <todo version> (draft), reason: error, status: failed}
+      test outputs with ilastik 1.4.0b27, reason: error, status: failed}
+  - {error: Missing/invalid weight formats for imjoy/ImJoy/latest, name: reproduce
+      test outputs with ilastik 1.4.0b26, reason: error, status: failed}

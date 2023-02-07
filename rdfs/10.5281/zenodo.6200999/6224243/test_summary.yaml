@@ -1,12 +1,12 @@
 bioimageio_core_version: 0.5.3.post2
-bioimageio_spec_version: 0.4.5.post6
-rdf_sha256: 9c62e6ce52438ea1246052619fe49f3280cab9a7a63ec0ae064dda0007e88727
+bioimageio_spec_version: 0.4.8.post1
+rdf_sha256: 9062848014680b558623ae2aa3e54c484953fed078c127a7a8802042265d395b
 status: passed
 tests:
   bioimageio:
-  - bioimageio_spec_version: 0.4.5post6
+  - bioimageio_spec_version: 0.4.8post1
     error: null
-    name: bioimageio.spec static validation of model RDF 0.4.5 with update to latest
+    name: bioimageio.spec static validation of model RDF 0.4.8 with update to latest
       format version
     nested_errors: {}
     status: passed
@@ -25,9 +25,9 @@ tests:
         ''instance-segmentation'', ''object-detection'', ''image-classification'',
         ''denoising'', ''image-restoration'', ''image-reconstruction'', ''in-silico-labeling'']}]'
       weights: {torchscript: missing 'pytorch_version'}
-  - bioimageio_spec_version: 0.4.5post6
+  - bioimageio_spec_version: 0.4.8post1
     error: null
-    name: bioimageio.spec static validation of model RDF 0.4.5
+    name: bioimageio.spec static validation of model RDF 0.4.8
     nested_errors: {}
     status: passed
     traceback: null
@@ -45,8 +45,6 @@ tests:
         ''instance-segmentation'', ''object-detection'', ''image-classification'',
         ''denoising'', ''image-restoration'', ''image-reconstruction'', ''in-silico-labeling'']}]'
       weights: {torchscript: missing 'pytorch_version'}
-  - {bioimageio_core_version: 0.5.3post2, bioimageio_spec_version: 0.4.5post6, error: null,
-    name: reproduced test outputs from test inputs, status: passed, traceback: null}
   deepimagej:
   - bioimageio_core_version: 0.5.3post2
     bioimageio_spec_version: 0.4.5post7
@@ -60,8 +58,12 @@ tests:
         line 27, in download_deepimagej_model\n    os.makedirs(fiji_dir + \"//models\")\n"]
   ilastik:
   - {bioimageio_core_version: 0.5.3post2, bioimageio_spec_version: 0.4.5post6, error: null,
-    name: reproduce test outputs with ilastik <todo version> (draft) using torchscript
-      weights, reason: null, status: passed, traceback: null}
+    name: reproduce test outputs with ilastik 1.4.0b27 using torchscript weights,
+    reason: null, status: passed, traceback: null}
   - {bioimageio_core_version: 0.5.1, bioimageio_spec_version: 0.4.5post3, error: null,
-    name: reproduce test outputs with ilastik <todo version> (draft) using torchscript
-      weights, reason: null, status: passed, traceback: null}
+    name: reproduce test outputs with ilastik 1.4.0b26 using torchscript weights,
+    reason: null, status: passed, traceback: null}
+  - {error: Missing/invalid weight formats for 10.5281/zenodo.6200999/6224243, name: reproduce
+      test outputs with ilastik 1.4.0b27, reason: error, status: failed}
+  - {error: Missing/invalid weight formats for 10.5281/zenodo.6200999/6224243, name: reproduce
+      test outputs with ilastik 1.4.0b26, reason: error, status: failed}

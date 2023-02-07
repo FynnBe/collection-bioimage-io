@@ -1,5 +1,5 @@
 bioimageio_spec_version: 0.4.5post4
-rdf_sha256: 93603481c612fef75e427b8ba8923afea303cd54c79cc19c240467ca2e381103
+rdf_sha256: 6c653928bf505e93f54fe11280b448e9577e8834ca8c5c81f419b89d5861f916
 status: failed
 tests:
   bioimageio:
@@ -33,4 +33,6 @@ tests:
       test outputs with deepimagej 2.1.13, reason: error, status: failed}
   ilastik:
   - {error: Missing/invalid weight formats for hpa/HPA-Classification/latest, name: reproduce
-      test outputs with ilastik <todo version> (draft), reason: error, status: failed}
+      test outputs with ilastik 1.4.0b27, reason: error, status: failed}
+  - {error: Missing/invalid weight formats for hpa/HPA-Classification/latest, name: reproduce
+      test outputs with ilastik 1.4.0b26, reason: error, status: failed}

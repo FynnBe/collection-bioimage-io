@@ -54,7 +54,7 @@ covers:
 - https://zenodo.org/api/files/73fe6e10-5600-44ac-b8ab-f8c38568a529/cover.png
 description: Prediction Enhancer for segmenting mitochondria in EM images.
 documentation: https://zenodo.org/api/files/73fe6e10-5600-44ac-b8ab-f8c38568a529/documentation.md
-format_version: 0.4.5
+format_version: 0.4.8
 id: 10.5281/zenodo.6406756/6406757
 inputs:
 - axes: bcyx

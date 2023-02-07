@@ -1,0 +1,82 @@
+bioimageio_spec_version: 0.4.8.post1
+rdf_sha256: 1716d0f79af0b1dd85f473a3e639400967bac985ad5b2aa4b0f4ad0498d26301
+status: passed
+tests:
+  bioimageio:
+  - bioimageio_spec_version: 0.4.8post1
+    error: null
+    name: bioimageio.spec static validation of model RDF 0.4.8 with update to latest
+      format version
+    nested_errors: {}
+    status: passed
+    traceback: null
+    warnings:
+      tags: 'Missing tags for categories: [{''modality'': [''electron-microscopy'',
+        ''cryo-electron-microscopy'', ''fluorescence-light-microscopy'', ''transmission-light-microscopy'',
+        ''super-resolution-microscopy'', ''x-ray-microscopy'', ''force-microscopy'',
+        ''high-content-imaging'', ''whole-slide-imaging'', ''other'']}, {''dims'':
+        [''2d'', ''3d'', ''2d-t'', ''3d-t'']}, {''content'': [''cells'', ''nuclei'',
+        ''extracellular-vesicles'', ''tissue'', ''plant'', ''mitochondria'', ''vasculature'',
+        ''cell-membrane'', ''brain'', ''whole-organism'']}, {''framework'': [''tensorflow'',
+        ''pytorch'', ''tensorflow.js'']}, {''software'': [''ilastik'', ''imagej'',
+        ''fiji'', ''imjoy'', ''deepimagej'', ''n2v'']}, {''network'': [''unet'', ''densenet'',
+        ''resnet'', ''inception'', ''shufflenet'']}, {''task'': [''semantic-segmentation'',
+        ''instance-segmentation'', ''object-detection'', ''image-classification'',
+        ''denoising'', ''image-restoration'', ''image-reconstruction'', ''in-silico-labeling'']}]'
+      weights: {torchscript: missing 'pytorch_version'}
+  - bioimageio_spec_version: 0.4.8post1
+    error: null
+    name: bioimageio.spec static validation of model RDF 0.4.8
+    nested_errors: {}
+    status: passed
+    traceback: null
+    warnings:
+      tags: 'Missing tags for categories: [{''modality'': [''electron-microscopy'',
+        ''cryo-electron-microscopy'', ''fluorescence-light-microscopy'', ''transmission-light-microscopy'',
+        ''super-resolution-microscopy'', ''x-ray-microscopy'', ''force-microscopy'',
+        ''high-content-imaging'', ''whole-slide-imaging'', ''other'']}, {''dims'':
+        [''2d'', ''3d'', ''2d-t'', ''3d-t'']}, {''content'': [''cells'', ''nuclei'',
+        ''extracellular-vesicles'', ''tissue'', ''plant'', ''mitochondria'', ''vasculature'',
+        ''cell-membrane'', ''brain'', ''whole-organism'']}, {''framework'': [''tensorflow'',
+        ''pytorch'', ''tensorflow.js'']}, {''software'': [''ilastik'', ''imagej'',
+        ''fiji'', ''imjoy'', ''deepimagej'', ''n2v'']}, {''network'': [''unet'', ''densenet'',
+        ''resnet'', ''inception'', ''shufflenet'']}, {''task'': [''semantic-segmentation'',
+        ''instance-segmentation'', ''object-detection'', ''image-classification'',
+        ''denoising'', ''image-restoration'', ''image-reconstruction'', ''in-silico-labeling'']}]'
+      weights: {torchscript: missing 'pytorch_version'}
+  deepimagej: []
+  ilastik:
+  - bioimageio_core_version: 0.5.3post2
+    bioimageio_spec_version: 0.4.5post6
+    error: '{''format_version'': [''Must be one of: 0.4.0, 0.4.1, 0.4.2, 0.4.3, 0.4.4,
+      0.4.5.'']}'
+    name: reproduce test outputs with ilastik 1.4.0b27 using torchscript weights
+    reason: error
+    status: failed
+    traceback: ["  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/core/resource_tests.py\",
+        line 39, in test_model\n    model_rdf, weights_priority_order=None if weight_format
+        is None else [weight_format]\n", "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/core/resource_io/io_.py\",
+        line 47, in load_resource_description\n    raw_rd = load_raw_resource_description(source,
+        update_to_format=\"latest\")\n", "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/spec/io_.py\",
+        line 197, in load_raw_resource_description\n    raw_rd = schema.load(data)\n",
+      "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/marshmallow/schema.py\",
+        line 718, in load\n    data, many=many, partial=partial, unknown=unknown,
+        postprocess=True\n", "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/marshmallow/schema.py\",
+        line 900, in _do_load\n    raise exc\n"]
+  - bioimageio_core_version: 0.5.1
+    bioimageio_spec_version: 0.4.5post3
+    error: '{''format_version'': [''Must be one of: 0.4.0, 0.4.1, 0.4.2, 0.4.3, 0.4.4,
+      0.4.5.'']}'
+    name: reproduce test outputs with ilastik 1.4.0b26 using torchscript weights
+    reason: error
+    status: failed
+    traceback: ["  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/core/resource_tests.py\",
+        line 39, in test_model\n    model_rdf, weights_priority_order=None if weight_format
+        is None else [weight_format]\n", "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/core/resource_io/io_.py\",
+        line 41, in load_resource_description\n    raw_rd = load_raw_resource_description(source,
+        update_to_format=\"latest\")\n", "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/spec/io_.py\",
+        line 191, in load_raw_resource_description\n    raw_rd = schema.load(data)\n",
+      "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/marshmallow/schema.py\",
+        line 718, in load\n    data, many=many, partial=partial, unknown=unknown,
+        postprocess=True\n", "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/marshmallow/schema.py\",
+        line 900, in _do_load\n    raise exc\n"]

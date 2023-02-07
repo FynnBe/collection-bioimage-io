@@ -52,7 +52,7 @@ covers:
 - https://zenodo.org/api/files/f2a796dc-27f5-43b8-aadb-981898f39b87/cover.png
 description: Cell segmentation for phase-contrast microscopy.
 documentation: https://zenodo.org/api/files/f2a796dc-27f5-43b8-aadb-981898f39b87/documentation.md
-format_version: 0.4.5
+format_version: 0.4.8
 id: 10.5281/zenodo.5869899/6321179
 inputs:
 - axes: bcyx
@@ -79,10 +79,10 @@ inputs:
     - 16
 license: CC-BY-4.0
 links:
-- ilastik/livecell_dataset
-- ilastik/ilastik
 - deepimagej/deepimagej
+- ilastik/ilastik
 - imjoy/BioImageIO-Packager
+- ilastik/torch-em-2d-unet-notebook
 maintainers:
 - github_user: constantinpape
   name: Constantin Pape

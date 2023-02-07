@@ -1,5 +1,5 @@
 bioimageio_spec_version: 0.4.5post4
-rdf_sha256: 7e45e956f5fda545dcc042cad3170221fbb31707ea0863068c8f7ea768e5e3c3
+rdf_sha256: 7ef864c7373ea234bc4a44efe488caad52eb6aeacede696aee4175dd0f793585
 status: failed
 tests:
   bioimageio:
@@ -12,6 +12,8 @@ tests:
     traceback: null
     warnings: {}
   deepimagej:
+  - {error: Missing/invalid weight formats for deepimagej/Mt3VirtualStaining/latest,
+    name: reproduce test outputs with deepimagej 2.1.13, reason: error, status: failed}
   - bioimageio_core_version: 0.5.3post2
     bioimageio_spec_version: 0.4.5post7
     error: 'Failed to download https://raw.githubusercontent.com/deepimagej/models/master/preprocessing.txt
@@ -56,31 +58,26 @@ tests:
         output)\n", "  File \"/usr/share/miniconda3/envs/deepImageJEnv/lib/python3.8/site-packages/bioimageio/spec/shared/_resolve_source.py\",
         line 406, in _download_url\n    raise RuntimeError(f\"Failed to download {uri}
         ({e})\")\n"]
-  - {error: Missing/invalid weight formats for deepimagej/Mt3VirtualStaining/latest,
-    name: reproduce test outputs with deepimagej 2.1.13, reason: error, status: failed}
   ilastik:
   - bioimageio_core_version: 0.5.1
     bioimageio_spec_version: 0.4.5post3
-    error: Cannot load file containing pickled data when allow_pickle=False
-    name: reproduce test outputs with ilastik <todo version> (draft) using tensorflow_saved_model_bundle
+    error: 'Shape (0, 0, 0, 0, 0) of test input 0 ''input_images'' does not match
+      input shape description: [1224, 1224, 1].'
+    name: reproduce test outputs with ilastik 1.4.0b26 using tensorflow_saved_model_bundle
       weights
     reason: error
     status: failed
     traceback: ["  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/core/resource_tests.py\",
-        line 126, in test_resource\n    inputs = [np.load(str(in_path)) for in_path
-        in model.test_inputs]\n", "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/core/resource_tests.py\",
-        line 126, in <listcomp>\n    inputs = [np.load(str(in_path)) for in_path in
-        model.test_inputs]\n", "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/numpy/lib/npyio.py\",
-        line 445, in load\n    raise ValueError(\"Cannot load file containing pickled
-        data \"\n"]
+        line 134, in test_resource\n    f\"Shape {tuple(ipt.shape)} of test input
+        {idx} '{ipt_spec.name}' does not match \"\n"]
   - {error: Missing/invalid weight formats for deepimagej/Mt3VirtualStaining/latest,
     name: reproduce test outputs with ilastik <todo version> (draft), reason: error,
     status: failed}
   - bioimageio_core_version: 0.5.3post2
     bioimageio_spec_version: 0.4.5post6
-    error: 'Failed to download https://raw.githubusercontent.com/deepimagej/models/master/preprocessing.txt
-      (404 Client Error: Not Found for url: https://raw.githubusercontent.com/deepimagej/models/master/preprocessing.txt)'
-    name: reproduce test outputs with ilastik <todo version> (draft) using tensorflow_saved_model_bundle
+    error: 'Failed to download https://raw.githubusercontent.com/deepimagej/models/master/mt3_virtual_staining/tensorflow_saved_model_bundle.zip
+      (404 Client Error: Not Found for url: https://raw.githubusercontent.com/deepimagej/models/master/mt3_virtual_staining/tensorflow_saved_model_bundle.zip)'
+    name: reproduce test outputs with ilastik 1.4.0b27 using tensorflow_saved_model_bundle
       weights
     reason: error
     status: failed
@@ -100,16 +97,16 @@ tests:
         for n, value in iter_fields(node)}\n", "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/spec/shared/node_transformer.py\",
         line 54, in transform\n    return transformer(node, **kwargs)  # noqa\n",
       "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/spec/shared/node_transformer.py\",
+        line 63, in transform_dict\n    return {key: self.transform(value, **kwargs)
+        for key, value in node.items()}\n", "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/spec/shared/node_transformer.py\",
+        line 63, in <dictcomp>\n    return {key: self.transform(value, **kwargs) for
+        key, value in node.items()}\n", "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/spec/shared/node_transformer.py\",
+        line 54, in transform\n    return transformer(node, **kwargs)  # noqa\n",
+      "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/spec/shared/node_transformer.py\",
         line 86, in generic_transformer\n    node, **{n: self.transform(value, name=n,
         parent=node) for n, value in iter_fields(node)}\n", "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/spec/shared/node_transformer.py\",
         line 86, in <dictcomp>\n    node, **{n: self.transform(value, name=n, parent=node)
         for n, value in iter_fields(node)}\n", "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/spec/shared/node_transformer.py\",
-        line 54, in transform\n    return transformer(node, **kwargs)  # noqa\n",
-      "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/spec/shared/node_transformer.py\",
-        line 60, in transform_list\n    return [self.transform(subnode, **kwargs)
-        for subnode in node]\n", "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/spec/shared/node_transformer.py\",
-        line 60, in <listcomp>\n    return [self.transform(subnode, **kwargs) for
-        subnode in node]\n", "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/spec/shared/node_transformer.py\",
         line 54, in transform\n    return transformer(node, **kwargs)  # noqa\n",
       "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/spec/shared/node_transformer.py\",
         line 206, in transform_URI\n    local_path = _resolve_source(node, root_path=self.root_path)\n",

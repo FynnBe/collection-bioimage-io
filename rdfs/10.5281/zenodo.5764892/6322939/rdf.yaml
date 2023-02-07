@@ -54,7 +54,7 @@ covers:
 - https://zenodo.org/api/files/a3d790f1-5203-4bd3-a975-d0fff38c0d97/cover.png
 description: Nucleus segmentation for fluorescence microscopy
 documentation: https://zenodo.org/api/files/a3d790f1-5203-4bd3-a975-d0fff38c0d97/documentation.md
-format_version: 0.4.5
+format_version: 0.4.8
 id: 10.5281/zenodo.5764892/6322939
 inputs:
 - axes: bcyx
@@ -81,10 +81,10 @@ inputs:
     - 16
 license: CC-BY-4.0
 links:
-- ilastik/stardist_dsb_training_data
-- ilastik/ilastik
 - deepimagej/deepimagej
+- ilastik/ilastik
 - imjoy/BioImageIO-Packager
+- ilastik/torch-em-2d-unet-notebook
 maintainers:
 - github_user: constantinpape
   name: Constantin Pape
@@ -130,7 +130,7 @@ test_outputs:
 - https://zenodo.org/api/files/a3d790f1-5203-4bd3-a975-d0fff38c0d97/test_output_0.npy
 timestamp: '2021-12-07T18:43:26.889129'
 training_data:
-  id: ilastik/stradist_dsb_training_data
+  id: ilastik/stardist_dsb_training_data
 type: model
 version: 0.1.0
 weights:

@@ -1,5 +1,5 @@
 bioimageio_spec_version: 0.4.5post4
-rdf_sha256: df1d0d7d28a5dc4e4002f20c2f255b7b0fcd5a1bb987f37c79ed24f079861d14
+rdf_sha256: 16955286134e34629e3dce7c9bf8efe21564ac1523470b9f583c3ef5784354a0
 status: passed
 tests:
   bioimageio:
@@ -27,4 +27,6 @@ tests:
       test outputs with deepimagej 2.1.13, reason: error, status: failed}
   ilastik:
   - {error: Missing/invalid weight formats for ilastik/livecell_dataset/latest, name: reproduce
-      test outputs with ilastik <todo version> (draft), reason: error, status: failed}
+      test outputs with ilastik 1.4.0b27, reason: error, status: failed}
+  - {error: Missing/invalid weight formats for ilastik/livecell_dataset/latest, name: reproduce
+      test outputs with ilastik 1.4.0b26, reason: error, status: failed}

@@ -61,7 +61,7 @@ covers:
 description: DeepImageJ compatible U-Net trained to segment phase contrast microscopy
   images of pancreatic stem cells on a 2D polystyrene substrate.
 documentation: https://zenodo.org/api/files/436a4ace-0b71-4bee-bf08-b0c197350a4c/README.md
-format_version: 0.4.5
+format_version: 0.4.8
 id: 10.5281/zenodo.5914248/5914249
 inputs:
 - axes: byxc

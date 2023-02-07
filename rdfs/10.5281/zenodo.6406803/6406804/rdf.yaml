@@ -52,7 +52,7 @@ covers:
 - https://zenodo.org/api/files/a7eb8d94-9217-4276-8b0d-ff88e1ac78c7/cover.png
 description: Segmentation of mitochondria in EM images.
 documentation: https://zenodo.org/api/files/a7eb8d94-9217-4276-8b0d-ff88e1ac78c7/documentation.md
-format_version: 0.4.5
+format_version: 0.4.8
 id: 10.5281/zenodo.6406803/6406804
 inputs:
 - axes: bcyx
@@ -82,6 +82,7 @@ links:
 - deepimagej/deepimagej
 - ilastik/ilastik
 - imjoy/BioImageIO-Packager
+- ilastik/torch-em-2d-unet-notebook
 maintainers:
 - github_user: constantinpape
   name: Constantin Pape

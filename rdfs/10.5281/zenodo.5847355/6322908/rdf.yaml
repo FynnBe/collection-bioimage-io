@@ -54,7 +54,7 @@ covers:
 - https://zenodo.org/api/files/be41e515-ce79-48f5-a482-35e1f11701c2/cover.png
 description: Cell segmentation for immunofluorescence microscopy.
 documentation: https://zenodo.org/api/files/be41e515-ce79-48f5-a482-35e1f11701c2/documentation.md
-format_version: 0.4.5
+format_version: 0.4.8
 id: 10.5281/zenodo.5847355/6322908
 inputs:
 - axes: bcyx
@@ -81,10 +81,10 @@ inputs:
     - 16
 license: CC-BY-4.0
 links:
-- ilastik/covid_if_training_data
-- ilastik/ilastik
 - deepimagej/deepimagej
+- ilastik/ilastik
 - imjoy/BioImageIO-Packager
+- ilastik/torch-em-2d-unet-notebook
 maintainers:
 - github_user: constantinpape
   name: constantinpape

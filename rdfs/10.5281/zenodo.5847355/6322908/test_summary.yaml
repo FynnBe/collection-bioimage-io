@@ -1,12 +1,12 @@
 bioimageio_core_version: 0.5.3.post2
-bioimageio_spec_version: 0.4.5.post6
-rdf_sha256: 317b82889907ac30d0ab441b62c2fc89d430aae308ddae75cf6a2f933aa6d8af
-status: failed
+bioimageio_spec_version: 0.4.8.post1
+rdf_sha256: eae4dd2e74b2faff6a49f27bbe8352cb9636395b7fa7195da6ab5990f3a30e72
+status: passed
 tests:
   bioimageio:
-  - bioimageio_spec_version: 0.4.5post6
+  - bioimageio_spec_version: 0.4.8post1
     error: null
-    name: bioimageio.spec static validation of model RDF 0.4.5 with update to latest
+    name: bioimageio.spec static validation of model RDF 0.4.8 with update to latest
       format version
     nested_errors: {}
     status: passed
@@ -17,9 +17,9 @@ tests:
         [''ilastik'', ''imagej'', ''fiji'', ''imjoy'', ''deepimagej'', ''n2v'']}]'
       weights: {pytorch_state_dict: missing 'pytorch_version', torchscript: missing
           'pytorch_version'}
-  - bioimageio_spec_version: 0.4.5post6
+  - bioimageio_spec_version: 0.4.8post1
     error: null
-    name: bioimageio.spec static validation of model RDF 0.4.5
+    name: bioimageio.spec static validation of model RDF 0.4.8
     nested_errors: {}
     status: passed
     traceback: null
@@ -29,41 +29,6 @@ tests:
         [''ilastik'', ''imagej'', ''fiji'', ''imjoy'', ''deepimagej'', ''n2v'']}]'
       weights: {pytorch_state_dict: missing 'pytorch_version', torchscript: missing
           'pytorch_version'}
-  - bioimageio_core_version: 0.5.3post2
-    bioimageio_spec_version: 0.4.5post6
-    error: 'PytorchStreamReader failed reading zip archive: failed finding central
-      directory'
-    name: reproduced test outputs from test inputs
-    status: failed
-    traceback: ["  File \"/usr/share/miniconda/envs/6322908/lib/python3.9/site-packages/bioimageio/core/resource_tests.py\",
-        line 147, in test_resource\n    with create_prediction_pipeline(\n", "  File
-        \"/usr/share/miniconda/envs/6322908/lib/python3.9/site-packages/bioimageio/core/prediction_pipeline/_prediction_pipeline.py\",
-        line 114, in __enter__\n    self.load()\n", "  File \"/usr/share/miniconda/envs/6322908/lib/python3.9/site-packages/bioimageio/core/prediction_pipeline/_prediction_pipeline.py\",
-        line 172, in load\n    self._model.load()\n", "  File \"/usr/share/miniconda/envs/6322908/lib/python3.9/site-packages/bioimageio/core/prediction_pipeline/_model_adapters/_model_adapter.py\",
-        line 41, in load\n    self._load(devices=devices or self.default_devices)\n",
-      "  File \"/usr/share/miniconda/envs/6322908/lib/python3.9/site-packages/bioimageio/core/prediction_pipeline/_model_adapters/_pytorch_model_adapter.py\",
-        line 30, in _load\n    state = torch.load(weights.source, map_location=self._devices[0])\n",
-      "  File \"/usr/share/miniconda/envs/6322908/lib/python3.9/site-packages/torch/serialization.py\",
-        line 600, in load\n    with _open_zipfile_reader(opened_file) as opened_zipfile:\n",
-      "  File \"/usr/share/miniconda/envs/6322908/lib/python3.9/site-packages/torch/serialization.py\",
-        line 242, in __init__\n    super(_open_zipfile_reader, self).__init__(torch._C.PyTorchFileReader(name_or_buffer))\n"]
-  - bioimageio_core_version: 0.5.3post2
-    bioimageio_spec_version: 0.4.5post6
-    error: 'PytorchStreamReader failed reading zip archive: failed finding central
-      directory'
-    name: reproduced test outputs from test inputs
-    status: failed
-    traceback: ["  File \"/usr/share/miniconda/envs/6322908/lib/python3.9/site-packages/bioimageio/core/resource_tests.py\",
-        line 147, in test_resource\n    with create_prediction_pipeline(\n", "  File
-        \"/usr/share/miniconda/envs/6322908/lib/python3.9/site-packages/bioimageio/core/prediction_pipeline/_prediction_pipeline.py\",
-        line 114, in __enter__\n    self.load()\n", "  File \"/usr/share/miniconda/envs/6322908/lib/python3.9/site-packages/bioimageio/core/prediction_pipeline/_prediction_pipeline.py\",
-        line 172, in load\n    self._model.load()\n", "  File \"/usr/share/miniconda/envs/6322908/lib/python3.9/site-packages/bioimageio/core/prediction_pipeline/_model_adapters/_model_adapter.py\",
-        line 41, in load\n    self._load(devices=devices or self.default_devices)\n",
-      "  File \"/usr/share/miniconda/envs/6322908/lib/python3.9/site-packages/bioimageio/core/prediction_pipeline/_model_adapters/_torchscript_model_adapter.py\",
-        line 23, in _load\n    self._model = torch.jit.load(weight_path)\n", "  File
-        \"/usr/share/miniconda/envs/6322908/lib/python3.9/site-packages/torch/jit/_serialization.py\",
-        line 161, in load\n    cpp_module = torch._C.import_ir_module(cu, str(f),
-        map_location, _extra_files)\n"]
   deepimagej:
   - bioimageio_core_version: 0.5.3post2
     bioimageio_spec_version: 0.4.5post7
@@ -117,15 +82,19 @@ tests:
         rdf_path)\n", "  File \"/home/runner/work/models/models/scripts/utils.py\",
         line 27, in download_deepimagej_model\n    os.makedirs(fiji_dir + \"//models\")\n"]
   ilastik:
-  - {bioimageio_core_version: 0.5.1, bioimageio_spec_version: 0.4.5post3, error: null,
-    name: reproduce test outputs with ilastik <todo version> (draft) using pytorch_state_dict
-      weights, reason: null, status: passed, traceback: null}
   - {bioimageio_core_version: 0.5.3post2, bioimageio_spec_version: 0.4.5post6, error: null,
-    name: reproduce test outputs with ilastik <todo version> (draft) using pytorch_state_dict
-      weights, reason: null, status: passed, traceback: null}
+    name: reproduce test outputs with ilastik 1.4.0b27 using torchscript weights,
+    reason: null, status: passed, traceback: null}
   - {bioimageio_core_version: 0.5.3post2, bioimageio_spec_version: 0.4.5post6, error: null,
-    name: reproduce test outputs with ilastik <todo version> (draft) using torchscript
-      weights, reason: null, status: passed, traceback: null}
+    name: reproduce test outputs with ilastik 1.4.0b27 using pytorch_state_dict weights,
+    reason: null, status: passed, traceback: null}
   - {bioimageio_core_version: 0.5.1, bioimageio_spec_version: 0.4.5post3, error: null,
-    name: reproduce test outputs with ilastik <todo version> (draft) using torchscript
-      weights, reason: null, status: passed, traceback: null}
+    name: reproduce test outputs with ilastik 1.4.0b26 using torchscript weights,
+    reason: null, status: passed, traceback: null}
+  - {error: Missing/invalid weight formats for 10.5281/zenodo.5847355/6322908, name: reproduce
+      test outputs with ilastik 1.4.0b27, reason: error, status: failed}
+  - {bioimageio_core_version: 0.5.1, bioimageio_spec_version: 0.4.5post3, error: null,
+    name: reproduce test outputs with ilastik 1.4.0b26 using pytorch_state_dict weights,
+    reason: null, status: passed, traceback: null}
+  - {error: Missing/invalid weight formats for 10.5281/zenodo.5847355/6322908, name: reproduce
+      test outputs with ilastik 1.4.0b26, reason: error, status: failed}

@@ -1,5 +1,5 @@
 bioimageio_spec_version: 0.4.5post4
-rdf_sha256: 83aac48761ff841d8e47047e6f7f0088dfa47e12e569afd58499ed42806e56c6
+rdf_sha256: d816a074d91d3144619f5bbcbf8589190110f6994a3ff04803c77f9fa19756da
 status: passed
 tests:
   bioimageio:
@@ -23,5 +23,6 @@ tests:
     name: reproduce test outputs with deepimagej 2.1.13, reason: error, status: failed}
   ilastik:
   - {error: Missing/invalid weight formats for ilastik/isbi2012_neuron_segmentation_challenge/latest,
-    name: reproduce test outputs with ilastik <todo version> (draft), reason: error,
-    status: failed}
+    name: reproduce test outputs with ilastik 1.4.0b27, reason: error, status: failed}
+  - {error: Missing/invalid weight formats for ilastik/isbi2012_neuron_segmentation_challenge/latest,
+    name: reproduce test outputs with ilastik 1.4.0b26, reason: error, status: failed}

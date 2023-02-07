@@ -1,12 +1,12 @@
 bioimageio_core_version: 0.5.3.post2
-bioimageio_spec_version: 0.4.5.post6
-rdf_sha256: 55866269cc9317c42e3cc580999d8903fd2c4efb9c594823de5e7ae374f7c456
-status: failed
+bioimageio_spec_version: 0.4.8.post1
+rdf_sha256: 76aa40bbd794dfed372f23705acbe3797f8757a892e5cf2e7631a1471a7d5dd2
+status: passed
 tests:
   bioimageio:
-  - bioimageio_spec_version: 0.4.5post6
+  - bioimageio_spec_version: 0.4.8post1
     error: null
-    name: bioimageio.spec static validation of model RDF 0.4.5 with update to latest
+    name: bioimageio.spec static validation of model RDF 0.4.8 with update to latest
       format version
     nested_errors: {}
     status: passed
@@ -16,9 +16,9 @@ tests:
         ''tensorflow.js'']}, {''software'': [''ilastik'', ''imagej'', ''fiji'', ''imjoy'',
         ''deepimagej'', ''n2v'']}]'
       weights: {torchscript: missing 'pytorch_version'}
-  - bioimageio_spec_version: 0.4.5post6
+  - bioimageio_spec_version: 0.4.8post1
     error: null
-    name: bioimageio.spec static validation of model RDF 0.4.5
+    name: bioimageio.spec static validation of model RDF 0.4.8
     nested_errors: {}
     status: passed
     traceback: null
@@ -27,29 +27,6 @@ tests:
         ''tensorflow.js'']}, {''software'': [''ilastik'', ''imagej'', ''fiji'', ''imjoy'',
         ''deepimagej'', ''n2v'']}]'
       weights: {torchscript: missing 'pytorch_version'}
-  - bioimageio_core_version: 0.5.3post2
-    bioimageio_spec_version: 0.4.5post6
-    error: '[ONNXRuntimeError] : 7 : INVALID_PROTOBUF : Load model from /tmp/bioimageio_cache/https/zenodo.org/api/files/a3d790f1-5203-4bd3-a975-d0fff38c0d97/weights.onnx
-      failed:Protobuf parsing failed.'
-    name: reproduced test outputs from test inputs
-    status: failed
-    traceback: ["  File \"/usr/share/miniconda/envs/6322939/lib/python3.10/site-packages/bioimageio/core/resource_tests.py\",
-        line 147, in test_resource\n    with create_prediction_pipeline(\n", "  File
-        \"/usr/share/miniconda/envs/6322939/lib/python3.10/site-packages/bioimageio/core/prediction_pipeline/_prediction_pipeline.py\",
-        line 114, in __enter__\n    self.load()\n", "  File \"/usr/share/miniconda/envs/6322939/lib/python3.10/site-packages/bioimageio/core/prediction_pipeline/_prediction_pipeline.py\",
-        line 172, in load\n    self._model.load()\n", "  File \"/usr/share/miniconda/envs/6322939/lib/python3.10/site-packages/bioimageio/core/prediction_pipeline/_model_adapters/_model_adapter.py\",
-        line 41, in load\n    self._load(devices=devices or self.default_devices)\n",
-      "  File \"/usr/share/miniconda/envs/6322939/lib/python3.10/site-packages/bioimageio/core/prediction_pipeline/_model_adapters/_onnx_model_adapter.py\",
-        line 17, in _load\n    self._session = rt.InferenceSession(str(self.bioimageio_model.weights[\"onnx\"].source))\n",
-      "  File \"/usr/share/miniconda/envs/6322939/lib/python3.10/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py\",
-        line 335, in __init__\n    self._create_inference_session(providers, provider_options,
-        disabled_optimizers)\n", "  File \"/usr/share/miniconda/envs/6322939/lib/python3.10/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py\",
-        line 368, in _create_inference_session\n    sess = C.InferenceSession(session_options,
-        self._model_path, True, self._read_config_from_model)\n"]
-  - {bioimageio_core_version: 0.5.3post2, bioimageio_spec_version: 0.4.5post6, error: null,
-    name: reproduced test outputs from test inputs, status: passed, traceback: null}
-  - {bioimageio_core_version: 0.5.3post2, bioimageio_spec_version: 0.4.5post6, error: null,
-    name: reproduced test outputs from test inputs, status: passed, traceback: null}
   deepimagej:
   - bioimageio_core_version: 0.5.3post2
     bioimageio_spec_version: 0.4.5post7
@@ -95,7 +72,7 @@ tests:
   - bioimageio_core_version: 0.5.3post2
     bioimageio_spec_version: 0.4.5post7
     error: 'unsupported operand type(s) for +: ''PosixPath'' and ''str'''
-    name: reproduce test outputs with deepimagej 2.1.13 using onnx weights
+    name: reproduce test outputs with deepimagej 2.1.13 using torchscript weights
     reason: error
     status: failed
     traceback: ["  File \"/home/runner/work/models/models/scripts/check_rdf_and_test_model.py\",
@@ -105,7 +82,7 @@ tests:
   - bioimageio_core_version: 0.5.3post2
     bioimageio_spec_version: 0.4.5post7
     error: 'unsupported operand type(s) for +: ''PosixPath'' and ''str'''
-    name: reproduce test outputs with deepimagej 2.1.13 using torchscript weights
+    name: reproduce test outputs with deepimagej 2.1.13 using onnx weights
     reason: error
     status: failed
     traceback: ["  File \"/home/runner/work/models/models/scripts/check_rdf_and_test_model.py\",
@@ -113,35 +90,13 @@ tests:
         rdf_path)\n", "  File \"/home/runner/work/models/models/scripts/utils.py\",
         line 27, in download_deepimagej_model\n    os.makedirs(fiji_dir + \"//models\")\n"]
   ilastik:
-  - {bioimageio_core_version: 0.5.1, bioimageio_spec_version: 0.4.5post3, error: null,
-    name: reproduce test outputs with ilastik <todo version> (draft) using pytorch_state_dict
-      weights, reason: null, status: passed, traceback: null}
   - {bioimageio_core_version: 0.5.3post2, bioimageio_spec_version: 0.4.5post6, error: null,
-    name: reproduce test outputs with ilastik <todo version> (draft) using pytorch_state_dict
-      weights, reason: null, status: passed, traceback: null}
-  - {bioimageio_core_version: 0.5.3post2, bioimageio_spec_version: 0.4.5post6, error: null,
-    name: reproduce test outputs with ilastik <todo version> (draft) using torchscript
-      weights, reason: null, status: passed, traceback: null}
-  - bioimageio_core_version: 0.5.3post2
-    bioimageio_spec_version: 0.4.5post6
-    error: No module named 'onnxruntime'
-    name: reproduce test outputs with ilastik <todo version> (draft) using onnx weights
-    reason: error
-    status: failed
-    traceback: ["  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/core/resource_tests.py\",
-        line 148, in test_resource\n    bioimageio_model=model, devices=devices, weight_format=weight_format\n",
-      "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/core/prediction_pipeline/_prediction_pipeline.py\",
-        line 196, in create_prediction_pipeline\n    bioimageio_model=bioimageio_model,
-        devices=devices, weight_format=weight_format\n", "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/core/prediction_pipeline/_model_adapters/_model_adapter.py\",
-        line 113, in create_model_adapter\n    adapter_cls = _get_model_adapter(weight)\n",
-      "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/core/prediction_pipeline/_model_adapters/_model_adapter.py\",
-        line 138, in _get_model_adapter\n    from ._onnx_model_adapter import ONNXModelAdapter\n",
-      "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/core/prediction_pipeline/_model_adapters/_onnx_model_adapter.py\",
-        line 5, in <module>\n    import onnxruntime as rt\n"]
+    name: reproduce test outputs with ilastik 1.4.0b27 using torchscript weights,
+    reason: null, status: passed, traceback: null}
   - bioimageio_core_version: 0.5.1
     bioimageio_spec_version: 0.4.5post3
     error: No module named 'onnxruntime'
-    name: reproduce test outputs with ilastik <todo version> (draft) using onnx weights
+    name: reproduce test outputs with ilastik 1.4.0b26 using onnx weights
     reason: error
     status: failed
     traceback: ["  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/core/resource_tests.py\",
@@ -154,6 +109,32 @@ tests:
         line 138, in _get_model_adapter\n    from ._onnx_model_adapter import ONNXModelAdapter\n",
       "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/core/prediction_pipeline/_model_adapters/_onnx_model_adapter.py\",
         line 5, in <module>\n    import onnxruntime as rt\n"]
+  - {bioimageio_core_version: 0.5.3post2, bioimageio_spec_version: 0.4.5post6, error: null,
+    name: reproduce test outputs with ilastik 1.4.0b27 using pytorch_state_dict weights,
+    reason: null, status: passed, traceback: null}
   - {bioimageio_core_version: 0.5.1, bioimageio_spec_version: 0.4.5post3, error: null,
-    name: reproduce test outputs with ilastik <todo version> (draft) using torchscript
-      weights, reason: null, status: passed, traceback: null}
+    name: reproduce test outputs with ilastik 1.4.0b26 using torchscript weights,
+    reason: null, status: passed, traceback: null}
+  - {error: Missing/invalid weight formats for 10.5281/zenodo.5764892/6322939, name: reproduce
+      test outputs with ilastik 1.4.0b27, reason: error, status: failed}
+  - {bioimageio_core_version: 0.5.1, bioimageio_spec_version: 0.4.5post3, error: null,
+    name: reproduce test outputs with ilastik 1.4.0b26 using pytorch_state_dict weights,
+    reason: null, status: passed, traceback: null}
+  - {error: Missing/invalid weight formats for 10.5281/zenodo.5764892/6322939, name: reproduce
+      test outputs with ilastik 1.4.0b26, reason: error, status: failed}
+  - bioimageio_core_version: 0.5.3post2
+    bioimageio_spec_version: 0.4.5post6
+    error: No module named 'onnxruntime'
+    name: reproduce test outputs with ilastik 1.4.0b27 using onnx weights
+    reason: error
+    status: failed
+    traceback: ["  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/core/resource_tests.py\",
+        line 148, in test_resource\n    bioimageio_model=model, devices=devices, weight_format=weight_format\n",
+      "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/core/prediction_pipeline/_prediction_pipeline.py\",
+        line 196, in create_prediction_pipeline\n    bioimageio_model=bioimageio_model,
+        devices=devices, weight_format=weight_format\n", "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/core/prediction_pipeline/_model_adapters/_model_adapter.py\",
+        line 113, in create_model_adapter\n    adapter_cls = _get_model_adapter(weight)\n",
+      "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/core/prediction_pipeline/_model_adapters/_model_adapter.py\",
+        line 138, in _get_model_adapter\n    from ._onnx_model_adapter import ONNXModelAdapter\n",
+      "  File \"/usr/share/miniconda3/envs/ilastik-env/lib/python3.7/site-packages/bioimageio/core/prediction_pipeline/_model_adapters/_onnx_model_adapter.py\",
+        line 5, in <module>\n    import onnxruntime as rt\n"]

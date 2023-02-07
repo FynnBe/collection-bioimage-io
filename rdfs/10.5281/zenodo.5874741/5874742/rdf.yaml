@@ -51,7 +51,7 @@ covers:
 - https://zenodo.org/api/files/a6d65a8b-4fed-453f-89f6-515a2a73a99e/cover.png
 description: Neuron segmentation in EM, trained on the CREMI challenge data.
 documentation: https://zenodo.org/api/files/a6d65a8b-4fed-453f-89f6-515a2a73a99e/documentation.md
-format_version: 0.4.5
+format_version: 0.4.8
 id: 10.5281/zenodo.5874741/5874742
 inputs:
 - axes: bczyx
@@ -81,9 +81,9 @@ inputs:
 license: CC-BY-4.0
 links:
 - deepimagej/deepimagej
-- ilastik/cremi_training_data
 - ilastik/ilastik
 - imjoy/BioImageIO-Packager
+- ilastik/torch-em-3d-unet-notebook
 maintainers:
 - github_user: constantinpape
   name: Constantin Pape
@@ -134,6 +134,8 @@ test_inputs:
 test_outputs:
 - https://zenodo.org/api/files/a6d65a8b-4fed-453f-89f6-515a2a73a99e/test_output_0.npy
 timestamp: '2022-01-15T20:27:01.644120'
+training_data:
+  id: ilastik/cremi_training_data
 type: model
 version: 0.1.0
 weights:

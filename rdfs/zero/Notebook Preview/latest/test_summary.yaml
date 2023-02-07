@@ -1,5 +1,5 @@
 bioimageio_spec_version: 0.4.5post4
-rdf_sha256: e055be5a609295cef853a84381baf9c0cc429e399711d1c6eafea8901a86c762
+rdf_sha256: 24ef1d8a478ffc38187f683321a3b723f7e450fc6516cd466bc43bfe71d534ad
 status: passed
 tests:
   bioimageio:
@@ -23,4 +23,6 @@ tests:
       test outputs with deepimagej 2.1.13, reason: error, status: failed}
   ilastik:
   - {error: Missing/invalid weight formats for zero/Notebook Preview/latest, name: reproduce
-      test outputs with ilastik <todo version> (draft), reason: error, status: failed}
+      test outputs with ilastik 1.4.0b27, reason: error, status: failed}
+  - {error: Missing/invalid weight formats for zero/Notebook Preview/latest, name: reproduce
+      test outputs with ilastik 1.4.0b26, reason: error, status: failed}

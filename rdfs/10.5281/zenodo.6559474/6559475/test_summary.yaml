@@ -1,0 +1,24 @@
+bioimageio_spec_version: 0.4.8.post1
+rdf_sha256: 0170669407f703cb5db80459f84768a643d45c76651f2c6abcf6a36bbdbb2f5f
+status: passed
+tests:
+  bioimageio:
+  - bioimageio_spec_version: 0.4.8post1
+    error: null
+    name: bioimageio.spec static validation of model RDF 0.4.8 with update to latest
+      format version
+    nested_errors: {}
+    status: passed
+    traceback: null
+    warnings: {tags: 'Missing tags for categories: [{''network'': [''unet'', ''densenet'',
+        ''resnet'', ''inception'', ''shufflenet'']}]'}
+  - bioimageio_spec_version: 0.4.8post1
+    error: null
+    name: bioimageio.spec static validation of model RDF 0.4.8
+    nested_errors: {}
+    status: passed
+    traceback: null
+    warnings: {tags: 'Missing tags for categories: [{''network'': [''unet'', ''densenet'',
+        ''resnet'', ''inception'', ''shufflenet'']}]'}
+  deepimagej: []
+  ilastik: []

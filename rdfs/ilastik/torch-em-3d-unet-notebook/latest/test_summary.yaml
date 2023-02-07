@@ -1,5 +1,5 @@
 bioimageio_spec_version: 0.4.5.post7
-rdf_sha256: 84488481c6edb272da005cf4f1a2f030991712e22d70c3e71c7320cf3f3ab0b3
+rdf_sha256: ee24af76dcf4a2848ee280ebf51d7b1c9bb59dced550c989242523f670f70c82
 status: passed
 tests:
   bioimageio:
@@ -21,8 +21,6 @@ tests:
   deepimagej: []
   ilastik:
   - {error: Missing/invalid weight formats for ilastik/torch-em-3d-unet-notebook/latest,
-    name: reproduce test outputs with ilastik <todo version> (draft), reason: error,
-    status: failed}
+    name: reproduce test outputs with ilastik 1.4.0b27, reason: error, status: failed}
   - {error: Missing/invalid weight formats for ilastik/torch-em-3d-unet-notebook/latest,
-    name: reproduce test outputs with ilastik <todo version> (draft), reason: error,
-    status: failed}
+    name: reproduce test outputs with ilastik 1.4.0b26, reason: error, status: failed}

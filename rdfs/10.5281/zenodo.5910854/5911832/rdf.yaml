@@ -9,13 +9,20 @@ cite:
     Atlas Image Classification competition. Nat Methods 16, 1254–1261 (2019).
 config:
   bioimageio:
+    created: '2022-01-27 20:53:33.181598'
+    doi: 10.5281/zenodo.5911832
+    nickname: straightforward-crocodile
+    nickname_icon: 🐊
     owners:
     - 47882
+    status: accepted
     test_kwargs:
       onnx:
         decimal: 2
       torchscript:
         decimal: 2
+    version_id: '5911832'
+    version_name: Version 1
 covers:
 - https://zenodo.org/api/files/c8028ef3-de08-459c-b88a-2f0bfd11485b/diagram-of-InceptionV3.png
 description: The winning model of HPA image classification 2021 by Bestfitting
@@ -52,6 +59,7 @@ inputs:
 license: MIT
 links:
 - imjoy/BioImageIO-Packager
+- imjoy/HPA-Single-Cell
 name: HPA Bestfitting InceptionV3
 outputs:
 - axes: bc

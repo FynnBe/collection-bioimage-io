@@ -21,7 +21,7 @@ covers:
 description: Cell segmentation model for segmenting images from the Human Protein
   Atlas
 documentation: https://zenodo.org/api/files/a24a1e8a-cdc5-4b56-b9c3-0b82417e74a5/README.md
-format_version: 0.4.5
+format_version: 0.4.8
 id: 10.5281/zenodo.6200635/6200636
 inputs:
 - axes: bcyx
@@ -51,6 +51,8 @@ inputs:
 license: CC-BY-4.0
 links:
 - imjoy/BioImageIO-Packager
+- imjoy/HPA-Single-Cell
+- deepimagej/deepimagej
 name: HPA Cell Segmentation (DPNUnet)
 outputs:
 - axes: bcyx
