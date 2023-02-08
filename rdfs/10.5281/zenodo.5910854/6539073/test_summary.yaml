@@ -64,7 +64,9 @@ tests:
         line 12, in <module>\n    from ._stat_state import StatsState\n", "  File
         \"/home/runner/micromamba-root/envs/6539073/lib/python3.9/site-packages/bioimageio/core/prediction_pipeline/_stat_state.py\",
         line 3, in <module>\n    from tqdm import tqdm\n"]
-  deepimagej: []
+  deepimagej:
+  - {bioimageio_spec_version: 0.4.8post1, error: rdf does not have a compatible weight
+      format, name: initial compatibility checks with deepimagej, status: failed}
   ilastik:
   - bioimageio_core_version: 0.5.1
     bioimageio_spec_version: 0.4.5post3
