@@ -33,7 +33,9 @@ tests:
         line 12, in <module>\n    from ._stat_state import StatsState\n", "  File
         \"/home/runner/micromamba-root/envs/6338615/lib/python3.7/site-packages/bioimageio/core/prediction_pipeline/_stat_state.py\",
         line 3, in <module>\n    from tqdm import tqdm\n"]
-  deepimagej: []
+  deepimagej:
+  - {bioimageio_spec_version: 0.4.8post1, name: Reproduce test outputs with DeepImageJ
+      headless, status: passed}
   ilastik:
   - bioimageio_core_version: 0.5.1
     bioimageio_spec_version: 0.4.5post3

@@ -60,7 +60,7 @@ tests:
         line 3, in <module>\n    from tqdm import tqdm\n"]
   deepimagej:
   - {bioimageio_spec_version: 0.4.8post1, error: 'rdf does not have keys for :config
-      :deepimagej', name: initial compatibility checks with deepimagej, status: failed}
+      :deepimagej', name: Initial compatibility checks with DeepImageJ, status: failed}
   ilastik:
   - {bioimageio_core_version: 0.5.3post2, bioimageio_spec_version: 0.4.5post6, error: null,
     name: reproduce test outputs with ilastik 1.4.0b27 using torchscript weights,
