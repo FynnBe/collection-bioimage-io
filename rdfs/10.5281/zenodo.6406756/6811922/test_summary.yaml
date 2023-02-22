@@ -53,9 +53,8 @@ tests:
         \"/home/runner/micromamba-root/envs/6811922/lib/python3.9/site-packages/bioimageio/core/prediction_pipeline/_stat_state.py\",
         line 3, in <module>\n    from tqdm import tqdm\n"]
   deepimagej:
-  - {bioimageio_spec_version: 0.4.8post1, error: Error while running DeepImageJ headless
-      (CI did not produce an output image), name: Reproduce test outputs with DeepImageJ
-      headless, status: failed}
+  - {bioimageio_spec_version: 0.4.8post1, name: Reproduce test outputs with DeepImageJ
+      headless, status: passed}
   ilastik:
   - bioimageio_core_version: 0.5.1
     bioimageio_spec_version: 0.4.5post3
