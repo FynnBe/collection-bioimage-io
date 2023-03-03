@@ -553,7 +553,7 @@
         "https://zenodo.org/api/files/8e1dc6e7-bdc9-412c-b06c-e79ee375989f/cover.png"
       ],
       "description": "Cell segmentation for phase-contrast microscopy.",
-      "download_count": 4985,
+      "download_count": 5001,
       "id": "10.5281/zenodo.5869899",
       "license": "CC-BY-4.0",
       "links": [
@@ -940,7 +940,7 @@
         "https://zenodo.org/api/files/573e9a49-d156-46ea-838e-55ec9ebe9e00/cover.png"
       ],
       "description": "affinity-model",
-      "download_count": 2731,
+      "download_count": 2739,
       "id": "10.5281/zenodo.6079314",
       "license": "CC-BY-4.0",
       "links": [
@@ -1313,53 +1313,6 @@
     {
       "authors": [
         {
-          "affiliation": "EMBL Heidelberg",
-          "github_user": "jhennies",
-          "name": "Julian Hennies",
-          "orcid": "0000-0002-0555-151X"
-        }
-      ],
-      "covers": [
-        "https://zenodo.org/api/files/c95661ca-b06a-464f-810c-5c9804ebe982/coverimage.jpg"
-      ],
-      "description": "Cellular membrane prediction model for volume SEM datasets",
-      "download_count": 2199,
-      "id": "10.5281/zenodo.7274275",
-      "license": "CC-BY-4.0",
-      "links": [
-        "imjoy/BioImageIO-Packager",
-        "ilastik/ilastik"
-      ],
-      "name": "CebraNET Cellular Membranes in Volume SEM",
-      "nickname": "joyful-deer",
-      "nickname_icon": "\ud83e\udd8c",
-      "owners": [
-        432585
-      ],
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.7274275/7274276/rdf.yaml",
-      "tags": [
-        "unet",
-        "3d",
-        "cells",
-        "whole-organism",
-        "ilastik",
-        "semantic-segmentation",
-        "electron-microscopy",
-        "pytorch",
-        "membranes",
-        "hela",
-        "macrophage",
-        "platynereis",
-        "calu-3"
-      ],
-      "type": "model",
-      "versions": [
-        "7274276"
-      ]
-    },
-    {
-      "authors": [
-        {
           "affiliation": "Universidad Carlos III de Madrid",
           "name": "Estibaliz G\u00f3mez-de-Mariscal"
         },
@@ -1427,7 +1380,7 @@
         "https://zenodo.org/api/files/9ea15be9-4f23-4c40-94ca-a6bf0e8a2f77/cover.png"
       ],
       "description": "This trained 2D U-Net model segments the contour, foreground and background of Bacillus Subtilis bacteria imaged with Widefield microscopy images. The current segmentation enables running further watershed segmentation to obtain a unique label for each individual bacteria detected in the image.",
-      "download_count": 1609,
+      "download_count": 1623,
       "id": "10.5281/zenodo.7261974",
       "license": "MIT",
       "links": [
@@ -4838,6 +4791,53 @@
       "type": "application",
       "versions": [
         "latest"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "affiliation": "EMBL Heidelberg",
+          "github_user": "jhennies",
+          "name": "Julian Hennies",
+          "orcid": "0000-0002-0555-151X"
+        }
+      ],
+      "covers": [
+        "https://zenodo.org/api/files/c95661ca-b06a-464f-810c-5c9804ebe982/coverimage.jpg"
+      ],
+      "description": "Cellular membrane prediction model for volume SEM datasets",
+      "download_count": 1,
+      "id": "10.5281/zenodo.7274275",
+      "license": "CC-BY-4.0",
+      "links": [
+        "imjoy/BioImageIO-Packager",
+        "ilastik/ilastik"
+      ],
+      "name": "CebraNET Cellular Membranes in Volume SEM",
+      "nickname": "joyful-deer",
+      "nickname_icon": "\ud83e\udd8c",
+      "owners": [
+        432585
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.7274275/7274276/rdf.yaml",
+      "tags": [
+        "unet",
+        "3d",
+        "cells",
+        "whole-organism",
+        "ilastik",
+        "semantic-segmentation",
+        "electron-microscopy",
+        "pytorch",
+        "membranes",
+        "hela",
+        "macrophage",
+        "platynereis",
+        "calu-3"
+      ],
+      "type": "model",
+      "versions": [
+        "7274276"
       ]
     }
   ],

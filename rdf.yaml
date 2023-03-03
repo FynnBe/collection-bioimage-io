@@ -232,7 +232,7 @@ collection:
   - {affiliation: EMBL Heidelberg, name: Constantin Pape}
   covers: ['https://zenodo.org/api/files/8e1dc6e7-bdc9-412c-b06c-e79ee375989f/cover.png']
   description: Cell segmentation for phase-contrast microscopy.
-  download_count: 4985
+  download_count: 5001
   id: 10.5281/zenodo.5869899
   license: CC-BY-4.0
   links: [ilastik/livecell_dataset, ilastik/ilastik, deepimagej/deepimagej, imjoy/BioImageIO-Packager]
@@ -392,7 +392,7 @@ collection:
   - {name: Constantin Pape; @constantinpape}
   covers: ['https://zenodo.org/api/files/573e9a49-d156-46ea-838e-55ec9ebe9e00/cover.png']
   description: affinity-model
-  download_count: 2731
+  download_count: 2739
   id: 10.5281/zenodo.6079314
   license: CC-BY-4.0
   links: [deepimagej/deepimagej, ilastik/ilastik, imjoy/BioImageIO-Packager, ilastik/torch-em-2d-unet-notebook,
@@ -558,23 +558,6 @@ collection:
   type: model
   versions: ['5942853']
 - authors:
-  - {affiliation: EMBL Heidelberg, github_user: jhennies, name: Julian Hennies, orcid: 0000-0002-0555-151X}
-  covers: ['https://zenodo.org/api/files/c95661ca-b06a-464f-810c-5c9804ebe982/coverimage.jpg']
-  description: Cellular membrane prediction model for volume SEM datasets
-  download_count: 2199
-  id: 10.5281/zenodo.7274275
-  license: CC-BY-4.0
-  links: [imjoy/BioImageIO-Packager, ilastik/ilastik]
-  name: CebraNET Cellular Membranes in Volume SEM
-  nickname: joyful-deer
-  nickname_icon: "\U0001F98C"
-  owners: [432585]
-  rdf_source: https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.7274275/7274276/rdf.yaml
-  tags: [unet, 3d, cells, whole-organism, ilastik, semantic-segmentation, electron-microscopy,
-    pytorch, membranes, hela, macrophage, platynereis, calu-3]
-  type: model
-  versions: ['7274276']
-- authors:
   - {affiliation: Universidad Carlos III de Madrid, name: Estibaliz Gómez-de-Mariscal}
   - {affiliation: Masaryk University, name: Martin Maška}
   - {affiliation: Masaryk University, name: Anna Kotrbová}
@@ -605,7 +588,7 @@ collection:
     of Bacillus Subtilis bacteria imaged with Widefield microscopy images. The current
     segmentation enables running further watershed segmentation to obtain a unique
     label for each individual bacteria detected in the image.
-  download_count: 1609
+  download_count: 1623
   id: 10.5281/zenodo.7261974
   license: MIT
   links: [deepimagej/deepimagej, imjoy/BioImageIO-Packager, ilastik/ilastik, zero/notebook_u-net_2d_multilabel_zerocostdl4mic]
@@ -2356,6 +2339,23 @@ collection:
   tags: [colab, notebook, pix2pix, ZeroCostDL4Mic, 2D]
   type: application
   versions: [latest]
+- authors:
+  - {affiliation: EMBL Heidelberg, github_user: jhennies, name: Julian Hennies, orcid: 0000-0002-0555-151X}
+  covers: ['https://zenodo.org/api/files/c95661ca-b06a-464f-810c-5c9804ebe982/coverimage.jpg']
+  description: Cellular membrane prediction model for volume SEM datasets
+  download_count: 1
+  id: 10.5281/zenodo.7274275
+  license: CC-BY-4.0
+  links: [imjoy/BioImageIO-Packager, ilastik/ilastik]
+  name: CebraNET Cellular Membranes in Volume SEM
+  nickname: joyful-deer
+  nickname_icon: "\U0001F98C"
+  owners: [432585]
+  rdf_source: https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.7274275/7274276/rdf.yaml
+  tags: [unet, 3d, cells, whole-organism, ilastik, semantic-segmentation, electron-microscopy,
+    pytorch, membranes, hela, macrophage, platynereis, calu-3]
+  type: model
+  versions: ['7274276']
 config:
   background_image: static/img/zoo-background.svg
   default_type: model
