@@ -21,7 +21,7 @@
         "https://zenodo.org/api/files/a6d65a8b-4fed-453f-89f6-515a2a73a99e/cover.png"
       ],
       "description": "Neuron segmentation in EM, trained on the CREMI challenge data.",
-      "download_count": 22310,
+      "download_count": 22409,
       "id": "10.5281/zenodo.5874741",
       "license": "CC-BY-4.0",
       "links": [
@@ -65,7 +65,7 @@
         "https://zenodo.org/api/files/334f9dd9-ae1e-46e2-9a6a-5445758c4e9c/cover.png"
       ],
       "description": "{organelle} segmentation in EM of platynereis.",
-      "download_count": 19689,
+      "download_count": 19791,
       "id": "10.5281/zenodo.6028097",
       "license": "CC-BY-4.0",
       "links": [
@@ -254,7 +254,7 @@
         "https://zenodo.org/api/files/a7eb8d94-9217-4276-8b0d-ff88e1ac78c7/cover.png"
       ],
       "description": "Segmentation of mitochondria in EM images.",
-      "download_count": 13183,
+      "download_count": 13274,
       "id": "10.5281/zenodo.6406803",
       "license": "CC-BY-4.0",
       "links": [
@@ -385,7 +385,7 @@
         "https://zenodo.org/api/files/d2f261ff-8734-4ad0-a84a-6c80c05e5bd3/cover.png"
       ],
       "description": "Cell segmentation in EM of platynereis.",
-      "download_count": 8818,
+      "download_count": 8854,
       "id": "10.5281/zenodo.6028280",
       "license": "CC-BY-4.0",
       "links": [
@@ -412,6 +412,52 @@
       "versions": [
         "6647695",
         "6028281"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "name": "V. Bondarenko"
+        },
+        {
+          "name": "A. Wolny"
+        }
+      ],
+      "covers": [
+        "https://zenodo.org/api/files/4a1f1eaf-685f-4564-810a-25e1e268b3e5/raw.png",
+        "https://zenodo.org/api/files/4a1f1eaf-685f-4564-810a-25e1e268b3e5/pred-boundary.png",
+        "https://zenodo.org/api/files/4a1f1eaf-685f-4564-810a-25e1e268b3e5/pred-nuclei.png"
+      ],
+      "description": "A 3D U-Net trained to predict the nuclei and their boundaries in fixed confocal images of developing mouse embryo.Voxel size: (0.2\u00d70.2\u00d71 \u00b5m^3) (XYZ).",
+      "download_count": 8673,
+      "id": "10.5281/zenodo.6383429",
+      "license": "MIT",
+      "links": [
+        "imjoy/BioImageIO-Packager"
+      ],
+      "name": "3D UNet Mouse Embryo Fixed",
+      "nickname": "loyal-squid",
+      "nickname_icon": "\ud83e\udd91",
+      "owners": [
+        66700
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6383429/6383430/rdf.yaml",
+      "tags": [
+        "plantseg",
+        "unet",
+        "3d",
+        "semantic-segmentation",
+        "mouse-embryo",
+        "nuclei",
+        "animal",
+        "tissue",
+        "confocal-microscopy",
+        "pytorch",
+        "fixed"
+      ],
+      "type": "model",
+      "versions": [
+        "6383430"
       ]
     },
     {
@@ -456,52 +502,6 @@
     {
       "authors": [
         {
-          "name": "V. Bondarenko"
-        },
-        {
-          "name": "A. Wolny"
-        }
-      ],
-      "covers": [
-        "https://zenodo.org/api/files/4a1f1eaf-685f-4564-810a-25e1e268b3e5/raw.png",
-        "https://zenodo.org/api/files/4a1f1eaf-685f-4564-810a-25e1e268b3e5/pred-boundary.png",
-        "https://zenodo.org/api/files/4a1f1eaf-685f-4564-810a-25e1e268b3e5/pred-nuclei.png"
-      ],
-      "description": "A 3D U-Net trained to predict the nuclei and their boundaries in fixed confocal images of developing mouse embryo.Voxel size: (0.2\u00d70.2\u00d71 \u00b5m^3) (XYZ).",
-      "download_count": 8634,
-      "id": "10.5281/zenodo.6383429",
-      "license": "MIT",
-      "links": [
-        "imjoy/BioImageIO-Packager"
-      ],
-      "name": "3D UNet Mouse Embryo Fixed",
-      "nickname": "loyal-squid",
-      "nickname_icon": "\ud83e\udd91",
-      "owners": [
-        66700
-      ],
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6383429/6383430/rdf.yaml",
-      "tags": [
-        "plantseg",
-        "unet",
-        "3d",
-        "semantic-segmentation",
-        "mouse-embryo",
-        "nuclei",
-        "animal",
-        "tissue",
-        "confocal-microscopy",
-        "pytorch",
-        "fixed"
-      ],
-      "type": "model",
-      "versions": [
-        "6383430"
-      ]
-    },
-    {
-      "authors": [
-        {
           "affiliation": "EMBL Heidelberg",
           "name": "Constantin Pape"
         }
@@ -510,7 +510,7 @@
         "https://zenodo.org/api/files/0e7404c7-daad-4a1f-9fa8-f12aaa7842cb/cover.png"
       ],
       "description": "Prediction enhancer for segmenting mitochondria in EM images.",
-      "download_count": 6537,
+      "download_count": 6622,
       "id": "10.5281/zenodo.6811491",
       "license": "CC-BY-4.0",
       "links": [
@@ -555,7 +555,7 @@
         "https://zenodo.org/api/files/858dbb84-174e-48cb-b2ef-9f1db2d0b275/hpaseg-cover.png"
       ],
       "description": "Cell segmentation model for segmenting images from the Human Protein Atlas",
-      "download_count": 5329,
+      "download_count": 5369,
       "id": "10.5281/zenodo.6200635",
       "license": "CC-BY-4.0",
       "links": [
@@ -727,7 +727,7 @@
         "https://zenodo.org/api/files/2d92e820-1b25-40f5-a2af-3219df97d7f7/resultImage.png"
       ],
       "description": "DeepImageJ compatible U-Net trained to segment phase contrast microscopy images of pancreatic stem cells on a 2D polystyrene substrate.",
-      "download_count": 3795,
+      "download_count": 3833,
       "id": "10.5281/zenodo.5914248",
       "license": "BSD-2-Clause",
       "links": [
@@ -940,7 +940,7 @@
         "https://zenodo.org/api/files/573e9a49-d156-46ea-838e-55ec9ebe9e00/cover.png"
       ],
       "description": "affinity-model",
-      "download_count": 2991,
+      "download_count": 3028,
       "id": "10.5281/zenodo.6079314",
       "license": "CC-BY-4.0",
       "links": [
@@ -1108,6 +1108,52 @@
     {
       "authors": [
         {
+          "name": "Lorenzo Cerrone"
+        },
+        {
+          "name": "Adrian Wolny"
+        }
+      ],
+      "covers": [
+        "https://zenodo.org/api/files/4a69ddca-3874-4469-b11d-b9ed626d197f/raw.png",
+        "https://zenodo.org/api/files/4a69ddca-3874-4469-b11d-b9ed626d197f/pred.png"
+      ],
+      "description": "2D Unet trained on z-slices of confocal images of Arabidopsis thaliana apical stem cells. Trained on z-slices of 3D confocal images. Voxel size: [0.25, 0.25, 0.25]",
+      "download_count": 2589,
+      "id": "10.5281/zenodo.6334881",
+      "license": "MIT",
+      "links": [
+        "imjoy/BioImageIO-Packager"
+      ],
+      "name": "2D UNet Arabidopsis Apical Stem Cells",
+      "nickname": "laid-back-lobster",
+      "nickname_icon": "\ud83e\udd9e",
+      "owners": [
+        66700
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6334881/6346477/rdf.yaml",
+      "tags": [
+        "plantseg",
+        "unet",
+        "2d",
+        "semantic-segmentation",
+        "arabidopsis",
+        "stem-cells",
+        "cell-membrane",
+        "plant",
+        "tissue",
+        "fluorescence-light-microscopy",
+        "pytorch"
+      ],
+      "type": "model",
+      "versions": [
+        "6346477",
+        "6334882"
+      ]
+    },
+    {
+      "authors": [
+        {
           "name": "Adrian Wolny"
         },
         {
@@ -1155,52 +1201,6 @@
     {
       "authors": [
         {
-          "name": "Lorenzo Cerrone"
-        },
-        {
-          "name": "Adrian Wolny"
-        }
-      ],
-      "covers": [
-        "https://zenodo.org/api/files/4a69ddca-3874-4469-b11d-b9ed626d197f/raw.png",
-        "https://zenodo.org/api/files/4a69ddca-3874-4469-b11d-b9ed626d197f/pred.png"
-      ],
-      "description": "2D Unet trained on z-slices of confocal images of Arabidopsis thaliana apical stem cells. Trained on z-slices of 3D confocal images. Voxel size: [0.25, 0.25, 0.25]",
-      "download_count": 2562,
-      "id": "10.5281/zenodo.6334881",
-      "license": "MIT",
-      "links": [
-        "imjoy/BioImageIO-Packager"
-      ],
-      "name": "2D UNet Arabidopsis Apical Stem Cells",
-      "nickname": "laid-back-lobster",
-      "nickname_icon": "\ud83e\udd9e",
-      "owners": [
-        66700
-      ],
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6334881/6346477/rdf.yaml",
-      "tags": [
-        "plantseg",
-        "unet",
-        "2d",
-        "semantic-segmentation",
-        "arabidopsis",
-        "stem-cells",
-        "cell-membrane",
-        "plant",
-        "tissue",
-        "fluorescence-light-microscopy",
-        "pytorch"
-      ],
-      "type": "model",
-      "versions": [
-        "6346477",
-        "6334882"
-      ]
-    },
-    {
-      "authors": [
-        {
           "name": "Hao Xu"
         },
         {
@@ -1211,7 +1211,7 @@
         "https://zenodo.org/api/files/0c6f4346-c936-420b-89be-322f6df574ae/hpaseg-cover.png"
       ],
       "description": "Nuclei segmentation model for segmenting images from the Human Protein Atlas",
-      "download_count": 2482,
+      "download_count": 2520,
       "id": "10.5281/zenodo.6200999",
       "license": "CC-BY-4.0",
       "links": [
@@ -1250,7 +1250,7 @@
         "https://zenodo.org/api/files/5a9cfb56-3a5d-4796-986d-8f46b7987b92/cover.png"
       ],
       "description": "2D UNet trained using ZeroCostDL4Mic notebooks on data from ISBI Challenge for neuron segmentation in Transmission Electron Microscopy images.",
-      "download_count": 2463,
+      "download_count": 2501,
       "id": "10.5281/zenodo.5817052",
       "license": "MIT",
       "links": [
@@ -1281,6 +1281,42 @@
       "versions": [
         "5906839",
         "5850574"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "name": "Shubin Dai"
+        }
+      ],
+      "covers": [
+        "https://zenodo.org/api/files/91895c21-4e8e-4cd0-98c3-1fae496b6068/bestfitting-densenet-diagram.png"
+      ],
+      "description": "The winning model of HPA image classification 2019 by Bestfitting",
+      "download_count": 2395,
+      "id": "10.5281/zenodo.5910163",
+      "license": "MIT",
+      "links": [
+        "imjoy/BioImageIO-Packager"
+      ],
+      "name": "HPA Bestfitting Densenet",
+      "nickname": "polite-pig",
+      "nickname_icon": "\ud83d\udc16",
+      "owners": [
+        47882
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.5910163/5942853/rdf.yaml",
+      "tags": [
+        "classification",
+        "densenet-121",
+        "hpa",
+        "onnx",
+        "cells",
+        "protein-localization"
+      ],
+      "type": "model",
+      "versions": [
+        "5942853"
       ]
     },
     {
@@ -1382,42 +1418,6 @@
     {
       "authors": [
         {
-          "name": "Shubin Dai"
-        }
-      ],
-      "covers": [
-        "https://zenodo.org/api/files/91895c21-4e8e-4cd0-98c3-1fae496b6068/bestfitting-densenet-diagram.png"
-      ],
-      "description": "The winning model of HPA image classification 2019 by Bestfitting",
-      "download_count": 2358,
-      "id": "10.5281/zenodo.5910163",
-      "license": "MIT",
-      "links": [
-        "imjoy/BioImageIO-Packager"
-      ],
-      "name": "HPA Bestfitting Densenet",
-      "nickname": "polite-pig",
-      "nickname_icon": "\ud83d\udc16",
-      "owners": [
-        47882
-      ],
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.5910163/5942853/rdf.yaml",
-      "tags": [
-        "classification",
-        "densenet-121",
-        "hpa",
-        "onnx",
-        "cells",
-        "protein-localization"
-      ],
-      "type": "model",
-      "versions": [
-        "5942853"
-      ]
-    },
-    {
-      "authors": [
-        {
           "name": "Daniel Capek",
           "orcid": "0000-0001-5199-9940"
         },
@@ -1483,7 +1483,7 @@
         "https://zenodo.org/api/files/9ea15be9-4f23-4c40-94ca-a6bf0e8a2f77/cover.png"
       ],
       "description": "This trained 2D U-Net model segments the contour, foreground and background of Bacillus Subtilis bacteria imaged with Widefield microscopy images. The current segmentation enables running further watershed segmentation to obtain a unique label for each individual bacteria detected in the image.",
-      "download_count": 1864,
+      "download_count": 1894,
       "id": "10.5281/zenodo.7261974",
       "license": "MIT",
       "links": [
