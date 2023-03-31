@@ -65,7 +65,7 @@
         "https://zenodo.org/api/files/334f9dd9-ae1e-46e2-9a6a-5445758c4e9c/cover.png"
       ],
       "description": "{organelle} segmentation in EM of platynereis.",
-      "download_count": 19791,
+      "download_count": 19909,
       "id": "10.5281/zenodo.6028097",
       "license": "CC-BY-4.0",
       "links": [
@@ -159,7 +159,7 @@
         "https://zenodo.org/api/files/647f8e3d-3f05-4e3d-a43e-e72717a076a0/cover.png"
       ],
       "description": "Perform leaf segmentation in light microscopy images of Arabidopsis",
-      "download_count": 16216,
+      "download_count": 16319,
       "id": "10.5281/zenodo.6348728",
       "license": "MIT",
       "links": [
@@ -205,7 +205,7 @@
         "https://zenodo.org/api/files/7ad06458-46e3-444b-b018-55a3c7a9fe27/example_fluo.jpg"
       ],
       "description": "StarDist - Object Detection with Star-convex Shapes",
-      "download_count": 15709,
+      "download_count": 15814,
       "id": "10.5281/zenodo.6348084",
       "license": "BSD-3-Clause",
       "links": [
@@ -468,7 +468,7 @@
         "https://zenodo.org/api/files/4a1f1eaf-685f-4564-810a-25e1e268b3e5/pred-nuclei.png"
       ],
       "description": "A 3D U-Net trained to predict the nuclei and their boundaries in fixed confocal images of developing mouse embryo.Voxel size: (0.2\u00d70.2\u00d71 \u00b5m^3) (XYZ).",
-      "download_count": 8673,
+      "download_count": 8686,
       "id": "10.5281/zenodo.6383429",
       "license": "MIT",
       "links": [
@@ -510,7 +510,7 @@
         "https://zenodo.org/api/files/0e7404c7-daad-4a1f-9fa8-f12aaa7842cb/cover.png"
       ],
       "description": "Prediction enhancer for segmenting mitochondria in EM images.",
-      "download_count": 6622,
+      "download_count": 6703,
       "id": "10.5281/zenodo.6811491",
       "license": "CC-BY-4.0",
       "links": [
@@ -555,7 +555,7 @@
         "https://zenodo.org/api/files/858dbb84-174e-48cb-b2ef-9f1db2d0b275/hpaseg-cover.png"
       ],
       "description": "Cell segmentation model for segmenting images from the Human Protein Atlas",
-      "download_count": 5369,
+      "download_count": 5387,
       "id": "10.5281/zenodo.6200635",
       "license": "CC-BY-4.0",
       "links": [
@@ -634,7 +634,7 @@
         "https://zenodo.org/api/files/61da5c68-e09b-49a6-899b-94c22cdfc4d9/cover.png"
       ],
       "description": "Nucleus segmentation for fluorescence microscopy",
-      "download_count": 4709,
+      "download_count": 4722,
       "id": "10.5281/zenodo.5764892",
       "license": "CC-BY-4.0",
       "links": [
@@ -1025,7 +1025,7 @@
         "https://zenodo.org/api/files/67864f33-063b-43e9-a40f-0f36bf6397d4/cover.png"
       ],
       "description": "Cell segmentation for immunofluorescence microscopy.",
-      "download_count": 2882,
+      "download_count": 2895,
       "id": "10.5281/zenodo.5847355",
       "license": "CC-BY-4.0",
       "links": [
@@ -1120,7 +1120,7 @@
         "https://zenodo.org/api/files/9a608180-9f71-43d9-9242-b4e0a4aec21d/ilastik_pred.png"
       ],
       "description": "A 3d U-Net trained to predict the cell boundaries in confocal stacks of Arabidopsis ovules. Voxel size: (0.235, 0.150, 0.150) microns ZYX",
-      "download_count": 2605,
+      "download_count": 2618,
       "id": "10.5281/zenodo.6334583",
       "license": "MIT",
       "links": [
@@ -1211,7 +1211,7 @@
         "https://zenodo.org/api/files/0c6f4346-c936-420b-89be-322f6df574ae/hpaseg-cover.png"
       ],
       "description": "Nuclei segmentation model for segmenting images from the Human Protein Atlas",
-      "download_count": 2520,
+      "download_count": 2533,
       "id": "10.5281/zenodo.6200999",
       "license": "CC-BY-4.0",
       "links": [
@@ -1314,7 +1314,7 @@
         "https://zenodo.org/api/files/32af4225-91c2-4d08-aea5-7882ef8d0120/sevs-segmentation.png"
       ],
       "description": "DeepImageJ compatible fully residual U-Net trained to segment small extracellular vesicles in 2D TEM images",
-      "download_count": 2426,
+      "download_count": 2449,
       "download_url": "https://cbia.fi.muni.cz/files/segmentation/fru-net/FRU_processing.zip",
       "id": "10.5281/zenodo.6559929",
       "license": "MIT",
@@ -4839,6 +4839,43 @@
       "versions": [
         "latest"
       ]
+    },
+    {
+      "authors": [
+        {
+          "name": "Ivan Hidalgo, Estibaliz G\u00f3mez de Mariscal, Ignacio Arganda-Carreras and the ZeroCostDL4Mic Team"
+        }
+      ],
+      "badges": [
+        {
+          "icon": "https://colab.research.google.com/assets/colab-badge.svg",
+          "label": "Open in Colab",
+          "url": "https://colab.research.google.com/github/HenriquesLab/ZeroCostDL4Mic/blob/master/Colab_notebooks/Beta%20notebooks/WGAN_ZeroCostDL4Mic.ipynb"
+        }
+      ],
+      "covers": [
+        "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/BioimageModelZoo/Images/WGAN_notebook.png"
+      ],
+      "description": "Super-resolution via super-pixelisation. Wasserstein GAN (DFCAN) is a network created to transform low-resolution (LR) images to super-resolved (SR) images, published by Gulrajani I. et al. arXiv 2017. The training is done using LR-SR image pairs, taking the LR images as input and obtaining an output as close to SR as posible.",
+      "download_count": 1,
+      "download_url": "https://raw.githubusercontent.com/HenriquesLab/ZeroCostDL4Mic/master/Colab_notebooks/Beta%20notebooks/WGAN_ZeroCostDL4Mic.ipynb",
+      "id": "zero/WGAN_ZeroCostDL4Mic.ipynb",
+      "links": [
+        "zero/Notebook Preview"
+      ],
+      "name": "WGAN - ZeroCostDL4Mic",
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/zero/WGAN_ZeroCostDL4Mic.ipynb/latest/rdf.yaml",
+      "tags": [
+        "colab",
+        "notebook",
+        "WGAN",
+        "Super Resolution",
+        "ZeroCostDL4Mic"
+      ],
+      "type": "application",
+      "versions": [
+        "latest"
+      ]
     }
   ],
   "config": {
@@ -4846,13 +4883,13 @@
     "default_type": "model",
     "explore_button_text": "Start Exploring",
     "n_resource_versions": {
-      "application": 96,
+      "application": 98,
       "dataset": 82,
       "model": 109,
       "notebook": 4
     },
     "n_resources": {
-      "application": 48,
+      "application": 49,
       "dataset": 41,
       "model": 44,
       "notebook": 2
