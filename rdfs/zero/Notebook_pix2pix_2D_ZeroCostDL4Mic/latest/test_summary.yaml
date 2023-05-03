@@ -1,4 +1,4 @@
-rdf_sha256: deb6d63c821b4b288895477054b51eb56bb6e0d86f32be28ed34ae21219685b4
+rdf_sha256: 3c5a5b62b5cea570027603e4527c9b09c20326fccb637a8c33d3ac877b55ce1a
 tests:
   deepimagej: []
   ilastik: []
