@@ -158,7 +158,7 @@ collection:
   - {affiliation: EMBL Heidelberg, name: Constantin Pape}
   covers: ['https://zenodo.org/api/files/0e7404c7-daad-4a1f-9fa8-f12aaa7842cb/cover.png']
   description: Prediction enhancer for segmenting mitochondria in EM images.
-  download_count: 9336
+  download_count: 9373
   id: 10.5281/zenodo.6811491
   license: CC-BY-4.0
   links: [deepimagej/deepimagej, ilastik/torch-em-3d-unet-notebook, ilastik/ilastik,
@@ -234,7 +234,7 @@ collection:
   covers: ['https://zenodo.org/api/files/858dbb84-174e-48cb-b2ef-9f1db2d0b275/hpaseg-cover.png']
   description: Cell segmentation model for segmenting images from the Human Protein
     Atlas
-  download_count: 5811
+  download_count: 5815
   id: 10.5281/zenodo.6200635
   license: CC-BY-4.0
   links: [imjoy/BioImageIO-Packager, hpa/hpa-cell-image-segmentation-dataset]
@@ -553,7 +553,7 @@ collection:
   covers: ['https://zenodo.org/api/files/0c6f4346-c936-420b-89be-322f6df574ae/hpaseg-cover.png']
   description: Nuclei segmentation model for segmenting images from the Human Protein
     Atlas
-  download_count: 2717
+  download_count: 2719
   id: 10.5281/zenodo.6200999
   license: CC-BY-4.0
   links: [deepimagej/deepimagej]
