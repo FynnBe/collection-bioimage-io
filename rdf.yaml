@@ -60,23 +60,6 @@ collection:
   type: model
   versions: ['6338615']
 - authors:
-  - {affiliation: EMBL Heidelberg, name: Constantin Pape}
-  covers: ['https://zenodo.org/api/files/647f8e3d-3f05-4e3d-a43e-e72717a076a0/cover.png']
-  description: Perform leaf segmentation in light microscopy images of Arabidopsis
-  download_count: 19917
-  id: 10.5281/zenodo.6348728
-  license: MIT
-  links: [deepimagej/deepimagej, imjoy/BioImageIO-Packager, ilastik/ilastik, zero/notebook_u-net_3d_zerocostdl4mic]
-  name: Arabidopsis Leaf Segmentation
-  nickname: non-judgemental-eagle
-  nickname_icon: "\U0001F985"
-  owners: [77626]
-  rdf_source: https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6348728/6348729/rdf.yaml
-  tags: [zerocostdl4mic, deepimagej, segmentation, unet]
-  training_data: {id: ilastik/arabidopsis_tissue_atlas}
-  type: model
-  versions: ['6348729']
-- authors:
   - {github_user: uschmidt83, name: Uwe Schmidt}
   - {github_user: maweigert, name: Martin Weigert}
   covers: ['https://zenodo.org/api/files/7ad06458-46e3-444b-b018-55a3c7a9fe27/stardist_logo.jpg',
@@ -158,7 +141,7 @@ collection:
   - {affiliation: EMBL Heidelberg, name: Constantin Pape}
   covers: ['https://zenodo.org/api/files/0e7404c7-daad-4a1f-9fa8-f12aaa7842cb/cover.png']
   description: Prediction enhancer for segmenting mitochondria in EM images.
-  download_count: 9410
+  download_count: 9430
   id: 10.5281/zenodo.6811491
   license: CC-BY-4.0
   links: [deepimagej/deepimagej, ilastik/torch-em-3d-unet-notebook, ilastik/ilastik,
@@ -215,7 +198,7 @@ collection:
     'https://zenodo.org/api/files/4a1f1eaf-685f-4564-810a-25e1e268b3e5/pred-nuclei.png']
   description: 'A 3D U-Net trained to predict the nuclei and their boundaries in fixed
     confocal images of developing mouse embryo.Voxel size: (0.2×0.2×1 µm^3) (XYZ).'
-  download_count: 8886
+  download_count: 8889
   id: 10.5281/zenodo.6383429
   license: MIT
   links: [imjoy/BioImageIO-Packager]
@@ -234,7 +217,7 @@ collection:
   covers: ['https://zenodo.org/api/files/858dbb84-174e-48cb-b2ef-9f1db2d0b275/hpaseg-cover.png']
   description: Cell segmentation model for segmenting images from the Human Protein
     Atlas
-  download_count: 5823
+  download_count: 5825
   id: 10.5281/zenodo.6200635
   license: CC-BY-4.0
   links: [imjoy/BioImageIO-Packager, hpa/hpa-cell-image-segmentation-dataset]
@@ -553,7 +536,7 @@ collection:
   covers: ['https://zenodo.org/api/files/0c6f4346-c936-420b-89be-322f6df574ae/hpaseg-cover.png']
   description: Nuclei segmentation model for segmenting images from the Human Protein
     Atlas
-  download_count: 2726
+  download_count: 2728
   id: 10.5281/zenodo.6200999
   license: CC-BY-4.0
   links: [deepimagej/deepimagej]
@@ -2377,6 +2360,23 @@ collection:
   tags: [colab, notebook, WGAN, Super Resolution, ZeroCostDL4Mic]
   type: application
   versions: [latest]
+- authors:
+  - {affiliation: EMBL Heidelberg, name: Constantin Pape}
+  covers: ['https://zenodo.org/api/files/647f8e3d-3f05-4e3d-a43e-e72717a076a0/cover.png']
+  description: Perform leaf segmentation in light microscopy images of Arabidopsis
+  download_count: 1
+  id: 10.5281/zenodo.6348728
+  license: MIT
+  links: [deepimagej/deepimagej, imjoy/BioImageIO-Packager, ilastik/ilastik, zero/notebook_u-net_3d_zerocostdl4mic]
+  name: Arabidopsis Leaf Segmentation
+  nickname: non-judgemental-eagle
+  nickname_icon: "\U0001F985"
+  owners: [77626]
+  rdf_source: https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6348728/6348729/rdf.yaml
+  tags: [zerocostdl4mic, deepimagej, segmentation, unet]
+  training_data: {id: ilastik/arabidopsis_tissue_atlas}
+  type: model
+  versions: ['6348729']
 config:
   background_image: static/img/zoo-background.svg
   default_type: model
