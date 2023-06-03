@@ -65,7 +65,7 @@
         "https://zenodo.org/api/files/334f9dd9-ae1e-46e2-9a6a-5445758c4e9c/cover.png"
       ],
       "description": "{organelle} segmentation in EM of platynereis.",
-      "download_count": 23999,
+      "download_count": 24079,
       "id": "10.5281/zenodo.6028097",
       "license": "CC-BY-4.0",
       "links": [
@@ -254,7 +254,7 @@
         "https://zenodo.org/api/files/a7eb8d94-9217-4276-8b0d-ff88e1ac78c7/cover.png"
       ],
       "description": "Segmentation of mitochondria in EM images.",
-      "download_count": 17072,
+      "download_count": 17136,
       "id": "10.5281/zenodo.6406803",
       "license": "CC-BY-4.0",
       "links": [
@@ -386,7 +386,7 @@
         "https://zenodo.org/api/files/0e7404c7-daad-4a1f-9fa8-f12aaa7842cb/cover.png"
       ],
       "description": "Prediction enhancer for segmenting mitochondria in EM images.",
-      "download_count": 9550,
+      "download_count": 9657,
       "id": "10.5281/zenodo.6811491",
       "license": "CC-BY-4.0",
       "links": [
@@ -428,7 +428,7 @@
         "https://zenodo.org/api/files/d2f261ff-8734-4ad0-a84a-6c80c05e5bd3/cover.png"
       ],
       "description": "Cell segmentation in EM of platynereis.",
-      "download_count": 9070,
+      "download_count": 9076,
       "id": "10.5281/zenodo.6028280",
       "license": "CC-BY-4.0",
       "links": [
@@ -511,7 +511,7 @@
         "https://zenodo.org/api/files/4a1f1eaf-685f-4564-810a-25e1e268b3e5/pred-nuclei.png"
       ],
       "description": "A 3D U-Net trained to predict the nuclei and their boundaries in fixed confocal images of developing mouse embryo.Voxel size: (0.2\u00d70.2\u00d71 \u00b5m^3) (XYZ).",
-      "download_count": 8895,
+      "download_count": 8901,
       "id": "10.5281/zenodo.6383429",
       "license": "MIT",
       "links": [
@@ -555,7 +555,7 @@
         "https://zenodo.org/api/files/858dbb84-174e-48cb-b2ef-9f1db2d0b275/hpaseg-cover.png"
       ],
       "description": "Cell segmentation model for segmenting images from the Human Protein Atlas",
-      "download_count": 5839,
+      "download_count": 5847,
       "id": "10.5281/zenodo.6200635",
       "license": "CC-BY-4.0",
       "links": [
@@ -828,6 +828,59 @@
     {
       "authors": [
         {
+          "affiliation": "Ikerbasque EHU UPV",
+          "name": "Ignacio Arganda Carreras"
+        },
+        {
+          "affiliation": "EPFL, UC3M",
+          "name": "DeepImageJ"
+        }
+      ],
+      "covers": [
+        "https://zenodo.org/api/files/2d92e820-1b25-40f5-a2af-3219df97d7f7/exampleImage.png",
+        "https://zenodo.org/api/files/2d92e820-1b25-40f5-a2af-3219df97d7f7/resultImage.png"
+      ],
+      "description": "DeepImageJ compatible U-Net trained to segment phase contrast microscopy images of pancreatic stem cells on a 2D polystyrene substrate.",
+      "download_count": 4054,
+      "id": "10.5281/zenodo.5914248",
+      "license": "BSD-2-Clause",
+      "links": [
+        "imjoy/BioImageIO-Packager",
+        "deepimagej/deepimagej",
+        "ilastik/ilastik",
+        "deepimagej/unet-pancreaticcellsegmentation"
+      ],
+      "name": "Pancreatic Phase Contrast Cell Segmentation (U-Net)",
+      "nickname": "discreet-rooster",
+      "nickname_icon": "\ud83d\udc13",
+      "owners": [
+        147356
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.5914248/6514622/rdf.yaml",
+      "tags": [
+        "deepimagej",
+        "pancreatic-stem-cells",
+        "segmentation",
+        "phase-contrast",
+        "unet",
+        "neubias",
+        "cell-tracking-challenge",
+        "transmission-light-microscopy",
+        "2d",
+        "cells",
+        "semantic-segmentation",
+        "tensorflow"
+      ],
+      "type": "model",
+      "versions": [
+        "6514622",
+        "6514446",
+        "5914249"
+      ]
+    },
+    {
+      "authors": [
+        {
           "name": "Lorenzo Cerrone"
         },
         {
@@ -869,59 +922,6 @@
       "versions": [
         "6346500",
         "6334384"
-      ]
-    },
-    {
-      "authors": [
-        {
-          "affiliation": "Ikerbasque EHU UPV",
-          "name": "Ignacio Arganda Carreras"
-        },
-        {
-          "affiliation": "EPFL, UC3M",
-          "name": "DeepImageJ"
-        }
-      ],
-      "covers": [
-        "https://zenodo.org/api/files/2d92e820-1b25-40f5-a2af-3219df97d7f7/exampleImage.png",
-        "https://zenodo.org/api/files/2d92e820-1b25-40f5-a2af-3219df97d7f7/resultImage.png"
-      ],
-      "description": "DeepImageJ compatible U-Net trained to segment phase contrast microscopy images of pancreatic stem cells on a 2D polystyrene substrate.",
-      "download_count": 4048,
-      "id": "10.5281/zenodo.5914248",
-      "license": "BSD-2-Clause",
-      "links": [
-        "imjoy/BioImageIO-Packager",
-        "deepimagej/deepimagej",
-        "ilastik/ilastik",
-        "deepimagej/unet-pancreaticcellsegmentation"
-      ],
-      "name": "Pancreatic Phase Contrast Cell Segmentation (U-Net)",
-      "nickname": "discreet-rooster",
-      "nickname_icon": "\ud83d\udc13",
-      "owners": [
-        147356
-      ],
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.5914248/6514622/rdf.yaml",
-      "tags": [
-        "deepimagej",
-        "pancreatic-stem-cells",
-        "segmentation",
-        "phase-contrast",
-        "unet",
-        "neubias",
-        "cell-tracking-challenge",
-        "transmission-light-microscopy",
-        "2d",
-        "cells",
-        "semantic-segmentation",
-        "tensorflow"
-      ],
-      "type": "model",
-      "versions": [
-        "6514622",
-        "6514446",
-        "5914249"
       ]
     },
     {
@@ -987,7 +987,7 @@
         "https://zenodo.org/api/files/573e9a49-d156-46ea-838e-55ec9ebe9e00/cover.png"
       ],
       "description": "affinity-model",
-      "download_count": 3244,
+      "download_count": 3250,
       "id": "10.5281/zenodo.6079314",
       "license": "CC-BY-4.0",
       "links": [
@@ -1128,7 +1128,7 @@
         "https://zenodo.org/api/files/6955b0c0-b211-42a1-8251-0e3d82f612d5/pred.png"
       ],
       "description": "A 3D U-Net trained to predict the cell boundaries in lightsheet stacks of Arabidopsis Lateral Root Primordia. (0.25x0.1625x0.1625) microns ZYX",
-      "download_count": 3005,
+      "download_count": 3011,
       "id": "10.5281/zenodo.6334777",
       "license": "MIT",
       "links": [
@@ -1280,7 +1280,7 @@
         "https://zenodo.org/api/files/4a69ddca-3874-4469-b11d-b9ed626d197f/pred.png"
       ],
       "description": "2D Unet trained on z-slices of confocal images of Arabidopsis thaliana apical stem cells. Trained on z-slices of 3D confocal images. Voxel size: [0.25, 0.25, 0.25]",
-      "download_count": 2806,
+      "download_count": 2812,
       "id": "10.5281/zenodo.6334881",
       "license": "MIT",
       "links": [
@@ -1325,7 +1325,7 @@
         "https://zenodo.org/api/files/0c6f4346-c936-420b-89be-322f6df574ae/hpaseg-cover.png"
       ],
       "description": "Nuclei segmentation model for segmenting images from the Human Protein Atlas",
-      "download_count": 2734,
+      "download_count": 2740,
       "id": "10.5281/zenodo.6200999",
       "license": "CC-BY-4.0",
       "links": [
@@ -1445,7 +1445,7 @@
         "https://zenodo.org/api/files/91895c21-4e8e-4cd0-98c3-1fae496b6068/bestfitting-densenet-diagram.png"
       ],
       "description": "The winning model of HPA image classification 2019 by Bestfitting",
-      "download_count": 2609,
+      "download_count": 2615,
       "id": "10.5281/zenodo.5910163",
       "license": "MIT",
       "links": [
