@@ -56,8 +56,8 @@ tests:
         \"/home/runner/micromamba-root/envs/6028098/lib/python3.9/site-packages/bioimageio/core/prediction_pipeline/_stat_state.py\",
         line 3, in <module>\n    from tqdm import tqdm\n"]
   deepimagej:
-  - {bioimageio_spec_version: 0.4.8post1, name: Reproduce test outputs with DeepImageJ
-      headless, status: passed}
+  - {bioimageio_core_version: 0.5.9, bioimageio_spec_version: 0.4.9, name: Reproduce
+      test outputs with DeepImageJ headless, status: passed}
   ilastik:
   - bioimageio_core_version: 0.5.7
     bioimageio_spec_version: 0.4.8
