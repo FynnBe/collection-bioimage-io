@@ -33,9 +33,9 @@ tests:
         \"/home/runner/micromamba-root/envs/6559475/lib/python3.7/site-packages/bioimageio/core/prediction_pipeline/_stat_state.py\",
         line 3, in <module>\n    from tqdm import tqdm\n"]
   deepimagej:
-  - {bioimageio_core_version: 0.5.9, bioimageio_spec_version: 0.4.9, error: Failure
-      to download model with 'bioimageio.core.export_resource_package', name: Downloading
-      testing resources for DeepImageJ, status: failed}
+  - {bioimageio_core_version: 0.5.9, bioimageio_spec_version: 0.4.9, error: Error
+      while running DeepImageJ headless (CI did not produce an output image), name: Reproduce
+      test outputs with DeepImageJ headless, status: failed}
   ilastik:
   - bioimageio_core_version: 0.5.8
     bioimageio_spec_version: 0.4.9
