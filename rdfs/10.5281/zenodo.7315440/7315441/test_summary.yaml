@@ -56,8 +56,9 @@ tests:
         \"/home/runner/micromamba-root/envs/7315441/lib/python3.11/site-packages/bioimageio/core/prediction_pipeline/_stat_state.py\",
         line 3, in <module>\n    from tqdm import tqdm\n"]
   deepimagej:
-  - {bioimageio_core_version: 0.5.9, bioimageio_spec_version: 0.4.9, error: No correct
-      sample images to test, name: Downloading testing resources for DeepImageJ, status: failed}
+  - {bioimageio_core_version: 0.5.9, bioimageio_spec_version: 0.4.9, error: 'Model
+      incompatible with DeepImageJ, requires more than 1 input image.', name: Initial
+      compatibility checks with DeepImageJ., status: failed}
   ilastik:
   - bioimageio_core_version: 0.5.7
     bioimageio_spec_version: 0.4.8
