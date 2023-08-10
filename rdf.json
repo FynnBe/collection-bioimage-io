@@ -65,7 +65,7 @@
         "https://zenodo.org/api/files/334f9dd9-ae1e-46e2-9a6a-5445758c4e9c/cover.png"
       ],
       "description": "{organelle} segmentation in EM of platynereis.",
-      "download_count": 28200,
+      "download_count": 28286,
       "id": "10.5281/zenodo.6028097",
       "license": "CC-BY-4.0",
       "links": [
@@ -205,7 +205,7 @@
         "https://zenodo.org/api/files/7ad06458-46e3-444b-b018-55a3c7a9fe27/example_fluo.jpg"
       ],
       "description": "StarDist - Object Detection with Star-convex Shapes",
-      "download_count": 23381,
+      "download_count": 23459,
       "id": "10.5281/zenodo.6348084",
       "license": "BSD-3-Clause",
       "links": [
@@ -341,7 +341,7 @@
         "https://zenodo.org/api/files/0e7404c7-daad-4a1f-9fa8-f12aaa7842cb/cover.png"
       ],
       "description": "Prediction enhancer for segmenting mitochondria in EM images.",
-      "download_count": 13003,
+      "download_count": 13043,
       "id": "10.5281/zenodo.6811491",
       "license": "CC-BY-4.0",
       "links": [
@@ -511,7 +511,7 @@
         "https://zenodo.org/api/files/4a1f1eaf-685f-4564-810a-25e1e268b3e5/pred-nuclei.png"
       ],
       "description": "A 3D U-Net trained to predict the nuclei and their boundaries in fixed confocal images of developing mouse embryo.Voxel size: (0.2\u00d70.2\u00d71 \u00b5m^3) (XYZ).",
-      "download_count": 9139,
+      "download_count": 9142,
       "id": "10.5281/zenodo.6383429",
       "license": "MIT",
       "links": [
@@ -622,7 +622,7 @@
         "https://zenodo.org/api/files/858dbb84-174e-48cb-b2ef-9f1db2d0b275/hpaseg-cover.png"
       ],
       "description": "Cell segmentation model for segmenting images from the Human Protein Atlas",
-      "download_count": 6327,
+      "download_count": 6338,
       "id": "10.5281/zenodo.6200635",
       "license": "CC-BY-4.0",
       "links": [
@@ -983,6 +983,64 @@
     {
       "authors": [
         {
+          "affiliation": "Universidad Carlos III de Madrid",
+          "name": "Estibaliz G\u00f3mez-de-Mariscal"
+        },
+        {
+          "affiliation": "Masaryk University",
+          "name": "Martin Ma\u0161ka"
+        },
+        {
+          "affiliation": "Masaryk University",
+          "name": "Anna Kotrbov\u00e1"
+        },
+        {
+          "affiliation": "Masaryk University",
+          "name": "Vendula Posp\u00edchalov\u00e1"
+        },
+        {
+          "affiliation": "Masaryk University",
+          "name": "Pavel Matula"
+        },
+        {
+          "affiliation": "Universidad Carlos III de Madrid",
+          "name": "Arrate Mu\u00f1oz-Barrutia"
+        }
+      ],
+      "covers": [
+        "https://zenodo.org/api/files/32af4225-91c2-4d08-aea5-7882ef8d0120/sevs-segmentation.png"
+      ],
+      "description": "DeepImageJ compatible fully residual U-Net trained to segment small extracellular vesicles in 2D TEM images",
+      "download_count": 3530,
+      "download_url": "https://cbia.fi.muni.cz/files/segmentation/fru-net/FRU_processing.zip",
+      "id": "10.5281/zenodo.6559929",
+      "license": "MIT",
+      "links": [],
+      "name": "Small Extracellular Vesicle TEM Instance Segmentation annotated data",
+      "owners": [
+        271523
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6559929/6559930/rdf.yaml",
+      "source": "https://cbia.fi.muni.cz/research/segmentation/fru-net",
+      "tags": [
+        "extracellular-vesicles",
+        "segmentation",
+        "tem",
+        "exosomes",
+        "electron-microscopy",
+        "2d-segmentation",
+        "2d",
+        "segmentation",
+        "instance-segmentation"
+      ],
+      "type": "dataset",
+      "versions": [
+        "6559930"
+      ]
+    },
+    {
+      "authors": [
+        {
           "affiliation": "UC3M, EPFL",
           "name": "DeepImageJ"
         },
@@ -1036,64 +1094,6 @@
     {
       "authors": [
         {
-          "affiliation": "Universidad Carlos III de Madrid",
-          "name": "Estibaliz G\u00f3mez-de-Mariscal"
-        },
-        {
-          "affiliation": "Masaryk University",
-          "name": "Martin Ma\u0161ka"
-        },
-        {
-          "affiliation": "Masaryk University",
-          "name": "Anna Kotrbov\u00e1"
-        },
-        {
-          "affiliation": "Masaryk University",
-          "name": "Vendula Posp\u00edchalov\u00e1"
-        },
-        {
-          "affiliation": "Masaryk University",
-          "name": "Pavel Matula"
-        },
-        {
-          "affiliation": "Universidad Carlos III de Madrid",
-          "name": "Arrate Mu\u00f1oz-Barrutia"
-        }
-      ],
-      "covers": [
-        "https://zenodo.org/api/files/32af4225-91c2-4d08-aea5-7882ef8d0120/sevs-segmentation.png"
-      ],
-      "description": "DeepImageJ compatible fully residual U-Net trained to segment small extracellular vesicles in 2D TEM images",
-      "download_count": 3519,
-      "download_url": "https://cbia.fi.muni.cz/files/segmentation/fru-net/FRU_processing.zip",
-      "id": "10.5281/zenodo.6559929",
-      "license": "MIT",
-      "links": [],
-      "name": "Small Extracellular Vesicle TEM Instance Segmentation annotated data",
-      "owners": [
-        271523
-      ],
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6559929/6559930/rdf.yaml",
-      "source": "https://cbia.fi.muni.cz/research/segmentation/fru-net",
-      "tags": [
-        "extracellular-vesicles",
-        "segmentation",
-        "tem",
-        "exosomes",
-        "electron-microscopy",
-        "2d-segmentation",
-        "2d",
-        "segmentation",
-        "instance-segmentation"
-      ],
-      "type": "dataset",
-      "versions": [
-        "6559930"
-      ]
-    },
-    {
-      "authors": [
-        {
           "name": "Constantin Pape; @constantinpape"
         }
       ],
@@ -1139,7 +1139,7 @@
         "https://zenodo.org/api/files/67864f33-063b-43e9-a40f-0f36bf6397d4/cover.png"
       ],
       "description": "Cell segmentation for immunofluorescence microscopy.",
-      "download_count": 3332,
+      "download_count": 3338,
       "id": "10.5281/zenodo.5847355",
       "license": "CC-BY-4.0",
       "links": [
@@ -1325,7 +1325,7 @@
         "https://zenodo.org/api/files/0c6f4346-c936-420b-89be-322f6df574ae/hpaseg-cover.png"
       ],
       "description": "Nuclei segmentation model for segmenting images from the Human Protein Atlas",
-      "download_count": 2971,
+      "download_count": 2974,
       "id": "10.5281/zenodo.6200999",
       "license": "CC-BY-4.0",
       "links": [
@@ -1445,7 +1445,7 @@
         "https://zenodo.org/api/files/91895c21-4e8e-4cd0-98c3-1fae496b6068/bestfitting-densenet-diagram.png"
       ],
       "description": "The winning model of HPA image classification 2019 by Bestfitting",
-      "download_count": 2849,
+      "download_count": 2852,
       "id": "10.5281/zenodo.5910163",
       "license": "MIT",
       "links": [
