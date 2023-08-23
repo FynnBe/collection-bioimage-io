@@ -25,7 +25,7 @@ collection:
   - {name: Constantin Pape; @constantinpape}
   covers: ['https://zenodo.org/api/files/334f9dd9-ae1e-46e2-9a6a-5445758c4e9c/cover.png']
   description: '{organelle} segmentation in EM of platynereis.'
-  download_count: 28731
+  download_count: 28802
   id: 10.5281/zenodo.6028097
   license: CC-BY-4.0
   links: [deepimagej/deepimagej, ilastik/ilastik, imjoy/BioImageIO-Packager, ilastik/torch-em-3d-unet-notebook]
@@ -82,7 +82,7 @@ collection:
   covers: ['https://zenodo.org/api/files/7ad06458-46e3-444b-b018-55a3c7a9fe27/stardist_logo.jpg',
     'https://zenodo.org/api/files/7ad06458-46e3-444b-b018-55a3c7a9fe27/example_fluo.jpg']
   description: StarDist - Object Detection with Star-convex Shapes
-  download_count: 23887
+  download_count: 23963
   id: 10.5281/zenodo.6348084
   license: BSD-3-Clause
   links: [deepimagej/deepimagej, imjoy/BioImageIO-Packager, bioimageio/stardist, bioimageio/qupath]
@@ -114,6 +114,25 @@ collection:
   type: model
   versions: ['6406804']
 - authors:
+  - {affiliation: EMBL Heidelberg, name: Constantin Pape}
+  covers: ['https://zenodo.org/api/files/0e7404c7-daad-4a1f-9fa8-f12aaa7842cb/cover.png']
+  description: Prediction enhancer for segmenting mitochondria in EM images.
+  download_count: 13507
+  id: 10.5281/zenodo.6811491
+  license: CC-BY-4.0
+  links: [deepimagej/deepimagej, ilastik/torch-em-3d-unet-notebook, ilastik/ilastik,
+    imjoy/BioImageIO-Packager]
+  name: EnhancerMitochondriaEM3D
+  nickname: independent-shrimp
+  nickname_icon: "\U0001F990"
+  owners: [77626]
+  rdf_source: https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6811491/6811492/rdf.yaml
+  tags: [unet, mitochondria, electron-microscopy, instance-segmentation, shallow2deep,
+    3d]
+  training_data: {id: ilastik/mitoem_segmentation_challenge}
+  type: model
+  versions: ['6811492']
+- authors:
   - {name: Lorenzo Cerrone}
   - {name: Adrian Wolny}
   covers: ['https://zenodo.org/api/files/9c2e422f-08fd-4692-bcf9-41e1a74e193d/raw.png',
@@ -134,25 +153,6 @@ collection:
     plant, tissue, fluorescence-light-microscopy, pytorch]
   type: model
   versions: ['6346512']
-- authors:
-  - {affiliation: EMBL Heidelberg, name: Constantin Pape}
-  covers: ['https://zenodo.org/api/files/0e7404c7-daad-4a1f-9fa8-f12aaa7842cb/cover.png']
-  description: Prediction enhancer for segmenting mitochondria in EM images.
-  download_count: 13445
-  id: 10.5281/zenodo.6811491
-  license: CC-BY-4.0
-  links: [deepimagej/deepimagej, ilastik/torch-em-3d-unet-notebook, ilastik/ilastik,
-    imjoy/BioImageIO-Packager]
-  name: EnhancerMitochondriaEM3D
-  nickname: independent-shrimp
-  nickname_icon: "\U0001F990"
-  owners: [77626]
-  rdf_source: https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6811491/6811492/rdf.yaml
-  tags: [unet, mitochondria, electron-microscopy, instance-segmentation, shallow2deep,
-    3d]
-  training_data: {id: ilastik/mitoem_segmentation_challenge}
-  type: model
-  versions: ['6811492']
 - authors:
   - {name: A. Wolny}
   - {name: V. Bondarenko}
@@ -215,7 +215,7 @@ collection:
     'https://zenodo.org/api/files/4a1f1eaf-685f-4564-810a-25e1e268b3e5/pred-nuclei.png']
   description: 'A 3D U-Net trained to predict the nuclei and their boundaries in fixed
     confocal images of developing mouse embryo.Voxel size: (0.2×0.2×1 µm^3) (XYZ).'
-  download_count: 9179
+  download_count: 9182
   id: 10.5281/zenodo.6383429
   license: MIT
   links: [imjoy/BioImageIO-Packager]
@@ -259,7 +259,7 @@ collection:
   covers: ['https://zenodo.org/api/files/858dbb84-174e-48cb-b2ef-9f1db2d0b275/hpaseg-cover.png']
   description: Cell segmentation model for segmenting images from the Human Protein
     Atlas
-  download_count: 6404
+  download_count: 6410
   id: 10.5281/zenodo.6200635
   license: CC-BY-4.0
   links: [imjoy/BioImageIO-Packager, hpa/hpa-cell-image-segmentation-dataset]
@@ -293,7 +293,7 @@ collection:
   - {affiliation: EMBL Heidelberg, name: Constantin Pape}
   covers: ['https://zenodo.org/api/files/61da5c68-e09b-49a6-899b-94c22cdfc4d9/cover.png']
   description: Nucleus segmentation for fluorescence microscopy
-  download_count: 5205
+  download_count: 5208
   id: 10.5281/zenodo.5764892
   license: CC-BY-4.0
   links: [ilastik/stardist_dsb_training_data, ilastik/ilastik, deepimagej/deepimagej,
@@ -553,7 +553,7 @@ collection:
   covers: ['https://zenodo.org/api/files/0c6f4346-c936-420b-89be-322f6df574ae/hpaseg-cover.png']
   description: Nuclei segmentation model for segmenting images from the Human Protein
     Atlas
-  download_count: 3012
+  download_count: 3015
   id: 10.5281/zenodo.6200999
   license: CC-BY-4.0
   links: [deepimagej/deepimagej]
