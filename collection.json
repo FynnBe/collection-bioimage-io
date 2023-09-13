@@ -65,7 +65,7 @@
         "https://zenodo.org/api/files/334f9dd9-ae1e-46e2-9a6a-5445758c4e9c/cover.png"
       ],
       "description": "{organelle} segmentation in EM of platynereis.",
-      "download_count": 29804,
+      "download_count": 29859,
       "id": "10.5281/zenodo.6028097",
       "license": "CC-BY-4.0",
       "links": [
@@ -296,7 +296,7 @@
         "https://zenodo.org/api/files/0e7404c7-daad-4a1f-9fa8-f12aaa7842cb/cover.png"
       ],
       "description": "Prediction enhancer for segmenting mitochondria in EM images.",
-      "download_count": 14391,
+      "download_count": 14439,
       "id": "10.5281/zenodo.6811491",
       "license": "CC-BY-4.0",
       "links": [
@@ -527,6 +527,52 @@
     {
       "authors": [
         {
+          "name": "V. Bondarenko"
+        },
+        {
+          "name": "A. Wolny"
+        }
+      ],
+      "covers": [
+        "https://zenodo.org/api/files/4a1f1eaf-685f-4564-810a-25e1e268b3e5/raw.png",
+        "https://zenodo.org/api/files/4a1f1eaf-685f-4564-810a-25e1e268b3e5/pred-boundary.png",
+        "https://zenodo.org/api/files/4a1f1eaf-685f-4564-810a-25e1e268b3e5/pred-nuclei.png"
+      ],
+      "description": "A 3D U-Net trained to predict the nuclei and their boundaries in fixed confocal images of developing mouse embryo.Voxel size: (0.2\u00d70.2\u00d71 \u00b5m^3) (XYZ).",
+      "download_count": 9261,
+      "id": "10.5281/zenodo.6383429",
+      "license": "MIT",
+      "links": [
+        "imjoy/BioImageIO-Packager"
+      ],
+      "name": "3D UNet Mouse Embryo Fixed",
+      "nickname": "loyal-squid",
+      "nickname_icon": "\ud83e\udd91",
+      "owners": [
+        66700
+      ],
+      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6383429/6383430/rdf.yaml",
+      "tags": [
+        "plantseg",
+        "unet",
+        "3d",
+        "semantic-segmentation",
+        "mouse-embryo",
+        "nuclei",
+        "animal",
+        "tissue",
+        "confocal-microscopy",
+        "pytorch",
+        "fixed"
+      ],
+      "type": "model",
+      "versions": [
+        "6383430"
+      ]
+    },
+    {
+      "authors": [
+        {
           "name": "Constantin Pape"
         }
       ],
@@ -566,52 +612,6 @@
     {
       "authors": [
         {
-          "name": "V. Bondarenko"
-        },
-        {
-          "name": "A. Wolny"
-        }
-      ],
-      "covers": [
-        "https://zenodo.org/api/files/4a1f1eaf-685f-4564-810a-25e1e268b3e5/raw.png",
-        "https://zenodo.org/api/files/4a1f1eaf-685f-4564-810a-25e1e268b3e5/pred-boundary.png",
-        "https://zenodo.org/api/files/4a1f1eaf-685f-4564-810a-25e1e268b3e5/pred-nuclei.png"
-      ],
-      "description": "A 3D U-Net trained to predict the nuclei and their boundaries in fixed confocal images of developing mouse embryo.Voxel size: (0.2\u00d70.2\u00d71 \u00b5m^3) (XYZ).",
-      "download_count": 9244,
-      "id": "10.5281/zenodo.6383429",
-      "license": "MIT",
-      "links": [
-        "imjoy/BioImageIO-Packager"
-      ],
-      "name": "3D UNet Mouse Embryo Fixed",
-      "nickname": "loyal-squid",
-      "nickname_icon": "\ud83e\udd91",
-      "owners": [
-        66700
-      ],
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/10.5281/zenodo.6383429/6383430/rdf.yaml",
-      "tags": [
-        "plantseg",
-        "unet",
-        "3d",
-        "semantic-segmentation",
-        "mouse-embryo",
-        "nuclei",
-        "animal",
-        "tissue",
-        "confocal-microscopy",
-        "pytorch",
-        "fixed"
-      ],
-      "type": "model",
-      "versions": [
-        "6383430"
-      ]
-    },
-    {
-      "authors": [
-        {
           "name": "Hao Xu"
         },
         {
@@ -622,7 +622,7 @@
         "https://zenodo.org/api/files/858dbb84-174e-48cb-b2ef-9f1db2d0b275/hpaseg-cover.png"
       ],
       "description": "Cell segmentation model for segmenting images from the Human Protein Atlas",
-      "download_count": 6571,
+      "download_count": 6597,
       "id": "10.5281/zenodo.6200635",
       "license": "CC-BY-4.0",
       "links": [
@@ -1325,7 +1325,7 @@
         "https://zenodo.org/api/files/0c6f4346-c936-420b-89be-322f6df574ae/hpaseg-cover.png"
       ],
       "description": "Nuclei segmentation model for segmenting images from the Human Protein Atlas",
-      "download_count": 3076,
+      "download_count": 3091,
       "id": "10.5281/zenodo.6200999",
       "license": "CC-BY-4.0",
       "links": [
@@ -1364,7 +1364,7 @@
         "https://zenodo.org/api/files/5a9cfb56-3a5d-4796-986d-8f46b7987b92/cover.png"
       ],
       "description": "2D UNet trained using ZeroCostDL4Mic notebooks on data from ISBI Challenge for neuron segmentation in Transmission Electron Microscopy images.",
-      "download_count": 3061,
+      "download_count": 3076,
       "id": "10.5281/zenodo.5817052",
       "license": "MIT",
       "links": [
