@@ -2,26 +2,25 @@ import copy
 import dataclasses
 import json
 import pathlib
+import shutil
 import warnings
 from hashlib import sha256
 from itertools import product
-from pathlib import Path
-from typing import Any, Dict, Generator, List, Optional, Tuple, Union
+from pathlib import Path, PurePosixPath
+from typing import Any, Dict, Generator, List, Optional, Sequence, Tuple, Union
+from urllib.parse import urlsplit
 
 import numpy
 import requests
-from marshmallow import missing
-from requests import HTTPError
-from ruamel.yaml import YAML, comments
-
 from bare_utils import DEPLOYED_BASE_URL, GH_API_URL
 from bioimageio.spec import (
     load_raw_resource_description,
     serialize_raw_resource_description_to_dict,
 )
+from bioimageio.spec.collection.v0_2.raw_nodes import Collection
 from bioimageio.spec.collection.v0_2.utils import resolve_collection_entries
-from bioimageio.spec.io_ import serialize_raw_resource_description
 from bioimageio.spec.partner.utils import enrich_partial_rdf_with_imjoy_plugin
+from ruamel.yaml import YAML, comments
 
 
 # todo: use MyYAML from bioimageio.spec. see comment below
@@ -110,9 +109,6 @@ def iterate_over_gh_matrix(matrix: Union[str, Dict[str, list]]):
 def resolve_partners(
     rdf: dict, *, current_format: str, previous_partner_hashes: Dict[str, str]
 ) -> Tuple[List[dict], List[dict], Dict[str, str], set]:
-    from bioimageio.spec import load_raw_resource_description
-    from bioimageio.spec.collection.v0_2.raw_nodes import Collection
-
     partners = []
     updated_partner_resources = []
     new_partner_hashes = {}
@@ -129,7 +125,7 @@ def resolve_partners(
                 assert isinstance(partner_collection, Collection)
             except Exception as e:
                 warnings.warn(
-                    f"Invalid partner source {partner['source']} (Cannot update to format {current_format}): {e}"
+                    f"Invalid partner source {partner.get('source')} (Cannot update to format {current_format}): {e}"
                 )
                 ignored_partners.add(f"partner[{idx}]")
                 continue
@@ -151,7 +147,7 @@ def resolve_partners(
             )
             try:
                 r.raise_for_status()
-            except HTTPError as e:
+            except requests.HTTPError as e:
                 print(e)
                 continue
 
@@ -272,7 +268,6 @@ def write_rdfs_for_resource(resource: dict, dist: Path, only_for_version_id: Opt
         rdf["rdf_source"] = f"{DEPLOYED_BASE_URL}/rdfs/{resource_id}/{version_id}/rdf.yaml"
 
         rdf.pop("root_path", None)
-        assert missing not in rdf.values(), rdf
 
         # sort rdf to avoid random diffs
         rdf = rec_sort(rdf)
@@ -326,7 +321,7 @@ class KnownResourceVersion:
     resource_id: str
     version_id: str
     info: Dict[str, Any]
-    rdf: dict
+    rdf: Dict[str, Any]
     rdf_sha256: Optional[str]
     rdf_path: Path
 
@@ -374,3 +369,78 @@ def iterate_known_resource_versions(
                     )
                 else:
                     warnings.warn(f"skipping undeployed r: {known_r.resource_id} v: {v_id}")
+
+
+def load_yaml_dict(path: Path, raise_missing_keys: Sequence[str]) -> Optional[Dict]:
+    if not path.exists():
+        return None
+
+    data = yaml.load(path)
+    if not isinstance(data, dict):
+        raise TypeError(f"Expected {path} to hold a dictionary, but got {type(data)}")
+
+    missing = [k for k in raise_missing_keys if k not in data]
+    if missing:
+        raise KeyError(f"Expected missing keys {missing} in {path}")
+
+    return data
+
+
+def downsize_image(image_path: Path, output_path: Path, size: Tuple[int, int]):
+    """downsize or copy an image"""
+    from PIL import Image
+
+    try:
+        with Image.open(image_path) as img:
+            img.thumbnail(size)
+            img.save(output_path, "PNG")
+    except Exception as e:
+        warnings.warn(str(e))
+        shutil.copy(image_path, output_path)
+
+
+def deploy_thumbnails(rdf_like: Dict[str, Any], dist: Path, gh_pages: Path, resource_id: str, version_id: str) -> None:
+    import pooch
+
+    dist /= f"rdfs/{resource_id}/{version_id}"
+    gh_pages /= f"rdfs/{resource_id}/{version_id}"
+    dist.mkdir(exist_ok=True, parents=True)
+    covers: Union[Any, List[Any]] = rdf_like.get("covers")
+    if isinstance(covers, list):
+        for i, cover_url in enumerate(covers):
+            if not isinstance(cover_url, str) or cover_url.startswith(DEPLOYED_BASE_URL):
+                continue  # invalid or already cached
+
+            cover_file_name = PurePosixPath(urlsplit(cover_url.strip("/content")).path).name
+            if not (gh_pages / cover_file_name).exists():
+                try:
+                    downloaded_cover = Path(pooch.retrieve(cover_url, None))  # type: ignore
+                except Exception as e:
+                    warnings.warn(str(e))
+                    continue
+
+                downsize_image(downloaded_cover, dist / cover_file_name, size=(600, 340))
+
+            rdf_like["covers"][i] = f"{DEPLOYED_BASE_URL}/rdfs/{resource_id}/{version_id}/{cover_file_name}"
+
+    badges: Union[Any, List[Union[Any, Dict[Any, Any]]]] = rdf_like.get("badges")
+    if isinstance(badges, list):
+        for i, badge in enumerate(badges):
+            if not isinstance(badge, dict):
+                continue
+
+            icon = badge.get("icon")
+            if not isinstance(icon, str) or not icon.startswith("https://zenodo.org/api"):
+                # only cache badges stored on zenodo
+                continue
+
+            try:
+                downloaded_icon = Path(pooch.retrieve(icon, None, path=dist))  # type: ignore
+            except Exception as e:
+                warnings.warn(str(e))
+                continue
+
+            icon_file_name = PurePosixPath(urlsplit(icon.strip("/content")).path).name
+            downsize_image(downloaded_icon, dist / icon_file_name, size=(320, 320))
+
+            rdf_like["badges"][i]["icon"] = f"{DEPLOYED_BASE_URL}/rdfs/{resource_id}/{version_id}/{icon_file_name}"

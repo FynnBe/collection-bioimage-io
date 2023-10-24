@@ -9,8 +9,8 @@ from typing import DefaultDict, Dict, List, Literal, Optional, Tuple, Union
 
 import requests
 import typer
-
 from bare_utils import set_gh_actions_outputs
+from bs4 import BeautifulSoup
 from utils import ADJECTIVES, ANIMALS, enforce_block_style_resource, get_animal_nickname, split_animal_nickname, yaml
 
 
@@ -139,15 +139,52 @@ def update_with_new_version(
     updated_resources[resource_id].append(new_version)
 
 
+# adapted from https://github.com/bioimage-io/collection-bioimage-io/issues/653#issuecomment-1768225518
+def extract_download_count(recid: str):
+    # Fetch the webpage content
+    url = f"https://zenodo.org/records/{recid}"
+    response = requests.get(url)
+
+    # Parse the webpage using BeautifulSoup
+    soup = BeautifulSoup(response.text, "html.parser")
+
+    # Find the table with the specific ID
+    table = soup.find("table", {"id": "record-statistics"})
+
+    # Initialize an empty dictionary to store the results
+    stats = {}
+
+    # Iterate through each row in the table body
+    for row in table.find("tbody").find_all("tr"):
+        # Extracting the columns (td) in each row
+        cols = row.find_all("td")
+
+        # The first column is the statistics type (Views, Downloads, Data)
+        stat_type = cols[0].text.strip().split()[0]
+
+        # The second column is "All versions"
+        all_versions = cols[1].text.strip()
+
+        # The third column is "This version"
+        this_version = cols[2].text.strip()
+
+        # Add the extracted data to the stats dictionary
+        stats[stat_type] = {"All versions": all_versions, "This version": this_version}
+
+    return int(stats["Downloads"]["All versions"])
+
+
 def update_from_zenodo(
     collection: Path,
     dist: Path,
     updated_resources: DefaultDict[str, List[Dict[str, Union[str, datetime]]]],
     ignore_status_5xx: bool,
 ):
-    download_counts = {}
+    download_counts: Dict[str, int] = {}
     for page in range(1, 1000):
-        zenodo_request = f"https://zenodo.org/api/records/?&sort=mostrecent&page={page}&size=1000&all_versions=1&keywords=bioimage.io"
+        zenodo_request = (
+            f"https://zenodo.org/api/records?&sort=newest&page={page}&size=1000&all_versions=1&q=keywords:bioimage.io"
+        )
         r = requests.get(zenodo_request)
         if not r.status_code == 200:
             print(f"Could not get zenodo records page {page}: {r.status_code}: {r.reason}")
@@ -155,19 +192,23 @@ def update_from_zenodo(
 
         print(f"Collecting items from zenodo: {zenodo_request}")
 
-        hits = r.json()["hits"]["hits"]
+        hits = r.json()  #  ["hits"]["hits"]
         if not hits:
             break
 
         for hit in hits:
-            resource_doi = hit["conceptdoi"]
-            doi = hit["doi"]  # "version" doi
+            resource_doi: str = hit["conceptdoi"]
+            doi: str = hit["doi"]  # "version" doi
             created = datetime.fromisoformat(hit["created"]).replace(tzinfo=None)
             assert isinstance(created, datetime), created
             resource_path = collection / resource_doi / "resource.yaml"
             resource_output_path = dist / resource_doi / "resource.yaml"
-            version_name = f"version {hit['metadata']['relations']['version'][0]['index'] + 1}"
-            rdf_urls = [file_hit["links"]["self"] for file_hit in hit["files"] if file_hit["key"] == "rdf.yaml"]
+            version_name = f"version from {hit['metadata']['publication_date']}"
+            rdf_urls = [
+                f"https://zenodo.org/api/records/{hit['record_id']}/files/{file_hit['filename']}/content"
+                for file_hit in hit["files"]
+                if (file_hit["filename"] == "rdf.yaml" or file_hit["filename"].endswith("bioimageio.yaml"))
+            ]
             rdf = {}
             rdf_source = "unknown"
             name = doi
@@ -195,19 +236,19 @@ def update_from_zenodo(
                         name = rdf.get("name", doi)
                         resource_type = rdf.get("type")
 
+            version_id = str(hit["id"])
             try:
-                download_count = int(hit["stats"]["unique_downloads"])
+                download_count = extract_download_count(version_id)
             except Exception as e:
                 warnings.warn(f"Could not determine download count: {e}")
                 download_count = 1
 
             download_counts[resource_doi] = download_count
-            version_id = str(hit["id"])
 
             new_version = {
                 "version_id": version_id,
                 "doi": doi,
-                "owners": hit["owners"],
+                "owners": [hit["owner"]],
                 "created": str(created),
                 "status": "accepted",  # default to accepted
                 "rdf_source": rdf_source,
@@ -227,6 +268,11 @@ def update_from_zenodo(
             if resource not in ("blocked", "old_hit"):
                 assert isinstance(resource, dict)
                 update_with_new_version(new_version, resource_doi, rdf, updated_resources)
+
+    with Path("download_counts_offsets.json").open() as f:
+        download_counts_offsets = json.load(f)
+
+    download_counts = {k: v + download_counts_offsets.get(k, 0) for k, v in download_counts.items()}
 
     dist.mkdir(parents=True, exist_ok=True)
     with (dist / "download_counts.json").open("w", encoding="utf-8") as f:

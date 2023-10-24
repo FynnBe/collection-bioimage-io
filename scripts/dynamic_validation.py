@@ -1,12 +1,16 @@
 import traceback
+from functools import partialmethod
 from pathlib import Path
 from typing import List, Optional
 
 import typer
 from marshmallow import missing
+from tqdm import tqdm
 
 from bioimageio.spec import load_raw_resource_description
 from bioimageio.spec.shared import yaml
+
+tqdm.__init__ = partialmethod(tqdm.__init__, disable=True)  # silence tqdm
 
 
 def test_summary_from_exception(name, exception):
@@ -58,7 +62,7 @@ def main(
                     summary = test_summary_from_exception("call 'test_resource'", e)
 
     else:
-        env_path = dist / "static_validation_artifact" / resource_id / version_id / f"conda_env_{weight_format}.yaml"
+        env_path = root / resource_id / version_id / f"conda_env_{weight_format}.yaml"
         if env_path.exists():
             error = "Failed to install conda environment:\n" + env_path.read_text()
         else:
