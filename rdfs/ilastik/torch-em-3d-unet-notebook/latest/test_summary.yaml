@@ -1,22 +1,20 @@
-bioimageio_spec_version: 0.4.5.post7
-rdf_sha256: 0d1cb32ef129c053492b33441788a42b5edd52c75d8327942cada83a4c554eec
+bioimageio_spec_version: 0.4.9.post4
+rdf_sha256: 2c72b5717629125ed9edb2bf16c31bf91ab2ac6980a675d5ae486b2926e7f0f8
 status: passed
 tests:
   bioimageio:
-  - bioimageio_spec_version: 0.4.5post7
+  - bioimageio_spec_version: 0.4.9post4
     error: null
-    name: bioimageio.spec static validation of notebook RDF 0.2.2 with update to latest
+    name: bioimageio.spec static validation of notebook RDF 0.2.3 with update to latest
       format version
     nested_errors: {}
     status: passed
     traceback: null
     warnings: {type: Unrecognized type 'notebook'. Validating as rdf.}
-  - bioimageio_spec_version: 0.4.5post7
+  - bioimageio_spec_version: 0.4.9post4
     error: null
-    name: bioimageio.spec static validation of notebook RDF 0.2.2
+    name: bioimageio.spec static validation of notebook RDF 0.2.3
     nested_errors: {}
     status: passed
     traceback: null
     warnings: {type: Unrecognized type 'notebook'. Validating as rdf.}
-  deepimagej: []
-  ilastik: []

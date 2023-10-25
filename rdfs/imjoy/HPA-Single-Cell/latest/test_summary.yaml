@@ -1,15 +1,20 @@
-bioimageio_spec_version: 0.4.5.post7
-rdf_sha256: e3302f640906613fa3e964282d1fd6d80424b00c33ec3bdca3bc51a0676af824
-status: failed
+bioimageio_spec_version: 0.4.9.post4
+rdf_sha256: 0d226edfc4a7f0056e6f37f484b9c0eb034f4ab75dd191081e66ee5282516e39
+status: passed
 tests:
   bioimageio:
-  - bioimageio_spec_version: 0.4.5post7
-    error:
-      collection: [Missing data for required field.]
-    name: 'bioimageio.spec static validation of  RDF '
+  - bioimageio_spec_version: 0.4.9post4
+    error: null
+    name: bioimageio.spec static validation of application RDF 0.2.3 with update to
+      latest format version
     nested_errors: {}
-    status: failed
+    status: passed
     traceback: null
-    warnings: {}
-  deepimagej: []
-  ilastik: []
+    warnings: {type: Unrecognized type 'application'. Validating as rdf.}
+  - bioimageio_spec_version: 0.4.9post4
+    error: null
+    name: bioimageio.spec static validation of application RDF 0.2.3
+    nested_errors: {}
+    status: passed
+    traceback: null
+    warnings: {type: Unrecognized type 'application'. Validating as rdf.}

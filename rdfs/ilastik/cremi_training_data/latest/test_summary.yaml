@@ -1,22 +1,20 @@
-bioimageio_spec_version: 0.4.5post4
-rdf_sha256: e90cb8c3138a14ee2b492ca91d6ee1e55b46d1b7e72697e9ec345221a4d724bd
+bioimageio_spec_version: 0.4.9.post4
+rdf_sha256: 7e28fd5a00d648a17142ac6585115ef5df82abb6c82c88236972ac0a3dfefd42
 status: passed
 tests:
   bioimageio:
-  - bioimageio_spec_version: 0.4.5post4
+  - bioimageio_spec_version: 0.4.9post4
     error: null
-    name: bioimageio.spec static validation of dataset RDF 0.2.2 with update to latest
+    name: bioimageio.spec static validation of dataset RDF 0.2.3 with update to latest
       format version
     nested_errors: {}
     status: passed
     traceback: null
-    warnings: {type: Unrecognized type 'dataset'. Validating as rdf.}
-  - bioimageio_spec_version: 0.4.5post4
+    warnings: {}
+  - bioimageio_spec_version: 0.4.9post4
     error: null
-    name: bioimageio.spec static validation of dataset RDF 0.2.2
+    name: bioimageio.spec static validation of dataset RDF 0.2.3
     nested_errors: {}
     status: passed
     traceback: null
-    warnings: {type: Unrecognized type 'dataset'. Validating as rdf.}
-  deepimagej: []
-  ilastik: []
+    warnings: {}

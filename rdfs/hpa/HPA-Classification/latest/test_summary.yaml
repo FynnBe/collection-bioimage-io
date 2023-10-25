@@ -1,32 +1,20 @@
-bioimageio_spec_version: 0.4.5post4
+bioimageio_spec_version: 0.4.9.post4
 rdf_sha256: 3f0409562c738143692e8a0b29420f3f43d484c9a71ea86488bfd50064f771e1
-status: failed
+status: passed
 tests:
   bioimageio:
-  - bioimageio_spec_version: 0.4.5post4
-    error:
-      documentation:
-      - 'Errors in all options for this field. Fix any of the following errors:'
-      - [Empty URI scheme component]
-      - ["Invalid suffix (\n\nThis plugin allows to predict the subcellular protein
-          localization pattern for a provided image. \n\n## Main features\n* Prediction
-          is performed with the winner of the special price of the 2018 Kaggle challenge
-          (https:/github.com/CellProfiling/HPA-Special-Prize). \n* Annotated localization
-          classes are from the **HPA cell atlas**. \n* The plugin uses a trained **ShuffleNet
-          (v2)** to perform the prediction directly in the browser. \n* Class Activation
-          Map: https:/arxiv.org/pdf/1512.04150.pdf  \n\n): Replacement index 0 out
-          of range for positional args tuple", "Invalid as_posix (\n\nThis plugin
-          allows to predict the subcellular protein localization pattern for a provided
-          image. \n\n## Main features\n* Prediction is performed with the winner of
-          the special price of the 2018 Kaggle challenge (https:/github.com/CellProfiling/HPA-Special-Prize).
-          \n* Annotated localization classes are from the **HPA cell atlas**. \n*
-          The plugin uses a trained **ShuffleNet (v2)** to perform the prediction
-          directly in the browser. \n* Class Activation Map: https:/arxiv.org/pdf/1512.04150.pdf
-          \ \n\n): expected local, relative file path."]
-    name: 'bioimageio.spec static validation of  RDF '
+  - bioimageio_spec_version: 0.4.9post4
+    error: null
+    name: bioimageio.spec static validation of application RDF 0.2.3 with update to
+      latest format version
     nested_errors: {}
-    status: failed
+    status: passed
     traceback: null
     warnings: {type: Unrecognized type 'application'. Validating as rdf.}
-  deepimagej: []
-  ilastik: []
+  - bioimageio_spec_version: 0.4.9post4
+    error: null
+    name: bioimageio.spec static validation of application RDF 0.2.3
+    nested_errors: {}
+    status: passed
+    traceback: null
+    warnings: {type: Unrecognized type 'application'. Validating as rdf.}

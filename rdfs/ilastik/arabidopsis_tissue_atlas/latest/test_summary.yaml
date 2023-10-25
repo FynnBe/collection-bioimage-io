@@ -1,9 +1,9 @@
-bioimageio_spec_version: 0.4.8.post1
-rdf_sha256: e34f4cf5a5097e0c67637998ce24d95bd1d29f44ae7759ca9d05a7473ba684e3
+bioimageio_spec_version: 0.4.9.post4
+rdf_sha256: 0713d74f18108ff088ac00ed377b3a47efed5ae708921f0d9e46425265fb15b8
 status: passed
 tests:
   bioimageio:
-  - bioimageio_spec_version: 0.4.8post1
+  - bioimageio_spec_version: 0.4.9post4
     error: null
     name: bioimageio.spec static validation of dataset RDF 0.2.3 with update to latest
       format version
@@ -11,12 +11,10 @@ tests:
     status: passed
     traceback: null
     warnings: {}
-  - bioimageio_spec_version: 0.4.8post1
+  - bioimageio_spec_version: 0.4.9post4
     error: null
     name: bioimageio.spec static validation of dataset RDF 0.2.3
     nested_errors: {}
     status: passed
     traceback: null
     warnings: {}
-  deepimagej: []
-  ilastik: []

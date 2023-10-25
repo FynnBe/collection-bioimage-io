@@ -1,26 +1,22 @@
-bioimageio_spec_version: 0.4.5post4
-rdf_sha256: 8871cf8a888a233bd4c4aeafc7b9b3c6075c8b34f393d361019292043bae4e8f
+bioimageio_spec_version: 0.4.9.post4
+rdf_sha256: cc8735634d0aca2c083d669adf126bfac737d9b80b7b965a346cdc99140888fe
 status: passed
 tests:
   bioimageio:
-  - bioimageio_spec_version: 0.4.5post4
+  - bioimageio_spec_version: 0.4.9post4
     error: null
-    name: bioimageio.spec static validation of dataset RDF 0.2.2 with update to latest
+    name: bioimageio.spec static validation of dataset RDF 0.2.3 with update to latest
       format version
     nested_errors: {}
     status: passed
     traceback: null
     warnings: {license: CC-BY-NC-4.0 (Creative Commons Attribution Non Commercial
-        4.0 International) is not FSF Free/libre., type: Unrecognized type 'dataset'.
-        Validating as rdf.}
-  - bioimageio_spec_version: 0.4.5post4
+        4.0 International) is not FSF Free/libre.}
+  - bioimageio_spec_version: 0.4.9post4
     error: null
-    name: bioimageio.spec static validation of dataset RDF 0.2.2
+    name: bioimageio.spec static validation of dataset RDF 0.2.3
     nested_errors: {}
     status: passed
     traceback: null
     warnings: {license: CC-BY-NC-4.0 (Creative Commons Attribution Non Commercial
-        4.0 International) is not FSF Free/libre., type: Unrecognized type 'dataset'.
-        Validating as rdf.}
-  deepimagej: []
-  ilastik: []
+        4.0 International) is not FSF Free/libre.}

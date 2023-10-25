@@ -1,24 +1,83 @@
-bioimageio_spec_version: 0.4.5post4
-rdf_sha256: ba7ef2f191bb81284277b3ec4763237611d8d83a283bd4ad25e5b2d619d5ba72
+bioimageio_core_version: 0.5.9
+bioimageio_spec_version: 0.4.9.post4
+rdf_sha256: c3fb1f6fd1904184b9076197d7f2546903e71c48154e37a054913054f23c0283
 status: failed
 tests:
   bioimageio:
-  - bioimageio_spec_version: 0.4.5post4
-    error:
-      root_path: [Unknown field.]
-    name: 'bioimageio.spec static validation of  RDF '
+  - bioimageio_spec_version: 0.4.9post4
+    error: null
+    name: bioimageio.spec static validation of model RDF 0.4.9 with update to latest
+      format version
     nested_errors: {}
-    status: failed
+    status: passed
     traceback: null
-    warnings: {tags: 'Missing tags for categories: [{''modality'': [''electron-microscopy'',
-        ''cryo-electron-microscopy'', ''fluorescence-light-microscopy'', ''transmission-light-microscopy'',
-        ''super-resolution-microscopy'', ''x-ray-microscopy'', ''force-microscopy'',
-        ''high-content-imaging'', ''whole-slide-imaging'', ''other'']}, {''dims'':
-        [''2d'', ''3d'', ''2d-t'', ''3d-t'']}, {''content'': [''cells'', ''nuclei'',
-        ''extracellular-vesicles'', ''tissue'', ''plant'', ''mitochondria'', ''vasculature'',
-        ''cell-membrane'', ''brain'', ''whole-organism'']}, {''framework'': [''tensorflow'',
-        ''pytorch'', ''tensorflow.js'']}, {''network'': [''unet'', ''densenet'', ''resnet'',
-        ''inception'', ''shufflenet'']}]'}
+    warnings: {tags: 'Missing tags corresponding to bioimage.io categories: [{''modality'':
+        [''electron-microscopy'', ''cryo-electron-microscopy'', ''fluorescence-light-microscopy'',
+        ''transmission-light-microscopy'', ''super-resolution-microscopy'', ''x-ray-microscopy'',
+        ''force-microscopy'', ''high-content-imaging'', ''whole-slide-imaging'', ''other'']},
+        {''dims'': [''2d'', ''3d'', ''2d-t'', ''3d-t'']}, {''content'': [''cells'',
+        ''nuclei'', ''extracellular-vesicles'', ''tissue'', ''plant'', ''mitochondria'',
+        ''vasculature'', ''cell-membrane'', ''brain'', ''whole-organism'']}, {''framework'':
+        [''tensorflow'', ''pytorch'', ''tensorflow.js'']}, {''network'': [''unet'',
+        ''densenet'', ''resnet'', ''inception'', ''shufflenet'']}]'}
+  - bioimageio_spec_version: 0.4.9post4
+    error: null
+    name: bioimageio.spec static validation of model RDF 0.3.6
+    nested_errors: {}
+    status: passed
+    traceback: null
+    warnings: {tags: 'Missing tags corresponding to bioimage.io categories: [{''modality'':
+        [''electron-microscopy'', ''cryo-electron-microscopy'', ''fluorescence-light-microscopy'',
+        ''transmission-light-microscopy'', ''super-resolution-microscopy'', ''x-ray-microscopy'',
+        ''force-microscopy'', ''high-content-imaging'', ''whole-slide-imaging'', ''other'']},
+        {''dims'': [''2d'', ''3d'', ''2d-t'', ''3d-t'']}, {''content'': [''cells'',
+        ''nuclei'', ''extracellular-vesicles'', ''tissue'', ''plant'', ''mitochondria'',
+        ''vasculature'', ''cell-membrane'', ''brain'', ''whole-organism'']}, {''framework'':
+        [''tensorflow'', ''pytorch'', ''tensorflow.js'']}, {''network'': [''unet'',
+        ''densenet'', ''resnet'', ''inception'', ''shufflenet'']}]'}
+  - bioimageio_core_version: 0.5.9
+    bioimageio_spec_version: 0.4.9post4
+    error: null
+    name: load resource description
+    nested_errors: null
+    status: passed
+    traceback: null
+    warnings: {}
+  - bioimageio_core_version: 0.5.9
+    bioimageio_spec_version: 0.4.9post4
+    error: https://github.com/bioimage-io/fiji-bioimage-io/releases/download/0.3.1/n2v-sem-demo.zip
+    name: All URLs and paths available
+    nested_errors: null
+    status: failed
+    traceback: ["  File \"/home/runner/micromamba/envs/latest/lib/python3.7/site-packages/bioimageio/core/resource_tests.py\",
+        line 87, in _test_resource_urls\n    SourceNodeChecker(root_path=rd.root_path).visit(rd)\n",
+      "  File \"/home/runner/micromamba/envs/latest/lib/python3.7/site-packages/bioimageio/spec/shared/node_transformer.py\",
+        line 34, in visit\n    visitor(node)\n", "  File \"/home/runner/micromamba/envs/latest/lib/python3.7/site-packages/bioimageio/core/resource_io/utils.py\",
+        line 52, in generic_visit\n    self.visit(value)\n", "  File \"/home/runner/micromamba/envs/latest/lib/python3.7/site-packages/bioimageio/spec/shared/node_transformer.py\",
+        line 34, in visit\n    visitor(node)\n", "  File \"/home/runner/micromamba/envs/latest/lib/python3.7/site-packages/bioimageio/core/resource_io/utils.py\",
+        line 38, in visit_URI\n    self._visit_source(node)\n", "  File \"/home/runner/micromamba/envs/latest/lib/python3.7/site-packages/bioimageio/core/resource_io/utils.py\",
+        line 35, in _visit_source\n    raise FileNotFoundError(leaf)\n"]
+    warnings: {}
+  - bioimageio_core_version: 0.5.9
+    bioimageio_spec_version: 0.4.9post4
+    error: null
+    name: Test documentation completeness.
+    status: passed
+    traceback: null
+    warnings: {documentation: No '# Validation' (sub)section found.}
+  - bioimageio_core_version: 0.5.9
+    bioimageio_spec_version: 0.4.9post4
+    error: Cannot load file containing pickled data when allow_pickle=False
+    name: reproduce test outputs from test inputs (bioimageio.core 0.5.9)
+    status: failed
+    traceback: ["  File \"/home/runner/micromamba/envs/latest/lib/python3.7/site-packages/bioimageio/core/resource_tests.py\",
+        line 135, in _test_model_inference\n    inputs = [np.load(str(in_path)) for
+        in_path in model.test_inputs]\n", "  File \"/home/runner/micromamba/envs/latest/lib/python3.7/site-packages/bioimageio/core/resource_tests.py\",
+        line 135, in <listcomp>\n    inputs = [np.load(str(in_path)) for in_path in
+        model.test_inputs]\n", "  File \"/home/runner/micromamba/envs/latest/lib/python3.7/site-packages/numpy/lib/npyio.py\",
+        line 445, in load\n    raise ValueError(\"Cannot load file containing pickled
+        data \"\n"]
+    warnings: {}
   deepimagej:
   - {bioimageio_core_version: 0.5.9, bioimageio_spec_version: 0.4.9, error: Error
       while running DeepImageJ headless (CI did not produce an output image)., name: Reproduce

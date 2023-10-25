@@ -1,26 +1,20 @@
-bioimageio_spec_version: 0.4.5post4
-rdf_sha256: 2bd898d0167a4ea2f037074a7893ec45987fd0501796c7559d41ebd9550de19b
+bioimageio_spec_version: 0.4.9.post4
+rdf_sha256: 53fdc48b57ad388179c7ce1c5e35b7576e47c30c7482579d613ff10b6b0121fb
 status: passed
 tests:
   bioimageio:
-  - bioimageio_spec_version: 0.4.5post4
+  - bioimageio_spec_version: 0.4.9post4
     error: null
-    name: bioimageio.spec static validation of dataset RDF 0.2.2 with update to latest
+    name: bioimageio.spec static validation of dataset RDF 0.2.3 with update to latest
       format version
     nested_errors: {}
     status: passed
     traceback: null
-    warnings: {license: 'CC-BY 4.0 is not a recognized SPDX license identifier. See
-        https://spdx.org/licenses/', type: Unrecognized type 'dataset'. Validating
-        as rdf.}
-  - bioimageio_spec_version: 0.4.5post4
+    warnings: {}
+  - bioimageio_spec_version: 0.4.9post4
     error: null
-    name: bioimageio.spec static validation of dataset RDF 0.2.2
+    name: bioimageio.spec static validation of dataset RDF 0.2.3
     nested_errors: {}
     status: passed
     traceback: null
-    warnings: {license: 'CC-BY 4.0 is not a recognized SPDX license identifier. See
-        https://spdx.org/licenses/', type: Unrecognized type 'dataset'. Validating
-        as rdf.}
-  deepimagej: []
-  ilastik: []
+    warnings: {}
