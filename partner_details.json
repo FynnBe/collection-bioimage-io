@@ -56,12 +56,37 @@
         "background_image": "static/img/zoo-background.svg",
         "branch": "master",
         "collection_file_name": "manifest.bioimage.io.yaml",
+        "contact": [
+            {
+                "affiliation": [
+                    {
+                        "name": "UC3M",
+                        "url": "https://www.uc3m.es/home"
+                    }
+                ],
+                "email": "mamunozb@ing.uc3m.es",
+                "github": "arratemunoz",
+                "name": "Arrate Muñoz Barrutia"
+            },
+            {
+                "affiliation": [
+                    {
+                        "name": "EPFL",
+                        "url": "https://www.epfl.ch/en/"
+                    }
+                ],
+                "email": "daniel.sage@epfl.ch",
+                "github": "dasv74",
+                "name": "Daniel Sage"
+            }
+        ],
+        "docs": "https://github.com/deepimagej/deepimagej-plugin/wiki",
         "explore_button_text": "Start Exploring",
         "icon": "https://raw.githubusercontent.com/deepimagej/models/master/logos/icon.png",
         "id": "deepimagej",
         "logo": "https://raw.githubusercontent.com/deepimagej/models/master/logos/logo.png",
         "name": "DeepImageJ",
-        "repository": "deepimagej/models",
+        "repository": "fynnbe/models",
         "resource_types": [
             "model",
             "notebook",
@@ -86,6 +111,20 @@
         "background_image": "static/img/zoo-background.svg",
         "branch": "master",
         "collection_file_name": "manifest.bioimage.io.yaml",
+        "contact": [
+            {
+                "affiliation": [
+                    {
+                        "name": "HT",
+                        "url": "https://humantechnopole.it/en/"
+                    }
+                ],
+                "email": "florian.jug@fht.org",
+                "github": "fjug",
+                "name": "Florian Jug"
+            }
+        ],
+        "docs": "https://imagej.net/software/fiji/",
         "explore_button_text": "Start Exploring",
         "icon": "https://fiji.sc/site/logo.png",
         "id": "fiji",
@@ -108,7 +147,21 @@
         "background_image": "static/img/zoo-background.svg",
         "branch": "master",
         "collection_file_name": "collection.bioimage.io.yaml",
+        "contact": [
+            {
+                "affiliation": [
+                    {
+                        "name": "KTH",
+                        "url": "https://www.kth.se/en"
+                    }
+                ],
+                "email": "wei.ouyang@scilifelab.se",
+                "github": "oeway",
+                "name": "Wei Ouyang"
+            }
+        ],
         "default_type": "application",
+        "docs": "https://imjoy.io/docs/#/",
         "explore_button_text": "Start Exploring",
         "icon": "https://imjoy.io/static/img/imjoy-icon.svg",
         "id": "imjoy",
@@ -137,9 +190,9 @@
         "collection_file_name": "collection.yaml",
         "default_type": "model",
         "explore_button_text": "Start Exploring",
-        "icon": "https://raw.githubusercontent.com/ilastik/bioimage-io-models/main/image/ilastik-fist-icon.png",
+        "icon": "https://raw.githubusercontent.com/ilastik/bioimage-io-resources/main/image/ilastik-fist-icon.png",
         "id": "ilastik",
-        "logo": "https://raw.githubusercontent.com/ilastik/bioimage-io-models/main/image/ilastik-fist-icon.png",
+        "logo": "https://raw.githubusercontent.com/ilastik/bioimage-io-resources/main/image/ilastik-fist-icon.png",
         "name": "ilastik",
         "repository": "ilastik/bioimage-io-resources",
         "resource_types": [
@@ -158,7 +211,7 @@
             "workflow": "test_bioimageio_resources.yaml",
             "workflow_ref": "refs/heads/main"
         },
-        "url_root": "https://raw.githubusercontent.com/ilastik/bioimage-io-models/main"
+        "url_root": "https://raw.githubusercontent.com/ilastik/bioimage-io-resources/main"
     },
     {
         "about_url": "https://www.proteinatlas.org/",
@@ -200,5 +253,93 @@
         "tags": [
             "hpa"
         ]
+    },
+    {
+        "background_image": "static/img/zoo-background.svg",
+        "branch": "main",
+        "collection_file_name": "collection.yaml",
+        "default_type": "model",
+        "explore_button_text": "Start Exploring",
+        "icon": "https://raw.githubusercontent.com/Icy-imaging/icy-bioimage-io/main/icy_logo.svg",
+        "id": "icy",
+        "logo": "https://raw.githubusercontent.com/Icy-imaging/icy-bioimage-io/main/icy_logo.svg",
+        "name": "Icy",
+        "repository": "Icy-imaging/icy-bioimage-io",
+        "resource_types": [
+            "application",
+            "model"
+        ],
+        "splash_feature_list": null,
+        "splash_subtitle": "Icy is an open community platform for bioimage informatics",
+        "splash_title": "Icy",
+        "tags": [
+            "icy"
+        ],
+        "url_root": "https://github.com/Icy-imaging/icy-bioimage-io/blob/main"
+    },
+    {
+        "background_image": "static/img/zoo-background.svg",
+        "branch": "main",
+        "collection_file_name": "collection.yaml",
+        "default_type": "model",
+        "explore_button_text": "Start Exploring",
+        "icon": "https://raw.githubusercontent.com/qupath/qupath-bioimage-io/main/logos/QuPath_256.png",
+        "id": "qupath",
+        "logo": "https://raw.githubusercontent.com/qupath/qupath-bioimage-io/main/logos/QuPath_256.png",
+        "name": "QuPath",
+        "repository": "qupath/qupath-bioimage-io",
+        "resource_types": [
+            "application",
+            "model"
+        ],
+        "splash_feature_list": null,
+        "splash_subtitle": "QuPath is open-source software for bioimage analysis and digital pathology",
+        "splash_title": "QuPath",
+        "tags": [
+            "qupath"
+        ],
+        "url_root": "https://github.com/qupath/qupath-bioimage-io"
+    },
+    {
+        "background_image": "static/img/zoo-background.svg",
+        "branch": "main",
+        "collection_file_name": "collection.yaml",
+        "contact": [
+            {
+                "email": "research@uweschmidt.org",
+                "github": "uschmidt83",
+                "name": "Uwe Schmidt"
+            },
+            {
+                "affiliation": [
+                    {
+                        "name": "EPFL",
+                        "url": "https://www.epfl.ch/en/"
+                    }
+                ],
+                "email": "martin.weigert@epfl.ch",
+                "github": "maweigert",
+                "name": "Martin Weigert"
+            }
+        ],
+        "default_type": "model",
+        "docs": "https://github.com/stardist/stardist",
+        "explore_button_text": "Start Exploring",
+        "icon": "https://raw.githubusercontent.com/stardist/stardist-bioimage-io/main/logos/stardist_256.png",
+        "id": "stardist",
+        "logo": "https://raw.githubusercontent.com/stardist/stardist-bioimage-io/main/logos/stardist_256.png",
+        "name": "StarDist",
+        "repository": "stardist/stardist-bioimage-io",
+        "resource_types": [
+            "application",
+            "model"
+        ],
+        "splash_feature_list": null,
+        "splash_subtitle": "StarDist - object detection with star-convex shapes",
+        "splash_title": "StarDist",
+        "tags": [
+            "stardist"
+        ],
+        "url_root": "https://github.com/stardist/stardist-bioimage-io"
     }
 ]
