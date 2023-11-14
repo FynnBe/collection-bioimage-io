@@ -1,9 +1,9 @@
-bioimageio_spec_version: 0.4.9.post4
+bioimageio_spec_version: 0.4.9.post5
 rdf_sha256: 17fc45a81231af8342a67e8c96d02385086c249e96ed80535727ecee9d7a6f4d
 status: passed
 tests:
   bioimageio:
-  - bioimageio_spec_version: 0.4.9post4
+  - bioimageio_spec_version: 0.4.9post5
     error: null
     name: bioimageio.spec static validation of dataset RDF 0.2.3 with update to latest
       format version
@@ -11,7 +11,7 @@ tests:
     status: passed
     traceback: null
     warnings: {}
-  - bioimageio_spec_version: 0.4.9post4
+  - bioimageio_spec_version: 0.4.9post5
     error: null
     name: bioimageio.spec static validation of dataset RDF 0.2.3
     nested_errors: {}
