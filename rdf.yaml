@@ -146,19 +146,6 @@ collection:
   tags: [fiji, software]
   type: application
   versions: [latest]
-- authors:
-  - {affiliation: MDC Berlin, name: Deborah Schmidt}
-  covers: ['https://FynnBe.github.io/collection-bioimage-io/rdfs/fiji/N2VSEMDemo/latest/thumbnail.png']
-  description: Demo model for denoising trained on a single SEM image with Noise2Void
-  download_count: 1
-  id: fiji/N2VSEMDemo
-  license: BSD-3-Clause
-  links: [fiji/Fiji]
-  name: N2V SEM Demo
-  rdf_source: https://FynnBe.github.io/collection-bioimage-io/rdfs/fiji/N2VSEMDemo/latest/rdf.yaml
-  tags: [denoising, unet2d, n2v]
-  type: model
-  versions: [latest]
 - badges: []
   covers: ['https://FynnBe.github.io/collection-bioimage-io/rdfs/hpa/HPA-Classification/latest/hpa-classification-cover.gif']
   description: ShuffleNetV2 for HPA.
@@ -2293,8 +2280,8 @@ config:
   background_image: static/img/zoo-background.svg
   default_type: model
   explore_button_text: Start Exploring
-  n_resource_versions: {application: 104, dataset: 82, model: 91, notebook: 4}
-  n_resources: {application: 52, dataset: 41, model: 35, notebook: 2}
+  n_resource_versions: {application: 104, dataset: 82, model: 89, notebook: 4}
+  n_resources: {application: 52, dataset: 41, model: 34, notebook: 2}
   partners:
   - background_image: static/img/zoo-background.svg
     branch: main
@@ -2422,7 +2409,7 @@ config:
     splash_feature_list: null
     splash_subtitle: the interactive learning and segmentation toolkit
     splash_title: ilastik
-    tags: [ilastik]
+    tags: [ilastik, software]
     test_summaries: {deploy_branch: gh-pages, deploy_folder: test_summaries, repository: ilastik/bioimage-io-resources,
       workflow: test_bioimageio_resources.yaml, workflow_ref: refs/heads/main}
     url_root: https://raw.githubusercontent.com/ilastik/bioimage-io-resources/main

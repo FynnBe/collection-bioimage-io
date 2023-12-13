@@ -302,35 +302,6 @@
       ]
     },
     {
-      "authors": [
-        {
-          "affiliation": "MDC Berlin",
-          "name": "Deborah Schmidt"
-        }
-      ],
-      "covers": [
-        "https://FynnBe.github.io/collection-bioimage-io/rdfs/fiji/N2VSEMDemo/latest/thumbnail.png"
-      ],
-      "description": "Demo model for denoising trained on a single SEM image with Noise2Void",
-      "download_count": 1,
-      "id": "fiji/N2VSEMDemo",
-      "license": "BSD-3-Clause",
-      "links": [
-        "fiji/Fiji"
-      ],
-      "name": "N2V SEM Demo",
-      "rdf_source": "https://FynnBe.github.io/collection-bioimage-io/rdfs/fiji/N2VSEMDemo/latest/rdf.yaml",
-      "tags": [
-        "denoising",
-        "unet2d",
-        "n2v"
-      ],
-      "type": "model",
-      "versions": [
-        "latest"
-      ]
-    },
-    {
       "badges": [],
       "covers": [
         "https://FynnBe.github.io/collection-bioimage-io/rdfs/hpa/HPA-Classification/latest/hpa-classification-cover.gif"
@@ -4665,13 +4636,13 @@
     "n_resource_versions": {
       "application": 104,
       "dataset": 82,
-      "model": 91,
+      "model": 89,
       "notebook": 4
     },
     "n_resources": {
       "application": 52,
       "dataset": 41,
-      "model": 35,
+      "model": 34,
       "notebook": 2
     },
     "partners": [
@@ -4878,7 +4849,8 @@
         "splash_subtitle": "the interactive learning and segmentation toolkit",
         "splash_title": "ilastik",
         "tags": [
-          "ilastik"
+          "ilastik",
+          "software"
         ],
         "test_summaries": {
           "deploy_branch": "gh-pages",
