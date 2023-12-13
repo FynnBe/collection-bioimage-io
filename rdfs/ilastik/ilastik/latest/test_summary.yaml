@@ -1,5 +1,5 @@
 bioimageio_spec_version: 0.4.9.post5
-rdf_sha256: 45cfe1c6b3825241098f04deb23b8f9161e28cb2533081d607697a1272823299
+rdf_sha256: 56131c65bc7e52613ce66c30b0e5719d9cf0cdf261fe6ce72ab8486606b0cd64
 status: passed
 tests:
   bioimageio:
