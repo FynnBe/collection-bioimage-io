@@ -1767,7 +1767,8 @@
         "notebook",
         "Augmentor",
         "Data Augmentation",
-        "ZeroCostDL4Mic"
+        "ZeroCostDL4Mic",
+        "dl4miceverywhere"
       ],
       "type": "application",
       "versions": [
@@ -1811,7 +1812,8 @@
         "CARE",
         "denoising",
         "ZeroCostDL4Mic",
-        "2D"
+        "2D",
+        "dl4miceverywhere"
       ],
       "type": "application",
       "versions": [
@@ -1850,7 +1852,8 @@
         "CARE",
         "denoising",
         "ZeroCostDL4Mic",
-        "3D"
+        "3D",
+        "dl4miceverywhere"
       ],
       "type": "application",
       "versions": [
@@ -1896,7 +1899,8 @@
         "notebook",
         "Cellpose",
         "Segmentation",
-        "ZeroCostDL4Mic"
+        "ZeroCostDL4Mic",
+        "dl4miceverywhere"
       ],
       "type": "application",
       "versions": [
@@ -1934,7 +1938,8 @@
         "notebook",
         "CycleGAN",
         "ZeroCostDL4Mic",
-        "2D"
+        "2D",
+        "dl4miceverywhere"
       ],
       "type": "application",
       "versions": [
@@ -1971,7 +1976,8 @@
         "notebook",
         "DFCAN",
         "Super Resolution",
-        "ZeroCostDL4Mic"
+        "ZeroCostDL4Mic",
+        "dl4miceverywhere"
       ],
       "type": "application",
       "versions": [
@@ -2008,7 +2014,8 @@
         "notebook",
         "DRMIME",
         "image registration",
-        "ZeroCostDL4Mic"
+        "ZeroCostDL4Mic",
+        "dl4miceverywhere"
       ],
       "type": "application",
       "versions": [
@@ -2050,7 +2057,8 @@
         "DecoNoising",
         "denoising",
         "ZeroCostDL4Mic",
-        "2D"
+        "2D",
+        "dl4miceverywhere"
       ],
       "type": "application",
       "versions": [
@@ -2090,7 +2098,8 @@
         "Deep-STORM",
         "labelling",
         "ZeroCostDL4Mic",
-        "2D"
+        "2D",
+        "dl4miceverywhere"
       ],
       "type": "application",
       "versions": [
@@ -2131,7 +2140,8 @@
         "DeepImageJ",
         "ZeroCostDL4Mic",
         "2D",
-        "deepImageJ"
+        "deepImageJ",
+        "dl4miceverywhere"
       ],
       "type": "application",
       "versions": [
@@ -2168,7 +2178,8 @@
         "notebook",
         "CycleGAN",
         "ZeroCostDL4Mic",
-        "2D"
+        "2D",
+        "dl4miceverywhere"
       ],
       "type": "application",
       "versions": [
@@ -2209,7 +2220,8 @@
         "notebook",
         "Detectron2",
         "object detection",
-        "ZeroCostDL4Mic"
+        "ZeroCostDL4Mic",
+        "dl4miceverywhere"
       ],
       "type": "application",
       "versions": [
@@ -2251,7 +2263,8 @@
         "notebook",
         "EmbedSeg",
         "Segmentation",
-        "ZeroCostDL4Mic"
+        "ZeroCostDL4Mic",
+        "dl4miceverywhere"
       ],
       "type": "application",
       "versions": [
@@ -2292,7 +2305,8 @@
         "notebook",
         "Cellpose",
         "Segmentation",
-        "ZeroCostDL4Mic"
+        "ZeroCostDL4Mic",
+        "dl4miceverywhere"
       ],
       "type": "application",
       "versions": [
@@ -2329,7 +2343,8 @@
         "notebook",
         "MaskRCNN",
         "object detection",
-        "ZeroCostDL4Mic"
+        "ZeroCostDL4Mic",
+        "dl4miceverywhere"
       ],
       "type": "application",
       "versions": [
@@ -2372,7 +2387,8 @@
         "Noise2Void",
         "denoising",
         "ZeroCostDL4Mic",
-        "2D"
+        "2D",
+        "dl4miceverywhere"
       ],
       "type": "application",
       "versions": [
@@ -2412,7 +2428,8 @@
         "Noise2Void",
         "denoising",
         "ZeroCostDL4Mic",
-        "3D"
+        "3D",
+        "dl4miceverywhere"
       ],
       "type": "application",
       "versions": [
@@ -2448,7 +2465,8 @@
         "colab",
         "notebook",
         "Quality Control",
-        "ZeroCostDL4Mic"
+        "ZeroCostDL4Mic",
+        "dl4miceverywhere"
       ],
       "type": "application",
       "versions": [
@@ -2487,7 +2505,8 @@
         "3D-RCAN",
         "denoising",
         "ZeroCostDL4Mic",
-        "3D"
+        "3D",
+        "dl4miceverywhere"
       ],
       "type": "application",
       "versions": [
@@ -2528,7 +2547,8 @@
         "notebook",
         "RetinaNet",
         "object detection",
-        "ZeroCostDL4Mic"
+        "ZeroCostDL4Mic",
+        "dl4miceverywhere"
       ],
       "type": "application",
       "versions": [
@@ -2572,7 +2592,8 @@
         "notebook",
         "SplineDist",
         "segmentation",
-        "ZeroCostDL4Mic"
+        "ZeroCostDL4Mic",
+        "dl4miceverywhere"
       ],
       "type": "application",
       "versions": [
@@ -2619,7 +2640,8 @@
         "StarDist",
         "segmentation",
         "ZeroCostDL4Mic",
-        "2D"
+        "2D",
+        "dl4miceverywhere"
       ],
       "type": "application",
       "versions": [
@@ -2657,7 +2679,8 @@
         "StarDist",
         "segmentation",
         "ZeroCostDL4Mic",
-        "3D"
+        "3D",
+        "dl4miceverywhere"
       ],
       "type": "application",
       "versions": [
@@ -2696,7 +2719,8 @@
         "U-Net",
         "segmentation",
         "ZeroCostDL4Mic",
-        "2D"
+        "2D",
+        "dl4miceverywhere"
       ],
       "type": "application",
       "versions": [
@@ -2738,7 +2762,8 @@
         "semantic-segmentation",
         "multilabel",
         "ZeroCostDL4Mic",
-        "2D"
+        "2D",
+        "dl4miceverywhere"
       ],
       "type": "application",
       "versions": [
@@ -2776,7 +2801,8 @@
         "U-Net",
         "segmentation",
         "ZeroCostDL4Mic",
-        "3D"
+        "3D",
+        "dl4miceverywhere"
       ],
       "type": "application",
       "versions": [
@@ -2817,7 +2843,8 @@
         "notebook",
         "YOLOv2",
         "object detection",
-        "ZeroCostDL4Mic"
+        "ZeroCostDL4Mic",
+        "dl4miceverywhere"
       ],
       "type": "application",
       "versions": [
@@ -2856,7 +2883,8 @@
         "fnet",
         "labelling",
         "ZeroCostDL4Mic",
-        "2D"
+        "2D",
+        "dl4miceverywhere"
       ],
       "type": "application",
       "versions": [
@@ -2895,7 +2923,8 @@
         "fnet",
         "labelling",
         "ZeroCostDL4Mic",
-        "3D"
+        "3D",
+        "dl4miceverywhere"
       ],
       "type": "application",
       "versions": [
@@ -2934,7 +2963,8 @@
         "notebook",
         "pix2pix",
         "ZeroCostDL4Mic",
-        "2D"
+        "2D",
+        "dl4miceverywhere"
       ],
       "type": "application",
       "versions": [
@@ -2971,7 +3001,8 @@
         "notebook",
         "WGAN",
         "Super Resolution",
-        "ZeroCostDL4Mic"
+        "ZeroCostDL4Mic",
+        "dl4miceverywhere"
       ],
       "type": "application",
       "versions": [
